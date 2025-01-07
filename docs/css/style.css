@@ -14,7 +14,35 @@ body {
 
 h1 {
     margin-top: 20px;
+    font-family: "Quantico", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
 }
+
+.quantico-regular {
+    font-family: "Quantico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .quantico-bold {
+    font-family: "Quantico", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .quantico-regular-italic {
+    font-family: "Quantico", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .quantico-bold-italic {
+    font-family: "Quantico", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
 
 .image-links {
     display: flex;
@@ -53,3 +81,6 @@ h1 {
     visibility: visible;
     opacity: 1;
 }
+
+
+  
