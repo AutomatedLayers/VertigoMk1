@@ -13,7 +13,14 @@ body {
 }
 
 h1 {
-    margin-top: 20px;
+    margin-top: 0px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height:100px;
+    text-align: center;
+}
+
+.header {
     font-family: "Quantico", serif;
     font-weight: 700;
     font-style: normal;
