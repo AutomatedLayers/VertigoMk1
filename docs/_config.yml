@@ -1,7 +1,22 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Vertigo Mk1 Docs
+description: A collaborative effort by Vertigo Mk1 enthusiasts
 theme: just-the-docs
 
 url: https://AutomatedLayers.github.io/VertigoMk1/docs/
-# aux_links:
-#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+aux_links:
+  "Automated Layers Site":
+    "https://AutomatedLayers.com"
+  "Vertigo Mk1 Github":
+    "https://github.com/AutomatedLayers/VertigoMk1"
+  "Edit These Docs :)":
+    "https://github.com/AutomatedLayers/VertigoMk1/tree/main/docs"
+
+logo: "/assets/images/VertigoMk1Docs_dark.png"
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+
+color_scheme: vertigo_dark
