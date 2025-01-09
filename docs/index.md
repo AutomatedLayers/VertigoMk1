@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Vertigo Mk1 Docs
 layout: home
 nav_order: 1
 ---

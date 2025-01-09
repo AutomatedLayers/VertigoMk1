@@ -5,8 +5,8 @@
   "repository": "AutomatedLayers/VertigoMk1/docs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build assets/js/o3dv/init-ov.js --dist-dir assets/js/o3dv --public-url /assets/js/o3dv",
-    "dev": "parcel serve assets/js/o3dv/init-ov.js --dist-dir assets/js/o3dv --public-url /assets/js/o3dv"
+    "build": "parcel build _preprocessed_scripts/init-ov.js --dist-dir assets/js/o3dv --public-url /assets/js/o3dv",
+    "dev": "parcel serve _preprocessed_scripts/init-ov.js --dist-dir assets/js/o3dv --public-url /assets/js/o3dv"
   },
   "keywords": [
     "jekyll",
