@@ -14,9 +14,14 @@ aux_links:
 
 logo: "/assets/images/VertigoMk1Docs_dark.png"
 
+favicon_ico: "favicon.ico"
+
 callouts:
   warning:
     title: Warning
     color: red
 
 color_scheme: vertigo_dark
+
+include:
+  [_includes]

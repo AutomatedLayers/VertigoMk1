@@ -1,1 +1,3 @@
-{}
+{
+    "jekyll-run.commandLineArguments": "--port 4000"
+}
