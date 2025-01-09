@@ -23,7 +23,5 @@ callouts:
 
 color_scheme: vertigo_dark
 
-include:
-  [_includes]
 
 # markdown: GFM
