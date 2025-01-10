@@ -1,7 +1,7 @@
 ---
-title: Feet
+title: Rear Foot
 layout: assembly
-parent: Assembly Guide
+parent: Feet
 nav_order: 2
 ---
 
