@@ -1,21 +1,34 @@
-.side-bar {
-    z-index: 0;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: $sidebar-color;
+// .side-bar {
+//     z-index: 0;
+//     display: flex;
+//     flex-wrap: wrap;
+//     background-color: $sidebar-color;
   
-    @include mq(md) {
-      flex-flow: column nowrap;
-      position: fixed;
-      width: $nav-width-md;
-      height: 100%;
-      border-right: $border $border-color;
-      align-items: flex-end;
-    }
+//     @include mq(md) {
+//       flex-flow: column nowrap;
+//       position: fixed;
+//       width: $nav-width-md;
+//       height: 100%;
+//       border-right: $border $border-color;
+//       align-items: flex-end;
+//     }
   
-    @include mq(lg) {
-    //   width: calc((100% - #{$nav-width + $content-width}) / 20 + #{$nav-width});
-      width: $nav-width;
-      min-width: $nav-width;
-    }
+//     @include mq(lg) {
+//       width: calc((100% - #{$nav-width + $content-width}) / 20 + #{$nav-width});
+//       // width: $nav-width;
+//       min-width: $nav-width;
+//     }
+//   }
+
+.online_3d_viewer {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 37.5rem;
+    margin-bottom: $sp-5;
+    overflow-x: auto;
+    border-radius: $border-radius;
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.12),
+      0 3px 10px rgba(0, 0, 0, 0.08);
   }
