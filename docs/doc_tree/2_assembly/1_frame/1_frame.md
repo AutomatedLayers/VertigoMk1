@@ -35,7 +35,7 @@ nav_order: 1
 
 ## Steps
 <div class="container">
-  <iframe width="$content-width" src="https://youtu.be/YqxQBvw9hQc"></iframe>
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/YqxQBvw9hQc?si=X4uPd5IwG5FWqIBe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 {: .note}
@@ -58,7 +58,7 @@ This works best on a granite surface. The use of a machinist's square or dial gu
 This extrusion is intentionally 1mm shorter, so as not to overconstrain and bend the frame. This helps the linear rails lay nicely against the vertical rear posts
 
 <div class="online_3d_viewer"
-    style="width: 800px; height: 600px;"
+    style="width: 1000px; height: 600px;"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/Frame.wrl"
     backgroundcolor="250, 250, 250">
 </div>
