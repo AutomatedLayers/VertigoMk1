@@ -25,6 +25,10 @@ callouts:
     title: Important
     color: yellow
 
+  note:
+    title: Note
+    color: green
+
 color_scheme: vertigo_light
 
 default_language: en
