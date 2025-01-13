@@ -34,7 +34,7 @@ Sometimes there's a note.
 
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/Cat_Martinez.fbx"
-    backgroundcolor="250, 250, 250"
+    backgroundcolor="244, 246, 250"
     camera=
         "
         250, 0, -20,

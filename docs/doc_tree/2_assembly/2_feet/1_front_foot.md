@@ -9,5 +9,5 @@ nav_order: 1
 
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/Z Idler Tensioner Assy.STL"
-    backgroundcolor="250, 250, 250">
+    backgroundcolor="244, 246, 250">
 </div>

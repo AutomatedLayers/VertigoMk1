@@ -42,24 +42,27 @@ nav_order: 1
 This works best on a granite surface. The use of a machinist's square or dial guage is highly recommended to ensure squareness.
 
 ### 1. Assemble the right and left sides of the frame first
-![]({{site.url}}/{{site.baseurl}}/assets/3d/frame_seq1.gif)
- - Screw the M5x16 button heads into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap.
+![]({{site.url}}/{{site.baseurl}}/assets/images/frame_seq1.gif)
+ - Screw the **M5x16 button heads** into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap.
+ - Slide the extrusions onto the button heads.
  - Tighten the short top rear vertical extrusions (2020-120-RTP-LCP) a quarter turn passed snug.
 
-### 2. Attach the sides together at the bottom
+### 2. Attach the sides together
+![]({{site.url}}/{{site.baseurl}}/assets/images/frame_seq2.gif)
  - Make sure the cutout in the printed parts are facing out.
-
-### 3. Attach the rear extrusion
-
-### 4. Attach the top front extrusion
-
-### 3. Attach the rear top extrusion using the hidden L-brackets
+ - Attach the bottom extrusions
+ - Attach the rear extrusion
+ - Attach the front top extrusion
+ - Attach the rear top extrusion using the **hidden L-brackets**
 
 {: .note}
 This extrusion is intentionally 1mm shorter, so as not to overconstrain and bend the frame. This helps the linear rails lay nicely against the vertical rear posts
 
+{: .important}
+You really want to make sure your frame is square at this point. Measure and make adjustments as needed. The diagnoals for the top and bottom square should measure 523.3mm (+/-1)
+
 <div class="online_3d_viewer"
     style="width: 1000px; height: 600px;"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/Frame.wrl"
-    backgroundcolor="250, 250, 250">
+    backgroundcolor="244, 246, 250">
 </div>
