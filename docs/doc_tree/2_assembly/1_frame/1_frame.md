@@ -21,7 +21,7 @@ nav_order: 1
 | 2020-369               | 1   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
 | 2020 Hidden Bracket    | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_misumi_hidden_bracket.webp)
 | M5x80 Threaded Stud    | 2  | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x80_stud.webp) |
-| M5x16 BHSC             | 20  | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x16_BHCS.webp) |
+| M5x16 BHSC             | 18  | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x16 BHCS.webp) |
 
 
 {: .note}
