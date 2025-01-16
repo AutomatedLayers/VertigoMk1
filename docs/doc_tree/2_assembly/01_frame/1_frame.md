@@ -61,6 +61,7 @@ This extrusion is intentionally 1mm shorter, so as not to overconstrain and bend
 {: .important}
 You really want to make sure your frame is square at this point. Measure and make adjustments as needed. The diagnoals for the top and bottom square should measure 523.3mm (+/-1)
 
+## Interactive View
 <div class="online_3d_viewer"
     style="width: 1000px; height: 600px;"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/Frame.wrl"
