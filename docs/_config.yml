@@ -3,14 +3,17 @@ description: A collaborative effort by Vertigo Mk1 enthusiasts
 theme: just-the-docs
 
 url: https://AutomatedLayers.github.io
+repository_url: https://github.com/AutomatedLayers/VertigoMk1/edit/main/docs
 
 aux_links:
   "Automated Layers Site":
     "https://AutomatedLayers.com"
   "Vertigo Mk1 Github":
     "https://github.com/AutomatedLayers/VertigoMk1"
-  "Edit These Docs :)":
+  "Edit These Docs":
     "https://github.com/AutomatedLayers/VertigoMk1/tree/main/docs"
+  "Buy Us A Coffee":
+    "https://buymeacoffee.com/automatedlayers"
 
 logo: "/assets/images/VertigoMk1Docs_dark.png"
 
