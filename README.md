@@ -5,4 +5,4 @@ Automation for Makers
 ____________________________________________
 # [Kickstarter is Live](https://www.kickstarter.com/projects/automatedlayers/vertigo-mk1-the-evolution-of-automated-3d-printing?ref=nav_search&result=project&term=vertigo%20mk1&total_hits=1)
 
-![](https://drive.google.com/drive/u/0/folders/1GaDk5-eMdVs1nMhRErZU-h6XhmWZcBHS)
+![](https://drive.google.com/drive/u/0/folders/1GaDk5-eMdVs1nMhRErZU-h6XhmWZcBHS](https://drive.google.com/file/d/1LIMvoa1elo9xyOSIseyusY6RZxtucxYg/view?usp=sharing)
