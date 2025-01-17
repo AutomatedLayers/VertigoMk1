@@ -34,12 +34,8 @@ nav_order: 1
 > - AH# = horizontal through-hole #mm from the end
 
 ## Steps
-<!-- <div class="container">
-    <iframe width="928" height="522" src="https://www.youtube.com/embed/YqxQBvw9hQc?si=X4uPd5IwG5FWqIBe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div> -->
-
 {: .note}
-This works best on a granite surface. The use of a machinist's square or dial guage is highly recommended to ensure squareness.
+This works best on a granite surface or the flattest surface you got. The use of a machinist's square or dial guage is highly recommended to ensure squareness.
 
 ### 1. Assemble the right and left sides of the frame first
 ![]({{site.url}}/{{site.baseurl}}/assets/images/frame_seq1.gif)
@@ -64,6 +60,6 @@ You really want to make sure your frame is square at this point. Measure and mak
 ## Interactive View
 <div class="online_3d_viewer"
     style="width: 1000px; height: 600px;"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/Frame.wrl"
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/frame.wrl"
     backgroundcolor="244, 246, 250">
 </div>

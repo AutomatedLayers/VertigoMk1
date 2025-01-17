@@ -6,6 +6,7 @@ nav_order: 1
 ---
 
 # Front Foot
+![]({{site.url}}/{{site.baseurl}}/assets/images/front_foot_assy.png)
 
 ## Materials
 
@@ -18,8 +19,10 @@ nav_order: 1
 | M5 Hex Nut                            | 2   |  |
 | M3 Brass Insert - Long                | 2   |  |
 
+## Steps
+
 ## Interactive View
 <div class="online_3d_viewer"
-    model=""
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/front_foot_assy.wrl"
     backgroundcolor="244, 246, 250">
 </div>
