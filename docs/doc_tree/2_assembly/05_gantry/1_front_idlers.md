@@ -1,8 +1,8 @@
 ---
-title: Front Idlers
+title: XY Idlers
 layout: assembly
 parent: Gantry
 nav_order: 1
 ---
 
-# Front Idlers
+# XY Idlers
