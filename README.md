@@ -9,10 +9,10 @@ Vertigo Mk1 is a 3D printer designed for automation. Some of its distinct featur
 - The ability to print and remove parts made with various materials
 - Compatibility with different magnetic print surfaces, i.e. PEI, PEO, PEY, Garolite/FR4/G10, etc. 
 - The easily swappable and serviceable Hitchcock toolhead
-- A reciprocating filament cutter under the extruder that won't get stuck while cutting 
+- A reciprocating filament cutter under the extruder that won't get stuck while cutting
+- Compatibility with multi-material and automatic filament replacement systems
 - An elecronics backpack that can be easily accessed and serviced
 - Source-available hardware and open source software
-- Com
 
 [LINK TO BOM](https://docs.google.com/spreadsheets/d/1A0MQrvO-RssSD-6shnWwc1etPSYvOc4fTYE_1AOMABk/edit?gid=241141921#gid=241141921)
 ## The STL files and BOM are released for Beta Testing. We welcome suggestions through GitHub's isssue tracker. During this phase of the project, there may be some updates to the STLs and BOM
