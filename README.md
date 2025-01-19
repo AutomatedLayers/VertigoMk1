@@ -5,7 +5,7 @@ Vertigo Mk1 is a 3D printer designed for automation. Some of its distinct featur
 - A bed that rotates to a vertical position and scrapes printed parts off and out the bottom
 - Print queues, batch jobs, and remote failure recovery
 - A small footprint compared to other automated part removal systems
-- Scraper modules that use afforable plastic razor that are easy to replace and won't damage the print surface
+- Scraper modules that use afforable plastic razors that are easy to replace and won't damage the print surface
 - A height-adjustable scraper bar that can hold different scraper moodules - including those designed by YOU
 - The ability to print and remove parts made with various materials
 - Compatibility with different magnetic print surfaces, i.e. PEI, PEO, PEY, Garolite/FR4/G10, etc. 
