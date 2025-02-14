@@ -22,8 +22,25 @@ Sometimes there's a note.
 | Hardware          | Qty |     |
 |:------------------|:----|:----|
 | M3x25 SHCS        | 5   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_M3x25 SHCS.png) |
-| GT2 TIming Pulley | 1   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_gt2-20t.png) |
+| GT2 Timing Pulley, 20T, 6mm Belt, 5mm ID| 1   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part - GT2 20T Timing Pulley.webp) |
 | Tabby Cat         | 100 | ![]({{site.url}}/{{site.baseurl}}/assets/images/cat.png) |
+
+## Tools
+### Essential
+ - Standard Metric Hex Key Set, Ball-End
+ - Long Handle Hex Key, 3mm
+ - Soldering Iron
+ - Small/Mini Pliers or Adjustable Wrench
+ - Super Glue, Cyanoacrylate
+ - Flush Cutters
+ - Phillips Screwdriver, #2
+ - Pen Knife / X-Acto Knife / Razor Blade
+
+### Optional, But Really Helpful
+ - SciGrip #16 Acrylic Cement
+ - Arbor Press
+ - Machinits's Square
+ - Dial Guage/Indicaator and Precision 1-2-3 Block
 
 ## Interactive Views
 ### You'll also see 3d views like this one. 
@@ -42,5 +59,3 @@ Sometimes there's a note.
         0, 1, 0
         ">
 </div>
-
-## Tools

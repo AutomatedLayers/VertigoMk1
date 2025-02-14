@@ -1,3 +1,4 @@
 {
-    "jekyll-run.commandLineArguments": "--host localhost"
+    "jekyll-run.commandLineArguments": "--host localhost",
+    "sftp.downloadWhenOpenInRemoteExplorer": true
 }
