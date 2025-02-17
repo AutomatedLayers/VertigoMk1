@@ -26,6 +26,10 @@ nav_order: 1
 
 ## Steps
 
+### 1. Assemble the right and left sides of the frame first
+ - Screw the **M5x16 button heads** into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap.
+
+
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/front_foot_assy.wrl"

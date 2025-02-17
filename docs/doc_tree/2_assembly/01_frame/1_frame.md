@@ -58,7 +58,6 @@ You really want to make sure your frame is square at this point. Measure and mak
 
 ## Interactive View
 <div class="online_3d_viewer"
-    style="width: 1000px; height: 600px;"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/frame.wrl"
     backgroundcolor="244, 246, 250">
 </div>
