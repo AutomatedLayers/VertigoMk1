@@ -26,8 +26,7 @@ nav_order: 1
 
 ## Steps
 
-### 1. Assemble the right and left sides of the frame first
- - Screw the **M5x16 button heads** into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap.
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/BFysg58AneA?si=BnFOLAoJyxAxuOTr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Interactive View
