@@ -2,7 +2,7 @@
 title: Bed Platform
 layout: assembly
 parent: Assembly Guide
-nav_order: 4
+nav_order: 9
 ---
 
 # Bed Platform

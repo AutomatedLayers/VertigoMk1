@@ -1,8 +1,8 @@
 ---
-title: Enclosure
+title: Belts
 layout: assembly
 parent: Assembly Guide
-nav_order: 10
+nav_order: 8
 ---
 
-# Enclosure
+# Belts
