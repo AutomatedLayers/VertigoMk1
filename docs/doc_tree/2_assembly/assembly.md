@@ -39,7 +39,7 @@ Sometimes there's a note.
 ### Optional, But Really Helpful
  - SciGrip #16 Acrylic Cement
  - Arbor Press
- - Machinits's Square
+ - Machinist's Square
  - Dial Guage/Indicaator and Precision 1-2-3 Block
 
 ## Interactive Views
