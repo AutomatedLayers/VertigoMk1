@@ -59,3 +59,8 @@ Sometimes there's a note.
         0, 1, 0
         ">
 </div>
+
+## YouTube Playlist
+### All videos in the assembly guide are available in this YouTube playlist
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=k8YJyXBpN_D6w89W&amp;list=PL98gg-9q2S-WK1jO8WXkpYlPxK7jg6Ywa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
