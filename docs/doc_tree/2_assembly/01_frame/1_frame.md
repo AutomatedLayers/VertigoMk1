@@ -18,10 +18,9 @@ nav_order: 1
 | 2020-120-RTP-LCP       | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
 | 2020-460-RTP-AH56-AV80 | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
 | 2020-325-RTP-LCP       | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
-| 2020-369               | 1   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
-| 2020 Hidden Bracket    | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_misumi_hidden_bracket.webp)
-| M5x80 Threaded Stud    | 2  | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x80_stud.webp) |
-| M5x16 BHSC             | 18  | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x16 BHCS.webp) |
+| 2020-370-TPW           | 1   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
+| M5x80 Threaded Stud    | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x80_stud.webp) |
+| M5x16 BHSC             | 20  | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x16 BHCS.webp) |
 
 
 {: .note}
@@ -35,22 +34,21 @@ nav_order: 1
 
 ## Steps
 This works best on a granite surface or the flattest surface you got. The use of a machinist's square or dial guage is highly recommended to ensure squareness
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/hbDWJPeA3ok?si=GHLC0yOqKhU6Ndkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/UQv3nB_qxXE?si=blgOvjFCOVpnpJPj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 1. Assemble the right and left sides of the frame first
  - Screw the **M5x16 button heads** into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap
  - Slide the joining extrusions onto the button heads. Tighten through the through-hole
- - Tighten the short top rear vertical extrusions (2020-120-RTP-LCP) a quarter turn passed snug on the **M5x80 threaded studs**
+ - See the video to use extrusions as guides for ensuring squareness and alignment
+ - Make sure the cutout in the printed Frame Post Connectors are facing out
 
 ### 2. Attach the sides together
- - Make sure the cutout in the printed parts are facing out
- - Attach the bottom extrusions
- - Attach the rear extrusion
- - Attach the front top extrusion
- - Attach the rear top extrusion using the **hidden L-brackets**
+ - Attach the bottom and top front extrusions 
+ - Attach the rear extrusion using the alignment tools
+ - Attach the rear top extrusion
 
 {: .note}
-This extrusion is intentionally 1mm shorter, so as not to overconstrain and bend the frame. This helps the linear rails lay nicely against the vertical rear posts
+There are two version of the printed part "Frame Post Connector", one for LDO extrusions and one for Misumi
 
 {: .important}
 You really want to make sure your frame is square at this point. Measure and make adjustments as needed. The diagnoals for the top and bottom square should measure 523.3mm (+/-1)
