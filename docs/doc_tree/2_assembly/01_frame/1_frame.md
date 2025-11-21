@@ -60,9 +60,10 @@ You really want to make sure your frame is square at this point. Measure and mak
     model="{{site.url}}/{{site.baseurl}}/assets/3d/frame.glb"
     backgroundcolor="244, 246, 250"
     camera=
-    "
-    0, 200, -200,
-    0, 200, 0,
-    0, 1, 0
-    ">
+        "
+        0, 0, 0,
+        0, 0, -30,
+        0, 1, 0
+        "
+    >
 </div>
