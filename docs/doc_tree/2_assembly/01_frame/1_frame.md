@@ -11,16 +11,16 @@ nav_order: 1
 
 ## Materials
 
-| Hardware               | Qty |     |
-|:-----------------------|:-- -|:----|
-| 2020-370-TPW           | 8   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
-| 2020-500-LCP-RCP-AH335 | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
-| 2020-120-RTP-LCP       | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
-| 2020-460-RTP-AH56-AV80 | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
-| 2020-325-RTP-LCP       | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
-| 2020-370-TPW           | 1   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_2020.webp) |
-| M5x80 Threaded Stud    | 2   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x80_stud.webp) |
-| M5x16 BHSC             | 20  | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_m5x16 BHCS.webp) |
+| Hardware               | Qty |
+|:-----------------------|:-- -|
+| 2020-370-TPW           | 8   |
+| 2020-500-LCP-RCP-AH335 | 2   |
+| 2020-120-RTP-LCP       | 2   |
+| 2020-460-RTP-AH56-AV80 | 2   |
+| 2020-325-RTP-LCP       | 2   |
+| 2020-370-TPW           | 1   |
+| M5x80 Threaded Stud    | 2   |
+| M5x16 BHSC             | 20  |
 
 
 {: .note}
@@ -60,10 +60,19 @@ You really want to make sure your frame is square at this point. Measure and mak
     model="{{site.url}}/{{site.baseurl}}/assets/3d/frame.glb"
     backgroundcolor="244, 246, 250"
     camera=
-        "
-        0, 0, 0,
-        0, 0, -30,
-        0, 1, 0
-        "
-    >
+    "
+    -0.014962905975541837, 0.39473399804174625, 0.9165612533280376,
+    -0.013882773306938854, 0.41454617159466195, -0.0347976522736765,
+    0, 1, 0
+    "
+    environmentmap=
+    "
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/px.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nx.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/py.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/ny.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/pz.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nz.png
+    "
+    environmentmapbg=True>
 </div>

@@ -6,27 +6,28 @@ nav_order: 1
 ---
 
 # Front Foot
-![]({{site.url}}/{{site.baseurl}}/assets/images/Front Foot A Assy.png)
+![]({{site.url}}/{{site.baseurl}}/assets/images/front_foot.webp)
 
 ## Materials
 
-| Hardware                                  | Qty |     |
-|:------------------------------------------|:-- -|:----|
-| Gates GT2 Toothed Idler Pulley - 9mm Belt | 1   |  |
-| M5x60 BHSC                                | 3   |  |
-| M5x35 BHSC                                | 2   |  |
-| M5x30 BHSC                                | 2   |  |
-| M5 Hex Nut                                | 4   |  |
-| M5 T-Nut                                  | 3   |  |
-| M8 Swivel Foot                            | 1   |  |
-| M8 Hex Nut                                | 1   |  |
-| M3x35 SHSC                                | 2   |  |
-| M3x45 SHSC                                | 1   |  |
-| M3 Hex Nut                                | 2   |  |
+| Hardware                                  | Qty |   
+|:------------------------------------------|:-- -|
+| Gates GT2 Toothed Idler Pulley - 9mm Belt | 1   |
+| M5x60 BHSC                                | 3   |
+| M5x35 BHSC                                | 2   |
+| M5x30 BHSC                                | 2   |
+| M5 Hex Nut                                | 4   |
+| M5 T-Nut                                  | 3   |
+| M8 Swivel Foot                            | 1   |
+| M8 Hex Nut                                | 1   |
+| M3x35 SHSC                                | 2   |
+| M3x45 SHSC                                | 1   |
+| M3 Hex Nut                                | 2   |
+| Piece of Filament                         | 100mm|
 
 ## Steps
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/BFysg58AneA?si=BnFOLAoJyxAxuOTr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/PrzQQnJo9ZQ?si=1SODMci8KEcbeRrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 1. Attach the Foot Housing to the Frame
  - Place the **M5 Hex Nuts** and **M3 Hex Nuts** in their slots

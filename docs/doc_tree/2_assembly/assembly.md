@@ -19,11 +19,11 @@ Sometimes there's a note.
 ## Materials
 ### A table like this will display hardware, and tools needed for the sub-assembly
 
-| Hardware          | Qty |     |
-|:------------------|:----|:----|
-| M3x25 SHCS        | 5   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part_M3x25 SHCS.png) |
-| GT2 Timing Pulley, 20T, 6mm Belt, 5mm ID| 1   | ![]({{site.url}}/{{site.baseurl}}/assets/images/part - GT2 20T Timing Pulley.webp) |
-| Tabby Cat         | 100 | ![]({{site.url}}/{{site.baseurl}}/assets/images/cat.png) |
+| Hardware                                | Qty |
+|:----------------------------------------|:----|
+| M3x25 SHCS                              | 5   |
+| GT2 Timing Pulley, 20T, 6mm Belt, 5mm ID| 1   |
+| Tabby Cat                               | 100 |
 
 ## Tools
 ### Essential
