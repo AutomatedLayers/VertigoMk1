@@ -74,5 +74,5 @@ You really want to make sure your frame is square at this point. Measure and mak
     {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/pz.png,
     {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nz.png
     "
-    environmentmapbg=True>
+    environmentmapbg=False>
 </div>

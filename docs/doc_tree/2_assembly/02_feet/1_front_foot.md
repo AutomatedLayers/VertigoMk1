@@ -52,6 +52,17 @@ nav_order: 1
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/front_foot_assy.wrl"
-    backgroundcolor="244, 246, 250">
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/front_foot.glb"
+    backgroundcolor="244, 246, 250"
+    environmentmap=
+    "
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/px.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nx.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/py.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/ny.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/pz.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nz.png
+    "
+    environmentmapbg=False
+    >
 </div>
