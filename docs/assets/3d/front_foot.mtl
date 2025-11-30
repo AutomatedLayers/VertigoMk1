@@ -1,0 +1,112 @@
+# Blender 4.5.2 LTS MTL File: 'VertigoMK1 Assembly Product Page Renders.blend'
+# www.blender.org
+
+newmtl Plastic-Main
+Ns 307.520660
+Ka 0.495454 0.495454 0.495454
+Kd 0.038034 0.038034 0.038034
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 C:/Users/ariel/Documents/Blender Environment/Textures/aluminium_texture-2K/aluminium_texture-2K/2K-aluminium_1-normal.jpg
+
+newmtl Plastic-Main.JATX
+Ns 194.400818
+Ka 0.204545 0.204545 0.204545
+Kd 0.038034 0.038034 0.038034
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 2.800000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 C:/Users/ariel/Documents/Blender Environment/Textures/aluminium_texture-2K/aluminium_texture-2K/2K-aluminium_1-normal.jpg
+
+newmtl Plastic_Accent
+Ns 69.504128
+Ka 1.000000 1.000000 1.000000
+Kd 0.298000 0.753000 0.780000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Bump -bm 1.000000 C:/Users/ariel/Documents/Blender Environment/Textures/aluminium_texture-2K/aluminium_texture-2K/2K-aluminium_1-normal.jpg
+
+newmtl Plastic_Accent.001
+Ns 69.504128
+Ka 1.000000 1.000000 1.000000
+Kd 0.298000 0.753000 0.780000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Bump -bm 1.000000 C:/Users/ariel/Documents/Blender Environment/Textures/aluminium_texture-2K/aluminium_texture-2K/2K-aluminium_1-normal.jpg
+
+newmtl Rubber:_Feet
+Ns 4.049587
+Ka 1.000000 1.000000 1.000000
+Kd 0.038034 0.038034 0.038034
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Bump -bm 1.000000 C:/Users/ariel/Documents/Blender Environment/Textures/aluminium_texture-2K/aluminium_texture-2K/2K-aluminium_1-normal.jpg
+
+newmtl SS_Fastener
+Ns 159.999985
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd C:/Users/ariel/Documents/Blender Environment/Textures/Steel_BrightMetal011_2K-JPG/Metal011_2K-JPG_Color.jpg
+map_refl C:/Users/ariel/Documents/Blender Environment/Textures/Steel_BrightMetal011_2K-JPG/Metal011_2K-JPG_Color.jpg
+
+newmtl Steel:_Bearing
+Ns 402.396149
+Ka 1.000000 1.000000 1.000000
+Kd 0.416217 0.416217 0.416217
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_refl C:/Users/ariel/Documents/Blender Environment/Textures/Steel_BrightMetal011_2K-JPG/Metal011_2K-JPG_Color.jpg
+
+newmtl Steel:_Idlers
+Ns 681.047668
+Ka 1.000000 1.000000 1.000000
+Kd 0.416217 0.416217 0.416217
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_refl C:/Users/ariel/Documents/Blender Environment/Textures/Steel_BrightMetal011_2K-JPG/Metal011_2K-JPG_Color.jpg
+
+newmtl Steel:_Nuts
+Ns 622.351379
+Ka 1.000000 1.000000 1.000000
+Kd 0.416217 0.416217 0.416217
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_refl C:/Users/ariel/Documents/Blender Environment/Textures/Steel_BrightMetal011_2K-JPG/Metal011_2K-JPG_Color.jpg
+
+newmtl Steel:_T-Nuts
+Ns 758.137085
+Ka 1.000000 1.000000 1.000000
+Kd 0.416217 0.416217 0.416217
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_refl C:/Users/ariel/Documents/Blender Environment/Textures/Steel_BrightMetal011_2K-JPG/Metal011_2K-JPG_Color.jpg

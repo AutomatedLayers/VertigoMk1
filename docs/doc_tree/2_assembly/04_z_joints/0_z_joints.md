@@ -5,9 +5,11 @@ parent: Assembly Guide
 nav_order: 4
 ---
 
-# Rails
+# Z Joints
 
-## Steps
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/VY_0Y-5A7ps?si=iE5GCrMPq3t7IM00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+These are the components that move with the Z axis carriage blocks. Together, they serve three primary functions:
+ - Lower the print bed in the "Z" direction during printing
+ - Provide a Kelvin kinematic coupling for a well constrained print surface leveling procedure
+ - Create a hinge/latch mechanism that enables the bed scraping motion

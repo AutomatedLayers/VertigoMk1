@@ -10,6 +10,9 @@ nav_order: 1
 
 ## Materials
 
+{: .note}
+The materials listed below are for one foot
+
 | Hardware                                  | Qty |   
 |:------------------------------------------|:-- -|
 | Gates GT2 Toothed Idler Pulley - 9mm Belt | 1   |
@@ -25,10 +28,10 @@ nav_order: 1
 | M3 Hex Nut                                | 2   |
 | Piece of Filament                         | 100mm|
 
-## Steps
-
+## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/PrzQQnJo9ZQ?si=1SODMci8KEcbeRrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Steps
 ### 1. Attach the Foot Housing to the Frame
  - Flip the printer frame upside down
  - Place the 3 **M5 Roll-In Nuts** into the extrusion slots
@@ -63,13 +66,12 @@ nav_order: 1
     backgroundcolor="244, 246, 250"
     environmentmap=
     "
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/px.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nx.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/py.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/ny.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/pz.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nz.png
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/px.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nx.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/py.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/ny.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/pz.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
     "
-    environmentmapbg=False
     >
 </div>

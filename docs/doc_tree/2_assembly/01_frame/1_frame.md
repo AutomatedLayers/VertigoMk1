@@ -32,11 +32,17 @@ nav_order: 1
 > - AV# = vertical through-hole #mm from the end
 > - AH# = horizontal through-hole #mm from the end
 
-## Steps
-This works best on a granite surface or the flattest surface you got. The use of a machinist's square or dial guage is highly recommended to ensure squareness
+## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/UQv3nB_qxXE?si=blgOvjFCOVpnpJPj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+## Steps
+
+{: .note}
+There are two versions of the printed part "Frame Post Connector": one for LDO extrusions and one for Misumi
+
+{: .note}
+This works best on a granite surface or the flattest surface you'veH got. The use of a machinist's square or dial guage is highly recommended to ensure squareness
 
 ### 1. Assemble the right and left sides of the frame first
  - Screw the **M5x16 button heads** into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap
@@ -48,9 +54,6 @@ This works best on a granite surface or the flattest surface you got. The use of
  - Attach the bottom and top front extrusions 
  - Attach the rear extrusion using the alignment tools
  - Attach the rear top extrusion
-
-{: .note}
-There are two version of the printed part "Frame Post Connector", one for LDO extrusions and one for Misumi
 
 {: .important}
 You really want to make sure your frame is square at this point. Measure and make adjustments as needed. The diagnoals for the top and bottom square should measure 523.3mm (+/-1)
@@ -67,12 +70,12 @@ You really want to make sure your frame is square at this point. Measure and mak
     "
     environmentmap=
     "
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/px.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nx.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/py.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/ny.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/pz.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/nz.png
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/px.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nx.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/py.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/ny.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/pz.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
     "
-    environmentmapbg=False>
+    >
 </div>
