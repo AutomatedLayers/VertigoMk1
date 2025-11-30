@@ -2,7 +2,7 @@
 title: Bed Lever
 layout: assembly
 parent: Z Joints
-nav_order: 1
+nav_order: 3
 ---
 
 # Bed Lever
