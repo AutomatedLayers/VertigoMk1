@@ -39,10 +39,10 @@ nav_order: 1
 ## Steps
 
 {: .note}
-There are two versions of the printed part "Frame Post Connector": one for LDO extrusions and one for Misumi
+There are two versions of the printed part "Frame Post Connector": one for LDO extrusions and one for Misumi.
 
 {: .note}
-This works best on a granite surface or the flattest surface you'veH got. The use of a machinist's square or dial guage is highly recommended to ensure squareness
+This works best on a granite surface or the flattest surface you've got. The use of a machinist's square or dial guage is highly recommended to ensure squareness.
 
 ### 1. Assemble the right and left sides of the frame first
  - Screw the **M5x16 button heads** into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap
@@ -56,7 +56,7 @@ This works best on a granite surface or the flattest surface you'veH got. The us
  - Attach the rear top extrusion
 
 {: .important}
-You really want to make sure your frame is square at this point. Measure and make adjustments as needed. The diagnoals for the top and bottom square should measure 523.3mm (+/-1)
+You really want to make sure your frame is square at this point. Measure and make adjustments as needed. The diagnoals for the top and bottom square should measure 523.3mm (+/-1).
 
 ## Interactive View
 <div class="online_3d_viewer"

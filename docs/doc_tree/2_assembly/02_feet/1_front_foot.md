@@ -11,7 +11,7 @@ nav_order: 1
 ## Materials
 
 {: .note}
-The materials listed below are for one foot
+The materials listed below are for one foot.
 
 | Hardware                                  | Qty |   
 |:------------------------------------------|:-- -|

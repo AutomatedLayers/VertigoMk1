@@ -6,12 +6,12 @@ nav_order: 2
 ---
 
 # Rear Foot
-![]({{site.url}}/{{site.baseurl}}/assets/images/Rear Foot A Assy.png)
+![]({{site.url}}/{{site.baseurl}}/assets/images/rear_foot.webp)
 
 ## Materials
 
 {: .note}
-The materials listed below are for one foot
+The materials listed below are for one foot.
 
 | Hardware                                  | Qty |
 |:------------------------------------------|:-- -|

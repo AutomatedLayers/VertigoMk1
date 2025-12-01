@@ -22,7 +22,7 @@ nav_order: 3
 ## Steps
 
 {: .note}
-The spring in some of the roll-in nuts may not fully engage with the extrusion, allowing the nuts to slide freely in the slots. Try pushing the ball in the nut a few times to work it in, or try a different nut. There should be quite a few extras in the kit
+The spring in some of the roll-in nuts may not fully engage with the extrusion, allowing the nuts to slide freely in the slots. Try pushing the ball in the nut a few times to work it in, or try a different nut. There should be quite a few extras in the kit.
 
 ### 1. Attach the Front Z-Rails to the Frame
  - Keep two rubber stoppers in the ends of the linear rails to keep the carriages on for now
@@ -33,7 +33,7 @@ The spring in some of the roll-in nuts may not fully engage with the extrusion, 
  - Tighten the fasteners while holding the alignment tools in place
   
 {: .important}
-Take care not to overtighten the linear rail screws
+Take care not to overtighten the linear rail screws. Snug is good. Blue Loctite may be used here.
 
  - Remove alignment tools
 
