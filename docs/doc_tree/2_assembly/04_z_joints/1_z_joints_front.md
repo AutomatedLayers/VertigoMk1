@@ -6,23 +6,28 @@ nav_order: 1
 ---
 
 # Front Z Joints
-![]({{site.url}}/{{site.baseurl}}/assets/images/Front Foot A Assy.png)
+![]({{site.url}}/{{site.baseurl}}/assets/images/z_joints_front.png)
 
 ## Materials
 
+{: .note}
+The materials listed below are for each side
+
 | Hardware                                  | Qty |   
-|:------------------------------------------|:-- -|
-| Channel Magnet - 40mm                     | 1   |
-| Strike Plate - 40mm                       | 1   |
-| Tension Spring - 25mm x 4mm               | 2   |
-| M5x30 BHSC                                | 2   |
-| M5 Hex Nut                                | 4   |
-| M5 Roll-In Nut                            | 3   |
-| M8 Swivel Foot                            | 1   |
-| M8 Hex Nut                                | 1   |
-| M3x35 SHSC                                | 2   |
-| M3x45 SHSC                                | 1   |
-| M3 Hex Nut                                | 2   |
+|:------------------------------------------|:-- -| 
+| Extrusion 2020-320                        | 1   |
+| M3x10 Coupling Nut                        | 2   |
+| Spherical Bearing - GE5C                  | 1   |
+| M5x20 BHCS                                | 2   | 
+| M5x40 BHCS                                | 1   | 
+| M3x16 SHCS                                | 4   | 
+| M3x25 SHCS                                | 4   | 
+| M3x35 SHCS                                | 2   | 
+| M3x40 SHCS                                | 2   | 
+| M3x5.7 Brass Insert                       | 4   | 
+| M5 Roll-In Nut                            | 1   |
+| (**Side B Only** M3x10 SHCS)              | (1) | 
+
 
 ## Animated Assembly
 
@@ -36,6 +41,11 @@ nav_order: 1
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/front_z_joints.glb"
     backgroundcolor="244, 246, 250"
+    camera="
+    0, 0.35460301851425213, 0.5353489231611536,
+    0, 0.31849222391429477, 0.14661257197666216,
+    0, 1, 0
+    "
     environmentmap=
     "
     {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/px.png,

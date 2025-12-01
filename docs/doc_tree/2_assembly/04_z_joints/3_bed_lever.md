@@ -15,14 +15,16 @@ nav_order: 3
 | Channel Magnet - 40mm                     | 1   |
 | Strike Plate - 40mm                       | 1   |
 | Tension Spring - 25mm x 4mm               | 2   |
+| Tooling Ball                              | 1   |
+| M5 Hex Nut                                | 1   |
+| M5x10x1 Washer                            | 1   |
+| M3x60 Dowel                               | 2   |
+| M5x60 D-Shaft                             | 1   |
 | M5x16 BHSC                                | 2   |
+| M3x10 FHSC                                | 4   |
+| M2x8 SHSC                                 | 6   |
 | M5 Roll-In Nut                            | 2   |
 | M3 Roll-In Nut                            | 2   |
-| M5 Hex Nut                                | 4   |
-
-| M3x60 Dowel Pin                               | 1   |
-| M3x35 SHSC                                | 2   |
-| M3x45 SHSC                                | 1   |
 | M3 Hex Nut                                | 2   |
 
 ## Animated Assembly
@@ -33,7 +35,7 @@ nav_order: 3
 ### 1. Mount the Channel Magnet
  - Flip the Front Gantry Bar upside down
  - Place 2 **M3 Roll-In Nuts** into the extrusion and align them using the strike plate. The whole assembly will be centered later.
- - 
+  
 
 ## Interactive View
 <div class="online_3d_viewer"
