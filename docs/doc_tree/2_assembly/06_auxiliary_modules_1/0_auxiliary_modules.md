@@ -1,5 +1,5 @@
 ---
-title: Auxiliary Modules 1
+title: Auxiliary Modules Pt. 1
 layout: assembly
 parent: Assembly Guide
 nav_order: 6
