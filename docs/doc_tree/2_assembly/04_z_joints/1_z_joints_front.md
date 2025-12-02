@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 # Front Z Joints
-![]({{site.url}}/{{site.baseurl}}/assets/images/z_joints_front.png)
+![]({{site.url}}/{{site.baseurl}}/assets/images/z_joints_front.webp)
 
 ## Materials
 

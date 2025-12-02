@@ -16,20 +16,38 @@ The materials listed below are for one XY Joint assembly.
 | Hardware - XY Joint                                | Qty |   
 |:---------------------------------------------------|:----| 
 | Bearing - F695                                     | 2   |
+| Gates GT2 Toothed Idler Pulley - 9mm Belt          | 1   |
 | M5x10x1 Washer                                     | 2   |
-| Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread | 1   | 
-| M5x10 BHCS                                         | 1   | 
-| M5x40 BHCS                                         | 1   | 
-| M5 Roll-In Nut                                     | 3   |
-
-| Hardware - X Axis                                  | Qty |   
+| M5x7x1 Washer                                      | 2   |
+| Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread | 2   | 
+| M5x20 BHCS                                         | 1   | 
+| M5x30 BHCS  (M5x35 BHCS for Side B)                | 1   | 
+| M3x30 SHCS                                         | 1   | 
+| M3x35 SHCS                                         | 1   | 
+| M3x12 FHCS                                         | 4   | 
+| M5 Roll-In Nut                                     | 1   |
+| M5 Hex Nut                                         | 1   |
+| M4 Hex Nut                                         | 2   |
+| M3x5.7 Brass Insert                                | 2   | 
+| **Hardware - X Axis**                              | **Qty** |   
 |:---------------------------------------------------|:----| 
-| Bearing - F695                                     | 2   |
-| M5x10x1 Washer                                     | 2   |
-| Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread | 1   | 
-| M5x10 BHCS                                         | 1   | 
-| M5x40 BHCS                                         | 1   | 
-| M5 Roll-In Nut                                     | 3   |
+| Extrusion 2010-370-Z5-ZA25-XB345                   | 2   |
+| MGN9H-300 Linear Guide                             | 1   |
+| M3 Roll-In Nut                                     | 7   |
+| M5x8 SHCS                                          | 7   |
+| **Hardware - X Carriage Block**                    | **Qty** |   
+|:---------------------------------------------------|:----|
+| Magnet - 1/2in Countersunk                         | 4   |
+| Magnet - 1/4in Countersunk                         | 2   |
+| Makerbeam XL T-Nut                                 | 2   |
+| M3x8 SHCS                                          | 1   |
+| M3x30 SHCS                                         | 2   |
+| M3x16 SHCS                                         | 2   |
+| M3x8 FHCS                                          | 4   |
+| M3 Cap Nut                                         | 3   |
+| M2x16 SHCS                                         | 2   |
+| M2x8 FHCS                                          | 2   |
+| M2 Hex Nut                                         | 2   |
 
 
 ## Animated Assembly

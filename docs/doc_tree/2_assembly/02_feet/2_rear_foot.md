@@ -15,7 +15,7 @@ The materials listed below are for one foot.
 
 | Hardware                                  | Qty |
 |:------------------------------------------|:-- -|
-| Gates GT2 Toothed Idler Pulley - 9mm Belt | 1   |
+| Gates GT2 20T Idler Pulley - 9mm Belt     | 1   |
 | M5x60 BHSC                                | 3   |
 | M5x35 BHSC                                | 1   |
 | M5x30 BHSC                                | 2   |
