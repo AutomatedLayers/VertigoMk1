@@ -11,7 +11,7 @@ nav_order: 2
 ## Materials
 
 {: .note}
-The materials listed below are for one pod.
+The materials listed below are for one Endstop Pod.
 
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
@@ -19,8 +19,8 @@ The materials listed below are for one pod.
 | M3 Roll-In Nut                                     | 2   |
 | M3x20 FHCS                                         | 2   |
 
-| Cables                                          | 
-|:------------------------------------------------|
+| Cables                               | 
+|:-------------------------------------|
 | Z-68                                 |
 | Z-69                                 |
 | Z-70                                 |

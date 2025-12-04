@@ -6,33 +6,27 @@ nav_order: 6
 ---
 
 # Z Endstops
-![]({{site.url}}/{{site.baseurl}}/assets/images/z_endstop.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/filament_cutter.webp)
 
 ## Materials
 
-{: .note}
-The materials listed below are for one pod.
-
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
-| Endstop Switch PCB                                 | 1   |
-| M3 Roll-In Nut                                     | 2   |
-| M3x20 FHCS                                         | 2   |
-
-| Cables                                          | 
-|:------------------------------------------------|
-| Z-68                                 |
-| Z-69                                 |
-| Z-70                                 |
-| Z-71                                 |
+| M2.5x60 Dowel                                      | 1   |
+| Bearing - 625                                      | 2   |
+| Tension Spring - 15mm x 4mm                        | 1   |
+| M5x10 BHCS                                         | 2   |
+| M5 Roll-In Nut                                     | 2   |
+| M3x25 SHCS                                         | 1   |
+| M3x16 SHCS                                         | 1   |
 
 ## Animated Assembly
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/Fh8rLBpTWXU?si=0G27P1z61yaj7gBd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/cVyXg-Ef_QM?si=InxHSw8W14VsikSZ&amp;start=139" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/z_endstop.glb"
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/filament_cutter.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "
@@ -45,4 +39,3 @@ The materials listed below are for one pod.
     "
     >
 </div>
-

@@ -7,7 +7,7 @@ nav_order: 3
 
 
 # Wheel Ramps
-![]({{site.url}}/{{site.baseurl}}/assets/images/wheel_ramps_cleaner_cutter.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/wheel_ramp.webp)
 
 
 ## Materials
