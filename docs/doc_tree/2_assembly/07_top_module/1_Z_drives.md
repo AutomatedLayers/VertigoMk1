@@ -6,3 +6,4 @@ nav_order: 1
 ---
 
 # Z Drives
+![]({{site.url}}/{{site.baseurl}}/assets/images/z_drive.webp)

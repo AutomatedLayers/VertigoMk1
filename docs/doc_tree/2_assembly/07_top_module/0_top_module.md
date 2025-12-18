@@ -6,3 +6,5 @@ nav_order: 7
 ---
 
 # Top Module
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/top_module.webp)
