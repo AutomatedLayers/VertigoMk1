@@ -2,7 +2,7 @@
 title: Wiring
 layout: default
 parent: Assembly Guide
-nav_order: 13
+nav_order: 14
 ---
 
 # Wiring

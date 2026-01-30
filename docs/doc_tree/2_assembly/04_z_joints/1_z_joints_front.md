@@ -13,7 +13,7 @@ nav_order: 1
 {: .note}
 The materials listed below are for each side.
 
-| Hardware                                  | Qty |   
+| Hardware - Z Joints                       | Qty |   
 |:------------------------------------------|:-- -| 
 | Extrusion 2020-320                        | 1   |
 | M3x10 Coupling Nut                        | 2   |
@@ -32,7 +32,7 @@ The materials listed below are for each side.
 
 ## Animated Assembly
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/W03xU3qj_QY?si=PgCQgAN7xNH6gt4O"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/2lDIZEWfpks?si=Or_HjbJ9XdGpA31k"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Steps
 ### 1. Assemble Front Z Joint B
@@ -57,7 +57,7 @@ The materials listed below are for each side.
  - Leave about 1mm on each side and snug the **M5x40 BHCS** but still do not tighten yet
 
 {: .important}
-At this point it's easiest if you continue to the section: [Bed Lever](3_bed_lever.html), before returning here to attach the Front Z Joint Bar (even though the animation would have you believe otherwise).
+At this point it's easiest if you continue to the next section: [Bed Lever](2_bed_lever.html), before returning here to attach the Front Z Joint Bar.
 
  - Attach the Front Z Joint Bar to the Z Axis Linear Carriages by first tightening the captive fasteners, then the outer fasteners
  - Make sure the gaps are about even on both ends of the extrusion and that the Front Z Joint Bar slides freely up and down the Z Axis

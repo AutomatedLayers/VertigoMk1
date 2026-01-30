@@ -31,7 +31,7 @@ nav_order: 1
 > - LCP/RCP = criss-cross through-holes 10mm from the end
 > - AV# = vertical through-hole #mm from the end
 > - AH# = horizontal through-hole #mm from the end
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2lDIZEWfpks?si=rRI_Pfr1N7fGgXmb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/UQv3nB_qxXE?si=blgOvjFCOVpnpJPj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

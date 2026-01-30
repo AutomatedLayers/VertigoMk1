@@ -27,8 +27,7 @@ The materials listed below are for one Endstop Pod.
 | Z-71                                 |
 
 ## Animated Assembly
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/Fh8rLBpTWXU?si=0G27P1z61yaj7gBd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/QfOSu2yNCmc?si=UZh_bVq0Q3KChDJH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Interactive View
 <div class="online_3d_viewer"

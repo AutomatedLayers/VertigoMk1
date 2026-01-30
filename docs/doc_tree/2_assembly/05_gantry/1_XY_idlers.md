@@ -6,6 +6,7 @@ nav_order: 1
 ---
 
 # XY Idlers
+
 ![]({{site.url}}/{{site.baseurl}}/assets/images/xy_idler.webp)
 
 ## Materials
@@ -24,9 +25,10 @@ The materials listed below are for one idler assembly.
 
 ## Animated Assembly
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/9W8Ld9kaB6M?si=DZfXG2Y4KsgFy1xK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/IQlYZvjr5Do?si=utxPyymZLXZLKddL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Steps
+
 ### 1. Assemble the XY Idler
  - Place 3 **M5 Roll-In Nut** in the frame as shown
  - Combine the 2 **M5x10x1 Washers** and 2 **F695 Bearings** to create a "smooth idler pulley"
@@ -35,6 +37,7 @@ The materials listed below are for one idler assembly.
 
 
 ## Interactive View
+
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/xy_idler.glb"
     backgroundcolor="244, 246, 250"
