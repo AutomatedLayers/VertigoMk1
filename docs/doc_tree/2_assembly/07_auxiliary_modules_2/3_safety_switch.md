@@ -6,14 +6,21 @@ nav_order: 4
 ---
 
 # Safety Switch
-<!-- image -->
+![]({{site.url}}/{{site.baseurl}}/assets/images/safety_switch.webp)
+
 
 ## Materials
 
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
+| D2HW-C202MR Switch                                 | 1   |
+| M3x10 SHCS                                         | 1   |
+| M3x8 SHCS                                          | 1   |
+| M3 Roll-In Nut                                     | 1   |
 
-
+| Cables                                | 
+|:--------------------------------------|
+| Z-115                                 |
 
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=q_HybWhMYmee5mYx&amp;start=407" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
