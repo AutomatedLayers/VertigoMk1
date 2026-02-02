@@ -9,6 +9,8 @@ nav_order: 5
 ![]({{site.url}}/{{site.baseurl}}/assets/images/enclosure_lights.webp)
 
 ## Materials
+{: .note}
+The hardware listed below are for each light.
 
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
@@ -17,6 +19,10 @@ nav_order: 5
 | M3x5.7 Brass Insert                                | 2   | 
 | M5 Roll-In Nut                                     | 2   | 
 
+| Cables                                | 
+|:--------------------------------------|
+| Z-57                                  |
+| Z-58                                  |
 
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=mer7DELsk5cSZ-2T&amp;start=562" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
