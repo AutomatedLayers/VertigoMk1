@@ -13,7 +13,7 @@ nav_order: 3
 
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
-| M3x6x5.7 Brass Insert                              | 2   |
+| M3x5.7 Brass Insert                              | 2   |
 | M3x8 SHCS                                          | 2   |
 | M3x16 SHCS                                         | 2   |
 | M3 Roll-In Nut                                     | 2   |

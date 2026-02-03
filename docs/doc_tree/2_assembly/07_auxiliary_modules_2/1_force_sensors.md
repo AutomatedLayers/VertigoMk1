@@ -22,7 +22,7 @@ The hardware listed below are for one Force Sensor.
 | Magnet 6mm x 3mm                                   | 2   |
 | Makerbeam XL T-Nut                                 | 1   |
 | M3x45 SHCS                                         | 1   |
-| M3x6x4.5 Brass Insert                              | 1   |
+| M3x4.5 Brass Insert                                | 1   |
 | M3x12x1 Oversized Washer                           | 2   |
 | M3x7x0.5 Washer                                    | 5   |
 | M4x12x1 Washer                                     | 2   |
