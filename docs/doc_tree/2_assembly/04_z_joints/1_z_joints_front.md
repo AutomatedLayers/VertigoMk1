@@ -13,7 +13,7 @@ nav_order: 1
 {: .note}
 The materials listed below are for each side.
 
-| Hardware - Z Joints                       | Qty |   
+| Hardware                                  | Qty |   
 |:------------------------------------------|:-- -| 
 | Extrusion 2020-320                        | 1   |
 | M3x10 Coupling Nut                        | 2   |

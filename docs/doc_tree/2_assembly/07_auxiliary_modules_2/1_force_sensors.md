@@ -45,9 +45,9 @@ The hardware listed below are for one Force Sensor.
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=D-dqH7wgQwq1nfns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-<!-- ## Interactive View
+## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/z_endstop.glb"
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/force_senHsor.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "
@@ -59,5 +59,4 @@ The hardware listed below are for one Force Sensor.
     {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
     "
     >
-</div> -->
-
+</div>

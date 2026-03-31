@@ -5,7 +5,8 @@ parent: Top Module
 nav_order: 2
 ---
 
-# Facades
+# Facades, Panel Mount, and Cable Routing
+![]({{site.url}}/{{site.baseurl}}/assets/images/facades.webp)
 
 ## Materials
 
