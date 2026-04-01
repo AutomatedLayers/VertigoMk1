@@ -1,0 +1,12 @@
+---
+title: Cable Routing Pt.1
+layout: assembly
+parent: Assembly Guide
+nav_order: 9
+---
+
+# Cable Routing Pt. 1
+
+## Animated Assembly
+
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/9bPneDpq4Zs?si=vrLRPuscEL674opw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
