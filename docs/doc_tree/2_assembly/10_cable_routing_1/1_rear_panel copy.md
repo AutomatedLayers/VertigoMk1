@@ -2,7 +2,7 @@
 title: Rear Panel
 layout: assembly
 parent: Cable Routing Pt.1
-nav_order: 9
+nav_order: 1
 ---
 
 # Rear Panel
