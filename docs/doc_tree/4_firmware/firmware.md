@@ -10,7 +10,7 @@ The first Vertigo machines have been running Kalico which is a forked version of
 {: .note}
 [BigTreeTech Manta M8P Documentation](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/BIGTREETECH%20MANTA%20M8P%20V2.0%20User%20Manual.pdf) contains information related to the printer controller (mainboard)
 
-### 1. Install Kalico OS
+### 1. Install Mainsail OS
  - Ensure sure the Raspberry Pi CM4 module is properly installed into the Manta M8P Mainboard
  - Insert one of the **SD Cards** into your computer
  - Download, install, and run the [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
@@ -37,3 +37,60 @@ The first Vertigo machines have been running Kalico which is a forked version of
 - In the **Storage** tab, select **SDHC Card** and click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_6.png)
+
+- Enter **"vertigo-host"** or whatever emerges from your mind's eye and click **NEXT**
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_7.png)
+
+- Specify your locale and click **NEXT**
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_8.png)
+
+- Set the username and password you'll use for SSH login and click **NEXT**
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_9.png)
+
+- Enter your Wi-Fi info and click **NEXT**
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_10.png)
+
+- Enable SSH and click **NEXT**
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_11.png)
+
+- Click **WRITE**
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_12.png)
+
+- Grab a coffee, meditate, contemplate the vastness of the universe
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_13.png)
+
+- Click **FINISH** and eject your SD Card
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_14.png)
+
+- Insert the SD card with Mainsail OS into the compute module slot as shown
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/sd_cards.png)
+
+
+### 1. Flash Kalico Firmware
+- Turn on the machine
+- Open a terminal on your computer and SSH into the printer host
+
+    ```
+    ssh vertigo@vertigo-host
+    ```  
+
+{: .note}
+If the hostname is not found, check the username and hostname from the previous section. You may need to troubleshoot the network connection by logging into your router.
+
+- Open the flash configuration menu
+
+    ```
+    cd ~/klipper/
+    make menuconfig
+    ```
+
+- 
