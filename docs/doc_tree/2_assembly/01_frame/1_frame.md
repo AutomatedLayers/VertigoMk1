@@ -13,12 +13,11 @@ nav_order: 1
 
 | Hardware                         | Qty |
 |:---------------------------------|:-- -|
-| Extrusion 2020-370-TPW           | 8   |
+| Extrusion 2020-370-TPW           | 9   |
 | Extrusion 2020-500-LCP-RCP-AH335 | 2   |
 | Extrusion 2020-120-RTP-LCP       | 2   |
 | Extrusion 2020-460-RTP-AH56-AV80 | 2   |
 | Extrusion 2020-325-RTP-LCP       | 2   |
-| Extrusion 2020-370-TPW           | 1   |
 | M5x80 Threaded Stud              | 2   |
 | M5x16 BHSC                       | 20  |
 
