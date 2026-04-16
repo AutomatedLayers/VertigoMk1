@@ -70,8 +70,10 @@ The first Vertigo machines have been running Kalico which is a forked version of
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/sd_cards.png)
 
+{: .note}
+Keep the electronics panel off for now; you will need to access the mainboard to flash the firmware.
 
-### 2. Install KIAUH (Klipper Installation and Update Helper)
+### 2. Setup the SBC with Klipper, Mainsail, and other software
 - Turn on the machine, take a few deep breaths, and recite some positive affirmations
 - Open a terminal on your computer and SSH into the printer host
 
@@ -82,31 +84,11 @@ ssh vertigo@vertigo-host
 {: .note}
 If the hostname is not found, check the username and hostname from the previous section. You may need to troubleshoot the network connection by logging into your router. Also, make sure you're using the latest Raspberry Pi Imager. Older versions would default to a different hosstname.
 
-- Update the system
-
-```
-sudo apt update && sudo apt upgrade
-```
-
-- Install git
+- Download the setup script, make it executable, and run it. You will be prompted for the password created in the previous section
   
 ```
-sudo apt-get install git -y
+curl -L -o "vertigo_setup.sh" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/vertigo_setup.sh"
+chmod +x vertigo_setup.sh
+sudo ./vertigo_setup.sh
 ```
 
-- Use git to download -- or more accurately: 'clone' -- the KIAUH repo into the home directory
-
-```
-cd ~ && git clone https://github.com/dw-0/kiauh.git
-```
-
-### 3. Install Kalico Firmware on Mainboard MCU
-
-```
-git clone https://github.com/KalicoCrew/kalico.git ~/klipper
-```
-
-```
-cd ~/klipper/
-make menuconfig
-```
