@@ -2,7 +2,7 @@
 # =============================================================================
 # Klipper Stack Uninstaller for Raspberry Pi CM4 — Debian Trixie (13)
 # Reverses all changes made by vertigo_setup.sh:
-#   Kalico (Klipper fork), Moonraker, Mainsail, Crowsnest,
+#   Kalico (Klipper fork), Moonraker, Mainsail, Crowsnest, Katapult,
 #   nginx config, systemd units, udev rules, CAN config, groups, polkit
 #
 # Usage:
@@ -32,6 +32,7 @@ MOONRAKER_DIR="${HOME_DIR}/moonraker"
 MOONRAKER_ENV="${HOME_DIR}/moonraker-env"
 MAINSAIL_DIR="/var/www/mainsail"
 CROWSNEST_DIR="${HOME_DIR}/crowsnest"
+KATAPULT_DIR="${HOME_DIR}/katapult"
 PRINTER_DATA="${HOME_DIR}/printer_data"
 
 # ── Pre-flight checks ─────────────────────────────────────────────────────────
@@ -135,7 +136,6 @@ success "systemd-networkd-wait-online restored."
 # ── 7. Remove moonraker-admin group ───────────────────────────────────────────
 info "Removing moonraker-admin group…"
 if getent group moonraker-admin >/dev/null 2>&1; then
-    # Remove user from group first
     sudo gpasswd -d "${KLIPPER_USER}" moonraker-admin 2>/dev/null || true
     sudo groupdel moonraker-admin
     success "moonraker-admin group removed."
@@ -163,6 +163,7 @@ for dir in \
     "${MOONRAKER_DIR}" \
     "${MOONRAKER_ENV}" \
     "${CROWSNEST_DIR}" \
+    "${KATAPULT_DIR}" \
     "${PRINTER_DATA}" \
     "${MAINSAIL_DIR}"; do
     if [[ -d "${dir}" ]]; then
@@ -196,7 +197,7 @@ echo -e "${BOLD}${GREEN}  Uninstall Complete!${RESET}"
 echo -e "${BOLD}${GREEN}============================================${RESET}"
 echo ""
 echo -e "${YELLOW}What was removed:${RESET}"
-echo -e "  • Klipper, Moonraker, Mainsail, Crowsnest services & files"
+echo -e "  • Klipper, Moonraker, Mainsail, Crowsnest, Katapult services & files"
 echo -e "  • systemd units: klipper, moonraker, crowsnest"
 echo -e "  • nginx Mainsail site (default site restored)"
 echo -e "  • polkit rules: moonraker.rules"
@@ -204,7 +205,7 @@ echo -e "  • udev rules: 10-can.rules, 99-klipper.rules"
 echo -e "  • CAN network config: 25-can.network"
 echo -e "  • moonraker-admin group"
 echo -e "  • printer_data/, klipper/, klippy-env/, moonraker/,"
-echo -e "    moonraker-env/, crowsnest/, /var/www/mainsail/"
+echo -e "    moonraker-env/, crowsnest/, katapult/, /var/www/mainsail/"
 echo -e "  • Klipper-specific apt packages"
 echo ""
 echo -e "${YELLOW}What was NOT removed:${RESET}"

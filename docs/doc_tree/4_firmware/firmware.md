@@ -89,7 +89,7 @@ If the hostname is not found, check the username and hostname from the previous 
 ```
 curl -L -o "vertigo_setup.sh" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/vertigo_setup.sh"
 chmod +x vertigo_setup.sh
-sudo ./vertigo_setup.sh
+./vertigo_setup.sh
 ```
 
 ### 3. Flash Katapult to Mainboard M8P V2 MCU and Toolhead SHT36 V3 MCU

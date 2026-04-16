@@ -30,6 +30,7 @@ MOONRAKER_DIR="${HOME_DIR}/moonraker"
 MOONRAKER_ENV="${HOME_DIR}/moonraker-env"
 MAINSAIL_DIR="/var/www/mainsail"
 CROWSNEST_DIR="${HOME_DIR}/crowsnest"
+KATAPULT_DIR="${HOME_DIR}/katapult"
 PRINTER_DATA="${HOME_DIR}/printer_data"
 CONFIG_DIR="${PRINTER_DATA}/config"
 LOG_DIR="${PRINTER_DATA}/logs"
@@ -337,7 +338,6 @@ fi
 
 # Crowsnest uses its own install script but we do it non-interactively
 info "Running Crowsnest installer (non-interactive)…"
-# Crowsnest installer expects CROWSNEST_CONFIG and CROWSNEST_LOG env vars
 sudo CROWSNEST_CONFIG="${CONFIG_DIR}/crowsnest.conf" \
      CROWSNEST_LOG="${LOG_DIR}/crowsnest.log" \
      CROWSNEST_ARGS="-c ${CONFIG_DIR}/crowsnest.conf" \
@@ -405,6 +405,27 @@ EOF
 sudo udevadm control --reload-rules
 sudo udevadm trigger
 success "udev rules updated."
+
+# ── 17. KATAPULT ──────────────────────────────────────────────────────────────
+info "Cloning Katapult (formerly CanBoot) bootloader…"
+if [[ ! -d "${KATAPULT_DIR}" ]]; then
+    run_as_user "git clone https://github.com/Arksine/katapult.git ${KATAPULT_DIR}"
+else
+    warn "Katapult directory already exists, pulling latest…"
+    run_as_user "git -C ${KATAPULT_DIR} pull"
+fi
+success "Katapult cloned."
+
+info "Downloading Katapult firmware configs…"
+BASE_URL="https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Firmware%20Configs"
+run_as_user "curl -L -o '${KATAPULT_DIR}/M8Pv2_katapult.config'   '${BASE_URL}/M8Pv2_katapult.config'"
+run_as_user "curl -L -o '${KATAPULT_DIR}/SHT36v3_katapult.config' '${BASE_URL}/SHT36v3_katapult.config'"
+success "Katapult firmware configs downloaded."
+
+info "Downloading Klipper firmware configs…"
+run_as_user "curl -L -o '${KLIPPER_DIR}/M8Pv2_klipper.config'    '${BASE_URL}/M8Pv2_klipper.config'"
+run_as_user "curl -L -o '${KLIPPER_DIR}/SHT36v3_klipper.config'  '${BASE_URL}/SHT36v3_klipper.config'"
+success "Klipper firmware configs downloaded."
 
 # ── Done ──────────────────────────────────────────────────────────────────────
 IP=$(hostname -I | awk '{print $1}')
