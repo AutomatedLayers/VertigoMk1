@@ -8,10 +8,10 @@ nav_order: 4
 The first Vertigo machines have been running Kalico which is a forked version of Klipper Firmware. That is the installation presented in this guide. You can read more about the project and its efforts to improve upon Klipper in the [Kalico Documentation](https://docs.kalico.gg/Features.html). As of April 2026, Vertigo can still run on Klipper and the [Klipper Documentation](https://www.klipper3d.org/) is a good place to start if you prefer that firmware.
 
 {: .note}
-[BigTreeTech Manta M8P Documentation](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/BIGTREETECH%20MANTA%20M8P%20V2.0%20User%20Manual.pdf) contains information related to the printer controller (mainboard)
+[BigTreeTech Manta M8P V2 Documentation](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/BIGTREETECH%20MANTA%20M8P%20V2.0%20User%20Manual.pdf) contains information related to the printer controller (mainboard)
 
 ### 1. Install Mainsail OS
- - Ensure sure the Raspberry Pi CM4 module is properly installed into the Manta M8P Mainboard
+ - Ensure sure the Raspberry Pi CM4 module is properly installed into the Manta M8P V2 Mainboard
  - Insert one of the **SD Cards** into your computer
  - Download, install, and run the [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
  - In the **Device** tab, select **Raspberry Pi 4**, and click **NEXT**
@@ -92,3 +92,9 @@ chmod +x vertigo_setup.sh
 sudo ./vertigo_setup.sh
 ```
 
+### 3. Flash Katapult to Mainboard M8P V2 MCU and Toolhead SHT36 V3 MCU
+- Put the M8P V2 in DFU Mode. Hold the BOOT0 button and while still holding press and release the RESET button. Then count to 5 and release the BOOT0 button.
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/dfu_mode.png)
+
+- 
