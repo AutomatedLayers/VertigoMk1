@@ -18,79 +18,95 @@ The first Vertigo machines have been running Kalico which is a forked version of
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_1.png)
 
-- In the **OS** tab, scroll down and select **Other specific-purpose OS**
+- In the **OS** tab, scroll down and select **Raspberry Pi OS (Other)**, 
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_2.png)
 
-- Select **3D Printing**
+- Select **Raspberry Pi OS Lite (64-bit)** click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_3.png)
 
-- Select **Mainsail OS**
+- In the **Storage** tab, select the SD Card you inserted and click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_4.png)
 
-- Select The latest Mainsail image and click **NEXT**
+- We left Pi Connect off, but you do you and click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_5.png)
 
-- In the **Storage** tab, select **SDHC Card** and click **NEXT**
+- Enter **"vertigo-host"** or whatever emerges from your mind's eye and click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_6.png)
 
-- Enter **"vertigo-host"** or whatever emerges from your mind's eye and click **NEXT**
+- Specify your locale and click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_7.png)
 
-- Specify your locale and click **NEXT**
+- Set the username and password you'll use for SSH login and click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_8.png)
 
-- Set the username and password you'll use for SSH login and click **NEXT**
+- Enter your Wi-Fi info and click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_9.png)
 
-- Enter your Wi-Fi info and click **NEXT**
+- Enable SSH and click **NEXT**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_10.png)
 
-- Enable SSH and click **NEXT**
+- Double check the device and operating system and click **WRITE**
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_11.png)
 
-- Click **WRITE**
+- Grab a coffee, meditate, contemplate the vastness of the universe
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_12.png)
 
-- Grab a coffee, meditate, contemplate the vastness of the universe
+- Click **FINISH** and eject your SD Card
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_13.png)
 
-- Click **FINISH** and eject your SD Card
-
-![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_14.png)
-
-- Insert the SD card with Mainsail OS into the compute module slot as shown
+- Insert the SD card with the Pi OS image into the compute module slot as shown
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/sd_cards.png)
 
 
-### 1. Flash Kalico Firmware
-- Turn on the machine
+### 2. Install KIAUH (Klipper Installation and Update Helper)
+- Turn on the machine, take a few deep breaths, and recite some positive affirmations
 - Open a terminal on your computer and SSH into the printer host
 
-    ```
-    ssh vertigo@vertigo-host
-    ```  
+```
+ssh vertigo@vertigo-host
+```  
 
 {: .note}
-If the hostname is not found, check the username and hostname from the previous section. You may need to troubleshoot the network connection by logging into your router.
+If the hostname is not found, check the username and hostname from the previous section. You may need to troubleshoot the network connection by logging into your router. Also, make sure you're using the latest Raspberry Pi Imager. Older versions would default to a different hosstname.
 
-- Open the flash configuration menu
+- Update the system
 
-    ```
-    cd ~/klipper/
-    make menuconfig
-    ```
+```
+sudo apt update && sudo apt upgrade
+```
 
-- 
+- Install git
+  
+```
+sudo apt-get install git -y
+```
+
+- Use git to download -- or more accurately: 'clone' -- the KIAUH repo into the home directory
+
+```
+cd ~ && git clone https://github.com/dw-0/kiauh.git
+```
+
+### 3. Install Kalico Firmware on Mainboard MCU
+
+```
+git clone https://github.com/KalicoCrew/kalico.git ~/klipper
+```
+
+```
+cd ~/klipper/
+make menuconfig
+```
