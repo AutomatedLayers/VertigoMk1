@@ -106,6 +106,7 @@ sudo apt-get install -y -qq \
     stm32flash dfu-util \
     libusb-1.0-0-dev pkg-config \
     nginx \
+    packagekit \
     virtualenv \
     iproute2 \
     systemd \
