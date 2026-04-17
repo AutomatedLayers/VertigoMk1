@@ -263,5 +263,8 @@ python3 ~/katapult/scripts/flashtool.py -i can0 -f ~/klipper/out/klipper.bin -u 
 - These commands should take the UUIDs from the note we made earlier and place them in the proper location in `~/printer_data/config/printer.cfg` for the mainboard and toolhead respectively.
 
 ```
-sed -i "s/canbus_uuid: .*/canbus_uuid: $(grep 'toolhead mcu:' ~/'CAN IDs.txt' | grep -oP 'mainboard mcu: \K[0-9a-fA-F]+')/" ~/printer_data/config/printer.cfg
+sed -i "s/canbus_uuid: .*/canbus_uuid: $(grep 'mainboard mcu:' ~/'CAN IDs.txt' | grep -oP 'mainboard mcu: \K[0-9a-fA-F]+')/" ~/printer_data/config/printer.cfg
+sed -i "/\[mcu toolhead\]/,/canbus_uuid:/ s/canbus_uuid: .*/canbus_uuid: $(grep 'toolhead mcu:' ~/'CAN IDs.txt' | grep -oP 'toolhead mcu: \K[0-9a-fA-F]+')/" ~/printer_data/config/printer.cfg
 ```
+
+- We will double check this when we look at [Configuration]({{site.url}}/{{site.baseurl}}/doc_tree/5_configuration/configuration.html)
