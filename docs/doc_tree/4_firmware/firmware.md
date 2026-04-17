@@ -216,7 +216,7 @@ sudo shutdown now
 ```
 
 - Turn the printer power switch **OFF**.
-- Unplug the USB cable from mainboard and toolhead.
+- Unplug the **USB cable** from mainboard and toolhead.
 - Plug the **XT30 cable** back into the toolhead.
 - Turn the printer power switch **ON**. Wait a couple minutes for the lights on the board to stabilize before continuing.
 
