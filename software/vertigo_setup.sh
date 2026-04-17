@@ -234,11 +234,18 @@ EOF
 sudo groupadd -f moonraker-admin
 sudo usermod -aG moonraker-admin "${KLIPPER_USER}"
 
-# Install polkit rules for Moonraker (service management without password)
+# Install polkit rules for Moonraker (service management, shutdown/reboot, packagekit)
 sudo tee /etc/polkit-1/rules.d/moonraker.rules > /dev/null <<'EOF'
 polkit.addRule(function(action, subject) {
     if ((action.id == "org.freedesktop.systemd1.manage-units" ||
-         action.id == "org.freedesktop.systemd1.manage-unit-files") &&
+         action.id == "org.freedesktop.systemd1.manage-unit-files" ||
+         action.id == "org.freedesktop.login1.power-off" ||
+         action.id == "org.freedesktop.login1.power-off-multiple-sessions" ||
+         action.id == "org.freedesktop.login1.reboot" ||
+         action.id == "org.freedesktop.login1.reboot-multiple-sessions" ||
+         action.id == "org.freedesktop.packagekit.system-sources-refresh" ||
+         action.id == "org.freedesktop.packagekit.package-install" ||
+         action.id == "org.freedesktop.packagekit.system-update") &&
         subject.isInGroup("moonraker-admin")) {
         return polkit.Result.YES;
     }
@@ -257,6 +264,8 @@ wget -q "https://github.com/mainsail-crew/mainsail/releases/download/${MAINSAIL_
 sudo unzip -o -q /tmp/mainsail.zip -d "${MAINSAIL_DIR}"
 rm /tmp/mainsail.zip
 sudo chown -R www-data:www-data "${MAINSAIL_DIR}"
+# Symlink so Moonraker's update manager can find Mainsail at ~/mainsail
+run_as_user "ln -sf ${MAINSAIL_DIR} ${HOME_DIR}/mainsail"
 success "Mainsail ${MAINSAIL_LATEST} installed to ${MAINSAIL_DIR}."
 
 info "Configuring nginx for Mainsail…"
@@ -371,7 +380,27 @@ fi
 
 success "Crowsnest installed."
 
-# ── 14. Verify user config files are present ──────────────────────────────────
+# ── 14. MAINSAIL-CONFIG ───────────────────────────────────────────────────────
+info "Cloning mainsail-config…"
+if [[ ! -d "${HOME_DIR}/mainsail-config" ]]; then
+    run_as_user "git clone https://github.com/mainsail-crew/mainsail-config.git ${HOME_DIR}/mainsail-config"
+else
+    warn "mainsail-config directory already exists, pulling latest…"
+    run_as_user "git -C ${HOME_DIR}/mainsail-config pull"
+fi
+success "mainsail-config cloned."
+
+# ── 15. SONAR ─────────────────────────────────────────────────────────────────
+info "Cloning Sonar (keep-alive daemon)…"
+if [[ ! -d "${HOME_DIR}/sonar" ]]; then
+    run_as_user "git clone https://github.com/mainsail-crew/sonar.git ${HOME_DIR}/sonar"
+else
+    warn "Sonar directory already exists, pulling latest…"
+    run_as_user "git -C ${HOME_DIR}/sonar pull"
+fi
+success "Sonar cloned."
+
+# ── 16. Verify user config files are present ──────────────────────────────────
 info "Verifying expected config files…"
 EXPECTED_CONFIGS=(
     printer.cfg moonraker.conf crowsnest.conf
@@ -391,7 +420,7 @@ else
     success "All expected config files present."
 fi
 
-# ── 15. Enable & start services ───────────────────────────────────────────────
+# ── 17. Enable & start services ───────────────────────────────────────────────
 info "Enabling and starting services…"
 sudo systemctl daemon-reload
 
@@ -401,7 +430,7 @@ for svc in klipper moonraker crowsnest nginx; do
 done
 success "All services enabled and started."
 
-# ── 16. udev rule for USB serial access ───────────────────────────────────────
+# ── 18. udev rule for USB serial access ───────────────────────────────────────
 info "Installing udev rule for USB serial devices…"
 sudo tee /etc/udev/rules.d/99-klipper.rules > /dev/null <<'EOF'
 # Allow the klipper user to access USB serial devices
@@ -411,7 +440,7 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 success "udev rules updated."
 
-# ── 17. KATAPULT ──────────────────────────────────────────────────────────────
+# ── 19. KATAPULT ──────────────────────────────────────────────────────────────
 info "Cloning Katapult (formerly CanBoot) bootloader…"
 if [[ ! -d "${KATAPULT_DIR}" ]]; then
     run_as_user "git clone https://github.com/Arksine/katapult.git ${KATAPULT_DIR}"
