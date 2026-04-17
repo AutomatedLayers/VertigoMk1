@@ -51,38 +51,43 @@ echo ""
 run_as_user() { sudo -u "${KLIPPER_USER}" bash -c "$*"; }
 
 # ── 1. Python serial dependency ───────────────────────────────────────────────
-echo -e "\n>>> Running: sudo apt install python3-serial -y"
+info "Installing python3-serial…"
 sudo apt install python3-serial -y
+success "python3-serial installed."
 
 # ── 2. Enable and start systemd-networkd ──────────────────────────────────────
-echo -e "\n>>> Running: sudo systemctl unmask systemd-networkd"
+info "Unmasking systemd-networkd…"
 sudo systemctl unmask systemd-networkd 2>/dev/null || true
 
-echo -e "\n>>> Running: sudo systemctl enable systemd-networkd"
+info "Enabling systemd-networkd…"
 sudo systemctl enable systemd-networkd
 
-echo -e "\n>>> Running: sudo systemctl start systemd-networkd"
+info "Starting systemd-networkd…"
 sudo systemctl start systemd-networkd
+success "systemd-networkd enabled and started."
 
-echo -e "\n>>> Checking systemd-networkd status:"
+info "Checking systemd-networkd status…"
 systemctl | grep systemd-networkd
 
 # ── 3. Disable systemd-networkd-wait-online (prevents ~2min boot delay) ───────
-echo -e "\n>>> Running: sudo systemctl disable systemd-networkd-wait-online.service"
+info "Disabling systemd-networkd-wait-online (avoids ~2 min boot delay)…"
 sudo systemctl disable systemd-networkd-wait-online.service
+success "systemd-networkd-wait-online disabled."
 
 # ── 4. Configure CAN txqueuelen (transmit queue length = 128) ─────────────────
-echo -e "\n>>> Running: writing CAN udev rule to /etc/udev/rules.d/10-can.rules"
+info "Writing CAN udev rule to /etc/udev/rules.d/10-can.rules…"
 echo -e 'SUBSYSTEM=="net", ACTION=="change|add", KERNEL=="can*"  ATTR{tx_queue_len}="128"' | sudo tee /etc/udev/rules.d/10-can.rules > /dev/null
+success "CAN udev rule written."
 
-echo -e "\n>>> Verifying /etc/udev/rules.d/10-can.rules:"
+info "Verifying /etc/udev/rules.d/10-can.rules:"
 cat /etc/udev/rules.d/10-can.rules
 
 # ── 5. Configure can0 interface speed (1M bitrate) ────────────────────────────
-echo -e "\n>>> Running: writing CAN network config to /etc/systemd/network/25-can.network"
+info "Writing CAN network config to /etc/systemd/network/25-can.network…"
 echo -e "[Match]\nName=can*\n\n[CAN]\nBitRate=1M\n\n[Link]\nRequiredForOnline=no" | sudo tee /etc/systemd/network/25-can.network > /dev/null
+success "CAN network config written."
 
-echo -e "\n>>> Verifying /etc/systemd/network/25-can.network:"
+info "Verifying /etc/systemd/network/25-can.network:"
 cat /etc/systemd/network/25-can.network
 
 # ── 6. System update & base dependencies ─────────────────────────────────────
@@ -97,7 +102,7 @@ sudo apt-get install -y -qq \
     build-essential libffi-dev libssl-dev \
     liblzma-dev libjpeg-dev zlib1g-dev \
     libopenjp2-7 libtiff6 \
-    avrdude gcc-avr binutils-avr avr-libc \
+    gcc-arm-none-eabi binutils-arm-none-eabi \
     stm32flash dfu-util \
     libusb-1.0-0-dev pkg-config \
     nginx \
@@ -447,7 +452,11 @@ echo -e "     Expected: printer.cfg, moonraker.conf, crowsnest.conf,"
 echo -e "               macros.cfg, mainsail.cfg, sonar.conf, timelapse.conf"
 echo -e "  2. Flash Kalico firmware to your MCU:"
 echo -e "       cd ${KLIPPER_DIR} && make menuconfig && make"
-echo -e "  3. ${BOLD}Log out and back in${RESET} (or reboot) for group changes to take effect."
+echo -e "  3. After reboot, flash Katapult and Klipper firmware to your MCUs."
 echo ""
 echo -e "  ${CYAN}Kalico docs: https://github.com/AutomatedLayers/kalico${RESET}"
 echo ""
+
+info "Rebooting in 10 seconds to apply group and service changes… (Ctrl+C to cancel)"
+sleep 10
+sudo reboot
