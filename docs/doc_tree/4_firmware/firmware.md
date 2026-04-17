@@ -277,7 +277,7 @@ sudo reboot now
 ### 8. Open the Mainsail UI
 
 - Congratulations! Head to <a href="http://vertigo-host.local" target="_blank" rel="noopener noreferrer">vertigo-host.local</a> to check out the web app.
-- If you get a message saying moonraker is unable to connect, try rebooting the host in the power menu in the top right.
+- If you get a message saying Moonraker is unable to connect, try rebooting the host in the power menu in the top right.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/mainsail_reboot.png)
 
