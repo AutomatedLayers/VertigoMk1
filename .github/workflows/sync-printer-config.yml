@@ -1,8 +1,9 @@
-name: Sync Printer Config to docs/assets/config
+name: Sync printer.cfg and macros.cfg to docs/_includes
 on:
   push:
     paths:
-      - "software/Printer Config/**"
+      - "software/Printer Config/printer.cfg"
+      - "software/Printer Config/macros.cfg"
 permissions:
   contents: write
 jobs:
@@ -17,31 +18,26 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      - name: Copy changed files to docs/assets/config (preserve subdirs)
+      - name: Copy printer.cfg and macros.cfg to docs/_includes
         shell: bash
         env:
           SRC_DIR: "software/Printer Config"
-          DST_DIR: "docs/assets/config"
+          DST_DIR: "docs/_includes"
         run: |
-          changed=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- "$SRC_DIR" || true)
-          if [ -z "$changed" ]; then
-            echo "No changes in $SRC_DIR"
-            exit 0
-          fi
-          while IFS= read -r f; do
-            [ -z "$f" ] && continue
-            rel="${f#./}"
-            inner="${rel#$SRC_DIR/}"
-            dest_dir="$DST_DIR/$(dirname "$inner")"
-            mkdir -p "$dest_dir"
-            cp -- "$rel" "$dest_dir/$(basename "$inner")"
-            echo "Copied $rel -> $dest_dir/$(basename "$inner")"
-          done <<< "$changed"
+          for file in "printer.cfg" "macros.cfg"; do
+            src="$SRC_DIR/$file"
+            if [ -f "$src" ]; then
+              cp -- "$src" "$DST_DIR/$file"
+              echo "Copied $src -> $DST_DIR/$file"
+            else
+              echo "Skipping $file (not found at $src)"
+            fi
+          done
       - name: Commit and push changes (if any)
         run: |
-          git add docs/assets/config || true
+          git add docs/_includes/printer.cfg docs/_includes/macros.cfg || true
           if git status --porcelain | grep -q "^"; then
-            git commit -m "Sync: copy updated files from 'software/Printer Config' to 'docs/assets/config' (preserve subdirs)"
+            git commit -m "Sync: copy printer.cfg and macros.cfg to docs/_includes"
             git push origin HEAD:${{ github.ref_name }}
             echo "Pushed changes."
           else
