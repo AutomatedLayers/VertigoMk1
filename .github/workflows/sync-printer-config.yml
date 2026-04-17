@@ -1,0 +1,51 @@
+name: Sync Printer Config to docs/assets/config
+on:
+  push:
+    paths:
+      - "software/Printer Config/**"
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Copy changed files to docs/assets/config (preserve subdirs)
+        shell: bash
+        env:
+          SRC_DIR: "software/Printer Config"
+          DST_DIR: "docs/assets/config"
+        run: |
+          changed=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- "$SRC_DIR" || true)
+          if [ -z "$changed" ]; then
+            echo "No changes in $SRC_DIR"
+            exit 0
+          fi
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            rel="${f#./}"
+            inner="${rel#$SRC_DIR/}"
+            dest_dir="$DST_DIR/$(dirname "$inner")"
+            mkdir -p "$dest_dir"
+            cp -- "$rel" "$dest_dir/$(basename "$inner")"
+            echo "Copied $rel -> $dest_dir/$(basename "$inner")"
+          done <<< "$changed"
+      - name: Commit and push changes (if any)
+        run: |
+          git add docs/assets/config || true
+          if git status --porcelain | grep -q "^"; then
+            git commit -m "Sync: copy updated files from 'software/Printer Config' to 'docs/assets/config' (preserve subdirs)"
+            git push origin HEAD:${{ github.ref_name }}
+            echo "Pushed changes."
+          else
+            echo "No changes to commit."
+          fi
+        env:
+          GIT_TERMINAL_PROMPT: "0"
