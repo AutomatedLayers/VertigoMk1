@@ -147,6 +147,16 @@ echo -e "sonar.conf"
 curl -L -o "sonar.conf" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/sonar.conf"
 echo -e "timelapse.conf"
 curl -L -o "timelapse.conf" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/timelapse.conf"
+mkdir -p "${CONFIG_DIR}/.theme"
+cd .theme
+echo -e "default.json"
+curl -L -o "default.json" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/.theme/default.json"
+echo -e "favicon-32x32.png"
+curl -L -o "favicon-32x32.png" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/.theme/favicon-32x32.png"
+echo -e "sidebar-background.png"
+curl -L -o "sidebar-background.png" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/.theme/sidebar-background.png"
+echo -e "sidebar-logo.png"
+curl -L -o "sidebar-logo.png" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/.theme/sidebar-logo.png"
 success "Config files downloaded."
 
 # ── 10. KLIPPER ───────────────────────────────────────────────────────────────

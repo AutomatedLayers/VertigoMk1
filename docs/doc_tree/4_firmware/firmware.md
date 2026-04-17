@@ -29,35 +29,35 @@ The first Vertigo machines have been running Kalico which is a forked version of
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_3.png)
 
-- In the **Storage** tab, select the SD Card you inserted and click **NEXT**.
+- In the **Storage** tab, select the **SD Card** you inserted and click **NEXT**.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_4.png)
 
-- We left Pi Connect off, but you do you and click **NEXT**.
+- Enter **"vertigo-host"** and click **NEXT**.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_5.png)
 
-- Enter **"vertigo-host"** or whatever emerges from your mind's eye and click **NEXT**. **"vertigo-host"** will be easiest so you can copy and paste the commands below.
+- Specify your locale and click **NEXT**.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_6.png)
 
-- Specify your locale and click **NEXT**.
+- Set the username and password you'll use for SSH login and click **NEXT**. Use vertigo/vertigo if you're in need of inspiration.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_7.png)
 
-- Set the username and password you'll use for SSH login and click **NEXT**.
+- Enter your Wi-Fi info and click **NEXT**.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_8.png)
 
-- Enter your Wi-Fi info and click **NEXT**.
+- Enable SSH and click **NEXT**.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_9.png)
 
-- Enable SSH and click **NEXT**.
+- We left Pi Connect off, but you do you and click **NEXT**.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_10.png)
 
-- Double check the device and operating system and click **WRITE**.
+- Double check the device and operating system and click **WRITE**. You'll be asked to confirm.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_11.png)
 
@@ -69,7 +69,7 @@ The first Vertigo machines have been running Kalico which is a forked version of
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_13.png)
 
-- Insert the SD card with the Pi OS image into the compute module slot as shown.
+- Insert the SD card with the Pi OS image into the compute module slot as shown. You'll need to remove the MCU Fan Duct to access it.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/sd_cards.png)
 
@@ -87,7 +87,7 @@ ssh vertigo@vertigo-host
 {: .note}
 If the hostname is not found, check the username and hostname from the previous section. You may need to troubleshoot the network connection by logging into your router. Also, make sure you're using the latest Raspberry Pi Imager. Older versions would default to a different hosstname.
 
-- Download the setup script, make it executable, and run it. You will be prompted for the password created in the previous section.
+- Run the commands below to download the setup script, make it executable, and run it. You will be prompted for the password created in the previous section.
   
 ```
 curl -L -o "vertigo_setup.sh" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/vertigo_setup.sh"
@@ -147,7 +147,16 @@ usb-katapult_stm32h723xx_0E000E000251313239393734-if00
 
 ### 4. Flash Kalico to M8P V2 Mainboard MCU via Katapult
 
-- Check to see if the M8P V2 is on the CAN network and in Katapult mode.
+- Compile and flash Kalico via Katapult.
+
+```
+cd ~/klipper
+cp ~/klipper/M8Pv2_klipper.config ~/klipper/.config && make -C ~/klipper
+sudo service klipper stop
+python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/$(ls /dev/serial/by-id/)
+```
+
+- Check to see if the M8P V2 is on the CAN network.
 
 ```
 python3 ~/katapult/scripts/flashtool.py -i can0 -q
@@ -158,23 +167,14 @@ python3 ~/katapult/scripts/flashtool.py -i can0 -q
 ```
 Resetting all bootloader node IDs...
 Checking for Katapult nodes...
-Detected UUID: 5db058c66e4a, Application: Katapult
+Detected UUID: 758a132d0725, Application: Klipper
 CANBus UUID Query Complete
 ```
 
-- Add the **Mainboard MCU CAN UUID** to a note **CAN UUID.txt** in the home directory. We will come back to this.
+- Run this command to add the **Mainboard MCU CAN UUID** to a note **CAN UUID.txt** in the home directory. We will come back to this.
 
 ```
-echo "mainboard mcu: $(python3 ~/katapult/scripts/flashtool.py -i can0 -q | grep 'Application: Katapult' | grep -oP 'Detected UUID: \K[0-9a-fA-F]+')" | tee -a ~/CAN\ UUID.txt
-```
-
-- Compile and flash Kalico via Katapult.
-
-```
-cd ~/klipper
-cp ~/klipper/M8Pv2_klipper.config ~/klipper/.config && make -C ~/klipper
-sudo service klipper stop
-python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/$(ls /dev/serial/by-id/)
+echo "mainboard mcu: $(python3 ~/katapult/scripts/flashtool.py -i can0 -q | grep 'Application: Klipper' | grep -oP 'Detected UUID: \K[0-9a-fA-F]+')" | tee -a ~/CAN\ UUID.txt
 ```
 
 ### 5. Flash Katapult to SHT36 V3 Toolhead Board
@@ -255,7 +255,7 @@ echo "toolhead mcu: $(python3 ~/katapult/scripts/flashtool.py -i can0 -q | grep 
 cd ~/klipper
 cp ~/klipper/SHT36v3_klipper.config ~/klipper/.config && make -C ~/klipper
 sudo service klipper stop
-python3 ~/katapult/scripts/flashtool.py -i can0 -f ~/klipper/out/klipper.bin -u $(grep 'toolhead mcu:' ~/'CAN IDs.txt' | grep -oP 'toolhead mcu: \K[0-9a-fA-F]+')
+python3 ~/katapult/scripts/flashtool.py -i can0 -f ~/klipper/out/klipper.bin -u $(grep 'toolhead mcu:' ~/'CAN UUID.txt' | grep -oP 'toolhead mcu: \K[0-9a-fA-F]+')
 ```
 
 ### 7. Copy the CAN UUIDs to printer.cfg
@@ -263,8 +263,21 @@ python3 ~/katapult/scripts/flashtool.py -i can0 -f ~/klipper/out/klipper.bin -u 
 - These commands should take the UUIDs from the note we made earlier and place them in the proper location in `~/printer_data/config/printer.cfg` for the mainboard and toolhead respectively.
 
 ```
-sed -i "s/canbus_uuid: .*/canbus_uuid: $(grep 'mainboard mcu:' ~/'CAN IDs.txt' | grep -oP 'mainboard mcu: \K[0-9a-fA-F]+')/" ~/printer_data/config/printer.cfg
-sed -i "/\[mcu toolhead\]/,/canbus_uuid:/ s/canbus_uuid: .*/canbus_uuid: $(grep 'toolhead mcu:' ~/'CAN IDs.txt' | grep -oP 'toolhead mcu: \K[0-9a-fA-F]+')/" ~/printer_data/config/printer.cfg
+sed -i "s/canbus_uuid: .*/canbus_uuid: $(grep 'mainboard mcu:' ~/'CAN UUID.txt' | grep -oP 'mainboard mcu: \K[0-9a-fA-F]+')/" ~/printer_data/config/printer.cfg
+sed -i "/\[mcu toolhead\]/,/canbus_uuid:/ s/canbus_uuid: .*/canbus_uuid: $(grep 'toolhead mcu:' ~/'CAN UUID.txt' | grep -oP 'toolhead mcu: \K[0-9a-fA-F]+')/" ~/printer_data/config/printer.cfg
 ```
 
-- We will double check this when we look at [Configuration]({{site.url}}/{{site.baseurl}}/doc_tree/5_configuration/configuration.html)
+- We will verify the UUIDs when we look at [Configuration]({{site.url}}/{{site.baseurl}}/doc_tree/5_configuration/configuration.html).
+- One more reboot and we should be good to go.
+
+```
+sudo reboot now
+```
+
+### 8. Open the Mainsail UI
+
+- Congratulations! Head to <a href="http://vertigo-host.local" target="_blank" rel="noopener noreferrer">vertigo-host.local</a> to check out the web app.
+- If you get a message saying moonraker is unable to connect, try rebooting the host in the power menu in the top right.
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/mainsail_reboot.png)
+
