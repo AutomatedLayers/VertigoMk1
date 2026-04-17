@@ -10,9 +10,9 @@ Before proceeding, you may want to get familiar with the [Kalico Configuration R
 
 ## Printer Config File
 
-The main configuration file that contains all the relevent parameters necessary for your Vertigo to work are located on the system at `~/printer_data/config/printer/cfg`. It can also be viewed and edited through the web app, in the machine tab of the sidebar. This is what it looks like:
+The main configuration file that contains all the relevent parameters necessary for your Vertigo to work are located on the system at `~/printer_data/config/printer.cfg`. It can also be viewed and edited through the web app, in the machine tab of the sidebar. This is what it looks like:
 
-<div class=config-text style="height: 500px; overflow: auto;">
+<div style="height: 500px; overflow: auto;">
   <pre>{% include printer.cfg %}</pre>
 </div>
 
