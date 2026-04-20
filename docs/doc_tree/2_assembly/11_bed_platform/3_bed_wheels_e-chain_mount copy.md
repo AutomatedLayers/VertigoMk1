@@ -14,7 +14,7 @@ nav_order: 3
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
 | Extrusion - 2020-202                               | 1   |
-| M6x350 Shaft                                       | 1   |
+| M6x250 Shaft                                       | 1   |
 | Bearing - 625                                      | 2   |
 | M5x20 BHCS                                         | 6   |
 | M3x25 SHCS                                         | 2   |
