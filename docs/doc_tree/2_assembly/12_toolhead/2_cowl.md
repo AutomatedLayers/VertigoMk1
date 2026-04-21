@@ -1,7 +1,7 @@
 ---
 title: Cowl
 layout: assembly
-parent: Tooolhead
+parent: Toolhead
 nav_order: 2
 ---
 
