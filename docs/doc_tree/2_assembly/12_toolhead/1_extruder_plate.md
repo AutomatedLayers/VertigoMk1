@@ -36,12 +36,21 @@ nav_order: 1
 | Zip Tie                                            | 2   |
 
 
-| Cables                               | 
+| Pogo Pin Cables                      | 
 |:-------------------------------------|
-| Toolhead Pogo Cable                  |
+| Z-102                                |
+| Z-103                                |
+| Z-104                                |
+| **Heatercore Cables**                | 
+| Z-108                                |
+| Z-109                                |
+| **X Endstop Cable**                  | 
+| Z-100                                |
+| **PZ Probe Controller Cable**        | 
+| Z-107                                |
+| **Extruder Motor Cable**             | 
+| Z-101                                |
 
 ## Animated Assembly
 
-<iframe style='width:100%; height:621px;' src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/pYRgoibySGw?si=36XbUyoBYJCRIt-V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
