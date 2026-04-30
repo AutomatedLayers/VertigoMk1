@@ -21,6 +21,9 @@ nav_order: 3
 
 ## Steps
 
+{: .important}
+For the best performance, it's good to prepare your linear guide rails before installation. First soak them in isopropyl alcohol for 10 minutes, then apply a lithium based grease to the slots where the ball bearings make contact.
+
 {: .note}
 The spring in some of the roll-in nuts may not fully engage with the extrusion, allowing the nuts to slide freely in the slots. Try pushing the ball in the nut a few times to work it in, or try a different nut. There should be quite a few extras in the kit.
 
