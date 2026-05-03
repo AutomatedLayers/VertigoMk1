@@ -440,6 +440,27 @@ Before zip typing cables in next steps, you can add indicators or simply the Z-c
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_540_Unplug_Toolhead.webp)
 
+### 39. Checking Toolhead Power
+
+* **Safety First:** Ensure you and others around you observing are wearing the appropriate PPE. Also have your safety equipment on hand
+* Ensure the toolhead is unplugged
+* Set voltmeter to DC Voltage Mode, choosing the lowest limit that is >=24V. In our image, that number is 200
+* Power ON the printer
+* Touch the voltmeter's leads to the XT30 connector as shown - **Approach from the outside as to not cause an accidental short**
+  * Black to Black
+  * Red to Blue
+* The voltmeter should read a positive 24V
+* Power OFF the printer
+
+<span style="color:green">**Pass:** Voltmeter reads **positive +24V**</span>
+
+<span style="color:red">**Fail:** Voltmeter reads **negative -24V**, or any other value</span>
+
+{: .warning }
+Polarity matters! Make sure you are touching the correct leads to the correct points. This is the last safety check to save your toolhead board.
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_545_Toolhead_Power_Check.webp)
+
 ## Continue to the Firmware Guide
 
 This concludes the electronics backpack wiring required for firmware installation. We will integrate the remaining components in later steps.
