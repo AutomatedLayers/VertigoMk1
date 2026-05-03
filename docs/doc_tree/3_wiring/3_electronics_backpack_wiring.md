@@ -11,7 +11,7 @@ nav_order: 3
 
 ## Before You Start
 
-The goal of this guide is to help you wire the printer carefully and consistently. That said, **electricity _can_ be dangerous**. Incorrect wiring or unsafe work practices can cause injury, damage components, start a fire, or create other hazardous conditions. **You’ve got this — take your time, work safely, don’t skip steps, and double-check each step before moving forward.**
+The goal of this guide is to help you wire the printer carefully and consistently. That said, **electricity _can_ be dangerous**. Incorrect wiring or unsafe work practices can cause injury, damage components, start a fire, or worst of all, frighten your kitty. **You’ve got this — take your time, work safely, don’t skip steps, and double-check each step before moving forward.**
 
 This printer is a DIY kit assembled from parts sourced from many suppliers across the world. Because of this, **hardware details may vary** between supplier batches or self-sourced parts. This can include component pinout, wire colors, connector styles, and other small differences. **Be careful about making assumptions based on appearance alone.** This guide provides the tools needed to verify each part, cable, and connection using the specification documents, which will be explained in the next section.
 
