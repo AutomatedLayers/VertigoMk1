@@ -73,17 +73,31 @@ When using these documents, always perform a quick check to confirm that you are
 
 <br>
 
+## Configuring the Toolhead Board
+
+### Install Jumpers and Fan Mosfet and Set Switches (for CAN Mode) on Toolhead Board
+
+* Toolhead fans are set to 24V
+* Setting GPIO20 to 3.3V is optional, but recommended
+* Fan Mosfet is installed (Mosfet can be installed either orientation; just ensure all 6 pins are inserted)
+* Toolhead board is set to CAN mode with switches on back of board
+* Set CAN Bus 120 Ohm terminal resistor to ON position
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_130_Toolhead_Jumpers_Mos_Switch.webp)
+
+[Return to Extruder Plate assembly]({{site.url}}/doc_tree/2_assembly/12_toolhead/1_extruder_plate.html)
+
 ## Wiring The Electronics Backpack
 
-### You are arriving from "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=4Hsjn2eWTSBX0ba6)"
+### If this is your first visit, you are arriving from "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=4Hsjn2eWTSBX0ba6)"
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_090_Youtube_Electronics_Backpack.webp)
 
-### 1. Install CM & heatsync
+### 1. Install CM & Heatsink
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_100_Install_CM.webp)
 
-### 2. Install jumpers on Main Board
+### 2. Install Jumpers on Main Board
 
 **Jumpers are used to select the following settings:**
 
@@ -93,29 +107,18 @@ When using these documents, always perform a quick check to confirm that you are
 * Bed fans are set to 24V
 * E-Panel fans are set to 24V
 * Enclosure LEDs are set to 24V
-* CAN Bus 120 ohm jumper is installed
-  * This is a smaller jumper than the others
+* CAN Bus 120 ohm jumper is installed (*smaller jumper than the others)
 
 {: .warning }
 Double-check all jumper settings before applying power — an incorrect configuration can permanently damage the board (the kind that can't be undone). We can tell you from experience an extra or misplaced jumper makes for a good firework show. 
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_110_Install_Jumpers.webp)
 
-### 3. Install stepper drivers
+### 3. Install Stepper Drivers
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_120_Install_Stepper_Drivers.webp)
 
-### 4. Install jumpers & fan mosfet, set switches (CAN Mode)
-
-* Toolhead fans are set to 24V
-* Setting GPIO20 to 3.3V is optional, but recommended
-* Fan Mosfet is installed
-  * Mosfet can be flipped either direction. Just make sure all 6 pins are in... 
-* Toolhead board is set to CAN mode with switches on back of board
-
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_130_Toolhead_Jumpers_Mos_Switch.webp)
-
-### 5. Install terminal block bus bars
+### 4. Install Terminal Block Bus Bars
 
 * Cut terminal block bus bars to length
 * Trim excess material from where the cut was made
@@ -128,18 +131,18 @@ Double-check that each bus bar is cut to the correct node length. Trim any exces
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_145_Bus_Bar_Trim_Check.webp" width="100%" alt="">
 
-### 6. Install terminal block fasteners
+### 5. Install Terminal Block Fasteners
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_150_Terminal_Block_Fasteners.webp)
 
-### 7. Install terminal block covers
+### 6. Install Terminal Block Covers
 
 * Install terminal block covers for Terminal Block CAN (TBCAN) and Terminal Block Bed (TBB)
 * We will leave the others uncovered for the next steps
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_160_Terminal_Block_Covers.webp)
 
-### 8. Check fuse amperage - IEC C14 Plug
+### 7. Check Fuse Amperage - IEC C14 Plug
 
 * This step is a safety check to make sure the components have the correct fuse sizes for your region.
 * Remove the fuse and verify that the amperage rating matches the value listed in the table.
@@ -150,7 +153,7 @@ Do not assume the installed fuses are correct. An oversized fuse may not blow wh
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_170_Fuse_Check_IEC.webp)
 
-### 9. Check fuse amperage - Bed Fuse (Z-07)
+### 8. Check Fuse Amperage - Bed Fuse (Z-07)
 
 * This step is a safety check to make sure the components have the correct fuse sizes for your region.
 * Remove the fuse and verify that the amperage rating matches the value listed in the table.
@@ -162,7 +165,7 @@ Do not assume the installed fuses are correct. An oversized fuse may not blow wh
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_180_Fuse_Check_Bed.webp)
 
-### 10. Check PSU's AC input voltage switch
+### 9. Check PSU's AC Input Voltage Switch
 
 * This step is a safety check to make sure the PSU is set to accept the mains power for your region.
 * Locate the switch on the side of the PSU
@@ -173,15 +176,15 @@ Do not assume the PSU's AC input voltage switch is set correctly. An incorrectly
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_190_PSU_Switch_Check.webp)
 
-### 11. Install Cables: Z-01, Z-02, Z-03, Z-11, Z-12
+### 10. Install Cables: Z-01, Z-02, Z-03, Z-11, Z-12
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_200_Install_Cables-01.webp)
 
-### 12. Install Cables: Z-04, Z-05, Z-06
+### 11. Install Cables: Z-04, Z-05, Z-06
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_210_Install_Cables-02.webp)
 
-### 13. Prepare multimeter for continuity checks
+### 12. Prepare Multimeter for Continuity Checks
 
 * Set multimeter to continuity mode
 * Touch the multimeter leads together - The multimeter should beep
@@ -193,7 +196,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 <br>
 
-### 14. Check for short between AC Live (L) & AC Neutral (N)
+### 13. Check for short between AC Live (L) & AC Neutral (N)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -210,7 +213,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_230_Continuity Test-01.webp)
 
-### 15. Check for short between AC Neutral (N) & AC Earth (⏚)
+### 14. Check for short between AC Neutral (N) & AC Earth (⏚)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -227,7 +230,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_240_Continuity Test-02.webp)
 
-### 16. Check for short between AC Live (L) & AC Earth (⏚)
+### 15. Check for short between AC Live (L) & AC Earth (⏚)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -244,7 +247,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_250_Continuity Test-03.webp)
 
-### 17. Check for short between PSU's DC(+) & DC(-)
+### 16. Check for short between PSU's DC(+) & DC(-)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -261,7 +264,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_260_Continuity Test-04.webp)
 
-### 18. Check for continuity between IEC C14 plug & PSU for AC Live (L)
+### 17. Check for continuity between IEC C14 plug & PSU for AC Live (L)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -278,7 +281,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_270_Continuity Test-05.webp)
 
-### 19. Check for continuity between IEC C14 plug & PSU for AC Neutral (N)
+### 18. Check for continuity between IEC C14 plug & PSU for AC Neutral (N)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -295,7 +298,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_280_Continuity Test-06.webp)
 
-### 20. Check for continuity between IEC C14 plug & PSU for AC Earth (⏚)
+### 19. Check for continuity between IEC C14 plug & PSU for AC Earth (⏚)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -312,7 +315,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_290_Continuity Test-07.webp)
 
-### 21. Preparing for first power ON
+### 20. Preparing for First Power ON
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_300_Clean_Work_Area.webp)
 
@@ -333,7 +336,7 @@ Don’t wire electronics in a cluttered area, as it greatly increases the risk o
 {: .note}
 In the following steps, the power supply unit (PSU) will be turned on. After the PSU is turned off, wait several minutes before handling any electronics to allow the capacitors to fully discharge.
 
-### 22. Adjusting PSU to 24V
+### 21. Adjusting PSU to 24V
 
 Now that you are working safe and responsibly, lets get on with it!
 
@@ -349,29 +352,29 @@ Now that you are working safe and responsibly, lets get on with it!
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_340_PSU_Adjust.webp" width="100%" alt="">
 <!-- ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_340_PSU_Adjust.webp) -->
 
-### 23. Install terminal block covers
+### 22. Install Terminal Block Covers
 
 * Install terminal block covers for Terminal Block AC Power (TBAC) and Terminal Block DC Power (TBDC)
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_350_Terminal_Block_Covers_Power.webp)
 
-### 24. Install Cables: Z-13, Z-15, Z-17, Z-19
+### 23. Install Cables: Z-13, Z-15, Z-17, Z-19
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_360_Install_Cables-03.webp)
 
-### 25. Install Cables: Z-14, Z-16, Z-18, Z-20
+### 24. Install Cables: Z-14, Z-16, Z-18, Z-20
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_370_Install_Cables-04.webp)
 
-### 26. Install Cables: Z-07, Z-08, Z-09, Z-10, Z-21, Z-22
+### 25. Install Cables: Z-07, Z-08, Z-09, Z-10, Z-21, Z-22
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_380_Install_Cables-05.webp)
 
-### 27. Install Cables: Z-23, Z-24, Z-26
+### 26. Install Cables: Z-23, Z-24, Z-26
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_390_Install_Cables-06.webp)
 
-### 28. Assembling Peripheral Blocks
+### 27. Assembling Peripheral Blocks
 
 * Feed cables through peripheral block
 * Connector should be held snug by peripheral block when pushed into place.
@@ -395,36 +398,36 @@ Before zip typing cables in next steps, you can add indicators or simply the Z-c
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_440_Peripher_Block_ZipTies-02.webp)
 
-### 29. Install Cables: Z-42, Z-43, Z-44, Z-45
+### 28. Install Cables: Z-42, Z-43, Z-44, Z-45
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_450_Install_Cables-07.webp)
 
-### 30. Install Cables: Z-27, Z-28
+### 29. Install Cables: Z-27, Z-28
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_460_Install_Cables-08.webp)
 
-### 31. Install Cables: Z-34, Z-35, Z-32/33
+### 30. Install Cables: Z-34, Z-35, Z-32/33
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_470_Install_Cables-09.webp)
 
-### 32. Install Cables: Z-29, Z-30, Z-31
+### 31. Install Cables: Z-29, Z-30, Z-31
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_480_Install_Cables-10.webp)
 
-### 33. Install Cables: Z-40, Z-41
+### 32. Install Cables: Z-40, Z-41
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_490_Install_Cables-11.webp)
 
-### 34. Install Cables: Z-38, Z-39
+### 33. Install Cables: Z-38, Z-39
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_500_Install_Cables-12.webp)
 
-### 35. Install Cables: Z-36, Z-37
+### 34. Install Cables: Z-36, Z-37
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_510_Install_Cables-13.webp)
 
 
-### 36. Continue and finish "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=C-eXoOUd_zGN5yOZ&t=408)"
+### 35. Continue and Finish "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=C-eXoOUd_zGN5yOZ&t=408)"
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_520_Continue_Youtube_Electronics_Backpack.webp" width="100%" alt="">
 
@@ -432,15 +435,15 @@ Before zip typing cables in next steps, you can add indicators or simply the Z-c
 
 <br>
 
-### 37. Install Cables: Z-25, Z-48, Z-49, Z-53, Z-54, Z-55, Z-56, Z-60, Z-61, Z-114
+### 36. Install Cables: Z-25, Z-48, Z-49, Z-53, Z-54, Z-55, Z-56, Z-60, Z-61, Z-114
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_530_Install_Cables-14.webp)
 
-### 38. Unplug Toolhead's XT30 Connector
+### 37. Unplug Toolhead's XT30 Connector
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_540_Unplug_Toolhead.webp)
 
-### 39. Checking Toolhead Power
+### 38. Checking Toolhead Power
 
 * **Safety First:** Ensure you and others around you observing are wearing the appropriate PPE. Also have your safety equipment on hand
 * Ensure the toolhead is unplugged
@@ -461,11 +464,9 @@ Polarity matters! Make sure you are touching the correct leads to the correct po
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_545_Toolhead_Power_Check.webp)
 
-## Continue to the Firmware Guide
+## Continue to the [Firmware Guide]({{site.url}}\doc_tree\4_firmware\firmware.html)
 
 This concludes the electronics backpack wiring required for firmware installation. We will integrate the remaining components in later steps.
 
 {: .warning }
 At this stage, only the cables that we have covered should be connected.
-
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_550_Continue_To_Firmware_Guide.webp)

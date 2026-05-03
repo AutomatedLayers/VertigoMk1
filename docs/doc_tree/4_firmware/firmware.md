@@ -76,7 +76,7 @@ The first Vertigo machines have been running Kalico which is a forked version of
 {: .note}
 Keep the electronics panel off for now; you will need to access the mainboard to flash the firmware.
 
-### 2. Setup the Pi CM4 with Klipper, Mainsail, and other software
+### 2. Setup the Pi CM4 with Klipper, Mainsail, and Other Software
 - Turn on the machine, take a few deep breaths, and recite some positive affirmations.
 - Open a terminal on your computer and SSH into the printer host.
 
@@ -281,3 +281,4 @@ sudo reboot now
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/mainsail_reboot.png)
 
+## Continue to [Configuration]
