@@ -1,11 +1,11 @@
 ---
-title: Electronics Backpack Wiring
-layout: assembly
-parent: Wiring
+title: Wiring
+layout: default
 nav_order: 3
 ---
 
-# Electronics Backpack Wiring
+# Wiring
+
 <!-- ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_010_Header.webp) -->
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_010_Header.webp" width="100%" alt="">
 
