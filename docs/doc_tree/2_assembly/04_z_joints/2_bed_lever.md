@@ -20,10 +20,10 @@ nav_order: 2
 | M5x10x1 Washer                            | 1   |
 | M3x60 Dowel                               | 2   |
 | M5x60 D-Shaft                             | 1   |
-| M5x16 BHSC                                | 2   |
-| M3x12 SHSC                                | 2   |
-| M3x10 FHSC                                | 4   |
-| M2x8 SHSC                                 | 6   |
+| M5x16 BHCS                                | 2   |
+| M3x12 SHCS                                | 2   |
+| M3x10 FHCS                                | 4   |
+| M2x8 SHCS                                 | 6   |
 | M5 Roll-In Nut                            | 2   |
 | M3 Roll-In Nut                            | 2   |
 | M3 Hex Nut                                | 2   |
