@@ -9,7 +9,7 @@ nav_order: 2
 ![]({{site.url}}/{{site.baseurl}}/assets/images/z_endstop.webp)
 
 {: .note}
-This is the first section where cables are installed, so it's a good time to check out the first section of the [Wiring Guide]({{site.url}}/{{site.baseurl}}/doc_tree/wiring.html)
+This is the first section where cables are installed, so it's a good time to check out the first section of the [Wiring Guide]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html)
 
 ## Materials
 
