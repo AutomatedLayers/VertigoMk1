@@ -73,7 +73,7 @@ When using these documents, always perform a quick check to confirm that you are
 
 <br>
 
-[Return to Z Endstop assembly]({{site.url}}/doc_tree/2_assembly/06_auxiliary_modules_1/0_auxiliary_modules_1.html)
+[Return to Z Endstop assembly]({{site.url}}/doc_tree/2_assembly/06_auxiliary_modules_1/1_z-endstops.html)
 
 ## Configuring the Toolhead Board
 
