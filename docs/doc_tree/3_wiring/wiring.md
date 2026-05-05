@@ -73,6 +73,8 @@ When using these documents, always perform a quick check to confirm that you are
 
 <br>
 
+[Return to Z Endstop assembly]({{site.url}}/doc_tree/2_assembly/06_auxiliary_modules_1/0_auxiliary_modules_1.html
+
 ## Configuring the Toolhead Board
 
 ### Install Jumpers and Fan Mosfet and Set Switches (for CAN Mode) on Toolhead Board
