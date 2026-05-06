@@ -11,7 +11,7 @@ nav_order: 2
 ## Materials
 
 {: .note}
-The materials listed below are for one XY Joint assembly.
+The materials listed below in the XY Joint section are for one XY Joint assembly.
 
 | Hardware - XY Joint                                | Qty |   
 |:---------------------------------------------------|:----| 
