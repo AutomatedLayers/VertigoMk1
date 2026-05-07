@@ -52,8 +52,12 @@ The materials listed below are for each side.
  - Use 3 **M5x40 BHCS** to secure the XY Drive Housing A to the frame
  - Optionally, cover the drive housing with the XY Drive A Lid
 
-### 3. Assemble XY Drive Housing B
+### 3. Assemble and Install XY Drive Housing B
 
+{: .note}
+> The assembly and install processes for side B are the same, however there are two positional differences:
+> - The XY Drive Spacer and idler are flipped, so the spacer is on the bottom and idler on top.
+> - The timing pulley is flipped such that the shaft collar is near the motor. The Pulley Offset Tool Side B is used in the same way, with the upper lip concentric with the teeth of the pulley, so the flange will be resting on the upper lip of the tool instead of the shaft collar.
 
 ## Interactive View
 <div class="online_3d_viewer"
