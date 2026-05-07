@@ -6,6 +6,8 @@ on:
       - "software/Printer Config/macros.cfg"
       - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1_Cable Spec V03_Rev04.pdf"
       - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1_Wiring Diagram_Rev04.pdf"
+  workflow_dispatch: 
+
 permissions:
   contents: write
 jobs:
