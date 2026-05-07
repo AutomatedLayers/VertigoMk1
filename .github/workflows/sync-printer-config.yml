@@ -6,8 +6,7 @@ on:
       - "software/Printer Config/macros.cfg"
       - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1_Cable Spec V03_Rev04.pdf"
       - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1_Wiring Diagram_Rev04.pdf"
-  workflow_dispatch: 
-
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -15,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo (full history)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
       - name: Set up Git identity
