@@ -4,8 +4,8 @@ on:
     paths:
       - "software/Printer Config/printer.cfg"
       - "software/Printer Config/macros.cfg"
-      - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1_Cable Spec V03_Rev04.pdf"
-      - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1_Wiring Diagram_Rev04.pdf"
+      - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1 Cable Spec.pdf"
+      - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1 Wiring Diagram.pdf"
   workflow_dispatch:
 permissions:
   contents: write
@@ -41,7 +41,7 @@ jobs:
           DST_DIR="docs/assets/pdf"
           mkdir -p "$DST_DIR"
 
-          for file in "Vertigo MK1_Cable Spec V03_Rev04.pdf" "Vertigo MK1_Wiring Diagram_Rev04.pdf"; do
+          for file in "Vertigo MK1 Cable Spec.pdf" "Vertigo MK1 Wiring Diagram.pdf"; do
             src="electrical/Cable Spec & Wiring Diagram/$file"
             if [ -f "$src" ]; then
               cp -- "$src" "$DST_DIR/$file"
@@ -55,8 +55,8 @@ jobs:
           git add \
             "docs/_includes/printer.cfg" \
             "docs/_includes/macros.cfg" \
-            "docs/assets/pdf/Vertigo MK1_Cable Spec V03_Rev04.pdf" \
-            "docs/assets/pdf/Vertigo MK1_Wiring Diagram_Rev04.pdf"
+            "docs/assets/pdf/Vertigo MK1 Cable Spec.pdf" \
+            "docs/assets/pdf/Vertigo MK1 Wiring Diagram.pdf"
           if git status --porcelain | grep -q "^"; then
             git commit -m "Sync: copy cfg to _includes and PDFs to assets/pdf"
             git pull --rebase origin ${{ github.ref_name }}
