@@ -18,19 +18,19 @@ This printer is a DIY kit assembled from parts sourced from many suppliers acros
 {: .important }
 Some image text may appear small on this page. For a larger view, right-click the image and select "Open image in new tab".
 
-## Understanding the Wiring Diagram & Cable Spec
+## Understanding the [Wiring Diagram & Cable Spec](https://github.com/AutomatedLayers/VertigoMk1/tree/main/electrical/Cable%20Spec%20%26%20Wiring%20Diagram)
 
 Wiring is defined by two core documents: the **wiring diagram** and the **cable specification**.
 
-### [**The Cable Specification**](https://github.com/AutomatedLayers/VertigoMk1/tree/main/electrical/Cable%20Spec%20%26%20Wiring%20Diagram) 
+### The Cable Specification
 
 This document defines how each cable is manufactured, including its Z-code, length, wire gauge, color, pinout, and other relevant build details.
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_020_Cable_Spec.webp)
+[![]({{site.url}}/{{site.baseurl}}/assets/images/EP_020_Cable_Spec.webp)]({{site.url}}/{{site.baseurl}}/assets/pdf/Vertigo MK1 Cable Spec.pdf)
 
 <br>
 
-**Cable Construction Examples**
+#### Cable Construction Examples
 
 Below are cables Z-11 and Z-36 as it appears in the cable specification, along with a photos of the construction for reference. Keep in mind that not every hardware component will have the physical Z-code label attached. In those cases, identify the cable by comparing its features to the cable specification, or consult the Wiring Diagram if you know where the component is being installed to easier identifiy the Z-code. 
 
@@ -38,15 +38,15 @@ Below are cables Z-11 and Z-36 as it appears in the cable specification, along w
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_035_Cable_Example.webp)
 
-### [**The Wiring Diagram**](https://github.com/AutomatedLayers/VertigoMk1/tree/main/electrical/Cable%20Spec%20%26%20Wiring%20Diagram) 
+### The Wiring Diagram
 
 This document defines how the cables terminate within the system, using symbols and Z-codes to identify connections.
 
-[![]({{site.url}}/{{site.baseurl}}/assets/images/EP_040_Wiring_Diagram.webp)]({{site.url}}/{{site.baseurl}}/assets/pdf/Vertigo MK1_Wiring Diagram_Rev04.pdf)
+[![]({{site.url}}/{{site.baseurl}}/assets/images/EP_040_Wiring_Diagram.webp)]({{site.url}}/{{site.baseurl}}/assets/pdf/Vertigo MK1 Wiring Diagram.pdf)
 
 <br>
 
-**Finding Z-Code Termination Points Example**
+#### Finding Z-Code Termination Points Example
 
 * Locate the Z-Code: There will be one located at each termination point for the cable
 * Note the schematic label: This indicates the termination points using abbreviated names, separated by an underscore "_"
