@@ -1,9 +1,11 @@
-name: Sync printer.cfg and macros.cfg to docs/_includes
+name: Sync printer.cfg, macros.cfg, and electrical docs to docs/_includes
 on:
   push:
     paths:
       - "software/Printer Config/printer.cfg"
       - "software/Printer Config/macros.cfg"
+      - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1_Cable Spec V03_Rev04.pdf"
+      - "electrical/Cable Spec & Wiring Diagram/Vertigo MK1_Wiring Diagram_Rev04.pdf"
 permissions:
   contents: write
 jobs:
@@ -18,14 +20,23 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      - name: Copy printer.cfg and macros.cfg to docs/_includes
+      - name: Copy files to docs/_includes
         shell: bash
-        env:
-          SRC_DIR: "software/Printer Config"
-          DST_DIR: "docs/_includes"
         run: |
+          DST_DIR="docs/_includes"
+
           for file in "printer.cfg" "macros.cfg"; do
-            src="$SRC_DIR/$file"
+            src="software/Printer Config/$file"
+            if [ -f "$src" ]; then
+              cp -- "$src" "$DST_DIR/$file"
+              echo "Copied $src -> $DST_DIR/$file"
+            else
+              echo "Skipping $file (not found at $src)"
+            fi
+          done
+
+          for file in "Vertigo MK1_Cable Spec V03_Rev04.pdf" "Vertigo MK1_Wiring Diagram_Rev04.pdf"; do
+            src="electrical/Cable Spec & Wiring Diagram/$file"
             if [ -f "$src" ]; then
               cp -- "$src" "$DST_DIR/$file"
               echo "Copied $src -> $DST_DIR/$file"
@@ -35,9 +46,13 @@ jobs:
           done
       - name: Commit and push changes (if any)
         run: |
-          git add docs/_includes/printer.cfg docs/_includes/macros.cfg || true
+          git add \
+            "docs/_includes/printer.cfg" \
+            "docs/_includes/macros.cfg" \
+            "docs/_includes/Vertigo MK1_Cable Spec V03_Rev04.pdf" \
+            "docs/_includes/Vertigo MK1_Wiring Diagram_Rev04.pdf"
           if git status --porcelain | grep -q "^"; then
-            git commit -m "Sync: copy printer.cfg and macros.cfg to docs/_includes"
+            git commit -m "Sync: copy cfg and electrical docs to docs/_includes"
             git push origin HEAD:${{ github.ref_name }}
             echo "Pushed changes."
           else
