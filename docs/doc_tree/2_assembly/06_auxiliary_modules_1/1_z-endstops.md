@@ -32,6 +32,11 @@ The materials listed below are for one Endstop Pod.
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/QfOSu2yNCmc?si=UZh_bVq0Q3KChDJH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Steps
+
+### 1. Assemble XY Drive Housing A
+ - Insert 3 **M3x5.7 Brass Insert** into the XY Drive Housing A - Bottom
+ - 
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/z_endstop.glb"
