@@ -35,10 +35,10 @@ jobs:
               echo "Skipping $file (not found at $src)"
             fi
           done
-      - name: Copy PDF files to docs/assets
+      - name: Copy PDF files to docs/assets/pdf
         shell: bash
         run: |
-          DST_DIR="docs/assets"
+          DST_DIR="docs/assets/pdf"
           mkdir -p "$DST_DIR"
 
           for file in "Vertigo MK1_Cable Spec V03_Rev04.pdf" "Vertigo MK1_Wiring Diagram_Rev04.pdf"; do
@@ -55,10 +55,10 @@ jobs:
           git add \
             "docs/_includes/printer.cfg" \
             "docs/_includes/macros.cfg" \
-            "docs/assets/Vertigo MK1_Cable Spec V03_Rev04.pdf" \
-            "docs/assets/Vertigo MK1_Wiring Diagram_Rev04.pdf"
+            "docs/assets/pdf/Vertigo MK1_Cable Spec V03_Rev04.pdf" \
+            "docs/assets/pdf/Vertigo MK1_Wiring Diagram_Rev04.pdf"
           if git status --porcelain | grep -q "^"; then
-            git commit -m "Sync: copy cfg to _includes and PDFs to assets"
+            git commit -m "Sync: copy cfg to _includes and PDFs to assets/pdf"
             git push origin HEAD:${{ github.ref_name }}
             echo "Pushed changes."
           else
