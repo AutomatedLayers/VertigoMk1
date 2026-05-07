@@ -59,6 +59,7 @@ jobs:
             "docs/assets/pdf/Vertigo MK1_Wiring Diagram_Rev04.pdf"
           if git status --porcelain | grep -q "^"; then
             git commit -m "Sync: copy cfg to _includes and PDFs to assets/pdf"
+            git pull --rebase origin ${{ github.ref_name }}
             git push origin HEAD:${{ github.ref_name }}
             echo "Pushed changes."
           else
