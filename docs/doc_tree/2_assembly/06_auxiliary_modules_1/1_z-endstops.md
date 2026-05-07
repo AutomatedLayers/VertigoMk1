@@ -8,7 +8,7 @@ nav_order: 2
 # Z Endstops
 ![]({{site.url}}/{{site.baseurl}}/assets/images/z_endstop.webp)
 
-{: .note}
+{: .important}
 This is the first section where cables are installed, so it's a good time to check out the section of the Wiring Guide: [Understanding the Wiring Diagram & Cable Spec]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#understanding-the-wiring-diagram--cable-spec)
 
 ## Materials
@@ -18,7 +18,7 @@ The materials listed below are for one Endstop Pod.
 
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
-| Endstop Switch PCB                                 | 1   |
+| Z Endstop Switch PCB                               | 1   |
 | M3 Roll-In Nut                                     | 2   |
 | M3x20 FHCS                                         | 2   |
 
@@ -34,9 +34,32 @@ The materials listed below are for one Endstop Pod.
 
 ## Steps
 
-### 1. Assemble XY Drive Housing A
- - Insert 3 **M3x5.7 Brass Insert** into the XY Drive Housing A - Bottom
- - 
+### 1. Assemble and Install the Z Endstop Pods
+ - Plug **Z-69** into the connector on the Z Enstop Switch PCB
+ - Sandwich the Z Endstop Switch PCB between the Z Enstop Pod and Z Endstop Pod Cap, ensuring the wires route around the screw stud. A tiny dab of glue can be used to keep the asssembly together if it's an issue during install
+ - Insert 2 **M3 Roll-In Nuts** into the inside slot of the lower side frame extrusion on side B as shown
+ - Loosely attach the Z Endstop Pod to the frame using 2 **M3x20 FHCS**. Don't tighten yet
+ - Slide the Z Endstop Pod under the endstop adjustment screw of Front Z Joint B
+ - Lower the Front Z Joint Bar to make sure the endstop adjustment screw presses the switch
+ - Tighten the Z Endstop Pod mounting screws
+ - Route the Z Endstop Pod wires through the extrusion slots as shown, installing cable covers as you go
+ - Repeat this for all 4 Z Endstop pods using the cables listed above, making sure to check that the corresponding Z Endstop Adjustment Screw presses the switch at the bend in the lever. **The height of the endstop adjustment screws will be calibrated later**
+
+{: .note}
+The Z Endstop Pods will need to be installed with the mounting FHCS screws entering from the other side when installed on side A.
+
+#### Z Enstop Cable Location on printer
+
+```        
+            Rear
+      Z-70 ------ Z-71
+        |          |
+ Side A |          | Side B
+        |          | 
+      Z-68 ------ Z-69
+            Front
+```
+
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/z_endstop.glb"
