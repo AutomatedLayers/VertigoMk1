@@ -42,7 +42,7 @@ Below are cables Z-11 and Z-36 as it appears in the cable specification, along w
 
 This document defines how the cables terminate within the system, using symbols and Z-codes to identify connections.
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_040_Wiring_Diagram.webp)
+[![]({{site.url}}/{{site.baseurl}}/assets/images/EP_040_Wiring_Diagram.webp)]({{site.url}}/{{site.baseurl}}/assets/pdf/Vertigo MK1_Wiring Diagram_Rev04.pdf)
 
 <br>
 
