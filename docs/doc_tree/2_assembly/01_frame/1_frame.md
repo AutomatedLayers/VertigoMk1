@@ -21,7 +21,6 @@ nav_order: 1
 | M5x80 Threaded Stud              | 2   |
 | M5x16 BHSC                       | 20  |
 
-
 {: .note}
 > Guidance on reading Misumi extrusion part numbers:
 > - 2020-# = 20mmx20mm aluminum extrusion with length #mm
@@ -31,10 +30,8 @@ nav_order: 1
 > - AV# = vertical through-hole #mm from the end
 > - AH# = horizontal through-hole #mm from the end
 
-
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/UQv3nB_qxXE?si=blgOvjFCOVpnpJPj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 ## Steps
 
