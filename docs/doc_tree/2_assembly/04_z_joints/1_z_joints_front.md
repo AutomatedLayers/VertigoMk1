@@ -29,7 +29,6 @@ The materials listed below are for each side.
 | M5 Roll-In Nut                            | 1   |
 | (**Side B Only** M3x10 SHCS)              | (1) | 
 
-
 ## Animated Assembly
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/2lDIZEWfpks?si=Or_HjbJ9XdGpA31k"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -62,7 +61,6 @@ At this point it's easiest if you continue to the next section: [Bed Lever](2_be
  - Attach the Front Z Joint Bar to the Z Axis Linear Carriages by first tightening the captive fasteners, then the outer fasteners
  - Make sure the gaps are about even on both ends of the extrusion and that the Front Z Joint Bar slides freely up and down the Z Axis
  - Finally you get to tighten the **M5x40 BHCS** 
-
 
 ## Interactive View
 <div class="online_3d_viewer"
