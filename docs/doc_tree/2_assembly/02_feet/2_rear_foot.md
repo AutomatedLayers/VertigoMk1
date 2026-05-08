@@ -26,7 +26,6 @@ The materials listed below are for one foot.
 | M3x45 SHSC                                | 1   |
 | M3x20 SHSC                                | 1   |
 
-
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/H9nxmXTZ15I?si=k0oRh0RslEZnFP7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -57,7 +56,6 @@ The materials listed below are for one foot.
  - Rotate the Tensioner Knob to screw the Tensioner down, leaving about 10mm of space below the Tensioner
  - Screw the **M5x60 BHCS** through the Rear Foot Base, Tensioner Knob, and Foot Frame into the frame
   
-
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/rear_foot.glb"
