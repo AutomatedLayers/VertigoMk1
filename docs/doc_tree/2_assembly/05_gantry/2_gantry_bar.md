@@ -49,7 +49,6 @@ The materials listed below in the XY Joint section are for one XY Joint assembly
 | M2x8 FHCS                                          | 2   |
 | M2 Hex Nut                                         | 2   |
 
-
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/Urxhuw5l0kQ?si=Ue-81n7K9cGXYVDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
