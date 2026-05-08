@@ -26,6 +26,14 @@ The materials listed below are for one ramp.
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=TUv8Vn8S5dfyfSx2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### 1. Assemble and Install the Wheel Ramps
+ - Insert 3 **M3x5.7 Brass Inserts** into the Wheel Ramp B - Inside
+ - Stack the Wheel Ramp B - Inside, Center, and Outside and screw them together with 3 **M3x16 SHCS**
+ - Place 2 **M3 Roll-In Nuts** into the top slot of the lower side frame extrusion on side B 
+ - Push the rear fin of the Wheel Ramp B into the front facing slot of the rear vertical extrusion on side B 
+ - Align the roll-in nuts with the cutouts in Wheel Ramp B - Center
+ - Use an **M3x8 SHCS** to fasten the wheel ramp in the front hole and an **M3x16 SHCS** in the rear. **Don't over-tighten the front mounting screw!**
+ - Repeat the assembly and install for side A
 
 ## Interactive View
 <div class="online_3d_viewer"
