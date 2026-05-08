@@ -35,7 +35,6 @@ The materials listed below are for one idler assembly.
  - Use the XY Idler Tool to push the idler pulley into position and push the **Shoulder Screw** through the XY Idler Block printed part and the idler pulley
  - Secure the assembly to the frame using the **M5x10 BHCS**, **M5x40 BHCS**, and **Shoulder Screw**. **Don't overtighten the shoulder screw**
 
-
 ## Interactive View
 
 <div class="online_3d_viewer"
