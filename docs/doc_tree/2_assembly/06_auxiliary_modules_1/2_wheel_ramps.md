@@ -8,7 +8,6 @@ nav_order: 3
 # Wheel Ramps
 ![]({{site.url}}/{{site.baseurl}}/assets/images/wheel_ramp.webp)
 
-
 ## Materials
 
 {: .note}
@@ -21,10 +20,8 @@ The materials listed below are for one ramp.
 | M3 Roll-In Nut                                     | 2   |
 | M3x5.7 Brass Insert                                | 3   | 
 
-
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=TUv8Vn8S5dfyfSx2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 ### 1. Assemble and Install the Wheel Ramps
  - Insert 3 **M3x5.7 Brass Inserts** into the Wheel Ramp B - Inside
@@ -34,7 +31,6 @@ The materials listed below are for one ramp.
  - Align the roll-in nuts with the cutouts in Wheel Ramp B - Center
  - Use an **M3x8 SHCS** to fasten the wheel ramp in the front hole and an **M3x16 SHCS** in the rear. **Don't over-tighten the front mounting screw!**
  - Repeat the assembly and install for side A
-
 
 ## Interactive View
 <div class="online_3d_viewer"
