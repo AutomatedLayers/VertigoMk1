@@ -20,10 +20,17 @@ nav_order: 5
 | M3x16 SHCS                                         | 1   |
 | M3x5.7 Brass Insert                                | 2   | 
 
-
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=GU3BMGTDCJT6UkUV&amp;start=63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### 1. Assemble and Install the Nozzle Cleaner
+ - Insert an **M3.5.7 Brass Insert** into the Nozzle Wiper Arm
+ - Slide the E3D Nozzle Sock onto the groove in the Nozzle Wiper Wheel
+ - Attach the Nozzle Wiper Wheel to the Nozzle Wiper Arm with an **M3x16 SHCS**, taking care not to over-tighten
+ - Cut a 3x4 section of the Silicone Brush, remove its adhesive backing and press it onto its pad on the Nozzle Wiper Arm
+ - Insert an **M3x5.7 Brass Insert** into the bottom of the Nozzle Wiper Frame Mount
+ - Use an **M3x25 SHCS** to attach the Nozzle Wiper Arm to the Nozzle Wiper Frame Mount
+ - Use 2 **M5 Roll-In Nuts** and 2 **M5x10 BHCS** to attach the Nozzle Cleaner to the inside slot of the front vertical frame extrusion on side A. **The vertical position will be adjusted in the Checks and Calibration Section**
 
 ## Interactive View
 <div class="online_3d_viewer"
