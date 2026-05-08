@@ -26,7 +26,6 @@ The materials listed below are for each side.
 | M3x30 SHCS                                         | 4   |
 | M3x5.7 Brass Insert                                | 3   | 
 
-
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/ccUepr55wgw?si=n45WT-qfufjVqsDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
