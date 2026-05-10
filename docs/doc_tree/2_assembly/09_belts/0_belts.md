@@ -7,6 +7,11 @@ nav_order: 9
 
 # Belts
 
+{: .important}
+>Before installing the X/Y belts, loosen the A/B steppers and clamp plate via the access holes in the XY Drive Housing Lids. Rotate the tensioning handles and push the cam sliders toward the outside of the printer such that the belts will travel the shortest path, giving maximum travel for tensioning.
+>
+>For the Z Belts, (watch the video) before the belt is fed around the tensioning pulley, adjust the tensioning knob such that the bottom of the tensioner is about 7mm below the inside edge of the pocket in the foot where it sits. This ensures plenty of room for tensioning and a relatively consistent belt length and frequency. An update was made to the [Foot Z Tensioner](https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl) to place a line that should line up with the lip of the inside edge of the tensioner pocket when the tensioner is at the right starting point.
+
 ## Animated Assembly
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/9bPneDpq4Zs?si=vrLRPuscEL674opw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -24,10 +29,15 @@ $$f = \frac{1}{2L} \sqrt{\frac{F}{\mu}}$$
 where `L` is the free span in meters, `F` is the desired tension in Newtons, and `μ` is the linear mass density of the belt in kg/m.
 
 ---
+### Belt Spans to Tune
+![]({{site.url}}/{{site.baseurl}}/assets/images/xy_belt_span.png)
+![]({{site.url}}/{{site.baseurl}}/assets/images/z_belt_span.webp)
+
+---
 
 ### Target Frequencies
 
-**X/Y Axis Belts**
+#### X/Y Axis Belts
 
 | Parameter | Value |
 |---|---|
@@ -37,15 +47,15 @@ where `L` is the free span in meters, `F` is the desired tension in Newtons, and
 | Target tension | 6 lbf (26.69 N) |
 | **Target frequency** | **73.2 Hz** |
 
-**Z Axis Belts**
+#### Z Axis Belts
 
 | Parameter | Value |
 |---|---|
 | Belt | Gates PowerGrip 2GT · 2mm Pitch · 9mm Width |
-| Free span | 532 mm |
+| Free span | 534 mm |
 | Linear density (μ) | 0.01245 kg/m |
 | Target tension | 9 lbf (40.03 N) |
-| **Target frequency** | **84.1 Hz** |
+| **Target frequency** | **83.8 Hz** |
 
 ---
 
@@ -61,9 +71,8 @@ where `L` is the free span in meters, `F` is the desired tension in Newtons, and
 
 ---
 
-### Notes
-
-- Gates recommends **6–8 lbf** for 6mm GT belts in a registration drive; the 9mm Z target of 9 lbf scales proportionally with width
-- Ensure **nothing contacts the belt** along the free span during measurement
-- If the reading is noisy, pluck more firmly or reduce nearby vibrations
-- These figures assume **genuine Gates 2GT belt** — third-party belts vary in density and will give inaccurate results with this formula
+{: .note}
+>- Gates recommends **6–8 lbf** for 6mm GT belts in a registration drive; the 9mm Z target of 9 lbf scales proportionally with width
+>- Ensure **nothing contacts the belt** along the free span during measurement
+>- If the reading is noisy, pluck more firmly or reduce nearby vibrations
+>- These figures assume **genuine Gates 2GT belt** — third-party belts vary in density and will give inaccurate results with this formula
