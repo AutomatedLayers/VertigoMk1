@@ -20,7 +20,7 @@ nav_order: 9
 
 ## Belt Tension Guide
 
-Proper belt tension ensures accurate motion and prevents skipped steps. Too loose and the belt will slip; too tight and it adds unnecessary load to the motor bearings. Tension is set by plucking the free span of the belt like a guitar string and measuring the resulting vibration frequency with a phone app — no force gauge needed.
+Proper belt tension ensures accurate motion and prevents skipped steps. Too loose and the belt will slip; too tight and it adds unnecessary load to the motor bearings. Tension is set by plucking the free span of the belt like a guitar string and measuring the resulting vibration frequency with a phone app. You could also use a belt tension force guage if you're cool enough to have one.
 
 The target frequency for a given tension is derived from the string vibration formula:
 
