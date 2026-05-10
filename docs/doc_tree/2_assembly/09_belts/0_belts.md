@@ -15,7 +15,7 @@ nav_order: 9
 
 ## Belt Tension Guide
 
-Proper belt tension ensures accurate motion and prevents skipped steps. Too loose and the belt will slip; too tight and it adds unnecessary load to the motor bearings. Tension is set by plucking the free span of the belt like a guitar string and measuring the resulting vibration frequency with a phone app or tuner. You could also use a tension force guage if you're cool enough to have one.
+Proper belt tension ensures accurate motion and prevents skipped steps. Too loose and the belt will slip; too tight and it adds unnecessary load to the motor bearings. Tension is set by plucking the free span of the belt like a guitar string and measuring the resulting vibration frequency with a phone app — no force gauge needed.
 
 The target frequency for a given tension is derived from the string vibration formula:
 
@@ -23,9 +23,11 @@ $$f = \frac{1}{2L} \sqrt{\frac{F}{\mu}}$$
 
 where `L` is the free span in meters, `F` is the desired tension in Newtons, and `μ` is the linear mass density of the belt in kg/m.
 
+---
+
 ### Target Frequencies
 
-#### X/Y Axis Belts
+**X/Y Axis Belts**
 
 | Parameter | Value |
 |---|---|
@@ -35,15 +37,17 @@ where `L` is the free span in meters, `F` is the desired tension in Newtons, and
 | Target tension | 6 lbf (26.69 N) |
 | **Target frequency** | **73.2 Hz** |
 
-#### Z Axis Belts
+**Z Axis Belts**
 
 | Parameter | Value |
 |---|---|
 | Belt | Gates PowerGrip 2GT · 2mm Pitch · 9mm Width |
-| Free span | ~535 mm |
+| Free span | 532 mm |
 | Linear density (μ) | 0.01245 kg/m |
 | Target tension | 9 lbf (40.03 N) |
-| **Target frequency** | **~83.7 Hz** |
+| **Target frequency** | **84.1 Hz** |
+
+---
 
 ### Measurement Procedure
 
@@ -57,8 +61,9 @@ where `L` is the free span in meters, `F` is the desired tension in Newtons, and
 
 ---
 
-{: .note}
->- Gates recommends **6–8 lbf** for 6mm GT belts in a registration drive; the 9mm Z target of 9 lbf scales proportionally with width
->- Ensure **nothing contacts the belt** along the free span during measurement
->- If the reading is noisy, pluck more firmly or reduce nearby vibrations
->- These figures assume **genuine Gates 2GT belt** — third-party belts vary in density and will give inaccurate results with this formula
+### Notes
+
+- Gates recommends **6–8 lbf** for 6mm GT belts in a registration drive; the 9mm Z target of 9 lbf scales proportionally with width
+- Ensure **nothing contacts the belt** along the free span during measurement
+- If the reading is noisy, pluck more firmly or reduce nearby vibrations
+- These figures assume **genuine Gates 2GT belt** — third-party belts vary in density and will give inaccurate results with this formula
