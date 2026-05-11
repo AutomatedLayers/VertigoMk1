@@ -2,7 +2,7 @@
 title: Front Z Joints
 layout: assembly
 parent: Z Joints
-nav_order: 1
+nav_order: 2
 ---
 
 # Front Z Joints
@@ -10,10 +10,7 @@ nav_order: 1
 
 ## Materials
 
-{: .note}
-The materials listed below are for each side.
-
-| Hardware                                  | Qty |   
+| Hardware (for each side)                  | Qty |   
 |:------------------------------------------|:-- -| 
 | Extrusion 2020-320                        | 1   |
 | M3x10 Coupling Nut                        | 2   |
@@ -29,12 +26,17 @@ The materials listed below are for each side.
 | M5 Roll-In Nut                            | 1   |
 | (**Side B Only** M3x10 SHCS)              | (1) | 
 
+| Printed Parts                    | Qty |
+|:---------------------------------|:-- -|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Bottom_9mm%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Bottom</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Top_9mm%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Top</a> | 2   |
+
 ## Animated Assembly
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/2lDIZEWfpks?si=Or_HjbJ9XdGpA31k"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Steps
-### 1. Assemble Front Z Joint B
+### 1. Assemble Front Z Joint
  - Press in 2 **M3x5.7 Brass Inserts** to the Front Joint B - Carriage Block printed part
  - Slide the **M3x10 Coupling Nut** into the rear slot in the Front Joint B - Carriage Block printed part
  - Push in 2 **M3x25 SHCS** as shown
@@ -54,10 +56,6 @@ The materials listed below are for each side.
  - Repeat Step 1 for Front Z Joint A
  - Slide the Z Joints onto either end of the **Extrusion 2020-320** such that the roll-in nuts enter the extrusion slot
  - Leave about 1mm on each side and snug the **M5x40 BHCS** but still do not tighten yet
-
-{: .important}
-At this point it's easiest if you continue to the next section: [Bed Lever](2_bed_lever.html), before returning here to attach the Front Z Joint Bar.
-
  - Attach the Front Z Joint Bar to the Z Axis Linear Carriages by first tightening the captive fasteners, then the outer fasteners
  - Make sure the gaps are about even on both ends of the extrusion and that the Front Z Joint Bar slides freely up and down the Z Axis
  - Finally you get to tighten the **M5x40 BHCS** 
