@@ -25,6 +25,10 @@ The materials listed below are for one idler assembly.
 
 ## Animated Assembly
 
+{: .important}
+>WIP notes: 
+>- the two horizontal roll-in nuts at 0:17 are both in the reverse (wrong) orientation. Scroll down to the interactive view to see the proper orientation.
+
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/IQlYZvjr5Do?si=utxPyymZLXZLKddL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Steps
