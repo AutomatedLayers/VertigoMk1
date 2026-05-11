@@ -27,12 +27,16 @@ nav_order: 2
 |:---------------------------------|:-- -|
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Rear%20Feet/Foot%20Rear%20A%20Base.stl" target="_blank">Foot Rear A Base</a> | 1   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Rear%20Feet/Foot%20Rear%20A%20Frame.stl" target="_blank">Foot Rear A Frame</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Rear%20Feet/Foot%20Rear%20A%20Logo%20Nugget%20-%20Accent%20-%20Multi.stl" target="_blank">Foot Rear A Logo Nugget</a> | 1   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Rear%20Feet/Foot%20Rear%20B%20Base.stl" target="_blank">Foot Rear B Base</a> | 1   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Rear%20Feet/Foot%20Rear%20B%20Frame.stl" target="_blank">Foot Rear B Frame</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Rear%20Feet/Foot%20Rear%20B%20Logo%20Nugget%20-%20Accent%20-%20Multi.stl" target="_blank">Foot Rear B Logo Nugget</a> | 1   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Rear%20Feet/Foot%20Rear%20Replaceable%20Thread%20Plug%20-%20Q2.stl" target="_blank">Foot Rear Replaceable Thread Plug</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Replaceable%20Thread%20Plug%20Retainer%20-%20Q4.stl" target="_blank">Foot Replaceable Thread Plug Retainer</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Height%20Knob%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Height Knob</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Height%20Knob%20Cap%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Height Knob Cap</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Z Tensioner</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20Knob%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Z Tensioner Knob</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Rear%20Foot%20Roll-In%20Nut%20Alignment%20Tool.STL" target="_blank">Rear Foot Roll-In Nut Alignment Tool</a> | 1   |
 
 
@@ -46,26 +50,30 @@ nav_order: 2
  - Use the **Rear Foot Roll-In Nut Alignment Tool** to align the **M5 Roll-In Nuts**
  - Drop the **M5 Hex Nut** into its hole and slide it into the slot in the **Foot Rear Frame** printed part
  - Attach the Foot Rear Frame printed part to the frame with an **M5x35 BHCS**
- - Attach the Logo Nugget to the Rear Foot Base printed parts with an **M3x20 SHCS**
- - Use two **M5x60 BHCS** to attach the Rear Foot Base to the Frame
+ - Attach the **Logo Nugget** to the Foot Rear Base with an **M3x20 SHCS**
+ - Use two **M5x60 BHCS** to attach the Foot Rear Base to the frame
 
 ### 2. Attach the Swivel Foot
- - Slide the Height Adjustment Knob onto the Swivel foot, and make sure it fits over the hex nut
- - Screw the Height Adjustment Knob Cap onto the M8 thread to retain the Height Adjustment Knob
- - Place the **M8 Hex Nut** into the Replaceable Thread Plug
- - Slide the Thread Plug Retainer onto the swivel foot
+ - Slide the **Foot Height Knob** onto the Swivel foot, and make sure it fits over the hex nut
+ - Screw the **Foot Height Knob Cap** onto the M8 thread to retain the Height Knob
+ - Place the **M8 Hex Nut** into the **Replaceable Thread Plug**
+ - Slide the **Thread Plug Retainer** onto the swivel foot
  - Screw the Replaceable Thread Plug onto the swivel foot
- - Align the notch on the Replaceable Thread Plug with the hole on the face of the Rear Foot Base
- - Slide the Swivel Foot Assembly into the hole in the Rear Foot Base
- - Screw the **M3x45 SHCS** into the Rear Foot Base to lock the Swivel Foot assembly in place
+ - Align the notch on the Replaceable Thread Plug with the hole on the face of the Foot Rear Base
+ - Slide the Swivel Foot Assembly into the hole in the Foot Rear Base
+ - Screw the **M3x45 SHCS** into the Foot Rear Base to lock the Swivel Foot assembly in place
 
 ### 3. Assemble the Tensioner
- - Place an **M5 Hex Nut** in the Z Tensioner knob and slide the knob under the tensioner housing
- - Place an **M5 Hex Nut** under the Tensioner and screw an **M5x30 BHCS** through the Tensioner and Nut
- - Screw an **M5x30 BHCS** through the Tensioner and **GT2 Idler Pulley - 9mmm**
- - Rotate the Tensioner Knob to screw the Tensioner down, leaving about 10mm of space below the Tensioner
- - Screw the **M5x60 BHCS** through the Rear Foot Base, Tensioner Knob, and Foot Frame into the frame
-  
+
+{: .note}
+An update was made to the [Foot Z Tensioner](https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl) to place a line that should line up with the lip of the inside edge of the tensioner pocket when the tensioner is at the right starting point.
+
+ - Place an **M5 Hex Nut** in the **Z Tensioner Knob** and slide the knob under the Foot Rear Frame
+ - Place an **M5 Hex Nut** under the **Z Tensioner** and screw an **M5x30 BHCS** through the Z Tensioner and Nut
+ - Screw an **M5x30 BHCS** through the Z Tensioner and **GT2 Idler Pulley - 9mmm**
+ - Rotate the Z Tensioner Knob to screw the Z Tensioner down, aligning the bottom edge of the notch line in the tensioner with the lip of its pocket in the Foot Rear Frame
+ - Screw the **M5x60 BHCS** through the Foot Rear Base, Z Tensioner Knob, and Foot Frame into the frame
+
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/rear_foot.glb"

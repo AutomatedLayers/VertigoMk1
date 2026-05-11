@@ -55,22 +55,26 @@ nav_order: 1
  - Use two **M3x35 SHCS** to secure the Foot Front Base to the frame
 
 ### 2. Attach the Swivel Foot
- - Slide the **Height Knob** onto the Swivel foot, and make sure it fits over the hex nut
- - Screw the **Height Knob Cap** onto the M8 thread to retain the Height Adjustment Knob
+ - Slide the **Foot Height Knob** onto the Swivel foot, and make sure it fits over the hex nut
+ - Screw the **Foot Height Knob Cap** onto the M8 thread to retain the Height Knob
  - Place the **M8 Hex Nut** into the **Replaceable Thread Plug**
  - Slide the **Thread Plug Retainer** onto the swivel foot
  - Screw the Replaceable Thread Plug onto the swivel foot
- - Align the notch on the Thread Plug Retainer with the hole on the front of the Front Foot Base
- - Slide the Swivel Foot Assembly into the hole in the Front Foot Base
- - Screw the **M3x45 SHCS** into the Front Foot Base to lock the Swivel Foot assembly in place
+ - Align the notch on the Thread Plug Retainer with the hole on the front of the Foot Front Base
+ - Slide the Swivel Foot Assembly into the hole in the Foot Front Base
+ - Screw the **M3x45 SHCS** into the Foot Front Base to lock the Swivel Foot assembly in place
 
 ### 3. Assemble the Tensioner
- - Place an **M5 Hex Nut** in the Z Tensioner knob and slide the knob under the tensioner housing
- - Place an **M5 Hex Nut** under the Tensioner and screw an **M5x30 BHCS** through the Tensioner and Nut
- - Screw an **M5x30 BHCS** through the Tensioner and **GT2 Idler Pulley - 9mmm**
- - Rotate the Tensioner Knob to screw the Tensioner down, aligning the bottom edge of the notch line in the tensioner with the lip of its pocket in the Foot Front Frame
- - Screw the **M5x60 BHCS** through the Front Foot Base, Tensioner Knob, and Foot Frame into the frame
-  
+
+{: .note}
+An update was made to the [Foot Z Tensioner](https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl) to place a line that should line up with the lip of the inside edge of the tensioner pocket when the tensioner is at the right starting point.
+
+ - Place an **M5 Hex Nut** in the **Z Tensioner Knob** and slide the knob under the Foot Front Frame
+ - Place an **M5 Hex Nut** under the **Z Tensioner** and screw an **M5x30 BHCS** through the Z Tensioner and Nut
+ - Screw an **M5x30 BHCS** through the Z Tensioner and **GT2 Idler Pulley - 9mmm**
+ - Rotate the Z Tensioner Knob to screw the Z Tensioner down, aligning the bottom edge of the notch line in the tensioner with the lip of its pocket in the Foot Front Frame
+ - Screw the **M5x60 BHCS** through the Foot Rear Base, Z Tensioner Knob, and Foot Frame into the frame
+
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/front_foot.glb"
