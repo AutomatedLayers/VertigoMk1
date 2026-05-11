@@ -10,10 +10,7 @@ nav_order: 1
 
 ## Materials
 
-{: .note}
-The materials listed below are for one foot.
-
-| Hardware                                  | Qty |   
+| Hardware (for one foot)                   | Qty |   
 |:------------------------------------------|:-- -|
 | Gates GT2 20T Idler Pulley - 9mm Belt     | 1   |
 | M5x60 BHSC                                | 3   |
@@ -28,6 +25,18 @@ The materials listed below are for one foot.
 | M3 Hex Nut                                | 2   |
 | Piece of Filament                         | 100mm|
 
+| Printed Parts                    | Qty |
+|:---------------------------------|:-- -|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Front%20Feet/Foot%20Front%20A%20Base.stl" target="_blank">Foot Front A Base</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Front%20Feet/Foot%20Front%20A%20Frame.stl" target="_blank">Foot Front A Frame</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Front%20Feet/Foot%20Front%20B%20Base.stl" target="_blank">Foot Front B Base</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Front%20Feet/Foot%20Front%20B%20Frame.stl" target="_blank">Foot Front B Frame</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/Front%20Feet/Foot%20Front%20Replaceable%20Thread%20Plug%20-%20Q2.stl" target="_blank">Foot Front Replaceable Thread Plug</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Replaceable%20Thread%20Plug%20Retainer%20-%20Q4.stl" target="_blank">Foot Replaceable Thread Plug Retainer</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Height%20Knob%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Height Knob</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Height%20Knob%20Cap%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Height Knob Cap</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Front%20Foot%20Roll-In%20Nut%20Alignment%20Tool.STL" target="_blank">Front Foot Roll-In Nut Alignment Tool</a> | 1   |
+
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/PrzQQnJo9ZQ?si=1SODMci8KEcbeRrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -35,21 +44,21 @@ The materials listed below are for one foot.
 ### 1. Attach the Foot Housing to the Frame
  - Flip the printer frame upside down
  - Place the 3 **M5 Roll-In Nuts** into the extrusion slots
- - Use the Front Feet Alignment Tool to align the **M5 Roll-In Nuts**
- - Drop the 2 **M3 Hex Nuts** into their slots in the Front Foot Frame printed part
+ - Use the **Front Foot Roll-In Nut Alignment Tool** to align the **M5 Roll-In Nuts**
+ - Drop the 2 **M3 Hex Nuts** into their slots in the **Front Foot Frame**
  - Use pieces of filament to keep the **M3 Hex Nuts** in place
  - Slide the 2 **M5 Hex Nuts** into their slots
- - Attach the Front Foot Frame printed part to the frame with 2 **M5x35 BHCS**
- - Use two **M5x60 BHCS** to attach the Front Foot Base to the Frame
- - Use two **M3x35 SHCS** to fasten the Front Foot Base to the frame
+ - Attach the Foot Front Frame to the frame with 2 **M5x35 BHCS**
+ - Use two **M5x60 BHCS** to attach the **Foot Front Base** to the frame
+ - Use two **M3x35 SHCS** to secure the Foot Front Base to the frame
 
 ### 2. Attach the Swivel Foot
- - Slide the Height Adjustment Knob onto the Swivel foot, and make sure it fits over the hex nut
- - Screw the Height Adjustment Knob Cap onto the M8 thread to retain the Height Adjustment Knob
- - Place the **M8 Hex Nut** into the Replaceable Thread Plug
- - Slide the Thread Plug Retainer onto the swivel foot
+ - Slide the **Height Knob** onto the Swivel foot, and make sure it fits over the hex nut
+ - Screw the **Height Knob Cap** onto the M8 thread to retain the Height Adjustment Knob
+ - Place the **M8 Hex Nut** into the **Replaceable Thread Plug**
+ - Slide the **Thread Plug Retainer** onto the swivel foot
  - Screw the Replaceable Thread Plug onto the swivel foot
- - Align the notch on the Replaceable Thread Plug with the hole on the front of the Front Foot Base
+ - Align the notch on the Thread Plug Retainer with the hole on the front of the Front Foot Base
  - Slide the Swivel Foot Assembly into the hole in the Front Foot Base
  - Screw the **M3x45 SHCS** into the Front Foot Base to lock the Swivel Foot assembly in place
 
@@ -57,7 +66,7 @@ The materials listed below are for one foot.
  - Place an **M5 Hex Nut** in the Z Tensioner knob and slide the knob under the tensioner housing
  - Place an **M5 Hex Nut** under the Tensioner and screw an **M5x30 BHCS** through the Tensioner and Nut
  - Screw an **M5x30 BHCS** through the Tensioner and **GT2 Idler Pulley - 9mmm**
- - Rotate the Tensioner Knob to screw the Tensioner down, leaving about 10mm of space below the Tensioner
+ - Rotate the Tensioner Knob to screw the Tensioner down, aligning the bottom edge of the notch line in the tensioner with the lip of its pocket in the Foot Front Frame
  - Screw the **M5x60 BHCS** through the Front Foot Base, Tensioner Knob, and Foot Frame into the frame
   
 ## Interactive View
