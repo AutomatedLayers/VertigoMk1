@@ -26,18 +26,18 @@ nav_order: 3
 |:---------------------------------|:-- -|
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Bottom_9mm%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Bottom</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Top_9mm%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Top</a> | 2   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A_Carriage%20Block.stl" target="_blank">Rear Joint A Carriage Block</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A_Cup%20Block%20-%20Accent.stl" target="_blank">Rear Joint A Cup Block</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A_Dowel%20Cap.stl" target="_blank">Rear Joint A Dowel Cap</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A_Kinematic%20Slot%20Seatbelt%20L.stl" target="_blank">Rear Joint A Kinematic Slot Seatbelt L</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A_Kinematic%20Slot%20Seatbelt%20R.stl" target="_blank">Rear Joint A Kinematic Slot Seatbelt R</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B_Carriage%20Block.stl" target="_blank">Rear Joint B Carriage Block</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B_Cup%20Block%20-%20Accent.stl" target="_blank">Rear Joint B Cup Block</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B_Dowel%20Cap.stl" target="_blank">Rear Joint B Dowel Cap</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B_Kinematic%20Slot%20Seatbelt%20L.stl" target="_blank">Rear Joint B Kinematic Slot Seatbelt L</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B_Kinematic%20Slot%20Seatbelt%20R.stl" target="_blank">Rear Joint B Kinematic Slot Seatbelt R</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B_Seatbelt%20Lock%20A.stl" target="_blank">Rear Joint B Seatbelt Lock A</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B_Seatbelt%20Lock%20B.stl" target="_blank">Rear Joint B Seatbelt Lock B</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A%20-%20Carriage%20Block.stl" target="_blank">Rear Joint A - Carriage Block</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A%20-%20Cup%20Block%20-%20Accent.stl" target="_blank">Rear Joint A - Cup Block</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A%20-%20Dowel%20Cap.stl" target="_blank">Rear Joint A - Dowel Cap</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A%20-%20Kinematic%20Slot%20Seatbelt%20L.stl" target="_blank">Rear Joint A - Kinematic Slot Seatbelt L</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20A%20-%20Kinematic%20Slot%20Seatbelt%20R.stl" target="_blank">Rear Joint A - Kinematic Slot Seatbelt R</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B%20-%20Carriage%20Block.stl" target="_blank">Rear Joint B - Carriage Block</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B%20-%20Cup%20Block%20-%20Accent.stl" target="_blank">Rear Joint B - Cup Block</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B%20-%20Dowel%20Cap.stl" target="_blank">Rear Joint B - Dowel Cap</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B%20-%20Kinematic%20Slot%20Seatbelt%20L.stl" target="_blank">Rear Joint B - Kinematic Slot Seatbelt L</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B%20-%20Kinematic%20Slot%20Seatbelt%20R.stl" target="_blank">Rear Joint B - Kinematic Slot Seatbelt R</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B%20-%20Seatbelt%20Lock%20A.stl" target="_blank">Rear Joint B - Seatbelt Lock A</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Rear%20Z%20Joints/Rear%20Joint%20B%20-%20Seatbelt%20Lock%20B.stl" target="_blank">Rear Joint B - Seatbelt Lock B</a> | 1   |
 
 ## Animated Assembly
 

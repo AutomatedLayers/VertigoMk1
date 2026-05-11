@@ -28,17 +28,17 @@ nav_order: 2
 
 | Printed Parts                    | Qty |
 |:---------------------------------|:-- -|
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Bottom_9mm%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Bottom</a> | 2   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Top_9mm%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Top</a> | 2   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint_Spherical%20Bearing%20Block%20-%20Accent%20-%20Q2.stl" target="_blank">Spherical Bearing Block</a> | 2   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A_Carriage%20Block%20-%20Multi.stl" target="_blank">Front Joint A Carriage Block</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A_Endstop%20Adjustment.stl" target="_blank">Front Joint A Endstop Adjustment</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A_Middle%20Support.stl" target="_blank">Front Joint A Middle Support</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A_Rear%20Cover.stl" target="_blank">Front Joint A Rear Cover</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B_Carriage%20Block%20-%20Multi.stl" target="_blank">Front Joint B Carriage Block</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B_Endstop%20Adjustment.stl" target="_blank">Front Joint B Endstop Adjustment</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B_Middle%20Support.stl" target="_blank">Front Joint B Middle Support</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B_Rear%20Cover.stl" target="_blank">Front Joint B Rear Cover</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Bottom%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Bottom</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Top%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Top</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20-%20Spherical%20Bearing%20Block%20-%20Accent%20-%20Q2.stl" target="_blank">Spherical Bearing Block</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A%20-%20Carriage%20Block%20-%20Multi.stl" target="_blank">Front Joint A - Carriage Block</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A%20-%20Endstop%20Adjustment.stl" target="_blank">Front Joint A - Endstop Adjustment</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A%20-%20Middle%20Support.stl" target="_blank">Front Joint A - Middle Support</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A%20-%20Rear%20Cover.stl" target="_blank">Front Joint A - Rear Cover</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B%20-%20Carriage%20Block%20-%20Multi.stl" target="_blank">Front Joint B - Carriage Block</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B%20-%20Endstop%20Adjustment.stl" target="_blank">Front Joint B - Endstop Adjustment</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B%20-%20Middle%20Support.stl" target="_blank">Front Joint B - Middle Support</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B%20-%20Rear%20Cover.stl" target="_blank">Front Joint B - Rear Cover</a> | 1   |
 
 ## Animated Assembly
 
