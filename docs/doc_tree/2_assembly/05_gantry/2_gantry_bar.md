@@ -13,7 +13,7 @@ nav_order: 2
 {: .note}
 The materials listed below in the XY Joint section are for one XY Joint assembly.
 
-| Hardware - XY Joint                                | Qty |   
+| Hardware - XY Joint (for each side)                | Qty |   
 |:---------------------------------------------------|:----| 
 | Bearing - F695                                     | 2   |
 | Gates GT2 Toothed Idler Pulley - 9mm Belt          | 1   |
@@ -49,41 +49,47 @@ The materials listed below in the XY Joint section are for one XY Joint assembly
 | M2x8 FHCS                                          | 2   |
 | M2 Hex Nut                                         | 2   |
 
+| Printed Parts                    | Qty |
+|:---------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Bottom.stl" target="_blank">XY Joint A Bottom</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Bottom.stl" target="_blank">XY Joint A Bottom</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Bottom.stl" target="_blank">XY Joint A Bottom</a> | 1  |
+
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/Urxhuw5l0kQ?si=Ue-81n7K9cGXYVDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Steps
 
 ### 1. Assemble XY Joint B
- - Insert an **M3x5.7 Brass Insert** and 2 **M4 Hex Nuts** into the XY Joint B - Bottom
- - With the XY Joint B - Top, flipped upside down, insert one **Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread** through the XY Joint B - Top, an **M5x7x1 Washer**, a **GT2 20T Toothed Idler**, and another **M5x7x1 Washer** 
- - Insert another **Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread** through the XY Joint B - Top, an **M5x10x1 Washer**, an idler made from 2 **Bearings - F695**, and another **M5x10x1 Washer**
- - Slide the XY Joint B - Bottom over the shoulder bolts and fasten the bolts to the M4 Hex Nuts
- - Secure the top and bottom of the XY Joint B assembly with an **M3x30 SHCS**
- - Insert an **M3x5.7 Brass Insert** into the XY Joint B - Carriage
- - Join the XY Joint B - Carriage to the XY Joint B - Bottom along the box joints and fasten with an **M3x35 SHCS**
- - Slide the **Extrusion 2010-370-Z5-ZA25-XB345** into the XY Joint B assembly
- - Place an **M5 Roll-In Nut** into the extrusion slot and use an allen wrench to align it with the hole nearest the end of the extrusion in the XY Joint B - Top
- - Fasten the XY Joint B assembly to the extrusion with an **M5x20 BHCS** into the aligned roll-in nut
- - Place an **M5 Hex Nut** in the XY Joint B - Carriage; place the X Endstop Block into the XY Joint B with the flat side facing the extrusion, and secure the XY Joint B assembly to the extrusion with an **M5x35 BHCS**
+ - Insert an M3x5.7 Brass Insert and 2 M4 Hex Nuts into the XY Joint B Bottom
+ - With the XY Joint B Top, flipped upside down, insert one Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread through the XY Joint B Top, an M5x7x1 Washer, a GT2 20T Toothed Idler, and another M5x7x1 Washer 
+ - Insert another Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread through the XY Joint B Top, an M5x10x1 Washer, an idler made from 2 Bearings - F695, and another M5x10x1 Washer
+ - Slide the XY Joint B Bottom over the shoulder bolts and fasten the bolts to the M4 Hex Nuts
+ - Secure the top and bottom of the XY Joint B assembly with an M3x30 SHCS
+ - Insert an M3x5.7 Brass Insert into the XY Joint B Carriage
+ - Join the XY Joint B Carriage to the XY Joint B Bottom along the box joints and fasten with an M3x35 SHCS
+ - Slide the Extrusion 2010-370-Z5-ZA25-XB345 into the XY Joint B assembly
+ - Place an M5 Roll-In Nut into the extrusion slot and use an allen wrench to align it with the hole nearest the end of the extrusion in the XY Joint B Top
+ - Fasten the XY Joint B assembly to the extrusion with an M5x20 BHCS into the aligned roll-in nut
+ - Place an M5 Hex Nut in the XY Joint B Carriage; place the X Endstop Block into the XY Joint B with the flat side facing the extrusion, and secure the XY Joint B assembly to the extrusion with an M5x35 BHCS
  
 ### 2. Assemble XY Joint A
 
 {: .note}
-The assembly process is the same on this side but note from the video and the interactive model below that the locations of the toothed and smooth idlers are different. There is also no X Endstop block on this side, so an **M5x30 BHCS** is used instead where the **M5x35 BHCS** is on side B.
+The assembly process is the same on this side but note from the video and the interactive model below that the locations of the toothed and smooth idlers are different. There is also no X Endstop block on this side, so an M5x30 BHCS is used instead where the M5x35 BHCS is on side B.
 
 ### 3. Assemble and Install the Toolhead Carriage Block
- - Use 7 **M3x8 SHCS** and **M3 Roll-In Nuts** to install the **MGN9H-300 Linear Guide**, using the rail alignment tools
- - Screw in 2 **M2x16 SHCS** to the Toolhead Carriage Block. These are only to increase rigidity
- - Insert 3 **M3 Cap Nuts** into the top of the Toolhead Carriage Block
- - Fasten the cap nuts to the assembly with an **M3x8 SHCS** in the rear and 2 **M3x30 SHCS** in the front
- - Attach 2 **Magnet-1/4in Countersunk** to the Toolhead Carriage Block with 2 **M2x8 FHCS** and 2 **M2 Hex Nuts**
- - Loosely attach 2 **Makerbeam XL T-Nuts** to the Toolhead Carriage Block with 2 **M3x16 SHCS**
- - Install the Toolhead Carriage Block assembly to the X-axis linear guide with 4 **M3x8 FHCS**, screwing each of them through a **Magnet-1/2in Countersunk**. This is easiest if each magnet is screwed down **ONE AT A TIME**, otherwise they may attract, come loose from their pockets, and break
+ - Use 7 M3x8 SHCS and M3 Roll-In Nuts to install the MGN9H-300 Linear Guide, using the rail alignment tools
+ - Screw in 2 M2x16 SHCS to the Toolhead Carriage Block. These are only to increase rigidity
+ - Insert 3 M3 Cap Nuts into the top of the Toolhead Carriage Block
+ - Fasten the cap nuts to the assembly with an M3x8 SHCS in the rear and 2 M3x30 SHCS in the front
+ - Attach 2 Magnet-1/4in Countersunk to the Toolhead Carriage Block with 2 M2x8 FHCS and 2 M2 Hex Nuts
+ - Loosely attach 2 Makerbeam XL T-Nuts to the Toolhead Carriage Block with 2 M3x16 SHCS
+ - Install the Toolhead Carriage Block assembly to the X-axis linear guide with 4 M3x8 FHCS, screwing each of them through a Magnet-1/2in Countersunk. This is easiest if each magnet is screwed down **ONE AT A TIME**, otherwise they may attract, come loose from their pockets, and break
 
 ### 4. Attach the Gantry Bar (X-axis) to the Y-Axis Carriages
  - Make sure the M5 Button Heads attaching the XY Joints to the X-axis extrusion are slightly loose, but still in the nuts. A half turn CCW should do.
- - Use 4 **M3x12 FHCS** to attach each XY Joint to the y-axis guide carriages
+ - Use 4 M3x12 FHCS to attach each XY Joint to the y-axis guide carriages
  - Re-tighten the M5 Button heads
 
 {: .important}
