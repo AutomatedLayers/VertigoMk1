@@ -16,6 +16,11 @@ nav_order: 3
 | M3 Roll-In Nut                            | 46  |
 | M5x8 SHCS                                 | 46  |
 
+| Printed Parts                    | Qty |
+|:---------------------------------|:-- -|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/MGN9%20Alignment%20Tool%20-%20Q2.STL" target="_blank">MGN9 Alignment Tool</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Y-Rail%20Offset%20Tool.STL" target="_blank">Y-Rail Offset Tool</a> | 1   |
+
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/HBT5t67eAC0?si=BQ25VYdtCPpU8XxT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
