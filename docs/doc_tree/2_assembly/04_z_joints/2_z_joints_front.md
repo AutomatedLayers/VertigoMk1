@@ -24,12 +24,20 @@ nav_order: 2
 | M3x5.7 Brass Insert                       | 2   | 
 | M3x4.3 Brass Insert                       | 2   | 
 | M5 Roll-In Nut                            | 1   |
-| (**Side B Only** M3x10 SHCS)              | (1) | 
+| (***Side B Only** M3x10 SHCS)              | (1) | 
 
 | Printed Parts                    | Qty |
 |:---------------------------------|:-- -|
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Bottom_9mm%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Bottom</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Belt%20Clamps/Belt%20Clamp%20Top_9mm%20-%20Accent%20-%20Q4.stl" target="_blank">Belt Clamp Top</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A_Carriage%20Block%20-%20Multi.stl" target="_blank">Front Joint A Carriage Block</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A_Endstop%20Adjustment.stl" target="_blank">Front Joint A Endstop Adjustment</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A_Middle%20Support.stl" target="_blank">Front Joint A Middle Support</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20A_Rear%20Cover.stl" target="_blank">Front Joint A Rear Cover</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B_Carriage%20Block%20-%20Multi.stl" target="_blank">Front Joint B Carriage Block</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B_Endstop%20Adjustment.stl" target="_blank">Front Joint B Endstop Adjustment</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B_Middle%20Support.stl" target="_blank">Front Joint B Middle Support</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/03%20Z%20Joints/Front%20Z%20Joints/Front%20Joint%20B_Rear%20Cover.stl" target="_blank">Front Joint B Rear Cover</a> | 1   |
 
 ## Animated Assembly
 
@@ -37,28 +45,28 @@ nav_order: 2
 
 ## Steps
 ### 1. Assemble Front Z Joint
- - Press in 2 **M3x5.7 Brass Inserts** to the Front Joint B - Carriage Block printed part
- - Slide the **M3x10 Coupling Nut** into the rear slot in the Front Joint B - Carriage Block printed part
- - Push in 2 **M3x25 SHCS** as shown
- - Use 2 **M3x25 SHCS** to attach the Front Joint B - Rear Cover printed part
- - Press in 2 **M3x4.3 Brass Inserts** to the Front Joint B - Endstop Adjustment printed part
- - Thread a **M5x20 BHCS** into the Front Joint B - Endstop Adjustment printed part. The proper location of this screw will be adjusted later
- - **[ Side B Only** Thread a **M3x10 SHCS** into the Front Joint B - Endstop Adjustment printed part. The proper location of this screw will be adjusted later **]**
- - Slide the Front Joint B - Middle Support into place and fasten it with 2 **M3x40 SHCS**
- - Slide the **M3x10 Coupling Nut** into the front slot in the Front Joint B - Carriage Block printed part
- - Push in 2 **M3x35 SHCS** as shown
- - Use 2 **M3x16 SHCS** to attach a belt clamp to the top and bottom of the Front Joint B - Carriage Block printed part
- - Press the **Spherical Bearing - GE5C** into the Front Joint - Spherical Bearing Block printed part
+ - Press in 2 M3x5.7 Brass Inserts to the Front Joint B - Carriage Block printed part
+ - Slide the M3x10 Coupling Nut into the rear slot in the Front Joint B - Carriage Block printed part
+ - Push in 2 M3x25 SHCS as shown
+ - Use 2 M3x25 SHCS to attach the Front Joint B - Rear Cover printed part
+ - Press in 2 M3x4.3 Brass Inserts to the Front Joint B - Endstop Adjustment printed part
+ - Thread a M5x20 BHCS into the Front Joint B - Endstop Adjustment printed part. The proper location of this screw will be adjusted later
+ - **[*Side B Only** Thread a M3x10 SHCS into the Front Joint B - Endstop Adjustment printed part. The proper location of this screw will be adjusted later**]**
+ - Slide the Front Joint B - Middle Support into place and fasten it with 2 M3x40 SHCS
+ - Slide the M3x10 Coupling Nut into the front slot in the Front Joint B - Carriage Block printed part
+ - Push in 2 M3x35 SHCS as shown
+ - Use 2 M3x16 SHCS to attach a belt clamp to the top and bottom of the Front Joint B - Carriage Block printed part
+ - Press the Spherical Bearing - GE5C into the Front Joint - Spherical Bearing Block printed part
  - Make sure the slot in the printed bearing block points toward the belt clamps
- - Push an **M5x40 BHCS** through the spherical bearing and Z Joint, and thread it into an **M5 Roll-In Nut** but do not tighten
+ - Push an M5x40 BHCS through the spherical bearing and Z Joint, and thread it into an M5 Roll-In Nut but do not tighten
 
 ### 2. Assemble Front Z Joint Bar
  - Repeat Step 1 for Front Z Joint A
- - Slide the Z Joints onto either end of the **Extrusion 2020-320** such that the roll-in nuts enter the extrusion slot
- - Leave about 1mm on each side and snug the **M5x40 BHCS** but still do not tighten yet
+ - Slide the Z Joints onto either end of the Extrusion 2020-320 such that the roll-in nuts enter the extrusion slot
+ - Leave about 1mm on each side and snug the M5x40 BHCS but still do not tighten yet
  - Attach the Front Z Joint Bar to the Z Axis Linear Carriages by first tightening the captive fasteners, then the outer fasteners
  - Make sure the gaps are about even on both ends of the extrusion and that the Front Z Joint Bar slides freely up and down the Z Axis
- - Finally you get to tighten the **M5x40 BHCS** 
+ - Finally you get to tighten the M5x40 BHCS 
 
 ## Interactive View
 <div class="online_3d_viewer"

@@ -34,8 +34,8 @@ The spring in some of the roll-in nuts may not fully engage with the extrusion, 
 
 ### 1. Attach the Front Z-Rails to the Frame
  - Keep two rubber stoppers in the ends of the linear rails to keep the carriages on for now
- - Place 7 **M3 Roll-in Nuts** into the front vertical extrusions, using the **MGN9H-300 Linear Guide** to align the nuts
- - Loosly fasten the **MGN9H-300 Linear Guide** to the extrusion using 7 **M3x8 SHCS**
+ - Place 7 M3 Roll-in Nuts into the front vertical extrusions, using the MGN9H-300 Linear Guide to align the nuts
+ - Loosly fasten the MGN9H-300 Linear Guide to the extrusion using 7 M3x8 SHCS
  - Push the rail against the bottom extrusion and remove the rubber stoppers
  - Move the carraige out of the way and press on the two printed Linear Rail Alignment tools near the ends of the rail
  - Tighten the fasteners while holding the alignment tools in place
