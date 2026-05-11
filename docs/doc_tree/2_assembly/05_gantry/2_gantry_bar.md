@@ -54,6 +54,7 @@ nav_order: 2
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20B%20-%20Bottom.stl" target="_blank">XY Joint B - Bottom</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20B%20-%20Carriage.stl" target="_blank">XY Joint B - Carriage</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20B%20-%20Top.stl" target="_blank">XY Joint B - Top</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20B%20-%20Endstop%20Block%20-%20Accent.stl" target="_blank">XY Joint B - Endstop Block</a> | 1  |
 
 ## Animated Assembly
 
@@ -76,12 +77,12 @@ nav_order: 2
  - Slide the Extrusion 2010-370-Z5-ZA25-XB345 into the XY Joint B assembly
  - Place an M5 Roll-In Nut into the extrusion slot and use an allen wrench to align it with the hole nearest the end of the extrusion in the XY Joint B - Top
  - Fasten the XY Joint B assembly to the extrusion with an M5x20 BHCS into the aligned roll-in nut
- - Place an M5 Hex Nut in the XY Joint B - Carriage; place the X Endstop Block into the XY Joint B with the flat side facing the extrusion, and secure the XY Joint B assembly to the extrusion with an M5x35 BHCS
+ - Place an M5 Hex Nut in the XY Joint B - Carriage; place the Endstop Block into the XY Joint B with the flat side facing the extrusion, and secure the XY Joint B assembly to the extrusion with an M5x35 BHCS
  
 ### 2. Assemble XY Joint A
 
 {: .note}
-The assembly process is the same on this side but note from the video and the interactive model below that the locations of the toothed and smooth idlers are different. There is also no X Endstop block on this side, so an M5x30 BHCS is used instead where the M5x35 BHCS is on side B.
+The assembly process is the same on this side but note from the video and the interactive model below that the locations of the toothed and smooth idlers are different. There is also no Endstop block on this side, so an M5x30 BHCS is used instead where the M5x35 BHCS is on side B.
 
 ### 3. Assemble and Install the Toolhead Carriage Block
  - Use 7 M3x8 SHCS and M3 Roll-In Nuts to install the MGN9H-300 Linear Guide, using the rail alignment tools
