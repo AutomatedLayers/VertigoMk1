@@ -35,6 +35,8 @@ nav_order: 1
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Replaceable%20Thread%20Plug%20Retainer%20-%20Q4.stl" target="_blank">Foot Replaceable Thread Plug Retainer</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Height%20Knob%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Height Knob</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Height%20Knob%20Cap%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Height Knob Cap</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Z Tensioner</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20Knob%20-%20Accent%20-%20Q4.stl" target="_blank">Foot Z Tensioner Knob</a> | 2   |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Front%20Foot%20Roll-In%20Nut%20Alignment%20Tool.STL" target="_blank">Front Foot Roll-In Nut Alignment Tool</a> | 1   |
 
 ## Animated Assembly
