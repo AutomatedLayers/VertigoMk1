@@ -10,13 +10,10 @@ nav_order: 2
 
 ## Materials
 
-{: .note}
-The materials listed below in the XY Joint section are for one XY Joint assembly.
-
 | Hardware - XY Joint (for each side)                | Qty |   
 |:---------------------------------------------------|:----| 
 | Bearing - F695                                     | 2   |
-| Gates GT2 Toothed Idler Pulley - 9mm Belt          | 1   |
+| Gates GT2 Toothed Idler Pulley - 6mm Belt          | 1   |
 | M5x10x1 Washer                                     | 2   |
 | M5x7x1 Washer                                      | 2   |
 | Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread | 2   | 
@@ -51,27 +48,35 @@ The materials listed below in the XY Joint section are for one XY Joint assembly
 
 | Printed Parts                    | Qty |
 |:---------------------------------|:----|
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Bottom.stl" target="_blank">XY Joint A Bottom</a> | 1  |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Bottom.stl" target="_blank">XY Joint A Bottom</a> | 1  |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Bottom.stl" target="_blank">XY Joint A Bottom</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Bottom.stl" target="_blank">XY Joint A - Bottom</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Carriage.stl" target="_blank">XY Joint A - Carriage</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Top.stl" target="_blank">XY Joint A - Top</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20B%20-%20Bottom.stl" target="_blank">XY Joint B - Bottom</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20B%20-%20Carriage.stl" target="_blank">XY Joint B - Carriage</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20B%20-%20Top.stl" target="_blank">XY Joint B - Top</a> | 1  |
 
 ## Animated Assembly
+
+{: .important}
+>WIP notes: 
+>- You may want to check that your M3 Roll-In Nuts actually roll in -- or can be leveraged in with a small hex key -- to the Extrusion 2010-370-Z5-ZA25-XB345. If not, go ahead and insert 7 of those nuts from the side of the extrusion before starting the video assembly.
+
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/Urxhuw5l0kQ?si=Ue-81n7K9cGXYVDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Steps
 
 ### 1. Assemble XY Joint B
- - Insert an M3x5.7 Brass Insert and 2 M4 Hex Nuts into the XY Joint B Bottom
- - With the XY Joint B Top, flipped upside down, insert one Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread through the XY Joint B Top, an M5x7x1 Washer, a GT2 20T Toothed Idler, and another M5x7x1 Washer 
- - Insert another Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread through the XY Joint B Top, an M5x10x1 Washer, an idler made from 2 Bearings - F695, and another M5x10x1 Washer
- - Slide the XY Joint B Bottom over the shoulder bolts and fasten the bolts to the M4 Hex Nuts
+ - Insert an M3x5.7 Brass Insert and 2 M4 Hex Nuts into the XY Joint B - Bottom
+ - With the XY Joint B - Top, flipped upside down, insert one Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread through the XY Joint B - Top, an M5x7x1 Washer, a GT2 20T Toothed Idler, and another M5x7x1 Washer 
+ - Insert another Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread through the XY Joint B - Top, an M5x10x1 Washer, an idler made from 2 Bearings - F695, and another M5x10x1 Washer
+ - Slide the XY Joint B - Bottom over the shoulder bolts and fasten the bolts to the M4 Hex Nuts
  - Secure the top and bottom of the XY Joint B assembly with an M3x30 SHCS
- - Insert an M3x5.7 Brass Insert into the XY Joint B Carriage
- - Join the XY Joint B Carriage to the XY Joint B Bottom along the box joints and fasten with an M3x35 SHCS
+ - Insert an M3x5.7 Brass Insert into the XY Joint B - Carriage
+ - Join the XY Joint B - Carriage to the XY Joint B - Bottom along the box joints and fasten with an M3x35 SHCS
  - Slide the Extrusion 2010-370-Z5-ZA25-XB345 into the XY Joint B assembly
- - Place an M5 Roll-In Nut into the extrusion slot and use an allen wrench to align it with the hole nearest the end of the extrusion in the XY Joint B Top
+ - Place an M5 Roll-In Nut into the extrusion slot and use an allen wrench to align it with the hole nearest the end of the extrusion in the XY Joint B - Top
  - Fasten the XY Joint B assembly to the extrusion with an M5x20 BHCS into the aligned roll-in nut
- - Place an M5 Hex Nut in the XY Joint B Carriage; place the X Endstop Block into the XY Joint B with the flat side facing the extrusion, and secure the XY Joint B assembly to the extrusion with an M5x35 BHCS
+ - Place an M5 Hex Nut in the XY Joint B - Carriage; place the X Endstop Block into the XY Joint B with the flat side facing the extrusion, and secure the XY Joint B assembly to the extrusion with an M5x35 BHCS
  
 ### 2. Assemble XY Joint A
 
