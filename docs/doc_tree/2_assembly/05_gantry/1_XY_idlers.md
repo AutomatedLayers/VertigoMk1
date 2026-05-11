@@ -11,10 +11,7 @@ nav_order: 1
 
 ## Materials
 
-{: .note}
-The materials listed below are for one idler assembly.
-
-| Hardware                                           | Qty |   
+| Hardware (for each side)                           | Qty |   
 |:---------------------------------------------------|:----| 
 | Bearing - F695                                     | 2   |
 | M5x10x1 Washer                                     | 2   |
@@ -22,6 +19,12 @@ The materials listed below are for one idler assembly.
 | M5x10 BHCS                                         | 1   | 
 | M5x40 BHCS                                         | 1   | 
 | M5 Roll-In Nut                                     | 3   |
+
+| Printed Parts                    | Qty |
+|:---------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Idlers/XY%20Idler%20Block%20A.stl" target="_blank">XY Idler Block A</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Idlers/XY%20Idler%20Block%20B.stl" target="_blank">XY Idler Block B</a> | 1   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Idler%20Bearing%20Tool.stl" target="_blank">Idler Bearing Tool</a> | 1   |
 
 ## Animated Assembly
 
@@ -34,10 +37,10 @@ The materials listed below are for one idler assembly.
 ## Steps
 
 ### 1. Assemble the XY Idler
- - Place 3 **M5 Roll-In Nut** in the frame as shown
- - Combine the 2 **M5x10x1 Washers** and 2 **F695 Bearings** to create a "smooth idler pulley"
- - Use the XY Idler Tool to push the idler pulley into position and push the **Shoulder Screw** through the XY Idler Block printed part and the idler pulley
- - Secure the assembly to the frame using the **M5x10 BHCS**, **M5x40 BHCS**, and **Shoulder Screw**. **Don't overtighten the shoulder screw**
+ - Place 3 M5 Roll-In Nut in the frame as shown
+ - Combine the 2 M5x10x1 Washers and 2 F695 Bearings to create a "smooth idler pulley"
+ - Use the XY Idler Tool to push the idler pulley into position and push the Shoulder Screw through the XY Idler Block and the idler pulley
+ - Secure the assembly to the frame using the M5x10 BHCS, M5x40 BHCS, and Shoulder Screw. **Don't overtighten the shoulder screw**
 
 ## Interactive View
 
