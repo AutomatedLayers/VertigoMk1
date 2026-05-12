@@ -8,7 +8,7 @@ nav_order: 1
 # Extruder Plate
 
 {: .important}
-Go to the [Wiring page]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#configuring-the-toolhead-board) to configure the toolhead board correctly before install.
+Go to the [Configuring the Toolhead Board]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#configuring-the-toolhead-board) section of the Wiring Guide to set up the toolhead board before install.
 
 ## Materials
 
