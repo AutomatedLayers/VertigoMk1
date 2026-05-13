@@ -37,10 +37,10 @@ nav_order: 1
 ## Steps
 
 ### 1. Assemble the XY Idler
- - Place 3 M5 Roll-In Nut in the frame as shown
- - Combine the 2 M5x10x1 Washers and 2 F695 Bearings to create a "smooth idler pulley"
- - Use the XY Idler Tool to push the idler pulley into position and push the Shoulder Screw through the XY Idler Block and the idler pulley
- - Secure the assembly to the frame using the M5x10 BHCS, M5x40 BHCS, and Shoulder Screw. **Don't overtighten the shoulder screw**
+ - Place 3 M5 Roll-In Nut in the frame as shown.
+ - Combine the 2 M5x10x1 Washers and 2 F695 Bearings to create a "smooth idler pulley".
+ - Use the XY Idler Tool to push the idler pulley into position and push the Shoulder Screw through the XY Idler Block and the idler pulley.
+ - Secure the assembly to the frame using the M5x10 BHCS, M5x40 BHCS, and Shoulder Screw. **Don't overtighten the shoulder screw**.
 
 ## Interactive View
 

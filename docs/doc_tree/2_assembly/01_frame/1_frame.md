@@ -46,15 +46,15 @@ There are two versions of the printed part "Frame Post Connector": one for LDO e
 This works best on a granite surface or the flattest surface you've got. The use of a machinist's square or dial guage is highly recommended to ensure squareness.
 
 ### 1. Assemble the right and left sides of the frame first
- - Screw the M5x16 button heads into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap
- - Slide the joining extrusions onto the button heads. Tighten through the through-hole
- - See the video to use extrusions as guides for ensuring squareness and alignment
- - Make sure the cutout in the printed Frame Post Connectors are facing out
+ - Screw the M5x16 button heads into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap.
+ - Slide the joining extrusions onto the button heads. Tighten through the through-hole.
+ - See the video to use extrusions as guides for ensuring squareness and alignment.
+ - Make sure the cutout in the printed Frame Post Connectors are facing out.
 
 ### 2. Attach the sides together
- - Attach the bottom and top front extrusions 
- - Attach the rear extrusion using the alignment tools
- - Attach the rear top extrusion
+ - Attach the bottom and top front extrusions .
+ - Attach the rear extrusion using the alignment tools.
+ - Attach the rear top extrusion.
 
 {: .important}
 You really want to make sure your frame is square at this point. Measure and make adjustments as needed. The diagnoals for the top and bottom square should measure 523.3mm (+/-1).

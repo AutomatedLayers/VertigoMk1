@@ -45,34 +45,34 @@ nav_order: 2
 
 ## Steps
 ### 1. Attach the Foot Housing to the Frame
- - Flip the printer frame upside down
- - Place the 3 M5 Roll-In Nuts into the extrusion slots
- - Use the Rear Foot Roll-In Nut Alignment Tool to align the M5 Roll-In Nuts
- - Drop the M5 Hex Nut into its hole and slide it into the slot in the Foot Rear Frame
- - Attach the Foot Rear Frame to the frame with an M5x35 BHCS
- - Attach the Logo Nugget to the Foot Rear Base with an M3x20 SHCS
- - Use two M5x60 BHCS to attach the Foot Rear Base to the frame
+ - Flip the printer frame upside down.
+ - Place the 3 M5 Roll-In Nuts into the extrusion slots.
+ - Use the Rear Foot Roll-In Nut Alignment Tool to align the M5 Roll-In Nuts.
+ - Drop the M5 Hex Nut into its hole and slide it into the slot in the Foot Rear Frame.
+ - Attach the Foot Rear Frame to the frame with an M5x35 BHCS.
+ - Attach the Logo Nugget to the Foot Rear Base with an M3x20 SHCS.
+ - Use two M5x60 BHCS to attach the Foot Rear Base to the frame.
 
 ### 2. Attach the Swivel Foot
- - Slide the Foot Height Knob onto the Swivel foot, and make sure it fits over the hex nut
- - Screw the Foot Height Knob Cap onto the M8 thread to retain the Height Knob
- - Place the M8 Hex Nut into the Replaceable Thread Plug
- - Slide the Thread Plug Retainer onto the swivel foot
- - Screw the Replaceable Thread Plug onto the swivel foot
- - Align the notch on the Replaceable Thread Plug with the hole on the face of the Foot Rear Base
- - Slide the Swivel Foot Assembly into the hole in the Foot Rear Base
- - Screw the M3x45 SHCS into the Foot Rear Base to lock the Swivel Foot assembly in place
+ - Slide the Foot Height Knob onto the Swivel foot, and make sure it fits over the hex nut.
+ - Screw the Foot Height Knob Cap onto the M8 thread to retain the Height Knob.
+ - Place the M8 Hex Nut into the Replaceable Thread Plug.
+ - Slide the Thread Plug Retainer onto the swivel foot.
+ - Screw the Replaceable Thread Plug onto the swivel foot.
+ - Align the notch on the Replaceable Thread Plug with the hole on the face of the Foot Rear Base.
+ - Slide the Swivel Foot Assembly into the hole in the Foot Rear Base.
+ - Screw the M3x45 SHCS into the Foot Rear Base to lock the Swivel Foot assembly in place.
 
 ### 3. Assemble the Tensioner
 
 {: .note}
 An update was made to the [Foot Z Tensioner](https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl) to place a line that should line up with the lip of the inside edge of the tensioner pocket when the tensioner is at the right starting point.
 
- - Place an M5 Hex Nut in the Z Tensioner Knob and slide the knob under the Foot Rear Frame
- - Place an M5 Hex Nut under the Z Tensioner and screw an M5x30 BHCS through the Z Tensioner and Nut
- - Screw an M5x30 BHCS through the Z Tensioner and GT2 Idler Pulley - 9mmm
- - Rotate the Z Tensioner Knob to screw the Z Tensioner down, aligning the bottom edge of the notch line in the tensioner with the lip of its pocket in the Foot Rear Frame
- - Screw the M5x60 BHCS through the Foot Rear Base, Z Tensioner Knob, and Foot Frame into the frame
+ - Place an M5 Hex Nut in the Z Tensioner Knob and slide the knob under the Foot Rear Frame.
+ - Place an M5 Hex Nut under the Z Tensioner and screw an M5x30 BHCS through the Z Tensioner and Nut.
+ - Screw an M5x30 BHCS through the Z Tensioner and GT2 Idler Pulley - 9mmm.
+ - Rotate the Z Tensioner Knob to screw the Z Tensioner down, aligning the bottom edge of the notch line in the tensioner with the lip of its pocket in the Foot Rear Frame.
+ - Screw the M5x60 BHCS through the Foot Rear Base, Z Tensioner Knob, and Foot Frame into the frame.
 
 ## Interactive View
 <div class="online_3d_viewer"
