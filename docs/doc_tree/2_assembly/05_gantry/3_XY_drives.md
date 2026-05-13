@@ -19,7 +19,7 @@ The materials listed below are for each side.
 | GT2 20T Timing Pulley - 6mm Belt                   | 1   |
 | Bearing - F695                                     | 6   |
 | M5x10x1 Washer                                     | 6   |
-| Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread | 2   |
+| Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread (M5x25mm) | 2   |
 | M5 x 40 BHCS                                       | 3   |
 | M5 Roll-In Nut                                     | 5   |
 | M3x40 SHCS                                         | 4   |
@@ -31,17 +31,19 @@ The materials listed below are for each side.
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Cam%20-%20Accent.stl" target="_blank">XY Drive A Cam</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Cam%20Cap%20-%20Accent.stl" target="_blank">XY Drive A Cam Cap</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Cam%20Slider%20-%20Accent.stl" target="_blank">XY Drive A Cam Slider</a> | 1  |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Lid.stl" target="_blank">XY Drive A Lid</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Lid.stl" target="_blank">(Optional) XY Drive A Lid</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Cam%20-%20Accent.stl" target="_blank">XY Drive B Cam</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Cam%20Cap%20-%20Accent.stl" target="_blank">XY Drive B Cam Cap</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Cam%20Slider%20-%20Accent.stl" target="_blank">XY Drive B Cam Slider</a> | 1  |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Lid.stl" target="_blank">XY Drive B Lid</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Lid.stl" target="_blank">(Optional) XY Drive B Lid</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Housing%20A%20-%20Bottom.stl" target="_blank">XY Drive Housing A - Bottom</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Housing%20A%20-%20Top.stl" target="_blank">XY Drive Housing A - Top</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Housing%20B%20-%20Bottom.stl" target="_blank">XY Drive Housing B - Bottom</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Housing%20B%20-%20Top.stl" target="_blank">XY Drive Housing B - Top</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Clamp%20Plate%20-%20Q2%20-%20Accent.stl" target="_blank">XY Drive Clamp Plate</a> | 2  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Spacer%20-%20Q2%20-%20Accent.stl" target="_blank">XY Drive Spacer</a> | 2  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Pulley%20Offset%20Tool%20Side%20A.STL" target="_blank">Pulley Offset Tool Side A</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Pulley%20Offset%20Tool%20Side%20B.STL" target="_blank">Pulley Offset Tool Side B</a> | 1  |
 
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/ccUepr55wgw?si=n45WT-qfufjVqsDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
