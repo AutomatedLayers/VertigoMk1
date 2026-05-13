@@ -16,7 +16,7 @@ nav_order: 2
 | Gates GT2 Toothed Idler Pulley - 6mm Belt          | 1   |
 | M5x10x1 Washer                                     | 2   |
 | M5x7x1 Washer                                      | 2   |
-| Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread | 2   | 
+| Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread (M4x25mm) | 2   | 
 | M5x20 BHCS                                         | 1   | 
 | M5x30 BHCS  (M5x35 BHCS for Side B)                | 1   | 
 | M3x30 SHCS                                         | 1   | 
@@ -41,7 +41,7 @@ nav_order: 2
 | M3x30 SHCS                                         | 2   |
 | M3x16 SHCS                                         | 2   |
 | M3x8 FHCS                                          | 4   |
-| M3 Cap Nut                                         | 3   |
+| M3 Cap Nut (Acorn Nut)                             | 3   |
 | M2x16 SHCS                                         | 2   |
 | M2x8 FHCS                                          | 2   |
 | M2 Hex Nut                                         | 2   |
