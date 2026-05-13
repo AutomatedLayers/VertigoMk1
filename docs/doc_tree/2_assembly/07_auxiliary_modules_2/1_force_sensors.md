@@ -44,6 +44,9 @@ The hardware listed below are for one Force Sensor.
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=D-dqH7wgQwq1nfns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Magnet Polarity
+
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/force_sensor_magnet_polarity.svg" width="100%" alt="">
 
 <!-- ## Interactive View
 <div class="online_3d_viewer"
