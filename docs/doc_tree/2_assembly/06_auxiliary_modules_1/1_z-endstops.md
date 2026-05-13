@@ -42,14 +42,15 @@ This is the first section where cables are installed, so it's a good time to che
 ## Steps
 
 ### 1. Assemble and Install the Z Endstop Pods
- - Plug **Z-69** into the connector on the Z Enstop Switch PCB.
+ - Plug Z-69 into the connector on the Z Enstop Switch PCB.
  - Sandwich the Z Endstop Switch PCB between the Z Enstop Pod and Z Endstop Pod Cap, ensuring the wires route around the screw stud. A tiny dab of glue can be used to keep the pod and cap together if it's an issue during install.
- - Insert 2 **M3 Roll-In Nuts** into the inside slot of the lower side frame extrusion on side B as shown.
- - Loosely attach the Z Endstop Pod to the frame using 2 **M3x20 FHCS**. Don't tighten yet.
+ - Insert 2 M3 Roll-In Nuts into the inside slot of the lower side frame extrusion on side B as shown.
+ - Loosely attach the Z Endstop Pod to the frame using 2 M3x20 FHCS. Don't tighten yet.
  - Slide the Z Endstop Pod under the endstop adjustment screw of Front Z Joint B.
- - Lower the Front Z Joint Bar to make sure the endstop adjustment screw presses the switch.
+ - Lower the Front Z Joint Bar to make sure the endstop adjustment screw presses the switch at the bend in the lever.
  - Tighten the Z Endstop Pod mounting screws.
  - Route the Z Endstop Pod wires through the extrusion slots as shown, installing cable covers as you go.
+ - **Position the 25mm and 10mm along the inside slot of the lower rear extrusion such that the gap between them leaves room for the Z-axis belt that will come up from the tensioner**
  - Repeat this for all 4 Z Endstop pods using the cables listed above, making sure to check that the corresponding Z Endstop Adjustment Screw presses the switch at the bend in the lever. **The height of the endstop adjustment screws will be calibrated later**.
 
 {: .note}
