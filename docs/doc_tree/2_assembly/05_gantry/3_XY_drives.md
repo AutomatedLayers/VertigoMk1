@@ -10,10 +10,7 @@ nav_order: 3
 
 ## Materials
 
-{: .note}
-The materials listed below are for each side.
-
-| Hardware                                           | Qty |   
+| Hardware (for each side)                           | Qty |   
 |:---------------------------------------------------|:----| 
 | Stepper Motor - LDO-42STH48-2804AC                 | 1   |
 | GT2 20T Timing Pulley - 6mm Belt                   | 1   |
@@ -44,6 +41,7 @@ The materials listed below are for each side.
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Spacer%20-%20Q2%20-%20Accent.stl" target="_blank">XY Drive Spacer</a> | 2  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Pulley%20Offset%20Tool%20Side%20A.STL" target="_blank">Pulley Offset Tool Side A</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Pulley%20Offset%20Tool%20Side%20B.STL" target="_blank">Pulley Offset Tool Side B</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/XY%20Drive%20Roll-In%20Nut%20Alignment.STL" target="_blank">XY Drive Roll-In Nut Alignment Tool</a> | 1  |
 
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/ccUepr55wgw?si=n45WT-qfufjVqsDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

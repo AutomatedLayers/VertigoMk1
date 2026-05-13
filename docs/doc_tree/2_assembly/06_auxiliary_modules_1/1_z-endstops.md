@@ -13,9 +13,6 @@ This is the first section where cables are installed, so it's a good time to che
 
 ## Materials
 
-{: .note}
-The materials listed below are for one Endstop Pod.
-
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
 | Z Endstop Switch PCB                               | 1   |

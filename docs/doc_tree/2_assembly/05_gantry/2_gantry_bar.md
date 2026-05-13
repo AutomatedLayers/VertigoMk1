@@ -89,8 +89,8 @@ The assembly process is the same on this side but note from the video and the in
  - Screw in 2 M2x16 SHCS to the Toolhead Carriage Block. These are only to increase rigidity.
  - Insert 3 M3 Cap Nuts into the top of the Toolhead Carriage Block.
  - Fasten the cap nuts to the assembly with an M3x8 SHCS in the rear and 2 M3x30 SHCS in the front.
- - Attach 2 Magnet-1/4in Countersunk to the Toolhead Carriage Block with 2 M2x8 FHCS and 2 M2 Hex Nuts. **FRAGILE! Don't over-tighten**.
-   - **Note the magnet polarity before installation.** .
+ - Attach 2 Magnet-1/4in Countersunk to the Toolhead Carriage Block with 2 M2x8 FHCS and 2 M2 Hex Nuts. **FRAGILE! Don't over-tighten.**
+   - **Note the magnet polarity before installation.**
    - Refer to the image below for polarity orientation, using the Magnet-1/2in Countersunk as the reference.
  - Loosely attach 2 Makerbeam XL T-Nuts to the Toolhead Carriage Block with 2 M3x16 SHCS.
  - Install the Toolhead Carriage Block assembly to the X-axis linear guide with 4 M3x8 FHCS, screwing each of them through a Magnet-1/2in Countersunk. This is easiest if each magnet is screwed down **ONE AT A TIME**, otherwise they may attract, come loose from their pockets, and break.
