@@ -26,10 +26,22 @@ The materials listed below are for each side.
 | M3x30 SHCS                                         | 4   |
 | M3x5.7 Brass Insert                                | 3   | 
 
-
-| Printed Parts                    | Qty |
-|:---------------------------------|:----|
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Joints/XY%20Joint%20A%20-%20Bottom.stl" target="_blank">XY Joint A - Bottom</a> | 1  |
+| Printed Parts                         | Qty |
+|:--------------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Cam%20-%20Accent.stl" target="_blank">XY Drive A Cam</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Cam%20Cap%20-%20Accent.stl" target="_blank">XY Drive A Cam Cap</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Cam%20Slider%20-%20Accent.stl" target="_blank">XY Drive A Cam Slider</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20A%20Lid.stl" target="_blank">XY Drive A Lid</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Cam%20-%20Accent.stl" target="_blank">XY Drive B Cam</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Cam%20Cap%20-%20Accent.stl" target="_blank">XY Drive B Cam Cap</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Cam%20Slider%20-%20Accent.stl" target="_blank">XY Drive B Cam Slider</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20B%20Lid.stl" target="_blank">XY Drive B Lid</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Housing%20A%20-%20Bottom.stl" target="_blank">XY Drive Housing A - Bottom</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Housing%20A%20-%20Top.stl" target="_blank">XY Drive Housing A - Top</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Housing%20B%20-%20Bottom.stl" target="_blank">XY Drive Housing B - Bottom</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Housing%20B%20-%20Top.stl" target="_blank">XY Drive Housing B - Top</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Clamp%20Plate%20-%20Q2%20-%20Accent.stl" target="_blank">XY Drive Clamp Plate</a> | 2  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Drives/XY%20Drive%20Spacer%20-%20Q2%20-%20Accent.stl" target="_blank">XY Drive Spacer</a> | 2  |
 
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/ccUepr55wgw?si=n45WT-qfufjVqsDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -38,7 +50,11 @@ The materials listed below are for each side.
 
 ### 1. Assemble XY Drive Housing A
  - Insert 3 M3x5.7 Brass Insert into the XY Drive Housing A - Bottom
- - Slide the XY Drive Housing A - Top, then the XY Drive A Cam Slider onto the XY Drive A Cam
+ - Slide the XY Drive Housing A - Top, then the XY Drive A Cam Slider onto the XY Drive A Cam. 
+
+{: .note}
+The Cam Sliders can be installed in either orientation on either side. Look at them in the same orientation. Rotate one 180deg along its long axis, and it will match the other. The orientation shown in the video (Side A) is "rightey-tightey". The other side (Side B) can be installed so that the handle will tension symmetrically or in the same rotational direction. Your choice, slick.
+
  - Use an M3x30 SHCS to attach the XY Drive A Cam Cap to the bottom of the XY Drive A Cam
  - Turn the assembly upside down and push 2 Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread into the XY Drive Housing A - Top
  - On the shoulder screw nearest the center of the assembly, place an XY Drive Spacer (printed part), an M5x7x1 Washer, an idler made from 2 Bearings - F695, and another M5x7x1 Washer
