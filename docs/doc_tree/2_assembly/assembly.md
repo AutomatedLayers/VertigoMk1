@@ -17,13 +17,16 @@ If you are building this printer for the first time, it is highly recommended th
 Sometimes there's a note.
 
 ## Materials
-### A table like this will display hardware, and tools needed for the sub-assembly
+### A table like this will display hardware, printed parts, and tools needed for the sub-assembly
 
 | Hardware                                | Qty |
 |:----------------------------------------|:----|
 | M3x25 SHCS                              | 5   |
 | GT2 Timing Pulley, 20T, 6mm Belt, 5mm ID| 1   |
+| *Video Name (Bag Name)                  | 2   |
 | Tabby Cat                               | 100 |
+
+***Whats in a name?** It's a large BOM and a long documentation process. Name preferences were occasionally missed along the way. We will try to have the bag label name in parenthesis next to the video callout name where they are different.
 
 ## Tools
 ### Essential
