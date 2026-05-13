@@ -69,7 +69,7 @@ For Rear Z Joint Side A: the kinematic seatbelt should slide along the dowels, b
 ### 3. Attach Rear Z Joint to Linear Carriage
  - Push in 2 M3x45 SHCS to the cup block as shown
  - Attach the Rear Z Joint to the rear linear carriage using the same procedure as the Front Z Joints; captive screws first, then outer screws
- - **[ Side B Only** Loosen the M3 SHCS holding the dowel cap in place and slide on the two printed Seatbelt Locks as shown. Re-tigten the M3 SHCS **]**
+ - **[ Side B Only** Loosen the M3 SHCS holding the dowel cap in place and slide on the two printed Seatbelt Locks as shown. Re-tighten the M3 SHCS **]**
 
 ## Interactive View
 <div class="online_3d_viewer"
