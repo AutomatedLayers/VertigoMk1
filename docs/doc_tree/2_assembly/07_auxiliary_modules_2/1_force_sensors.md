@@ -29,7 +29,7 @@ The hardware listed below are for one Force Sensor.
 | M4x12x1 Nylon Washer                               | 2   |
 | Wave Spring Washer                                 | 2   |
 | M3 Nyloc Nut                                       | 2   |
-| M3 Acorn Nut                                       | 1   |
+| M3 Cap Nut (Acorn Nut)                             | 1   |
 | PTFE Tube - 3mm ID x 4mm OD                        | 10mm|
 
 | Cables (For Both Sensors)            | 
