@@ -67,6 +67,10 @@ Sometimes there's a note.
 ## YouTube Playlist
 ### All videos in the assembly guide are available in this YouTube playlist
 
+{: .note}
+>- It's a good idea to watch through each video before assembly just to get an idea of what's needed, when tools appear, sequence, etc. Then go back and follow along while building. 
+>- The playlist below is here for convenience, but it's better to navigate via the bar on the left.
+
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/BFysg58AneA?si=BnFOLAoJyxAxuOTr](https://www.youtube.com/embed/videoseries?si=k8YJyXBpN_D6w89W&amp;list=PL98gg-9q2S-WK1jO8WXkpYlPxK7jg6Ywa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=k8YJyXBpN_D6w89W&amp;list=PL98gg-9q2S-WK1jO8WXkpYlPxK7jg6Ywa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
