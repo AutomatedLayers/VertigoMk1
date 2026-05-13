@@ -42,9 +42,9 @@ where `L` is the free span in meters, `F` is the desired tension in Newtons, and
 | Parameter | Value |
 |---|---|
 | Belt | Gates PowerGrip 2GT · 2mm Pitch · 6mm Width |
-| Free span | 390 mm |
+| Free span | 0.390 m |
 | Linear density (μ) | 0.0083 kg/m |
-| Target tension | 6 lbf (26.69 N) |
+| Target tension | 26.69 N (6 lbf) |
 | **Target frequency** | **73.2 Hz** |
 
 #### Z Axis Belts
@@ -52,9 +52,9 @@ where `L` is the free span in meters, `F` is the desired tension in Newtons, and
 | Parameter | Value |
 |---|---|
 | Belt | Gates PowerGrip 2GT · 2mm Pitch · 9mm Width |
-| Free span | 534 mm |
+| Free span | 0.534 m |
 | Linear density (μ) | 0.01245 kg/m |
-| Target tension | 9 lbf (40.03 N) |
+| Target tension | 40.03 N (9 lbf) |
 | **Target frequency** | **83.8 Hz** |
 
 ---
