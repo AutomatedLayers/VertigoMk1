@@ -23,6 +23,8 @@ nav_order: 5
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=GU3BMGTDCJT6UkUV&amp;start=63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Steps
+
 ### 1. Assemble and Install the Nozzle Cleaner
  - Insert an **M3.5.7 Brass Insert** into the Nozzle Wiper Arm
  - Slide the E3D Nozzle Sock onto the groove in the Nozzle Wiper Wheel

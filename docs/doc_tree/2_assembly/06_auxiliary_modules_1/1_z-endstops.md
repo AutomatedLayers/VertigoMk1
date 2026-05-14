@@ -50,7 +50,7 @@ This is the first section where cables are installed, so it's a good time to che
  - Lower the Front Z Joint Bar to make sure the endstop adjustment screw presses the switch at the bend in the lever.
  - Tighten the Z Endstop Pod mounting screws.
  - Route the Z Endstop Pod wires through the extrusion slots as shown, installing cable covers as you go.
- - **Position the 25mm and 10mm along the inside slot of the lower rear extrusion such that the gap between them leaves room for the Z-axis belt that will come up from the tensioner**
+ - **Position the 25mm and 10mm along the front-facing slot of the lower rear extrusion such that the gap between them leaves room for the Z-axis belt that will come up from the tensioner**
  - Repeat this for all 4 Z Endstop pods using the cables listed above, making sure to check that the corresponding Z Endstop Adjustment Screw presses the switch at the bend in the lever. **The height of the endstop adjustment screws will be calibrated later**.
 
 {: .note}
