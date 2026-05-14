@@ -18,12 +18,13 @@ nav_order: 1
 | Extrusion 2020-120-RTP-LCP       | 2   |
 | Extrusion 2020-460-RTP-AH56-AV80 | 2   |
 | Extrusion 2020-325-RTP-LCP       | 2   |
-| M5x80 Threaded Stud              | 2   |
+| M5x80 Threaded Rod               | 2   |
 | M5x16 BHSC                       | 20  |
 
 | Printed Parts                    | Qty |
 |:---------------------------------|:-- -|
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/01%20Frame/Frame%20Post%20Connector%20-%20Q2%20(LDO%20Profile).STL" target="_blank">Frame Post Connector</a> | 2   |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Frame%20Rear%20Bar%20Alignment%20Tool.STL" target="_blank">Frame Rear Bar Alignment Tool</a> | 1   |
 
 {: .note}
 > Guidance on reading Misumi extrusion part numbers:
@@ -37,7 +38,7 @@ nav_order: 1
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/UQv3nB_qxXE?si=blgOvjFCOVpnpJPj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
+## Assembly Notes
 
 {: .note}
 There are two versions of the printed part "Frame Post Connector": one for LDO extrusions and one for Misumi.
@@ -45,7 +46,18 @@ There are two versions of the printed part "Frame Post Connector": one for LDO e
 {: .note}
 This works best on a granite surface or the flattest surface you've got. The use of a machinist's square or dial guage is highly recommended to ensure squareness.
 
-### 1. Assemble the right and left sides of the frame first
+- **0:08** Leave a ~3mm gap under the head of these M5x20 BHCS. The head needs to slide into the slot of the adjoining extrusion.
+- **0:20** This label is wrong. It should show "Extrusion 2020-325-RTP-LCP." It is used as a reference for locating the front part of the gantry extrusion.
+- **0:56** The M5x80 Threaded Rod should bottom out at about 16mm into the top (short) extrusion. Don't screw it in more than 16mm. The minimum is 9mm. 
+  - Here, it may be useful -- but not necessary -- to use an Extrusion 2020-370-TPW on top of the long horizontal extrusion, butted up against the front vertical extrusion to make a mark where the frame post connector should end when tightened.
+  ![]({{site.url}}/{{site.baseurl}}/assets/images/post_connector_pos.png)
+
+- **1:10** Extrusion 2020-370-TPW is used as a reference for locating the top part of the lower rear vertical extrusion. 
+- **1:20** The upper extrusion is also 2020-370-TPW.
+- **1:43** Extrusions are all 2020-370-TPW.
+
+<!-- ## Steps -->
+<!-- ### 1. Assemble the right and left sides of the frame first
  - Screw the M5x16 button heads into the tapped holes on the ends of the extrusions (that have them) leaving a 2.5mm gap.
  - Slide the joining extrusions onto the button heads. Tighten through the through-hole.
  - See the video to use extrusions as guides for ensuring squareness and alignment.
@@ -54,10 +66,10 @@ This works best on a granite surface or the flattest surface you've got. The use
 ### 2. Attach the sides together
  - Attach the bottom and top front extrusions .
  - Attach the rear extrusion using the alignment tools.
- - Attach the rear top extrusion.
+ - Attach the rear top extrusion. -->
 
 {: .important}
-You really want to make sure your frame is square at this point. Measure and make adjustments as needed. The diagnoals for the top and bottom square should measure 523.3mm (+/-1).
+ At this point, you really want to make sure your frame is square. Measure and make adjustments as needed. The diagonals for the top and bottom square should measure 523.3mm (+/-1).
 
 ## Interactive View
 <div class="online_3d_viewer"

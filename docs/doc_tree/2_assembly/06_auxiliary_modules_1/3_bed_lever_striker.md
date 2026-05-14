@@ -15,6 +15,10 @@ nav_order: 4
 | M5x10 BHCS                                         | 1   |
 | M5 Roll-In Nut                                     | 1   |
 
+| Printed Parts                         | Qty |
+|:--------------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Bed%20Lever%20Striker/Bed%20Lever%20Striker%20-%20Multi.stl" target="_blank">Bed Lever Striker - Multi.stl</a> | 1  |
+
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=GU3BMGTDCJT6UkUV&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
