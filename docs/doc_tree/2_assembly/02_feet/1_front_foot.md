@@ -23,7 +23,7 @@ nav_order: 1
 | M3x35 SHSC                                | 2   |
 | M3x45 SHSC                                | 1   |
 | M3 Hex Nut                                | 2   |
-| Piece of Filament                         | 100mm|
+| Piece of Filament (1 piece is enough for both feet)| 100mm|
 
 | Printed Parts                    | Qty |
 |:---------------------------------|:-- -|
@@ -42,7 +42,8 @@ nav_order: 1
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/PrzQQnJo9ZQ?si=1SODMci8KEcbeRrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
+## Assembly Notes
+<!-- ## Steps
 ### 1. Attach the Foot Housing to the Frame
  - Flip the printer frame upside down.
  - Place the 3 M5 Roll-In Nuts into the extrusion slots.
@@ -64,16 +65,21 @@ nav_order: 1
  - Slide the Swivel Foot Assembly into the hole in the Foot Front Base.
  - Screw the M3x45 SHCS into the Foot Front Base to lock the Swivel Foot assembly in place.
 
-### 3. Assemble the Tensioner
+### 3. Assemble the Tensioner -->
 
-{: .note}
-An update was made to the [Foot Z Tensioner](https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl) to place a line that should line up with the lip of the inside edge of the tensioner pocket when the tensioner is at the right starting point.
+ - **1:35** See the note on the [Feet Tab]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/02_feet/0_foot_assy.html)
+ - **2:06** This is a front view of the notch alignment
+![]({{site.url}}/{{site.baseurl}}/assets/images/foot_notch.png)
+ - **2:46** Tension Wheel (Tensioner Knob) does **not** actually need to "fit freely"; as long as it can be rotated by hand, it's good.
+ - **2:55** An update was made to the [Foot Z Tensioner](https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl) to place a line that should line up with the lip of the inside edge of the tensioner pocket when the tensioner is at the right starting point. <br>
+![]({{site.url}}/{{site.baseurl}}/assets/images/tensioner.png)
 
+<!--
  - Place an M5 Hex Nut in the Z Tensioner Knob and slide the knob under the Foot Front Frame.
  - Place an M5 Hex Nut under the Z Tensioner and screw an M5x30 BHCS through the Z Tensioner and Nut.
  - Screw an M5x30 BHCS through the Z Tensioner and GT2 Idler Pulley - 9mmm.
  - Rotate the Z Tensioner Knob to screw the Z Tensioner down, aligning the bottom edge of the notch line in the tensioner with the lip of its pocket in the Foot Front Frame.
- - Screw the M5x60 BHCS through the Foot Rear Base, Z Tensioner Knob, and Foot Frame into the frame.
+ - Screw the M5x60 BHCS through the Foot Rear Base, Z Tensioner Knob, and Foot Frame into the frame. -->
 
 ## Interactive View
 <div class="online_3d_viewer"
