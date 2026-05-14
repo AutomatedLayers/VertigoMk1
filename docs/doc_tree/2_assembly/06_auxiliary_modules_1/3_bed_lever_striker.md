@@ -21,8 +21,8 @@ nav_order: 4
 ## Steps
 
 ### 1. Assemble and Install the Bed Lever Striker
- - Place an M5 Roll-In Nut into the top slot of the lower front frame extrusion
- - Using the Bed Lever -- previously installed on the Front Z Joint Bar -- for positioning, attach the Bed Lever Striker to the extrusion with an M5x10 BHCS
+ - Place an M5 Roll-In Nut into the top slot of the lower front frame extrusion.
+ - Using the Bed Lever -- previously installed on the Front Z Joint Bar -- for positioning, attach the Bed Lever Striker to the extrusion with an M5x10 BHCS.
  - Congratulate yourself for completing the toughest section of the build guide! 😸
 
 ## Interactive View

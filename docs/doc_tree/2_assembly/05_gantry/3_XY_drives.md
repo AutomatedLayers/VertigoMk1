@@ -53,7 +53,9 @@ nav_order: 3
  - Slide the XY Drive Housing A - Top, then the XY Drive A Cam Slider onto the XY Drive A Cam. .
 
 {: .note}
-The Cam Sliders can be installed in either orientation on either side. Look at them in the same orientation. Rotate one 180deg along its long axis, and it will match the other. The orientation shown in the video (Side A) is "rightey-tightey". The other side (Side B) can be installed so that the handle will tension symmetrically or in the same rotational direction. Your choice, slick.
+The Cam Sliders can be installed on either side. Look at them in the same orientation. Rotate one 180deg along its long axis, and it will match the other. This is how they will look from the top view.
+![]({{site.url}}/{{site.baseurl}}/assets/images/cam_slider_pos.webp)
+
 
  - Use an M3x30 SHCS to attach the XY Drive A Cam Cap to the bottom of the XY Drive A Cam.
  - Turn the assembly upside down and push 2 Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread into the XY Drive Housing A - Top.

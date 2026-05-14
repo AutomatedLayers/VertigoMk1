@@ -31,13 +31,13 @@ nav_order: 3
 ## Steps
 
 ### 1. Assemble and Install the Wheel Ramps
- - Insert 3 M3x5.7 Brass Inserts into the Wheel Ramp B - Inside
- - Stack the Wheel Ramp B - Inside, Center, and Outside and screw them together with 3 M3x16 SHCS
- - Align 2 M3 Roll-In Nuts with the cutouts and holes in Wheel Ramp B - Center
- - Place the roll-in nuts into the top slot of the lower side frame extrusion on side B 
- - Push the rear fin of the Wheel Ramp B into the front facing slot of the rear vertical extrusion on side B 
+ - Insert 3 M3x5.7 Brass Inserts into the Wheel Ramp B - Inside.
+ - Stack the Wheel Ramp B - Inside, Center, and Outside and screw them together with 3 M3x16 SHCS.
+ - Align 2 M3 Roll-In Nuts with the cutouts and holes in Wheel Ramp B - Center.
+ - Place the roll-in nuts into the top slot of the lower side frame extrusion on side B.
+ - Push the rear fin of the Wheel Ramp B into the front facing slot of the rear vertical extrusion on side B.
  - Use an M3x8 SHCS to fasten the wheel ramp in the front hole and an M3x16 SHCS in the rear. **Don't over-tighten the front mounting screw! The part could break.**
- - Repeat the assembly and install for side A
+ - Repeat the assembly and install for side A.
 
 ## Interactive View
 <div class="online_3d_viewer"
