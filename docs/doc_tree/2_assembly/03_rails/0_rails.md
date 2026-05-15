@@ -51,3 +51,5 @@ Take care not to overtighten the linear rail screws. Snug is good.
 
 ### 3. Attach the Y-Rails to the Frame
  - Use the Y-Rail Alignment Tool to ensure correct location. -->
+
+ - **1:05** Before installing the rear Z-axis rails, it's good to make sure the rail-side surface of the top and bottom vertical extrusions are coplanar. Lay the printer on its side on a flat -- ideally granite -- surface and place a straight-edge across the rail-side faces of the extrusions on either side of the Frame Post Connector. If they are out-of-plane, you may "persuade" them into plane by gently tapping with a rubber mallet.
