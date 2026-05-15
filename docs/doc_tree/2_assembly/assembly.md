@@ -72,20 +72,6 @@ Sometimes there's a note.
  - It will be easiest to follow if printed parts are organized by assembly according to the folder structure on the GitHub.
  - It can be helpful to organize screws and nuts by type and size beforehand.
 
-## Issues
- - Don't be afraid to ask questions in the [help channel](https://discord.com/channels/1222769178499612733/1426407671828975786) on our [Discord server](https://discord.gg/qDKydfTB).
- - If you found something you think can or should be fixed, please make a post about it in our [issues forum](https://discord.com/channels/1222769178499612733/1487990810787053640). Always include relevant logs and images in your post.
- - If the issue is related to something hosted on GitHub, i.e. STLs, BOM, diagrams, config, docs, etc., Please make an issue there and assign a label
-
->#### Opening an Issue on GitHub
->  1. Go to the <a href="https://github.com/AutomatedLayers/VertigoMk1/issues" target="_blank">Issues Tab </a>
->  2. Click "New Issue" on the top right
->  3. Give it a title and assign it a label using the menu on the right
->  4. Click 'Create'
-
- - You are also welcome to fork the repo, make commits, and submit pull requests. This is nice, because you get to "be the change you wish to see in the world" ~ as paraphrased from Gandhi.
-
-
 ## YouTube Playlist
 
 {: .note}

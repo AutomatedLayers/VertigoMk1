@@ -6,12 +6,14 @@ url: https://AutomatedLayers.github.io
 repository_url: https://github.com/AutomatedLayers/VertigoMk1/edit/main/docs
 
 aux_links:
-  "Automated Layers Site":
-    "https://AutomatedLayers.com"
-  "Vertigo Mk1 Github":
-    "https://github.com/AutomatedLayers/VertigoMk1"
-  "Buy Us A Coffee":
-    "https://buymeacoffee.com/automatedlayers"
+  "<img src='/assets/images/AL_logo_icon.svg' width='16' height='16' style='vertical-align:middle;margin-right:4px'/>&nbsp;Automated Layers":
+    - "https://AutomatedLayers.com"
+  "<i class='fa-brands fa-github'></i>&nbsp;GitHub":
+    - "https://github.com/AutomatedLayers/VertigoMk1"
+  "<i class='fa-solid fa-mug-saucer'></i>&nbsp;Buy Us A Coffee":
+    - "https://buymeacoffee.com/automatedlayers"
+  "<i class='fa-brands fa-discord'></i>&nbsp;Discord":
+    - "https://discord.gg/qCQRbnZ6"
 
 logo: "/assets/images/VertigoMk1Docs_dark.png"
 
