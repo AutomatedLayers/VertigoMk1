@@ -69,7 +69,7 @@ nav_order: 1
 
  - **1:35** See the note on the [Feet Tab]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/02_feet/0_foot_assy.html). [Glue]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/assembly.html#tools#:~:text=Cyanoacrylate%20Gel) may be applied to the threads just above the Height Knob where the Height Knob Cap will sit when screwed down.
  - **1:59** Skip the glue & threadlocker on this one; it's adjustable.
- - **2:06** This is a front view of the notch alignment:
+ - **2:06** Front view of the notch alignment
 ![]({{site.url}}/{{site.baseurl}}/assets/images/foot_notch.png)
  - **2:26** Threadlocker can go on the vertical M5x30 BHCS ~3mm from the head.
  - **2:46** Tension Wheel (Tensioner Knob) does **not** actually need to "fit freely"; as long as it can be rotated by hand, it's good.
