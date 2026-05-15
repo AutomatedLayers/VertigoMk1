@@ -67,12 +67,15 @@ nav_order: 1
 
 ### 3. Assemble the Tensioner -->
 
- - **1:35** See the note on the [Feet Tab]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/02_feet/0_foot_assy.html)
- - **2:06** This is a front view of the notch alignment
+ - **1:35** See the note on the [Feet Tab]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/02_feet/0_foot_assy.html). [Glue]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/assembly.html#tools#:~:text=Cyanoacrylate%20Gel) may be applied to the threads just above the Height Knob where the Height Knob Cap will sit when screwed down.
+ - **1:59** Skip the glue & threadlocker on this one; it's adjustable.
+ - **2:06** This is a front view of the notch alignment:
 ![]({{site.url}}/{{site.baseurl}}/assets/images/foot_notch.png)
+ - **2:26** Threadlocker can go on the vertical M5x30 BHCS ~3mm from the head.
  - **2:46** Tension Wheel (Tensioner Knob) does **not** actually need to "fit freely"; as long as it can be rotated by hand, it's good.
  - **2:55** An update was made to the [Foot Z Tensioner](https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/02%20Feet/All%20Feet/Foot%20Z%20Tensioner%20-%20Accent%20-%20Q4.stl) to place a line that should line up with the lip of the inside edge of the tensioner pocket when the tensioner is at the right starting point. <br>
 ![]({{site.url}}/{{site.baseurl}}/assets/images/tensioner.png)
+ - **3:05** Removable for tensioning, no threadlocker
 
 <!--
  - Place an M5 Hex Nut in the Z Tensioner Knob and slide the knob under the Foot Front Frame.
