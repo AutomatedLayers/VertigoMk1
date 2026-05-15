@@ -102,6 +102,7 @@ sudo apt-get install -y -qq \
     build-essential libffi-dev libssl-dev \
     liblzma-dev libjpeg-dev zlib1g-dev \
     libopenjp2-7 libtiff6 \
+    libsodium23\
     gcc-arm-none-eabi binutils-arm-none-eabi \
     stm32flash dfu-util \
     libusb-1.0-0-dev pkg-config \
