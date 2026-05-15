@@ -41,9 +41,9 @@ nav_order: 1
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/2lDIZEWfpks?si=Or_HjbJ9XdGpA31k&amp;start=168"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
+## Assembly Notes
 
-### 1. Setup the Front Z Joint Bar
+<!-- ### 1. Setup the Front Z Joint Bar
 
  - Flip the Front Z Joint Bar upside down.
  - Place 2 M3 Roll-In Nuts into the extrusion.
@@ -64,11 +64,12 @@ nav_order: 1
  - Place 2 M2x8 SHCS through the open end of the Torsion Springs and thread them into their holes in the Bed Lever, leveraging the Torsion Springs into the stretched position.
  - Open the lever and lock it in the open position using the 2 outer M2x8 SHCS.
   
-### 3. Attach the Bed Lever to the Front Z Joint Bar
+### 3. Attach the Bed Lever to the Front Z Joint Bar -->
 
 {: .warning }
 The channel magnet is **STRONG**, and also rather fragile. Use caution with ferrous metal nearby, especially the strike plate that goes with the lever. Also, be careful not to overtighten the magnet's mounting screws; it will fracture.
 
+<!--
  - Place the Channel Magnet into the Bed Lever Frame Mount  and loosely fasten it to the extrusion with 2 M3x10 FHCS.
  - Screw 2 M5x16 BHCS loosely through the Bed Lever Frame Mount to the extrusion.
  - Slide the Bed Lever Assembly until it is centered on the extrusion. The edge of the Frame Mount should be ~118mm from the end of the extrusion.
@@ -76,7 +77,7 @@ The channel magnet is **STRONG**, and also rather fragile. Use caution with ferr
  - Hold open the Bed Lever and loosen the two M2x8 SHCS position locks.
  - **Carefully and Slowly** close the lever.
  - Screw in the M3x12 SHCS on Side A until the head is on the stopper.
- - Screw in the M3x12 SHCS on Side B until the screw just barely touches the M5x60 D-Shaft.
+ - Screw in the M3x12 SHCS on Side B until the screw just barely touches the M5x60 D-Shaft. -->
 
 {: .important}
 Check for any play in the bed lever by trying to rock it across an imaginary axis from the fixed M3x12 SHCS on Side A to the corner of the strike plate on Side B. It is designed such that the magnet and strike plate -- installed at a slight angle -- create a line contact, analogous to 2 points. The fixed M3 screw provides a 3rd point contact. The lever is further constrained in Rz, X, and Y by the hinge. This means that the M3 screw on Side B is an overconstraint when the lever is closed. It is used to constrain the lever motion during the lever opening action. If there is play when the lever is closed, make sure the adjustable M3 screw is not pushing on the D-shaft and that the magnet and strike plate are properly installed. Check that no pieces of metal or debris got stuck under the magnet.
