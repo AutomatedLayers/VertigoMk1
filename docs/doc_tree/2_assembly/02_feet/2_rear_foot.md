@@ -70,7 +70,7 @@ nav_order: 2
 {: .note}
 The notes regarding the Height Knob and Tensioner from the Front Foot assembly apply here as well.
 
- - **2:14** This is a bottom view of the slot/hole alignment
+ - **2:14** Bottom view of the slot/hole alignment
 ![]({{site.url}}/{{site.baseurl}}/assets/images/foot_slot.png)
 
 <!-- Place an M5 Hex Nut in the Z Tensioner Knob and slide the knob under the Foot Rear Frame.
