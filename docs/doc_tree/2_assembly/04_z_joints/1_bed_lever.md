@@ -85,7 +85,15 @@ The channel magnet is **STRONG**, and also rather fragile. Use caution with ferr
  - Screw in the M3x12 SHCS on Side B until the screw just barely touches the M5x60 D-Shaft. -->
 
 {: .important}
-**4:30** Check for any play in the bed lever by trying to rock it across an imaginary axis from the fixed M3x12 SHCS on Side A to the corner of the strike plate on Side B. It is designed such that the magnet and strike plate -- installed at a slight angle -- create a line contact, analogous to 2 points. The fixed M3 screw provides a 3rd point contact. The lever is further constrained in Rz, X, and Y by the hinge. This means that the M3 screw on Side B is an overconstraint when the lever is closed. It is used to constrain the lever motion during the lever opening action. If there is play when the lever is closed, make sure the adjustable M3 screw is not pushing on the D-shaft and that the magnet and strike plate are properly installed. Check that no pieces of metal or debris got stuck under the magnet.
+>**4:30** Make sure the lever is in closed position. Place a dab of glue on the fixed M3x12 SHCS and screw until the head touches the printed stud. Screw in the adjustable M3x12 SHCS until it just touches the D-Shaft. Check for any play in the bed lever by trying to rock it across an imaginary axis from the fixed M3x12 SHCS on Side A to the corner of the strike plate on Side B. If there is play when the lever is closed, make sure the adjustable M3 screw is not pushing on the D-shaft and that the magnet and strike plate are properly installed. Check that no pieces of metal or debris got stuck under the magnet. When the lever feels solid, remove the adjustable M3x12 SHCS, drop a dab of glue on its threads, and screw it back to where it was touching the D-Shaft now that you know what you're doing ;)
+>![]({{site.url}}/{{site.baseurl}}/assets/images/bed_lever_cal.png)
+>![]({{site.url}}/{{site.baseurl}}/assets/images/bed_lever_cal2.png)
+
+{: .warning}
+**5:21** **Don't let the lever snap closed!** You could seriously injure a finger or break the magnet. 
+
+{: .note} 
+The lever is designed such that the magnet and strike plate -- installed at a slight angle -- create a line contact, analogous to 2 points. The fixed M3 screw provides a 3rd point contact. The lever is further constrained in Rz, X, and Y by the hinge. This means that the adjustable M3 screw on Side B is an overconstraint when the lever is closed. It is used to constrain the lever motion during the opening action that allows the bed to rotate vertically (hence Vertigo 😵‍💫). 
 
 ## Interactive View
 <div class="online_3d_viewer"
