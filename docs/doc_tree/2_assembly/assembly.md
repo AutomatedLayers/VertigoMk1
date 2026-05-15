@@ -30,7 +30,7 @@ Sometimes there's a note.
 
 ## Tools
 ### Essential
- - Standard Metric Hex Key Set, Ball-End
+ - Standard Metric Hex Key Set, Ball-End, 1.5-10mm
  - Long Handle Hex Key, 3mm
  - Soldering Iron
  - Small/Mini Pliers or Adjustable Wrench
