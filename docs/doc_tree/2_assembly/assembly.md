@@ -26,7 +26,7 @@ Sometimes there's a note.
 | *Video Name (Bag Name)                  | 2   |
 | Tabby Cat                               | 100 |
 
-***Whats in a name?** It's a large BOM and a long documentation process. Name preferences were occasionally missed along the way. We will try to have the bag label name in parenthesis next to the video callout name where they are different.
+***Whats in a name?** It's a large BOM and a long documentation process. Name preferences were occasionally mixed up along the way. We will try to have the bag label name in parenthesis next to the video callout name where they differ.
 
 ## Tools
 ### Essential
@@ -34,14 +34,14 @@ Sometimes there's a note.
  - Long Handle Hex Key, 3mm
  - Soldering Iron
  - Small/Mini Pliers or Adjustable Wrench
- - Super Glue, Cyanoacrylate
+ - Cyanoacrylate Gel, i.e. Loctite Prism 454 or Gorilla Super Glue Gel
  - Flush Cutters
  - Phillips Screwdriver, #2
  - Pen Knife / X-Acto Knife / Razor Blade
 
 ### Optional, But Really Helpful
  - SciGrip #16 Acrylic Cement
- - Loctite Red & Blue
+ - Blue "medium strength" Loctite
  - Arbor Press
  - Machinist's Square
  - Dial Guage/Indicaator and Precision 1-2-3 Block
@@ -64,12 +64,32 @@ Sometimes there's a note.
         ">
 </div>
 
+## General Guidelines
+ - It is recommended to use Blue Loctite on all metal-metal threads that you wouldn't expect to service regularly.
+ - Cyanoacrylate Gel can generally be applied to screws when threading into plastic.
+ - When threading into plastic, only tighten until the head makes contact, these connections are not meant to provide clamping force.
+ - It will be easiest to follow if printed parts are organized by assembly according to the folder structure on the GitHub.
+ - It can be helpful to organize screws and nuts by type and size beforehand.
+
+## Issues
+ - Don't be afraid to ask questions in the [help channel](https://discord.com/channels/1222769178499612733/1426407671828975786) on our [Discord server](https://discord.gg/qDKydfTB).
+ - If you found something you think can or should be fixed, please make a post about it in our [issues forum](https://discord.com/channels/1222769178499612733/1487990810787053640). Always include relevant logs and images in your post.
+ - If the issue is related to something hosted on GitHub, i.e. STLs, BOM, diagrams, config, docs, etc., Please make an issue there and assign a label
+
+>#### Opening an Issue on GitHub
+>  1. Go to the <a href="https://github.com/AutomatedLayers/VertigoMk1/issues" target="_blank">Issues Tab </a>
+>  2. Click "New Issue" on the top right
+>  3. Give it a title and assign it a label using the menu on the right
+>  4. Click 'Create'
+
+ - You are also welcome to fork the repo, make commits, and submit pull requests. This is nice, because you get to "be the change you wish to see in the world" ~ as paraphrased from Gandhi.
+
+
 ## YouTube Playlist
-### All videos in the assembly guide are available in this YouTube playlist
 
 {: .note}
 >- It's a good idea to watch through each video before assembly just to get an idea of what's needed, when tools appear, sequence, etc. Then go back and follow along while building. 
->- The playlist below is here for convenience, but it's better to navigate via the bar on the left.
+>- The playlist below is here for convenience, but it's better to navigate the build via the sidebar on the left.
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/BFysg58AneA?si=BnFOLAoJyxAxuOTr](https://www.youtube.com/embed/videoseries?si=k8YJyXBpN_D6w89W&amp;list=PL98gg-9q2S-WK1jO8WXkpYlPxK7jg6Ywa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
