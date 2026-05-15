@@ -10,11 +10,14 @@ nav_order: 1
 
 ## Materials
 
+{: .warning }
+The channel magnet is **STRONG**, and also rather fragile. Use caution with ferrous metal nearby, especially the strike plate that goes with the lever. Also, be careful not to overtighten the magnet's mounting screws; it will fracture.
+
 | Hardware                                  | Qty |   
 |:------------------------------------------|:-- -|
 | Channel Magnet - 40mm                     | 1   |
 | Strike Plate - 40mm (attached to Channel Magnet) | 1   |
-| Tension Spring - 25mm x 4mm               | 2   |
+| (Dual Hook) Tension Spring - 25mm x 4mm          | 2   |
 | Tooling Ball                              | 1   |
 | M5 Hex Nut                                | 1   |
 | M5x10x1 Washer                            | 1   |
@@ -66,11 +69,10 @@ nav_order: 1
   
 ### 3. Attach the Bed Lever to the Front Z Joint Bar -->
 
- - **3:38** Dowels are here to increase regidity. They should not fall out once inserted, if they do, either adjust your shrinkage compensation or use a bit of glue if they're not too loose.
- - **3:51**
- - 
-{: .warning }
-The channel magnet is **STRONG**, and also rather fragile. Use caution with ferrous metal nearby, especially the strike plate that goes with the lever. Also, be careful not to overtighten the magnet's mounting screws; it will fracture.
+ - **3:38** Dowels are here to increase rigidity. They should not fall out once inserted, if they do, either adjust your shrinkage compensation or use a bit of glue if they're not too loose.
+ - **3:51** Put some threadlocker on the M5 Nut.
+ - **3:57** Tighten by the **shank only**.
+ - **4:12** The shaft should be a **really snug fit** and will only go into the lever if the flat face is down.
 
 <!--
  - Place the Channel Magnet into the Bed Lever Frame Mount  and loosely fasten it to the extrusion with 2 M3x10 FHCS.
@@ -83,7 +85,7 @@ The channel magnet is **STRONG**, and also rather fragile. Use caution with ferr
  - Screw in the M3x12 SHCS on Side B until the screw just barely touches the M5x60 D-Shaft. -->
 
 {: .important}
-Check for any play in the bed lever by trying to rock it across an imaginary axis from the fixed M3x12 SHCS on Side A to the corner of the strike plate on Side B. It is designed such that the magnet and strike plate -- installed at a slight angle -- create a line contact, analogous to 2 points. The fixed M3 screw provides a 3rd point contact. The lever is further constrained in Rz, X, and Y by the hinge. This means that the M3 screw on Side B is an overconstraint when the lever is closed. It is used to constrain the lever motion during the lever opening action. If there is play when the lever is closed, make sure the adjustable M3 screw is not pushing on the D-shaft and that the magnet and strike plate are properly installed. Check that no pieces of metal or debris got stuck under the magnet.
+**4:30** Check for any play in the bed lever by trying to rock it across an imaginary axis from the fixed M3x12 SHCS on Side A to the corner of the strike plate on Side B. It is designed such that the magnet and strike plate -- installed at a slight angle -- create a line contact, analogous to 2 points. The fixed M3 screw provides a 3rd point contact. The lever is further constrained in Rz, X, and Y by the hinge. This means that the M3 screw on Side B is an overconstraint when the lever is closed. It is used to constrain the lever motion during the lever opening action. If there is play when the lever is closed, make sure the adjustable M3 screw is not pushing on the D-shaft and that the magnet and strike plate are properly installed. Check that no pieces of metal or debris got stuck under the magnet.
 
 ## Interactive View
 <div class="online_3d_viewer"
