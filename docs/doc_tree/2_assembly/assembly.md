@@ -66,7 +66,8 @@ Sometimes there's a note.
 
 ## General Guidelines
  - It is recommended to use Blue Loctite on all metal-metal threads that you wouldn't expect to service regularly.
- - Cyanoacrylate Gel can generally be applied to screws when threading into plastic.
+ - Cyanoacrylate Gel can generally be applied to screws when threading into plastic. 
+ - We try to note where exceptions occur, but it's always good to practice common sense or see "Issues" below.
  - When threading into plastic, only tighten until the head makes contact, these connections are not meant to provide clamping force.
  - It will be easiest to follow if printed parts are organized by assembly according to the folder structure on the GitHub.
  - It can be helpful to organize screws and nuts by type and size beforehand.
