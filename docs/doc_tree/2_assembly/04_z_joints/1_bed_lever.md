@@ -66,6 +66,9 @@ nav_order: 1
   
 ### 3. Attach the Bed Lever to the Front Z Joint Bar -->
 
+ - **3:38** Dowels are here to increase regidity. They should not fall out once inserted, if they do, either adjust your shrinkage compensation or use a bit of glue if they're not too loose.
+ - **3:51**
+ - 
 {: .warning }
 The channel magnet is **STRONG**, and also rather fragile. Use caution with ferrous metal nearby, especially the strike plate that goes with the lever. Also, be careful not to overtighten the magnet's mounting screws; it will fracture.
 
