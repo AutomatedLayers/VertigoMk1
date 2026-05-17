@@ -62,7 +62,7 @@ nav_order: 2
 >WIP notes: 
 >- You may want to check that your M3 Roll-In Nuts actually roll in -- or can be leveraged in with a small hex key -- to the Extrusion 2010-370-Z5-ZA25-XB345. If not, go ahead and insert 7 of those nuts from the side of the extrusion before starting the video assembly.
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/Urxhuw5l0kQ?si=Ue-81n7K9cGXYVDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/W9qf38xfoFk?si=WkttvpxSy8tU3iub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Steps
 
