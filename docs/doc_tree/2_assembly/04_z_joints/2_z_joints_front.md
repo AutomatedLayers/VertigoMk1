@@ -13,7 +13,7 @@ nav_order: 2
 | Hardware (for each side)                  | Qty |   
 |:------------------------------------------|:-- -| 
 | Extrusion 2020-320                        | 1   |
-| M3x10 Coupling Nut                        | 2   |
+| M3x10Lx6W Hex Standoff (Coupling Hex Nut) | 2   |
 | Spherical Bearing - GE5C                  | 1   |
 | M5x20 BHCS                                | 1   | 
 | M5x40 BHCS                                | 1   | 
@@ -44,8 +44,10 @@ nav_order: 2
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/2lDIZEWfpks?si=Or_HjbJ9XdGpA31k"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
-### 1. Assemble Front Z Joint
+## Assembly Notes
+
+
+<!-- ### 1. Assemble Front Z Joint
  - Press in 2 M3x5.7 Brass Inserts to the Front Joint B Carriage Block.
  - Slide the M3x10 Coupling Nut into the rear slot in the Front Joint B Carriage Block.
  - Push in 2 M3x25 SHCS as shown.
@@ -67,7 +69,7 @@ nav_order: 2
  - Leave about 1mm on each side and snug the M5x40 BHCS but still do not tighten yet.
  - Attach the Front Z Joint Bar to the Z Axis Linear Carriages by first tightening the captive fasteners, then the outer fasteners.
  - Make sure the gaps are about even on both ends of the extrusion and that the Front Z Joint Bar slides freely up and down the Z Axis.
- - Finally you get to tighten the M5x40 BHCS .
+ - Finally you get to tighten the M5x40 BHCS . -->
 
 ## Interactive View
 <div class="online_3d_viewer"
