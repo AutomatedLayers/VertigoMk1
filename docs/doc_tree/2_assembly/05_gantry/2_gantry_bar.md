@@ -31,7 +31,7 @@ nav_order: 2
 | Extrusion 2010-370-Z5-ZA25-XB345                   | 1   |
 | MGN9H-300 Linear Guide                             | 1   |
 | M3 Roll-In Nut                                     | 7   |
-| M5x8 SHCS                                          | 7   |
+| M3x8 SHCS                                          | 7   |
 | **Hardware - X Carriage Block**                    | **Qty** |   
 |:---------------------------------------------------|:----|
 | Magnet - 1/2in Countersunk                         | 4   |

@@ -46,7 +46,10 @@ nav_order: 3
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/ccUepr55wgw?si=n45WT-qfufjVqsDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
+## Assembly Notes
+
+
+<!-- ## Steps
 
 ### 1. Assemble XY Drive Housing A
  - Insert 3 M3x5.7 Brass Insert into the XY Drive Housing A - Bottom.
@@ -74,7 +77,7 @@ The Cam Sliders can be installed on either side. Look at them in the same orient
  - Use 3 M5x40 BHCS to secure the XY Drive Housing A to the frame.
  - Optionally, cover the drive housing with the XY Drive A Lid.
 
-### 3. Assemble and Install XY Drive Housing B
+### 3. Assemble and Install XY Drive Housing B -->
 
 {: .note}
 > The assembly and install processes for side B are the same, however there are two positional differences:
