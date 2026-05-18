@@ -16,7 +16,7 @@ nav_order: 2
 | Bearing - F695                                     | 2   |
 | Gates GT2 Toothed Idler Pulley - 6mm Belt          | 1   |
 | M5x10x1 Washer                                     | 2   |
-| M5x7x1 Washer                                      | 2   |
+| M5x7x1 Washer (Washer M5)                          | 2   |
 | M5x20 BHCS                                         | 1   | 
 | M5x30 BHCS  [M5x35 BHCS for Side B]                | 1   | 
 | M3x30 SHCS                                         | 1   | 
@@ -58,14 +58,20 @@ nav_order: 2
 
 ## Animated Assembly
 
-{: .important}
-You may want to check that your M3 Roll-In Nuts actually roll in -- or can be leveraged in with a small hex key -- to the Extrusion 2010-370-Z5-ZA25-XB345. If not, go ahead and insert 7 M3 Roll-In Nuts from the side of the extrusion before starting the video assembly.
-
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/W9qf38xfoFk?si=WkttvpxSy8tU3iub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 
-## Steps
+ - **0:26** The M4 Nuts may not stay in their pockets, but they will be tightened into them soon, just don't lose them in the meantime.
+ - **3:02** The assembly process is the same on this side but note from the video and the interactive model below that the locations of the toothed and smooth idlers are different. There is also no Endstop block on this side, so an M5x30 BHCS is used instead where the M5x35 BHCS is on side B.
+ - **4:01** These M2 SHCS add a bit of rigidity. You can use glue when threading.
+ - **4:30** See the magnet polarity information below. **Magnets are fragile! Do not over-tighten!**
+ - **4:53** This is easiest if each magnet is screwed down **one at a time**, otherwise they may attract, come loose from their pockets, snap together, and break.
+
+{: .important}
+The Gantry Bar should slide easily along the full travel of the y-axis rails. If there are areas where you feel higher resistance than others, you may need to check the y-axis rail alignment, or possibly the alignment of the gantry extrusions on the frame.
+
+<!-- ## Steps
 
 ### 1. Assemble XY Joint B
  - Insert an M3x5.7 Brass Insert and 2 M4 Hex Nuts into the XY Joint B - Bottom.
@@ -79,13 +85,12 @@ You may want to check that your M3 Roll-In Nuts actually roll in -- or can be le
  - Place an M5 Roll-In Nut into the extrusion slot and use an allen wrench to align it with the hole nearest the end of the extrusion in the XY Joint B - Top.
  - Fasten the XY Joint B assembly to the extrusion with an M5x20 BHCS into the aligned roll-in nut.
  - Place an M5 Hex Nut in the XY Joint B - Carriage; place the Endstop Block into the XY Joint B with the flat side facing the extrusion, and secure the XY Joint B assembly to the extrusion with an M5x35 BHCS.
- 
-### 2. Assemble XY Joint A
+  -->
+<!-- ### 2. Assemble XY Joint A -->
 
-{: .note}
-The assembly process is the same on this side but note from the video and the interactive model below that the locations of the toothed and smooth idlers are different. There is also no Endstop block on this side, so an M5x30 BHCS is used instead where the M5x35 BHCS is on side B.
 
-### 3. Assemble and Install the Toolhead Carriage Block
+
+<!-- ### 3. Assemble and Install the Toolhead Carriage Block
  - Use 7 M3x8 SHCS and M3 Roll-In Nuts to install the MGN9H-300 Linear Guide, using the rail alignment tools.
  - Screw in 2 M2x16 SHCS to the Toolhead Carriage Block. These are only to increase rigidity.
  - Insert 3 M3 Cap Nuts into the top of the Toolhead Carriage Block.
@@ -94,17 +99,17 @@ The assembly process is the same on this side but note from the video and the in
    - **Note the magnet polarity before installation.**
    - Refer to the image below for polarity orientation, using the Magnet-1/2in Countersunk as the reference.
  - Loosely attach 2 Makerbeam XL T-Nuts to the Toolhead Carriage Block with 2 M3x16 SHCS.
- - Install the Toolhead Carriage Block assembly to the X-axis linear guide with 4 M3x8 FHCS, screwing each of them through a Magnet-1/2in Countersunk. This is easiest if each magnet is screwed down **ONE AT A TIME**, otherwise they may attract, come loose from their pockets, and break.
+ - Install the Toolhead Carriage Block assembly to the X-axis linear guide with 4 M3x8 FHCS, screwing each of them through a Magnet-1/2in Countersunk. This is easiest if each magnet is screwed down **ONE AT A TIME**, otherwise they may attract, come loose from their pockets, and break. -->
 
+#### Magnet Polarity
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/carriage_magnet_polarity.svg" width="100%" alt="">
 
-### 4. Attach the Gantry Bar (X-axis) to the Y-Axis Carriages
+<!-- ### 4. Attach the Gantry Bar (X-axis) to the Y-Axis Carriages
  - Make sure the M5 Button Heads attaching the XY Joints to the X-axis extrusion are slightly loose, but still in the nuts. A half turn CCW should do.
  - Use 4 M3x12 FHCS to attach each XY Joint to the y-axis guide carriages.
- - Re-tighten the M5 Button heads.
+ - Re-tighten the M5 Button heads. -->
 
-{: .important}
-The Gantry Bar should slide easily along the full travel of the y-axis rails. If there are areas where you feel higher resistance than others, you may need to check the y-axis rail alignment, or possibly the alignment of the gantry extrusions on the frame.
+
 
 ## Interactive View
 <div class="online_3d_viewer"
