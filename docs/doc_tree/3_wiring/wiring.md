@@ -2,12 +2,12 @@
 title: Wiring
 layout: default
 nav_order: 3
+zoom_images: true
 ---
 
 # Wiring
 
-<!-- ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_010_Header.webp) -->
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_010_Header.webp" width="100%" alt="">
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_010_Header.webp)
 
 ## Before You Start
 
@@ -34,7 +34,7 @@ This document defines how each cable is manufactured, including its Z-code, leng
 
 Below are cables Z-11 and Z-36 as it appears in the cable specification, along with a photos of the construction for reference. Keep in mind that not every hardware component will have the physical Z-code label attached. In those cases, identify the cable by comparing its features to the cable specification, or consult the Wiring Diagram if you know where the component is being installed to easier identifiy the Z-code. 
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_030_Cable_Example.webp" width="100%" alt="Cable specification example showing Z-11 and Z-36">
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_030_Cable_Example.webp)
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_035_Cable_Example.webp)
 
@@ -67,9 +67,9 @@ When using these documents, always perform a quick check to confirm that you are
 
 <br>
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_070_Z-Codes_Backpack.webp" width="100%" alt="">
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_070_Z-Codes_Backpack.webp){: .zoomable}
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_080_Z-Codes_Toolhead.webp" width="100%" alt="">
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_080_Z-Codes_Toolhead.webp){: .zoomable}
 
 <br>
 
@@ -85,19 +85,19 @@ When using these documents, always perform a quick check to confirm that you are
 * Toolhead board is set to CAN mode with switches on back of board
 * Set CAN Bus 120 Ohm terminal resistor to ON position
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_130_Toolhead_Jumpers_Mos_Switch.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_130_Toolhead_Jumpers_Mos_Switch.webp){: .zoomable}
 
 [Return to Extruder Plate assembly]({{site.url}}/doc_tree/2_assembly/12_toolhead/1_extruder_plate.html)
 
 ## Wiring The Electronics Backpack
 
-### If this is your first visit, you are arriving from "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=4Hsjn2eWTSBX0ba6)"
+<!-- ### If this is your first visit, you are arriving from "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=4Hsjn2eWTSBX0ba6)"
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_090_Youtube_Electronics_Backpack.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_090_Youtube_Electronics_Backpack.webp) -->
 
 ### 1. Install CM & Heatsink
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_100_Install_CM.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_100_Install_CM.webp){: .zoomable}
 
 ### 2. Install Jumpers on Main Board
 
@@ -114,11 +114,11 @@ When using these documents, always perform a quick check to confirm that you are
 {: .warning }
 Double-check all jumper settings before applying power — an incorrect configuration can permanently damage the board (the kind that can't be undone). We can tell you from experience an extra or misplaced jumper makes for a good firework show. 
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_110_Install_Jumpers.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_110_Install_Jumpers.webp){: .zoomable}
 
 ### 3. Install Stepper Drivers
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_120_Install_Stepper_Drivers.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_120_Install_Stepper_Drivers.webp){: .zoomable}
 
 ### 4. Install Terminal Block Bus Bars
 
@@ -131,18 +131,18 @@ Double-check that each bus bar is cut to the correct node length. Trim any exces
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_140_Install_Terminal_Block_BusBars.webp)
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_145_Bus_Bar_Trim_Check.webp" width="100%" alt="">
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_145_Bus_Bar_Trim_Check.webp)
 
-### 5. Install Terminal Block Fasteners
+### 5. Install Terminal Block Bus Bar Fasteners
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_150_Terminal_Block_Fasteners.webp)
 
-### 6. Install Terminal Block Covers
+### 6. Install Terminal Block Number Covers
 
-* Install terminal block covers for Terminal Block CAN (TBCAN) and Terminal Block Bed (TBB)
+* Install terminal block number covers for Terminal Block CAN (TBCAN) and Terminal Block Bed (TBB)
 * We will leave the others uncovered for the next steps
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_160_Terminal_Block_Covers.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_160_Terminal_Block_Covers.webp){: .zoomable}
 
 ### 7. Check Fuse Amperage - IEC C14 Plug
 
@@ -180,11 +180,11 @@ Do not assume the PSU's AC input voltage switch is set correctly. An incorrectly
 
 ### 10. Install Cables: Z-01, Z-02, Z-03, Z-11, Z-12
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_200_Install_Cables-01.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_200_Install_Cables-01.webp){: .zoomable}
 
 ### 11. Install Cables: Z-04, Z-05, Z-06
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_210_Install_Cables-02.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_210_Install_Cables-02.webp){: .zoomable}
 
 ### 12. Prepare Multimeter for Continuity Checks
 
@@ -213,7 +213,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 <span style="color:red">**Fail:** Multimeter Beeps</span>
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_230_Continuity Test-01.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_230_Continuity Test-01.webp){: .zoomable}
 
 ### 14. Check for short between AC Neutral (N) & AC Earth (⏚)
 
@@ -230,7 +230,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 <span style="color:red">**Fail:** Multimeter Beeps</span>
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_240_Continuity Test-02.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_240_Continuity Test-02.webp){: .zoomable}
 
 ### 15. Check for short between AC Live (L) & AC Earth (⏚)
 
@@ -247,7 +247,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 <span style="color:red">**Fail:** Multimeter Beeps</span>
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_250_Continuity Test-03.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_250_Continuity Test-03.webp){: .zoomable}
 
 ### 16. Check for short between PSU's DC(+) & DC(-)
 
@@ -264,7 +264,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 <span style="color:red">**Fail:** Multimeter Beeps</span>
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_260_Continuity Test-04.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_260_Continuity Test-04.webp){: .zoomable}
 
 ### 17. Check for continuity between IEC C14 plug & PSU for AC Live (L)
 
@@ -281,7 +281,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 <span style="color:red">**Fail:** No Sound</span>
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_270_Continuity Test-05.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_270_Continuity Test-05.webp){: .zoomable}
 
 ### 18. Check for continuity between IEC C14 plug & PSU for AC Neutral (N)
 
@@ -298,7 +298,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 <span style="color:red">**Fail:** No Sound</span>
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_280_Continuity Test-06.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_280_Continuity Test-06.webp){: .zoomable}
 
 ### 19. Check for continuity between IEC C14 plug & PSU for AC Earth (⏚)
 
@@ -335,7 +335,7 @@ Don’t wire electronics in a cluttered area, as it greatly increases the risk o
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_330_Discharge_Capacitors.webp)
 
-{: .note}
+{: .important}
 In the following steps, the power supply unit (PSU) will be turned on. After the PSU is turned off, wait several minutes before handling any electronics to allow the capacitors to fully discharge.
 
 ### 21. Adjusting PSU to 24V
@@ -344,37 +344,37 @@ Now that you are working safe and responsibly, lets get on with it!
 
 **Prerequisite:** Power is disconnected, jumpers installed, PSU power switch checked, fuses checked, continuity checks all passed
 
-* **① Safety First:** Ensure you and others around you observing are wearing the appropriate PPE. Also have your safety equipment on hand.
-* **②** Set voltmeter to DC Voltage Mode, choosing the lowest limit that is >=24V. In our image, that number is 200.
-* **③** Connect the voltmeter's leads to the corresponding polarity terminals on the 24V lift lever terminal block: red lead to V+ and black lead to V−.
-* **④** Connect power cable and power ON. A LED should light up on 24V PSU. Voltmeter should now have a reading close to 24V.
-* **⑤** Adjust the potentiometer on the 24V PSU until voltmeter reads 24V.
-* **⑥** Power OFF and disconnect the power cable. Remove the voltmeter from the 24V terminal block.
+1. **Safety First:** Ensure you and others around you observing are wearing the appropriate PPE. Also have your safety equipment on hand.
+2. Set voltmeter to DC Voltage Mode, choosing the lowest limit that is >=24V. In our image, that number is 200.
+3. Connect the voltmeter's leads to the corresponding polarity terminals on the 24V lift lever terminal block: red lead to V+ and black lead to V−.
+4. Connect power cable and power ON. A LED should light up on 24V PSU. Voltmeter should now have a reading close to 24V.
+5. Adjust the potentiometer on the 24V PSU until voltmeter reads 24V.
+6. Power OFF and disconnect the power cable. Remove the voltmeter from the 24V terminal block.
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_340_PSU_Adjust.webp" width="100%" alt="">
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_340_PSU_Adjust.webp){: .zoomable}
 <!-- ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_340_PSU_Adjust.webp) -->
 
 ### 22. Install Terminal Block Covers
 
 * Install terminal block covers for Terminal Block AC Power (TBAC) and Terminal Block DC Power (TBDC)
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_350_Terminal_Block_Covers_Power.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_350_Terminal_Block_Covers_Power.webp){: .zoomable}
 
 ### 23. Install Cables: Z-13, Z-15, Z-17, Z-19
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_360_Install_Cables-03.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_360_Install_Cables-03.webp){: .zoomable}
 
 ### 24. Install Cables: Z-14, Z-16, Z-18, Z-20
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_370_Install_Cables-04.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_370_Install_Cables-04.webp){: .zoomable}
 
 ### 25. Install Cables: Z-07, Z-08, Z-09, Z-10, Z-21, Z-22
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_380_Install_Cables-05.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_380_Install_Cables-05.webp){: .zoomable}
 
 ### 26. Install Cables: Z-23, Z-24, Z-26
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_390_Install_Cables-06.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_390_Install_Cables-06.webp){: .zoomable}
 
 ### 27. Assembling Peripheral Blocks
 
@@ -402,36 +402,36 @@ Before zip typing cables in next steps, you can add indicators or simply the Z-c
 
 ### 28. Install Cables: Z-42, Z-43, Z-44, Z-45
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_450_Install_Cables-07.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_450_Install_Cables-07.webp){: .zoomable}
 
 ### 29. Install Cables: Z-27, Z-28
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_460_Install_Cables-08.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_460_Install_Cables-08.webp){: .zoomable}
 
 ### 30. Install Cables: Z-34, Z-35, Z-32/33
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_470_Install_Cables-09.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_470_Install_Cables-09.webp){: .zoomable}
 
 ### 31. Install Cables: Z-29, Z-30, Z-31
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_480_Install_Cables-10.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_480_Install_Cables-10.webp){: .zoomable}
 
 ### 32. Install Cables: Z-40, Z-41
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_490_Install_Cables-11.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_490_Install_Cables-11.webp){: .zoomable}
 
 ### 33. Install Cables: Z-38, Z-39
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_500_Install_Cables-12.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_500_Install_Cables-12.webp){: .zoomable}
 
 ### 34. Install Cables: Z-36, Z-37
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_510_Install_Cables-13.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_510_Install_Cables-13.webp){: .zoomable}
 
 
 ### 35. Continue and Finish "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=C-eXoOUd_zGN5yOZ&t=408)"
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/EP_520_Continue_Youtube_Electronics_Backpack.webp" width="100%" alt="">
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_520_Continue_Youtube_Electronics_Backpack.webp)
 
 <!-- ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_520_Continue_Youtube_Electronics_Backpack.webp) -->
 
@@ -439,7 +439,7 @@ Before zip typing cables in next steps, you can add indicators or simply the Z-c
 
 ### 36. Install Cables: Z-25, Z-48, Z-49, Z-53, Z-54, Z-55, Z-56, Z-60, Z-61, Z-114
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_530_Install_Cables-14.webp)
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_530_Install_Cables-14.webp){: .zoomable}
 
 ### 37. Unplug Toolhead's XT30 Connector
 

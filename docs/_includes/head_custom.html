@@ -1,1 +1,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+{% if page.zoom_images %}
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    mediumZoom('.zoomable', {
+      margin: 24,
+      background: 'rgba(0, 0, 0, 0.85)'
+    });
+  });
+</script>
+{% endif %}
