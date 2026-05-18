@@ -12,14 +12,14 @@ nav_order: 3
 
 | Hardware (for each side)                  | Qty |   
 |:------------------------------------------|:-- -| 
-| M3x10 Coupling Nut                        | 2   |
+| M3x10Lx6W Hex Standoff (Coupling Hex Nut) | 2   |
 | M3x60 Dowel                               | 2   |
 | M5x20 BHCS                                | 1   | 
 | M3x16 SHCS                                | 7   | 
 | M3x25 SHCS                                | 4   | 
 | M3x40 SHCS                                | 1   | 
 | M3x45 SHCS                                | 2   | 
-| M3x4.3 Brass Insert                       | 2   | 
+| M3x4.3 Brass Insert (4.5)                 | 2   | 
 | M3 Hex Nut                                | 4   |
 
 | Printed Parts                    | Qty |

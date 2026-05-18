@@ -13,13 +13,13 @@ nav_order: 1
 | Hardware (for one foot)                   | Qty |   
 |:------------------------------------------|:-- -|
 | Gates GT2 20T Idler Pulley - 9mm Belt     | 1   |
+| M8 Swivel Foot                            | 1   |
+| M8 Hex Nut                                | 1   |
 | M5x60 BHSC                                | 3   |
 | M5x35 BHSC                                | 2   |
 | M5x30 BHSC                                | 2   |
 | M5 Hex Nut                                | 4   |
 | M5 Roll-In Nut                            | 3   |
-| M8 Swivel Foot                            | 1   |
-| M8 Hex Nut                                | 1   |
 | M3x35 SHSC                                | 2   |
 | M3x45 SHSC                                | 1   |
 | M3 Hex Nut                                | 2   |
