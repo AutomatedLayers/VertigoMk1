@@ -7,55 +7,21 @@ nav_order: 14
 
 # Electronics Backpack
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/xy_idler.webp)
 
 ## Materials
 
 | Hardware (for each side)                           | Qty |   
 |:---------------------------------------------------|:----| 
-| Bearing - F695                                     | 2   |
-| M5x10x1 Washer                                     | 2   |
-| Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread | 1   | 
-| M5x10 BHCS                                         | 1   | 
-| M5x40 BHCS                                         | 1   | 
-| M5 Roll-In Nut                                     | 3   |
+| DIN Rail                                           | 3   |
 
 | Printed Parts                    | Qty |
 |:---------------------------------|:----|
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Idlers/XY%20Idler%20Block%20A.stl" target="_blank">XY Idler Block A</a> | 1  |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/04%20XY%20Gantry/XY%20Idlers/XY%20Idler%20Block%20B.stl" target="_blank">XY Idler Block B</a> | 1   |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Idler%20Bearing%20Tool.stl" target="_blank">Idler Bearing Tool</a> | 1   |
+|                                  |     |
 
 ## Animated Assembly
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/eeNXnSOt2SM?si=kw3aZptvWjgTPuem" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/X98VDksNd48?si=zfdsKSLwUHoJDVVZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
+## Assembly Notes
 
-### 1. Assemble the XY Idler
- - Place 3 M5 Roll-In Nut in the frame as shown.
- - Combine the 2 M5x10x1 Washers and 2 F695 Bearings to create a "smooth idler pulley".
- - Use the XY Idler Tool to push the idler pulley into position and push the Shoulder Screw through the XY Idler Block and the idler pulley.
- - Secure the assembly to the frame using the M5x10 BHCS, M5x40 BHCS, and Shoulder Screw. **Don't overtighten the shoulder screw**.
 
-## Interactive View
-
-<div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/xy_idler.glb"
-    backgroundcolor="244, 246, 250"
-    camera="
-    -0.10696708258892587, 0.5298596415005542, 0.16535934079488385,
-    -0.19500021714581545, 0.5278500125141036, 0.16833345857979193, 
-    0, 1, 0
-    "
-    environmentmap=
-    "
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/px.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nx.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/py.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/ny.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/pz.png,
-    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
-    "
-    >
-</div>
