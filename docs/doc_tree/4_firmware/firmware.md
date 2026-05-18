@@ -179,8 +179,10 @@ echo "mainboard mcu: $(python3 ~/katapult/scripts/flashtool.py -i can0 -q | grep
 
 ### 5. Flash Katapult to SHT36 V3 Toolhead Board
 
+{: .note}
+The 120 Ohm Resistor and CAN Mode switches should have already been [configured here]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#configuring-the-toolhead-board).
+
 - Unplug the **XT30 cable** from the SHT36 V3.
-- The 120 Ohm Resistor and CAN Mode switches should have already been [configured here]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#configuring-the-toolhead-board).
 - Connect the USB-A side of a **USB-A <--> USB-C cable** to the M8P. We tried and had issues with a USB-C <--> USB-C cable.
 - Put the SHT36 V3 in boot mode. While holding the **BOOT** button on the SHT36 V3, plug in the USB-C side of the cable.
 
