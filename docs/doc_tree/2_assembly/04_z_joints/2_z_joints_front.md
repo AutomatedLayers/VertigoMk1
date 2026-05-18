@@ -24,7 +24,7 @@ nav_order: 2
 | M3x5.7 Brass Insert                       | 2   | 
 | M3x4.3 Brass Insert (4.5)                 | 2   | 
 | M5 Roll-In Nut                            | 1   |
-| (***Side B Only** M3x10 SHCS)              | (1) | 
+| [***Side B Only** M3x10 SHCS]              | [1] | 
 
 | Printed Parts                    | Qty |
 |:---------------------------------|:-- -|

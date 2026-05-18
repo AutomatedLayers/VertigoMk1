@@ -12,13 +12,13 @@ nav_order: 2
 
 | Hardware - XY Joint (for each side)                | Qty |   
 |:---------------------------------------------------|:----| 
+| Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread (M4x25mm) | 2   | 
 | Bearing - F695                                     | 2   |
 | Gates GT2 Toothed Idler Pulley - 6mm Belt          | 1   |
 | M5x10x1 Washer                                     | 2   |
 | M5x7x1 Washer                                      | 2   |
-| Shoulder Screw - 25mmx5mm Shoulder - M4x4.5 Thread (M4x25mm) | 2   | 
 | M5x20 BHCS                                         | 1   | 
-| M5x30 BHCS  (M5x35 BHCS for Side B)                | 1   | 
+| M5x30 BHCS  [M5x35 BHCS for Side B]                | 1   | 
 | M3x30 SHCS                                         | 1   | 
 | M3x35 SHCS                                         | 1   | 
 | M3x12 FHCS                                         | 4   | 
@@ -59,10 +59,11 @@ nav_order: 2
 ## Animated Assembly
 
 {: .important}
->WIP notes: 
->- You may want to check that your M3 Roll-In Nuts actually roll in -- or can be leveraged in with a small hex key -- to the Extrusion 2010-370-Z5-ZA25-XB345. If not, go ahead and insert 7 of those nuts from the side of the extrusion before starting the video assembly.
+You may want to check that your M3 Roll-In Nuts actually roll in -- or can be leveraged in with a small hex key -- to the Extrusion 2010-370-Z5-ZA25-XB345. If not, go ahead and insert 7 M3 Roll-In Nuts from the side of the extrusion before starting the video assembly.
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/W9qf38xfoFk?si=WkttvpxSy8tU3iub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Assembly Notes
 
 ## Steps
 
