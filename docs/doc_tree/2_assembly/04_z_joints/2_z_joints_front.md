@@ -22,7 +22,7 @@ nav_order: 2
 | M3x35 SHCS                                | 2   | 
 | M3x40 SHCS                                | 2   | 
 | M3x5.7 Brass Insert                       | 2   | 
-| M3x4.3 Brass Insert                       | 2   | 
+| M3x4.3 Brass Insert (4.5)                 | 2   | 
 | M5 Roll-In Nut                            | 1   |
 | (***Side B Only** M3x10 SHCS)              | (1) | 
 
@@ -46,6 +46,9 @@ nav_order: 2
 
 ## Assembly Notes
 
+ - **1:10** Both The M5x20 BHCS and M3x10 SHCS thread into plastic. They will be used to adjust the height of the Z Joints when the endstop and safety switch are triggered, respectively. Skip the glue until that calibration is done. Side A has no M3x10 SHCS safety switch position screw, so the Endstop Adjustment printed part looks a bit different on side A and B.
+ - **2:40** If it's tricky to slide the Z Joints into the extrusion with the roll-in nuts attached, just unscrew them and insert them into the extrusion first.
+ - **2:43** This can be dialed in later when the Front Z Joints are attached to the rails.
 
 <!-- ### 1. Assemble Front Z Joint
  - Press in 2 M3x5.7 Brass Inserts to the Front Joint B Carriage Block.
