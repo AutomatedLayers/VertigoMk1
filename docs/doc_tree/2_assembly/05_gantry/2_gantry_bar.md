@@ -66,7 +66,7 @@ nav_order: 2
  - **3:02** The assembly process is the same on this side but note from the video and the interactive model below that the locations of the toothed and smooth idlers are different. There is also no Endstop block on this side, so an M5x30 BHCS is used instead where the M5x35 BHCS is on side B.
  - **4:01** These M2 SHCS add a bit of rigidity. You can use glue when threading.
  - **4:30** See the magnet polarity information below. **Magnets are fragile! Do not over-tighten!**
- - **4:53** This is easiest if each magnet is screwed down **one at a time**, otherwise they may attract, come loose from their pockets, snap together, and break.
+ - **4:52** Installing these is easiest if each magnet is screwed down **one at a time**, otherwise they may attract, come loose from their pockets, snap together, and break. These are the magnets that should be used as a reference for others magnets, as described below. They are all the same polarity and relatively accessible. 
 
 {: .important}
 The Gantry Bar should slide easily along the full travel of the y-axis rails. If there are areas where you feel higher resistance than others, you may need to check the y-axis rail alignment, or possibly the alignment of the gantry extrusions on the frame.
