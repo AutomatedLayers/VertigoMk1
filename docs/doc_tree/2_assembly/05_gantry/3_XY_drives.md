@@ -44,6 +44,11 @@ nav_order: 3
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/XY%20Drive%20Roll-In%20Nut%20Alignment.STL" target="_blank">XY Drive Roll-In Nut Alignment Tool</a> | 1  |
 
 ## Animated Assembly
+
+{: .important}
+>WIP Notes:
+>- There is a mistake in the sequence in this assembly video. The XY Drive Cam Cap must be attached to the cam with the M5x30 SHCS **AFTER**  the housing top and bottom are connected with the 3 M3x30 SHCS at **1:40**.
+
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/ccUepr55wgw?si=n45WT-qfufjVqsDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
