@@ -13,11 +13,11 @@ nav_order: 3
 | Hardware (for each side)                           | Qty |   
 |:---------------------------------------------------|:----| 
 | Stepper Motor - LDO-42STH48-2804AC                 | 1   |
+| Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread (M5x25mm) | 2   |
 | GT2 20T Timing Pulley - 6mm Belt                   | 1   |
 | Bearing - F695                                     | 6   |
-| M5x10x1 Washer                                     | 6   |
-| Shoulder Screw - 25mmx5mm Shoulder - M5x9.5 Thread (M5x25mm) | 2   |
 | M5 x 40 BHCS                                       | 3   |
+| M5x10x1 Washer                                     | 6   |
 | M5 Roll-In Nut                                     | 5   |
 | M3x40 SHCS                                         | 4   |
 | M3x30 SHCS                                         | 4   |
@@ -53,6 +53,7 @@ nav_order: 3
 
 ## Assembly Notes
 
+ - **0:33** 
 
 <!-- ## Steps
 
