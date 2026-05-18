@@ -43,7 +43,19 @@ nav_order: 3
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/KFYv_QmUbJs?si=4q1HuJLT3oKaKD9-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
+## Assembly Notes
+
+ - **1:46** The M5x20 BHCS threads into plastic and will be used to adjust the Z Joint when the endstop is triggered. Skip any glue until calibration.
+ - **1:49** Dowels should be a tight press into the Dowel Caps.
+ - **2:03** Don't tighten these very much, they will be readjusted when the print bed is installed.
+
+{: .important}
+**2:19** The dowels should fit into cup block tightly and not wiggle at all. If they do, adjust the holes or scaling in your slicer and reprint parts as needed. For Rear Z Joint Side A: the kinematic seatbelt should slide along the dowels, but they should not be loose, like a snug slip fit.
+
+{: .note}
+There are two tooling balls on the rear of the bed that will fit into the kinematic "seatbelts" in these rear Z Joints. Those together with the tooling ball on the Bed Lever form a [Kelvin kinematic coupling](https://en.wikipedia.org/wiki/Kinematic_coupling#Kelvin_Coupling). The concept in our design is that one DOF is constrained by the Bed Lever, two on the rear Z Joint A, and three on the rear Z Joint B. This is why side B gets the seatbelt locks and side A has a bit of travel along the dowels. 
+
+<!-- ## Steps
 ### 1. Assemble Front Z Joint B
  - Slide the M3x10 Coupling Nut into the inner slot in the Rear Joint B Carriage Block printed part.
  - Push in 2 M3x25 SHCS as shown.
@@ -62,14 +74,12 @@ nav_order: 3
  - Slide the dowels all the way through the cup block and seatbelt until the dowel cap touches the cup block.
  - Use an M3x16 SHCS to fix the dowel cap in place .
 
-{: .important}
-The dowels should fit into the dowel cap and cup block tightly and not wiggle at all. If they do, adjust the holes or scaling in your slicer and reprint parts as needed. 
-For Rear Z Joint Side A: the kinematic seatbelt should slide along the dowels, but they should not be loose, like a snug slip fit.
+
 
 ### 3. Attach Rear Z Joint to Linear Carriage
  - Push in 2 M3x45 SHCS to the cup block as shown.
  - Attach the Rear Z Joint to the rear linear carriage using the same procedure as the Front Z Joints; captive screws first, then outer screws.
- - **[ Side B Only** Loosen the M3 SHCS holding the dowel cap in place and slide on the two printed Seatbelt Locks as shown. Re-tighten the M3 SHCS **]**.
+ - **[ Side B Only** Loosen the M3 SHCS holding the dowel cap in place and slide on the two printed Seatbelt Locks as shown. Re-tighten the M3 SHCS **]**. -->
 
 ## Interactive View
 <div class="online_3d_viewer"
