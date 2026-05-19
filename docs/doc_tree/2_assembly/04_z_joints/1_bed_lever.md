@@ -16,8 +16,8 @@ The channel magnet is **STRONG**, and also rather fragile. Use caution with ferr
 | Hardware                                  | Qty |   
 |:------------------------------------------|:-- -|
 | Channel Magnet - 40mm                     | 1   |
-| Strike Plate - 40mm (attached to Channel Magnet) | 1   |
-| (Dual Hook) Tension Spring - 25mm x 4mm          | 2   |
+| Bar Magnet Striker - 40mm [attached to Channel Magnet] | 1   |
+| (Dual Hook Tension) Spring - 4x25mm       | 2   |
 | Tooling Ball                              | 1   |
 | M5 Hex Nut                                | 1   |
 | M5x10x1 Washer                            | 1   |
@@ -73,6 +73,7 @@ The channel magnet is **STRONG**, and also rather fragile. Use caution with ferr
  - **3:51** Put some threadlocker on the M5 Nut.
  - **3:57** Tighten by the **shank only**.
  - **4:12** The shaft should be a **really snug fit** and will only go into the lever if the flat face is down.
+ - **4:22** Use the M2 SHCS to leverage the spring's hook into position.
 
 <!--
  - Place the Channel Magnet into the Bed Lever Frame Mount  and loosely fasten it to the extrusion with 2 M3x10 FHCS.
