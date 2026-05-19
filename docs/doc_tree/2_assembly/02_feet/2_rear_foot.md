@@ -70,6 +70,7 @@ nav_order: 2
 {: .note}
 The notes regarding the Height Knob and Tensioner from the Front Foot assembly apply here as well.
 
+ - **0:00** Remove any support material.
  - **2:14** Bottom view of the slot/hole alignment
 ![]({{site.url}}/{{site.baseurl}}/assets/images/foot_slot.png)
 
