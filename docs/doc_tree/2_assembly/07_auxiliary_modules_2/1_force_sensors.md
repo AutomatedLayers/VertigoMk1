@@ -10,10 +10,7 @@ nav_order: 2
 
 ## Materials
 
-{: .note}
-The hardware listed below are for one Force Sensor.
-
-| Hardware                                           | Qty |   
+| Hardware (for each sensor)                         | Qty |   
 |:---------------------------------------------------|:----| 
 | WAGO 2P                                            | 2   |
 | M5x20 Dowel Pin                                    | 2   |
@@ -32,19 +29,30 @@ The hardware listed below are for one Force Sensor.
 | M3 Cap Nut (Acorn Nut)                             | 1   |
 | PTFE Tube - 3mm ID x 4mm OD                        | 10mm|
 
-| Cables (For Both Sensors)            | 
+| Cables                               | 
 |:-------------------------------------|
 | Z-73                                 |
 | Z-74                                 |
 | Z-75                                 |
 | Z-76                                 |
 
+| Printed Parts                         | Qty |
+|:--------------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Frame%20Mount%20A%20-%20Accent.stl" target="_blank">Force Sensor Frame Mount A - Accent</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Frame%20Mount%20B%20-%20Accent.stl" target="_blank">Force Sensor Frame Mount B - Accent</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Plug%20-%20Q2.stl" target="_blank">Force Sensor Plug - Q2</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Rocker%20-%20Q2.stl" target="_blank">Force Sensor Rocker - Q2</a> | 1  |
+
 
 ## Animated Assembly
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=D-dqH7wgQwq1nfns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Magnet Polarity
+## Assembly Notes
+
+
+
+#### Magnet Polarity
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/force_sensor_magnet_polarity.svg" width="100%" alt="">
 

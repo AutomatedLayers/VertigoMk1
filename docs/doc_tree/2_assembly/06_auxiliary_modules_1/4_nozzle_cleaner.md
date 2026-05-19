@@ -23,7 +23,7 @@ nav_order: 5
 | Printed Parts                         | Qty |
 |:--------------------------------------|:----|
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Nozzle%20Wipe%20%26%20Plug/Nozzle%20Wiper%20Arm.stl" target="_blank">Nozzle Wiper Arm</a> | 1  |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Nozzle%20Wipe%20%26%20Plug/Nozzle%20Wiper%20Frame%20Mount%20-%20Accent.stl" target="_blank">Nozzle Wiper Frame Mount - Accent</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Nozzle%20Wipe%20%26%20Plug/Nozzle%20Wiper%20Frame%20Mount%20-%20Accent.stl" target="_blank">Nozzle Wiper Frame Mount</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Nozzle%20Wipe%20%26%20Plug/Nozzle%20Wiper%20Wheel.stl" target="_blank">Nozzle Wiper Wheel</a> | 1  |
 
 ## Animated Assembly
