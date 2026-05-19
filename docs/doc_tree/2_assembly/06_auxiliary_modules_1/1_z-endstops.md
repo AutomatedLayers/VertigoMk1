@@ -39,7 +39,15 @@ This is the first section where cables are installed, so it's a good time to che
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/QfOSu2yNCmc?si=UZh_bVq0Q3KChDJH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
+## Assembly Notes
+
+ - **0:24** Sandwich the Z Endstop Switch PCB between the Z Enstop Pod and Z Endstop Pod Cap, ensuring the wires route around the screw stud. A tiny dab of glue can be used to keep the pod and cap together if it's an issue during install.
+ - **0:53** This step is only for aligning the Z Endstop Pod, not for adjusting the height of the Z Joint at endstop trigger.
+ - **1:37** These two cable covers are separate because the 9mm belt attached to this tensioner runs close to the extrusion. The gap between these cable covers should roughly match the gap in the tensioner where the 9mm toothed idler sits.
+ - **2:16** The Z Endstop Pods will need to be installed with the mounting FHCS screws entering from the other side when installed on side A.  They are designed with this "symmetry" in mind -- also noted at 2:26.
+
+
+<!-- ## Steps
 
 ### 1. Assemble and Install the Z Endstop Pods
  - Plug Z-69 into the connector on the Z Enstop Switch PCB.
@@ -51,10 +59,10 @@ This is the first section where cables are installed, so it's a good time to che
  - Tighten the Z Endstop Pod mounting screws.
  - Route the Z Endstop Pod wires through the extrusion slots as shown, installing cable covers as you go.
  - **Position the 25mm and 10mm along the front-facing slot of the lower rear extrusion such that the gap between them leaves room for the Z-axis belt that will come up from the tensioner**
- - Repeat this for all 4 Z Endstop pods using the cables listed above, making sure to check that the corresponding Z Endstop Adjustment Screw presses the switch at the bend in the lever. **The height of the endstop adjustment screws will be calibrated later**.
+ - Repeat this for all 4 Z Endstop pods using the cables listed above, making sure to check that the corresponding Z Endstop Adjustment Screw presses the switch at the bend in the lever. **The height of the endstop adjustment screws will be calibrated later**. -->
 
-{: .note}
-The Z Endstop Pods will need to be installed with the mounting FHCS screws entering from the other side when installed on side A.
+<!-- {: .note}
+The Z Endstop Pods will need to be installed with the mounting FHCS screws entering from the other side when installed on side A. -->
 
 #### Z Enstop Cable Location on printer
 
