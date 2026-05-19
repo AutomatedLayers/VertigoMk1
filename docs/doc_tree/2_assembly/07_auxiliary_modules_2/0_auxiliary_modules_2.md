@@ -7,3 +7,6 @@ nav_order: 7
 
 # Auxiliary Modules Part 1
 ![]({{site.url}}/{{site.baseurl}}/assets/images/aux_2.webp)
+
+{: .note}
+All the modules from this section are presented in one video.
