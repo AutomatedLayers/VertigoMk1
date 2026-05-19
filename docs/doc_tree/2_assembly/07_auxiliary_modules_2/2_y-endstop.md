@@ -23,12 +23,21 @@ nav_order: 3
 | Z-72                                 |
 
 
+| Printed Parts                         | Qty |
+|:--------------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Endstops%20%26%20Cable%20Routing/Y%20Endstop%20Pod.stl" target="_blank">Y Endstop Pod</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Endstops%20%26%20Cable%20Routing/Y%20Endstop%20Pod%20Cap.stl" target="_blank">Y Endstop Pod Cap</a> | 1 |
+
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=q_HybWhMYmee5mYx&amp;start=316"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!-- ## Interactive View
+## Assembly Notes
+
+ - **5:43** Make sure the Force Sensor wires are routing into the channel in the Y Endstop Pod.
+
+## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/wheel_ramp.glb"
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/y_endstop.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "
@@ -40,4 +49,4 @@ nav_order: 3
     {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
     "
     >
-</div> -->
+</div>

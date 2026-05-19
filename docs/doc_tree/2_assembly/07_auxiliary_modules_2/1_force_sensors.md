@@ -66,6 +66,7 @@ nav_order: 2
 
  - **3:47** Decompress until the spring is only compressed ~1mm from full extension. The proper force will be calibrated in the Checks and Calibration section.
  - **4:07** **WIP Continuity and fit check information**
+ - **4:33** Remove support material from Force Sensor Plug.
  - **5:12** Force Sensor Frame Mount should touch the rear vertical extrusion.
  <!-- - **5:20** Continue to the next section in the Assembly Guide: [Y Endstop] -->
 
