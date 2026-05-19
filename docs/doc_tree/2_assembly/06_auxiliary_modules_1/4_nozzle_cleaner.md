@@ -20,10 +20,22 @@ nav_order: 5
 | M3x16 SHCS                                         | 1   |
 | M3x5.7 Brass Insert                                | 2   | 
 
+| Printed Parts                         | Qty |
+|:--------------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Nozzle%20Wipe%20%26%20Plug/Nozzle%20Wiper%20Arm.stl" target="_blank">Nozzle Wiper Arm</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Nozzle%20Wipe%20%26%20Plug/Nozzle%20Wiper%20Frame%20Mount%20-%20Accent.stl" target="_blank">Nozzle Wiper Frame Mount - Accent</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Nozzle%20Wipe%20%26%20Plug/Nozzle%20Wiper%20Wheel.stl" target="_blank">Nozzle Wiper Wheel</a> | 1  |
+
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=GU3BMGTDCJT6UkUV&amp;start=63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Steps
+## Assembly Notes
+
+ - **1:24** Make sure this wheel can rotate with a light push on the silicone band. This will plug the nozzle when it's heating, cooling, or paused.
+ - **1:26** You'll need to cut a 3x4 section of the Silicone Brush. Keep the remaining piece for spares.
+ - **2:19** The Nozzle Cleaner should be installed such that it doesn't interfere with the Front Z Joints when they are raised until their carriages are at the top of their rails. This module's vertical position will be adjusted in the Checks and Calibration Section.
+
+<!-- ## Steps
 
 ### 1. Assemble and Install the Nozzle Cleaner
  - Insert an M3.5.7 Brass Insert into the Nozzle Wiper Arm.
@@ -32,7 +44,7 @@ nav_order: 5
  - Cut a 3x4 section of the Silicone Brush, remove its adhesive backing and press it onto its pad on the Nozzle Wiper Arm. Keep the other part for spares.
  - Insert an M3x5.7 Brass Insert into the bottom of the Nozzle Wiper Frame Mount.
  - Use an M3x25 SHCS to attach the Nozzle Wiper Arm to the Nozzle Wiper Frame Mount.
- - Use 2 M5 Roll-In Nuts and 2 M5x10 BHCS to attach the Nozzle Cleaner to the inside slot of the front vertical frame extrusion on side A. **Slide the Front Z Joints Bar up until the carriages are at the top of the rails. The nozzle cleaner should be installed so that it doesn't touch the Front Z Joint A or extrusion in this position. The vertical position will be adjusted in the Checks and Calibration Section.**
+ - Use 2 M5 Roll-In Nuts and 2 M5x10 BHCS to attach the Nozzle Cleaner to the inside slot of the front vertical frame extrusion on side A. **Slide the Front Z Joints Bar up until the carriages are at the top of the rails. The nozzle cleaner should be installed so that it doesn't touch the Front Z Joint A or extrusion in this position. The vertical position will be adjusted in the Checks and Calibration Section.** -->
 
 ## Interactive View
 <div class="online_3d_viewer"
