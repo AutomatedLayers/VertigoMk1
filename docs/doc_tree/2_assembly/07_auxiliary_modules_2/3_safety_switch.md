@@ -22,12 +22,16 @@ nav_order: 4
 |:--------------------------------------|
 | Z-115                                 |
 
+| Printed Parts                         | Qty |
+|:--------------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Safety%20Switch/Safety%20Switch%20Bracket.stl" target="_blank">Safety Switch Bracket</a> | 1 |
+
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=q_HybWhMYmee5mYx&amp;start=407" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!-- ## Interactive View
+## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/bed_lever_striker.glb"
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/safety_switch.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "
@@ -38,5 +42,13 @@ nav_order: 4
     {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/pz.png,
     {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
     "
+    camera=
+    "
+    5.28, 0.43, 0.19,
+    5.2, 0.5, 0.1,
+    0, 1, 0
+    "
     >
-</div> -->
+</div>
+
+
