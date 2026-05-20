@@ -12,7 +12,7 @@ nav_order: 2
 
 | Hardware (for each sensor)                         | Qty |   
 |:---------------------------------------------------|:----| 
-| WAGO 2P                                            | 2   |
+| WAGO Connector - 2-Pin                             | 2   |
 | M5x20 Dowel Pin                                    | 2   |
 | Die Spring                                         | 1   |
 | Magnet Cube                                        | 1   |
