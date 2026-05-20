@@ -81,6 +81,7 @@ nav_order: 2
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/force_sensor_magnet_polarity.svg" width="100%" alt="">
 
 #### Continuity Testing
+ <!-- - [WIP placeholder] Grab a multimeter and set it to 'continuity' mode -- most multimeters will beep if you touch the leads together. Place the  -->
 
 #### Force Sensor Fit Check
 
