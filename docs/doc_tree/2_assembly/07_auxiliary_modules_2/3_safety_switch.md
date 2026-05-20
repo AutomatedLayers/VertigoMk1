@@ -29,6 +29,10 @@ nav_order: 4
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=q_HybWhMYmee5mYx&amp;start=407" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Assembly Notes
+
+ - **7:22** This is preliminary. The exact position of the safety switch adjustment screw will be set in the Checks and Calibration section.
+
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/safety_switch.glb"
