@@ -33,8 +33,12 @@ where `L` is the free span in meters, `F` is the desired tension in Newtons, and
 
 ---
 ### Belt Spans to Tune
-![]({{site.url}}/{{site.baseurl}}/assets/images/xy_belt_span.png)
-![]({{site.url}}/{{site.baseurl}}/assets/images/z_belt_span.webp)
+![XY Belt Span]({{site.url}}/{{site.baseurl}}/assets/images/xy_belt_span.png)
+
+<div align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/z_belt_span.webp" alt="Z Belt Span">
+</div>
+<!-- ![]({{site.url}}/{{site.baseurl}}/assets/images/z_belt_span.webp) -->
 
 ---
 
