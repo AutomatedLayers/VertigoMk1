@@ -27,7 +27,7 @@ nav_order: 2
 | Wave Spring Washer                                 | 2   |
 | M3 Nyloc Nut                                       | 2   |
 | M3 Cap Nut (Acorn Nut)                             | 1   |
-| PTFE Tube - 3mm ID x 4mm OD                        | 10mm|
+| PTFE Tube - 3mm ID x 4mm OD (cut from long piece)  | 10mm|
 
 | Cables                               | 
 |:-------------------------------------|
