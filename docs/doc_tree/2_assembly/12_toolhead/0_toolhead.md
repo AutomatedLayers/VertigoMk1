@@ -11,7 +11,7 @@ nav_order: 12
 
 Why design a whole printer if you're not going to try to make some improvements? In continuing with the theme of the great director, we designed the Hitchcock Toolhead to give 'surprising' performance (in a tiny package). We managed to squeeze
 - 3 x 3010 radial part-cooling blowers
-- 3010 Radial coldside blower
+- 3010 radial coldside blower
 - precision piezo bed probe
 - reciprocating (aka unjammable) filament cutter
 - magnetic cowl
