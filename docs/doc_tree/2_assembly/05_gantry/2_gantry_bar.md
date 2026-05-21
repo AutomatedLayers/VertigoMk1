@@ -101,6 +101,7 @@ The Gantry Bar should slide easily along the full travel of the y-axis rails. If
  - Loosely attach 2 Makerbeam XL T-Nuts to the Toolhead Carriage Block with 2 M3x16 SHCS.
  - Install the Toolhead Carriage Block assembly to the X-axis linear guide with 4 M3x8 FHCS, screwing each of them through a Magnet-1/2in Countersunk. This is easiest if each magnet is screwed down **ONE AT A TIME**, otherwise they may attract, come loose from their pockets, and break. -->
 
+---
 #### Magnet Polarity
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/carriage_magnet_polarity.svg" width="100%" alt="">
 
@@ -109,8 +110,7 @@ The Gantry Bar should slide easily along the full travel of the y-axis rails. If
  - Use 4 M3x12 FHCS to attach each XY Joint to the y-axis guide carriages.
  - Re-tighten the M5 Button heads. -->
 
-
-
+---
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/gantry_bar.glb"

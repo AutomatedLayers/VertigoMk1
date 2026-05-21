@@ -11,3 +11,6 @@ nav_order: 11
 
 {: .note}
 It's helpful to use a granite surface again for this assembly
+
+{: .note}
+All the modules from this section are presented in one video.

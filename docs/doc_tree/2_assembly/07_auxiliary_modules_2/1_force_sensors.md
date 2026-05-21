@@ -76,15 +76,19 @@ nav_order: 2
 >- made from cheap, off-the-shelf components, commonly found in 3D printers
 >- repeatable after install, particularly with regard to the wire routing and conducting contacts
 
+---
 #### Magnet Polarity
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/force_sensor_magnet_polarity.svg" width="100%" alt="">
 
+---
 #### Continuity Testing
  <!-- - [WIP placeholder] Grab a multimeter and set it to 'continuity' mode -- most multimeters will beep if you touch the leads together. Place the  -->
 
+---
 #### Force Sensor Fit Check
 
+---
 ## Interactive View
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/force_sensor.glb"
