@@ -15,18 +15,18 @@ nav_order: 4
 | Hardware                                           | Qty |   
 |:---------------------------------------------------|:----| 
 | Extrusion - 1010-300                               | 1   |
-| Makerbeam M3 T-Nut                                         | 14   |
-| Magnet - 1/4in Cube                                         | 2   |
-| Plastic Scraper                                         | 7   |
-| Magnet - 6x3mm                                         | 21  |
-| M1.5x10 Dowel                                         | 28  |
-| Linear Spring                                        | 2   |
-| M3x5.7 Brass Insert                                      | 10  |
+| Makerbeam M3 T-Nut                                 | 14  |
+| Magnet - 1/4in Cube                                | 2   |
+| Plastic Scraper                                    | 7   |
+| Magnet - 6x3mm                                     | 21  |
+| M1.5x10 Dowel                                      | 28  |
+| Linear Spring                                      | 2   |
+| M3x5.7 Brass Insert                                | 10  |
 | M3x25 SHCS                                         | 4   |
 | M3x20 SHCS                                         | 2   |
 | M3x16 SHCS                                         | 8   |
 | M3x10 SHCS                                         | 15  |
-| M2x8 FHCS                                         | 4   |
+| M2x8 FHCS                                          | 4   |
 
 | Printed Parts                         | Qty |
 |:--------------------------------------|:----|

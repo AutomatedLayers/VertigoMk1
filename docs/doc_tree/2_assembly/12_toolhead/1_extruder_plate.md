@@ -53,6 +53,38 @@ Go to the [Configuring the Toolhead Board]({{site.url}}/{{site.baseurl}}/doc_tre
 | **Extruder Motor Cable**             | 
 | Z-101                                |
 
+| Printed Parts                         | Qty |
+|:--------------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/Razor%20Lever%20-%20Bottom.stl" target="_blank">Razor Lever - Bottom</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/Razor%20Lever%20-%20Cap.stl" target="_blank">Razor Lever - Cap</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/Razor%20Lever%20-%20Top.stl" target="_blank">Razor Lever - Top</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/Toolhead%20Board%20Mount.stl" target="_blank">Toolhead Board Mount</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/Toolhead%20Heatbreak%20Riser.stl" target="_blank">Toolhead Heatbreak Riser</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/Toolhead%20Motor%20Arch.stl" target="_blank">Toolhead Motor Arch</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/Toolhead%20Pogo%20Mount.stl" target="_blank">Toolhead Pogo Mount</a> | 1 |
+
 ## Animated Assembly
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/pYRgoibySGw?si=36XbUyoBYJCRIt-V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Assembly Notes
+
+ - **0:07** Unfortunately the wires that come with the standard E3D HeaterCore were not long enough to reach the toolhead board in our configuration. You must have the modified 'Vertigo Mk1' heater core, or modifiy the wires of your own to reach the board **at your won risk**.
+ - **0:14** A tiny dab of Boron Nitride 'anti-seize' paste on the threads can help prevent the nozzle from unscrewing itself when printing for many continuous hours. This is also why the 'Wall Loop Direction' is set to 'Clockwise' in our [default Slicer settings]({{site.url}}/{{site.baseurl}}/doc_tree/7_slicer/slicer.html).
+ - **1:00** **WIP** Torsion spring is wrong-handed from what came in the kits, so it may be easier to install it from the top, but the principal is the same.
+
+## Interactive View
+<div class="online_3d_viewer"
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/toolhead_plate.glb"
+    backgroundcolor="244, 246, 250"
+    environmentmap=
+    "
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/px.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nx.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/py.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/ny.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/pz.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
+    "
+    >
+</div>

@@ -43,6 +43,7 @@ nav_order: 10
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/08%20Enclosure/Rear%20Panel%20Mount%20-%20Top%20Corner%20A.stl" target="_blank">Rear Panel Mount - Top Corner A</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/08%20Enclosure/Rear%20Panel%20Mount%20-%20Top%20Corner%20B.stl" target="_blank">Rear Panel Mount - Top Corner B</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Cable%20Chain/Frame%20Cable%20Chain%20Mount.stl" target="_blank">Frame Cable Chain Mount</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/E-Chain%20Interface%20Bushing%20M.stl" target="_blank">E-Chain Interface Bushing M</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/E-Chain%20Interface%20Bushing%20F.stl" target="_blank">E-Chain Interface Bushing F</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/07%20Hitchcock%20Toolhead/Toolhead/E-Chain%20Interface.stl" target="_blank">E-Chain Interface</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Bed%20Chain%20Cable%20Setter%20Tool.STL" target="_blank">Bed Chain Cable Setter Tool</a> | 1 |
@@ -55,7 +56,7 @@ nav_order: 10
 
  - **3:49** **WIP** This "live" video does not exist yet, but the animation describes the process pretty well.
 
-## Interactive View
+<!-- ## Interactive View
 
 <div class="online_3d_viewer"
     model="{{site.url}}/{{site.baseurl}}/assets/3d/chain_mount.glb"
@@ -70,5 +71,5 @@ nav_order: 10
     {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
     "
     >
-</div>
+</div> -->
 

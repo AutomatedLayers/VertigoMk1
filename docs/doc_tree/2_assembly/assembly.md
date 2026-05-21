@@ -42,6 +42,7 @@ Sometimes there's a note.
 ### Optional, But Really Helpful
  - SciGrip #16 Acrylic Cement
  - Blue "medium strength" Loctite
+ - Boron Nitride Paste
  - Arbor Press
  - Machinist's Square
  - Dial Guage/Indicaator and Precision 1-2-3 Block
