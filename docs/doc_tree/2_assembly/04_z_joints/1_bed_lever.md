@@ -70,7 +70,7 @@ The channel magnet is **STRONG**, and also rather fragile. Use caution with ferr
 ### 3. Attach the Bed Lever to the Front Z Joint Bar -->
 
  - **3:38** Dowels are here to increase rigidity. They should not fall out once inserted, if they do, either adjust your shrinkage compensation or use a bit of glue if they're not too loose.
- - **3:51** Put some threadlocker on the M5 Nut.
+ - **3:51** Use some threadlocker on the M5 Hex Nut to secure the Tooling Ball.
  - **3:57** Tighten by the **shank only**.
  - **4:12** The shaft should be a **really snug fit** and will only go into the lever if the flat face is down.
  - **4:22** Use the M2 SHCS to leverage the spring's hook into position.

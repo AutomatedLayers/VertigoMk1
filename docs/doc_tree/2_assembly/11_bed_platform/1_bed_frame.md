@@ -43,9 +43,41 @@ nav_order: 1
 | Cables                               | 
 |:-------------------------------------|
 | Z-91                                 |
+| Z-92                                 |
+
+| Printed Parts                         | Qty |
+|:--------------------------------------|:----|
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Bed%20Frame/Bed%20Frame%20-%20Front%20Support%20Bar.stl" target="_blank">Bed Frame - Front Support Bar</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Bed%20Frame/Bed%20Frame%20-%20Tool%20Ball%20Mount%20A.stl" target="_blank">Bed Frame - Tool Ball Mount A</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Bed%20Frame/Bed%20Frame%20-%20Tool%20Ball%20Mount%20B.stl" target="_blank">Bed Frame - Tool Ball Mount B</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Bed%20Frame/Bed%20Frame%20-%20WAGO%20Bar%20-%20Accent.stl" target="_blank">Bed Frame - WAGO Bar</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Bed%20Frame%20Alignment%20Tool.stl" target="_blank">Bed Frame Alignment Tool</a> | 1 |
 
 ## Animated Assembly
 
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/beljLD9yPFU?si=ZPCdjsPRfDH1dlFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Assembly Notes
+
+ - **1:07** Rubber stoppers that come with the rails may be used here to keep the carriages from accidentally sliding off.
+ - **2:15** Use some threadlocker on the M5 Hex Nut to secure the Tooling Ball.
+ - **2:22** Tighten by the **shank only**.
+ - **2:52** Rubber stoppers can be removed now that the carriages are contained.
+
+## Interactive View
+
+<div class="online_3d_viewer"
+    model="{{site.url}}/{{site.baseurl}}/assets/3d/bed_plate_frame.glb"
+    backgroundcolor="244, 246, 250"
+    environmentmap=
+    "
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/px.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nx.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/py.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/ny.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/pz.png,
+    {{site.url}}/{{site.baseurl}}/assets/js/o3dv/envmaps/studio/nz.png
+    "
+    >
+</div>
 
