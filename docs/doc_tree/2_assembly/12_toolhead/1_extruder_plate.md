@@ -75,7 +75,7 @@ Go to the [Configuring the Toolhead Board]({{site.url}}/{{site.baseurl}}/doc_tre
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/toolhead_plate.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/toolhead_plate.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "
