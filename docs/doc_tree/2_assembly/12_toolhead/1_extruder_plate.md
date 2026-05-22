@@ -7,6 +7,8 @@ nav_order: 1
 
 # Extruder Plate
 
+![]({{site.url}}/{{site.baseurl}}/assets/images/toolhead_plate.webp)
+
 {: .important}
 Go to the [Configuring the Toolhead Board]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#configuring-the-toolhead-board) section of the Wiring Guide to set up the toolhead board before install.
 
@@ -74,6 +76,7 @@ Go to the [Configuring the Toolhead Board]({{site.url}}/{{site.baseurl}}/doc_tre
  - **1:00** **WIP** Torsion spring in animation is opposite-handed from the hardware kit, so it may be easier to install it from the top, but the principal is the same.
  - **1:43** The arrow is indicating that this hole should be visible.
  - **1:49** The lower M2x8 SHCS acts like a pin to push and pull the razor; it does not screw into anything.
+ - **3:46** The flat side of the pogo connector should be on the open-ended side of the Pogo Mount, as shown in the video.
  - **4:21** Make sure the zip tie nub is under the Pogo Mount. It could interfere with the cowl if it is on the side.
  - **6:09** If you haven't already, go ahead and [configure the toolhead board]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#configuring-the-toolhead-board).
  - **7:26** Continue to [Cowl]({{site.url}}/{{site.baseurl}}\doc_tree\2_assembly\12_toolhead\2_cowl.html)
