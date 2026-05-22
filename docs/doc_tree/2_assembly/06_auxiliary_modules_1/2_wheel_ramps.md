@@ -33,6 +33,7 @@ nav_order: 3
 
  - **0:10** Wheel Ramp - Center is the same on both sides.
  - **0:30** Make sure the holes in the roll-in nuts align with the holes in the Wheel Ramp. **Don't over-tighten front mounting screw!** There isn't a lot of material there, so it's a bit fragile.
+ - **0:46** Continue to [Bed Lever Striker]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/06_auxiliary_modules_1/3_bed_lever_striker.html)
 
 <!-- ## Steps
 

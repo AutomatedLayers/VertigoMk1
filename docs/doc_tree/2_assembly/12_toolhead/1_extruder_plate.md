@@ -71,7 +71,12 @@ Go to the [Configuring the Toolhead Board]({{site.url}}/{{site.baseurl}}/doc_tre
 
  - **0:07** Unfortunately the wires that come with the standard E3D HeaterCore were not long enough to reach the toolhead board in our configuration. You must have the modified 'Vertigo Mk1' heater core, or modifiy the wires of your own to reach the board **at your won risk**.
  - **0:14** A tiny dab of Boron Nitride 'anti-seize' paste on the threads can help prevent the nozzle from unscrewing itself when printing for many continuous hours. This is also why the 'Wall Loop Direction' is set to 'Clockwise' in our [default Slicer settings]({{site.url}}/{{site.baseurl}}/doc_tree/7_slicer/slicer.html).
- - **1:00** **WIP** Torsion spring is wrong-handed from what came in the kits, so it may be easier to install it from the top, but the principal is the same.
+ - **1:00** **WIP** Torsion spring in animation is opposite-handed from the hardware kit, so it may be easier to install it from the top, but the principal is the same.
+ - **1:43** The arrow is indicating that this hole should be visible.
+ - **1:49** The lower M2x8 SHCS acts like a pin to push and pull the razor; it does not screw into anything.
+ - **4:21** Make sure the zip tie nub is under the Pogo Mount. It could interfere with the cowl if it is on the side.
+ - **6:09** If you haven't already, go ahead and [configure the toolhead board]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#configuring-the-toolhead-board).
+ - **7:26** Continue to [Cowl]({{site.url}}/{{site.baseurl}}\doc_tree\2_assembly\12_toolhead\2_cowl.html)
 
 ## Interactive View
 <div class="online_3d_viewer"

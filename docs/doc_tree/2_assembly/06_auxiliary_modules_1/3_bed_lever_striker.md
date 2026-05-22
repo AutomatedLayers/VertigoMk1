@@ -25,7 +25,8 @@ nav_order: 4
 ## Assembly Notes
 
 {: .note}
-You can use the Bed Lever on the Front Z Joint Bar to position the striker.
+ - **0:59** You can use the Bed Lever on the Front Z Joint Bar to position the striker.
+ - **0:60** Continue to [Nozzle Cleaner]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/06_auxiliary_modules_1/4_nozzle_cleaner.html)
 
 {: .important}
 Congratulate yourself for completing the toughest section of the build guide! 😸

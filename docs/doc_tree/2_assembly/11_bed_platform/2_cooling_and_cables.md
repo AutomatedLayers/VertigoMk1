@@ -32,7 +32,7 @@ nav_order: 2
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Bed%20Frame/Flow%20Blocker%20-%20Rear.stl" target="_blank">Flow Blocker - Rear</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Bed%20Frame/Flow%20Blocker%20Clip%20-%20Q7.stl" target="_blank">Flow Blocker Clip</a> | 7 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Bed%20Frame/Bed%20Frame%20-%20Fan%20Mount%20-%20Q4.stl" target="_blank">Bed Frame - Fan Mount</a> | 4 |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Endstops%20%26%20Cable%20Routing/Cable%20Cover%2055mm%20-%20Q5.stl" target="_blank">Cable Cover 55mm</a> | 3 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Endstops%20%26%20Cable%20Routing/Cable%20Cover%2055mm%20-%20Q8.stl" target="_blank">Cable Cover 55mm</a> | 3 |
 
 ## Animated Assembly
 

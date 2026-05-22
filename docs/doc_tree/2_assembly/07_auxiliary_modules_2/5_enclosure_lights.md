@@ -14,7 +14,7 @@ nav_order: 5
 |:---------------------------------------------------|:----| 
 | M3x8 SHCS                                          | 2   |
 | M5x10 BHCS                                         | 2   |
-| M3x5.7 Brass Insert                                | 2   | 
+| M3x4.3 Brass Insert (4.5)                          | 2   | 
 | M5 Roll-In Nut                                     | 2   | 
 
 | Cables                                | 

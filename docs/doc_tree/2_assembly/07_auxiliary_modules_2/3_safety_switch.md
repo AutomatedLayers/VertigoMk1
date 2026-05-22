@@ -2,7 +2,7 @@
 title: Safety Switch
 layout: assembly
 parent: Auxiliary Modules Pt. 2
-nav_order: 4
+nav_order: 3
 ---
 
 # Safety Switch
@@ -20,18 +20,22 @@ nav_order: 4
 
 | Cables                                | 
 |:--------------------------------------|
+| Z-114                                 |
 | Z-115                                 |
 
 | Printed Parts                         | Qty |
 |:--------------------------------------|:----|
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Safety%20Switch/Safety%20Switch%20Bracket.stl" target="_blank">Safety Switch Bracket</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Endstops%20%26%20Cable%20Routing/Cable%20Cover%2055mm%20-%20Q8.stl" target="_blank">Cable Cover 55mm</a> | 1  |
 
 ## Animated Assembly
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=q_HybWhMYmee5mYx&amp;start=407" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 
- - **7:22** This is preliminary. The exact position of the safety switch adjustment screw will be set in the Checks and Calibration section.
+ - **7:22** This is preliminary. The exact height of the safety switch adjustment screw will be set in the Checks and Calibration section.
+ - **7:42** Cables and Hardware are listed in [Force Sensors]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/07_auxiliary_modules_2/1_force_sensors.html).
+ - **8:08** Continue to [Routing Pod]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/07_auxiliary_modules_2/4_routing_pod.html)
 
 ## Interactive View
 <div class="online_3d_viewer"

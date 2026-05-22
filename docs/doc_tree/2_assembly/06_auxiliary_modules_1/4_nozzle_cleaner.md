@@ -34,6 +34,7 @@ nav_order: 5
  - **1:24** Make sure this wheel can rotate with a light push on the silicone band. This will plug the nozzle when it's heating, cooling, or paused.
  - **1:26** You'll need to cut a 3x4 section of the Silicone Brush. Keep the remaining piece for spares.
  - **2:19** The Nozzle Cleaner should be installed such that it doesn't interfere with the Front Z Joints when they are raised until their carriages are at the top of their rails. This module's vertical position will be adjusted in the Checks and Calibration Section.
+ - **2:20** Continue to [Filament Cutter]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/06_auxiliary_modules_1/5_filament_cutter.html)
 
 <!-- ## Steps
 

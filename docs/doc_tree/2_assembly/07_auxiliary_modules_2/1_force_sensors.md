@@ -2,7 +2,7 @@
 title: Force Sensors
 layout: assembly
 parent: Auxiliary Modules Pt. 2
-nav_order: 2
+nav_order: 1
 ---
 
 # Force Sensors
@@ -29,10 +29,13 @@ nav_order: 2
 | M3 Cap Nut (Acorn Nut)                             | 1   |
 | PTFE Tube - 3mm ID x 4mm OD (cut from long piece)  | 10mm|
 
-| Cables                               | 
+| Cables - Side A                      | 
 |:-------------------------------------|
+| Z-60                                 |
 | Z-73                                 |
 | Z-74                                 |
+| **Cables - Side B**                  | 
+| Z-61                                 |
 | Z-75                                 |
 | Z-76                                 |
 
@@ -40,8 +43,8 @@ nav_order: 2
 |:--------------------------------------|:----|
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Frame%20Mount%20A%20-%20Accent.stl" target="_blank">Force Sensor Frame Mount A</a> | 1  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Frame%20Mount%20B%20-%20Accent.stl" target="_blank">Force Sensor Frame Mount B</a> | 1  |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Plug%20-%20Q2.stl" target="_blank">Force Sensor Plug</a> | 1  |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Rocker%20-%20Q2.stl" target="_blank">Force Sensor Rocker</a> | 1  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Plug%20-%20Q2.stl" target="_blank">Force Sensor Plug</a> | 2  |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Force%20Triggers/Force%20Sensor%20Rocker%20-%20Q2.stl" target="_blank">Force Sensor Rocker</a> | 2  |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Force%20Sensor%20Washer%20Setting%20Tool.stl" target="_blank">Force Sensor Washer Setting Tool</a> | 1  |
 
 
@@ -68,7 +71,7 @@ nav_order: 2
  - **4:07** **WIP Continuity and fit check information**
  - **4:33** Remove support material from Force Sensor Plug.
  - **5:12** Force Sensor Frame Mount should touch the rear vertical extrusion.
- <!-- - **5:20** Continue to the next section in the Assembly Guide: [Y Endstop] -->
+ - **5:15** Side B Force Sensor can be assembled now, but wait to install it until the Routing Pod section. Continue to [Y Endstop]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/07_auxiliary_modules_2/2_y-endstop.html)
 
 {: .note}
 >The compression force of the 'sensors' will be adjusted in the Checks and Calibration section. Part of the complexity in the design of the 'force sensors' was to ensure that they could be:
