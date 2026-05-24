@@ -18,7 +18,63 @@ This printer is a DIY kit assembled from parts sourced from many suppliers acros
 {: .important }
 Some image text may appear small on this page. For a larger view, right-click the image and select "Open image in new tab".
 
-## Understanding the [Wiring Diagram & Cable Spec](https://github.com/AutomatedLayers/VertigoMk1/tree/main/electrical/Cable%20Spec%20%26%20Wiring%20Diagram)
+## Table of Contents
+
+- [Wiring](#wiring)
+  - [Before You Start](#before-you-start)
+  - [Table of Contents](#table-of-contents)
+  - [Understanding the Wiring Diagram and Cable Spec](#understanding-the-wiring-diagram-and-cable-spec)
+    - [The Cable Specification](#the-cable-specification)
+      - [Cable Construction Examples](#cable-construction-examples)
+    - [The Wiring Diagram](#the-wiring-diagram)
+      - [Finding Z-Code Termination Points Example](#finding-z-code-termination-points-example)
+  - [Z-Codes and Abbreviation Names](#z-codes-and-abbreviation-names)
+  - [Configuring the Toolhead Board](#configuring-the-toolhead-board)
+    - [Install Jumpers and Fan Mosfet and Set Switches (for CAN Mode) on Toolhead Board](#install-jumpers-and-fan-mosfet-and-set-switches-for-can-mode-on-toolhead-board)
+  - [Wiring The Electronics Backpack](#wiring-the-electronics-backpack)
+    - [1. Install CM and Heatsink](#1-install-cm-and-heatsink)
+    - [2. Install Jumpers on Main Board](#2-install-jumpers-on-main-board)
+    - [3. Install Stepper Drivers](#3-install-stepper-drivers)
+    - [4. Install Terminal Block Bus Bars](#4-install-terminal-block-bus-bars)
+    - [5. Install Terminal Block Bus Bar Fasteners](#5-install-terminal-block-bus-bar-fasteners)
+    - [6. Install Terminal Block Number Covers](#6-install-terminal-block-number-covers)
+    - [7. Check Fuse Amperage - IEC C14 Plug](#7-check-fuse-amperage---iec-c14-plug)
+    - [8. Check Fuse Amperage - Bed Fuse (Z-07)](#8-check-fuse-amperage---bed-fuse-z-07)
+    - [9. Check PSU's AC Input Voltage Switch](#9-check-psus-ac-input-voltage-switch)
+    - [10. Install Cables: Z-01, Z-02, Z-03, Z-11, Z-12](#10-install-cables-z-01-z-02-z-03-z-11-z-12)
+    - [11. Install Cables: Z-04, Z-05, Z-06](#11-install-cables-z-04-z-05-z-06)
+    - [12. Prepare Multimeter for Continuity Checks](#12-prepare-multimeter-for-continuity-checks)
+    - [13. Check for short between AC Live (L) and AC Neutral (N)](#13-check-for-short-between-ac-live-l-and-ac-neutral-n)
+    - [14. Check for short between AC Neutral (N) and AC Earth (⏚)](#14-check-for-short-between-ac-neutral-n-and-ac-earth-)
+    - [15. Check for short between AC Live (L) and AC Earth (⏚)](#15-check-for-short-between-ac-live-l-and-ac-earth-)
+    - [16. Check for short between PSU's DC(+) and DC(-)](#16-check-for-short-between-psus-dc-and-dc-)
+    - [17. Check for continuity between IEC C14 plug and PSU for AC Live (L)](#17-check-for-continuity-between-iec-c14-plug-and-psu-for-ac-live-l)
+    - [18. Check for continuity between IEC C14 plug and PSU for AC Neutral (N)](#18-check-for-continuity-between-iec-c14-plug-and-psu-for-ac-neutral-n)
+    - [19. Check for continuity between IEC C14 plug and PSU for AC Earth (⏚)](#19-check-for-continuity-between-iec-c14-plug-and-psu-for-ac-earth-)
+    - [20. Preparing for First Power ON](#20-preparing-for-first-power-on)
+    - [Always prioritize your safety and the safety of those around you](#always-prioritize-your-safety-and-the-safety-of-those-around-you)
+    - [21. Adjusting PSU to 24V](#21-adjusting-psu-to-24v)
+    - [22. Install Terminal Block Covers](#22-install-terminal-block-covers)
+    - [23. Install Cables: Z-13, Z-15, Z-17, Z-19](#23-install-cables-z-13-z-15-z-17-z-19)
+    - [24. Install Cables: Z-14, Z-16, Z-18, Z-20](#24-install-cables-z-14-z-16-z-18-z-20)
+    - [25. Install Cables: Z-07, Z-08, Z-09, Z-10, Z-21, Z-22](#25-install-cables-z-07-z-08-z-09-z-10-z-21-z-22)
+    - [26. Install Cables: Z-23, Z-24, Z-26](#26-install-cables-z-23-z-24-z-26)
+    - [27. Assembling Peripheral Blocks](#27-assembling-peripheral-blocks)
+    - [28. Install Cables: Z-42, Z-43, Z-44, Z-45](#28-install-cables-z-42-z-43-z-44-z-45)
+    - [29. Install Cables: Z-27, Z-28](#29-install-cables-z-27-z-28)
+    - [30. Install Cables: Z-34, Z-35, Z-32/33](#30-install-cables-z-34-z-35-z-3233)
+    - [31. Install Cables: Z-29, Z-30, Z-31](#31-install-cables-z-29-z-30-z-31)
+    - [32. Install Cables: Z-40, Z-41](#32-install-cables-z-40-z-41)
+    - [33. Install Cables: Z-38, Z-39](#33-install-cables-z-38-z-39)
+    - [34. Install Cables: Z-36, Z-37](#34-install-cables-z-36-z-37)
+    - [35. Continue and Finish "Assembly - Electronics Backpack - Vertigo MK1"](#35-continue-and-finish-assembly---electronics-backpack---vertigo-mk1)
+    - [36. Install Cables: Z-25, Z-48, Z-49, Z-53, Z-54, Z-55, Z-56, Z-60, Z-61, Z-114](#36-install-cables-z-25-z-48-z-49-z-53-z-54-z-55-z-56-z-60-z-61-z-114)
+    - [37. Unplug Toolhead's XT30 Connector](#37-unplug-toolheads-xt30-connector)
+    - [38. Checking Toolhead Power](#38-checking-toolhead-power)
+  - [Continue to the Firmware Guide](#continue-to-the-firmware-guide)
+
+
+## Understanding the [Wiring Diagram and Cable Spec](https://github.com/AutomatedLayers/VertigoMk1/tree/main/electrical/Cable%20Spec%20%26%20Wiring%20Diagram)
 
 Wiring is defined by two core documents: the **wiring diagram** and the **cable specification**.
 
@@ -63,7 +119,7 @@ When using these documents, always perform a quick check to confirm that you are
 
 <br>
 
-## Z-Codes & Abbreviation Names
+## Z-Codes and Abbreviation Names
 
 <br>
 
@@ -95,7 +151,7 @@ When using these documents, always perform a quick check to confirm that you are
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_090_Youtube_Electronics_Backpack.webp) -->
 
-### 1. Install CM & Heatsink
+### 1. Install CM and Heatsink
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_100_Install_CM.webp){: .zoomable}
 
@@ -198,7 +254,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 <br>
 
-### 13. Check for short between AC Live (L) & AC Neutral (N)
+### 13. Check for short between AC Live (L) and AC Neutral (N)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -215,7 +271,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_230_Continuity Test-01.webp){: .zoomable}
 
-### 14. Check for short between AC Neutral (N) & AC Earth (⏚)
+### 14. Check for short between AC Neutral (N) and AC Earth (⏚)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -232,7 +288,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_240_Continuity Test-02.webp){: .zoomable}
 
-### 15. Check for short between AC Live (L) & AC Earth (⏚)
+### 15. Check for short between AC Live (L) and AC Earth (⏚)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -249,7 +305,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_250_Continuity Test-03.webp){: .zoomable}
 
-### 16. Check for short between PSU's DC(+) & DC(-)
+### 16. Check for short between PSU's DC(+) and DC(-)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -266,7 +322,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_260_Continuity Test-04.webp){: .zoomable}
 
-### 17. Check for continuity between IEC C14 plug & PSU for AC Live (L)
+### 17. Check for continuity between IEC C14 plug and PSU for AC Live (L)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -283,7 +339,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_270_Continuity Test-05.webp){: .zoomable}
 
-### 18. Check for continuity between IEC C14 plug & PSU for AC Neutral (N)
+### 18. Check for continuity between IEC C14 plug and PSU for AC Neutral (N)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -300,7 +356,7 @@ Always test the continuity mode is reporting accurately by touching the two mult
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_280_Continuity Test-06.webp){: .zoomable}
 
-### 19. Check for continuity between IEC C14 plug & PSU for AC Earth (⏚)
+### 19. Check for continuity between IEC C14 plug and PSU for AC Earth (⏚)
 
 **Preprequisite:** 
 * Power is disconnected
@@ -381,7 +437,7 @@ Now that you are working safe and responsibly, lets get on with it!
 * Feed cables through peripheral block
 * Connector should be held snug by peripheral block when pushed into place.
   * Evauluate the fit
-    * **Too Tight:** stop & reprint - scale part larger
+    * **Too Tight:** stop and reprint - scale part larger
     * **Good Fit:** Part snaps into place and is secure (doesn't pop out)
     * **Too Loose:** Dab of hot glue on back or Reprint - Scale part smaller
 * Optional: Apply labels or indicators at connector.
@@ -429,7 +485,7 @@ Before zip typing cables in next steps, you can add indicators or simply the Z-c
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_510_Install_Cables-13.webp){: .zoomable}
 
 
-### 35. Continue and Finish "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=C-eXoOUd_zGN5yOZ&t=408)"
+### 35. Continue and Finish "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=C-eXoOUd_zGN5yOZandt=408)"
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_520_Continue_Youtube_Electronics_Backpack.webp)
 
