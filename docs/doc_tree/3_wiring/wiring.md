@@ -466,6 +466,19 @@ Polarity matters! Make sure you are touching the correct leads to the correct po
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_545_Toolhead_Power_Check.webp)
 
+### 39. PZ Probe Controller Cable: Z-105, Z-106, Z-107
+
+* This cable needs a little extra explanation.
+  * Z-105 and Z-106 are used to program trigger variables outside of E3D’s preset options. These connectors are not required for normal operation and can either be tucked behind the toolhead board for later use or removed.
+  * Z-107 provides power to the PZ Probe Controller and carries the trigger signal.
+* Verify Z-107 pinout on both ends of the connector and make sure power, ground, and signal are routed correctly
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_546_PZ_Probe_Controller.svg)
+
+{: .warning }
+The PZ Probe Controller is fragile and can be damaged if Z-107 is wired incorrectly.
+
+
 ## Continue to the [Firmware Guide]({{site.url}}\doc_tree\4_firmware\firmware.html)
 
 This concludes the electronics backpack wiring required for firmware installation. We will integrate the remaining components in later steps.
