@@ -67,10 +67,11 @@ Some image text may appear small on this page. For a larger view, right-click th
     - [32. Install Cables: Z-40, Z-41](#32-install-cables-z-40-z-41)
     - [33. Install Cables: Z-38, Z-39](#33-install-cables-z-38-z-39)
     - [34. Install Cables: Z-36, Z-37](#34-install-cables-z-36-z-37)
-    - [35. Continue and Finish "Assembly - Electronics Backpack - Vertigo MK1"](#35-continue-and-finish-assembly---electronics-backpack---vertigo-mk1)
+    - [35. Complete the Electronics Backpack Section then Continue](#35-complete-the-electronics-backpack-section-then-continue)
     - [36. Install Cables: Z-25, Z-48, Z-49, Z-53, Z-54, Z-55, Z-56, Z-60, Z-61, Z-114](#36-install-cables-z-25-z-48-z-49-z-53-z-54-z-55-z-56-z-60-z-61-z-114)
     - [37. Unplug Toolhead's XT30 Connector](#37-unplug-toolheads-xt30-connector)
     - [38. Checking Toolhead Power](#38-checking-toolhead-power)
+    - [39. PZ Probe Controller Cable: Z-105, Z-106, Z-107](#39-pz-probe-controller-cable-z-105-z-106-z-107)
   - [Continue to the Firmware Guide](#continue-to-the-firmware-guide)
 
 
@@ -485,7 +486,7 @@ Before zip typing cables in next steps, you can add indicators or simply the Z-c
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_510_Install_Cables-13.webp){: .zoomable}
 
 
-### 35. Continue and Finish "[Assembly - Electronics Backpack - Vertigo MK1](https://youtu.be/X98VDksNd48?si=C-eXoOUd_zGN5yOZandt=408)"
+### 35. Complete the [Electronics Backpack]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/14_electronics_backpack/0_electronics_backpack.html#animated-assembly) Section then Continue
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_520_Continue_Youtube_Electronics_Backpack.webp)
 

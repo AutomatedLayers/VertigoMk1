@@ -22,7 +22,7 @@ nav_order: 13
 | M3x5.7 Brass Insert                                | 4   |
 | Zip Tie                                            | 7   |
 
-| Cables              | 
+| Cables                               | 
 |:-------------------------------------|
 | Z-59                                 |
 | Z-62                                 |
