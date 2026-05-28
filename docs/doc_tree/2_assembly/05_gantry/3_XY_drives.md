@@ -50,11 +50,11 @@ nav_order: 3
 >- There is a mistake in the sequence in this assembly video. The XY Drive Cam Cap must be attached to the cam with the M5x30 SHCS **AFTER**  the housing top and bottom are connected with the 3 M3x30 SHCS at **1:40**.
 >- All M5x7x1 washers in the video should actually be M5x10x1 washers.
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/ccUepr55wgw?si=n45WT-qfufjVqsDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/eipe44kf-AU?si=rgNk-yz30_0LsnHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 
- - **0:33** The Cam Sliders can be installed on either side, you may just have to rotate them 180° along they're long axis. This is how they will look from the top view.
+ - **1:23** The Cam Sliders can be installed on either side, you may just have to rotate them 180° along they're long axis. This is how they will look from the top view.
 ![]({{site.url}}/{{site.baseurl}}/assets/images/cam_slider_pos.png)
 
  - **2:06** On side B (not shown in the video), The timing pulley is flipped such that the shaft collar is near the motor. The Pulley Offset Tool Side B is used in the same way, with the upper lip concentric with the teeth of the pulley, so the flange will be resting on the upper lip of the tool instead of the shaft collar. 
