@@ -109,6 +109,7 @@ sudo apt-get install -y -qq \
     nginx \
     packagekit \
     virtualenv \
+    v4l-utils \
     iproute2 \
     systemd \
     udev
@@ -364,10 +365,9 @@ fi
 
 # Crowsnest uses its own install script but we do it non-interactively
 info "Running Crowsnest installer (non-interactive)…"
-sudo CROWSNEST_CONFIG="${CONFIG_DIR}/crowsnest.conf" \
-     CROWSNEST_LOG="${LOG_DIR}/crowsnest.log" \
-     CROWSNEST_ARGS="-c ${CONFIG_DIR}/crowsnest.conf" \
-     bash "${CROWSNEST_DIR}/tools/install.sh" || true   # installer may exit non-zero on first run
+cd "${CROWSNEST_DIR}"
+sudo make install
+cd -
 
 # Fallback: write the systemd unit manually if the installer didn't
 if [[ ! -f /etc/systemd/system/crowsnest.service ]]; then
@@ -391,6 +391,36 @@ EOF
 fi
 
 success "Crowsnest installed."
+
+# ── 13b. Camera v4l2 control service ─────────────────────────────────────────
+info "Installing camera v4l2 control service…"
+sudo -u "${KLIPPER_USER}" tee "${HOME_DIR}/set_camera_focus.sh" > /dev/null <<'EOF'
+#!/bin/bash
+sleep 5
+v4l2-ctl -d /dev/video0 --set-ctrl=brightness=5
+v4l2-ctl -d /dev/video0 --set-ctrl=focus_automatic_continuous=0
+v4l2-ctl -d /dev/video0 --set-ctrl=focus_absolute=260
+v4l2-ctl -d /dev/video0 --set-ctrl=power_line_frequency=2
+EOF
+chmod +x "${HOME_DIR}/set_camera_focus.sh"
+
+sudo tee /etc/systemd/system/set-camera-focus.service > /dev/null <<EOF
+[Unit]
+Description=Set webcam v4l2 controls
+After=crowsnest.service
+Wants=crowsnest.service
+
+[Service]
+Type=oneshot
+ExecStart=${HOME_DIR}/set_camera_focus.sh
+User=${KLIPPER_USER}
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+EOF
+sudo systemctl enable set-camera-focus.service
+success "Camera v4l2 control service installed."
 
 # ── 14. MAINSAIL-CONFIG ───────────────────────────────────────────────────────
 info "Cloning mainsail-config…"
@@ -436,7 +466,7 @@ fi
 info "Enabling and starting services…"
 sudo systemctl daemon-reload
 
-for svc in klipper moonraker crowsnest nginx; do
+for svc in klipper moonraker crowsnest nginx set-camera-focus; do
     sudo systemctl enable "${svc}"
     sudo systemctl restart "${svc}" || warn "${svc} failed to start — check logs."
 done
