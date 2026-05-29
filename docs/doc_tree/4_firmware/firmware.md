@@ -280,4 +280,4 @@ sudo reboot now
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/mainsail_reboot.png)
 
-## Continue to [Checks & Calibration] ({{site.url}}/{{site.baseurl}}/doc_tree/5_calibration/checks_calibration.html)
+## Continue to [Checks & Calibration]({{site.url}}/{{site.baseurl}}/doc_tree/5_calibration/checks_calibration.html)
