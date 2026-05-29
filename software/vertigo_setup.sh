@@ -363,15 +363,13 @@ else
     run_as_user "git -C ${CROWSNEST_DIR} pull"
 fi
 
-# Auto-answer N to interactive prompts in crowsnest installer
-sed -i 's/read -erp "Add update_manager entry.*$/reply="N"/' "${CROWSNEST_DIR}/tools/configure.sh"
-sed -i 's/read -erp "Continue?.*$/reply="N"/' "${CROWSNEST_DIR}/tools/configure.sh"
-sed -i 's/read -erp "Overwrite?.*$/reply="N"/' "${CROWSNEST_DIR}/tools/configure.sh"
-
 # Crowsnest uses its own install script but we do it non-interactively
 info "Running Crowsnest installer (non-interactive)…"
 cd "${CROWSNEST_DIR}"
-sudo make install
+sudo CROWSNEST_UNATTENDED=1 \
+     CROWSNEST_SKIP_REBOOT_PROMPT=1 \
+     CROWSNEST_ADD_CROWSNEST_MOONRAKER=0 \
+     make install
 cd -
 
 # Fallback: write the systemd unit manually if the installer didn't
