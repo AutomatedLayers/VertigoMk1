@@ -280,4 +280,4 @@ sudo reboot now
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/mainsail_reboot.png)
 
-## Continue to [Configuration]
+## Continue to [Configuration]({{site.url}}/{{site.baseurl}}/doc_tree/5_configuration/configuration.html)
