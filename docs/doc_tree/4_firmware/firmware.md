@@ -61,7 +61,7 @@ The first Vertigo machines have been running Kalico which is a forked version of
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_11.png)
 
-- Grab a coffee, meditate, contemplate the vastness of the universe.
+- Acknowedge the foreboding prompts **ONLY IN THE PI IMAGER SOFTWARE**. Don't format your SD card separately through your OS if it prompts. Grab a coffee, meditate, contemplate the vastness of the universe.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/os_install_12.png)
 
