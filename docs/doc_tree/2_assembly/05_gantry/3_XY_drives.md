@@ -45,11 +45,6 @@ nav_order: 3
 
 ## Animated Assembly
 
-{: .important}
->WIP Notes:
->- There is a mistake in the sequence in this assembly video. The XY Drive Cam Cap must be attached to the cam with the M5x30 SHCS **AFTER**  the housing top and bottom are connected with the 3 M3x30 SHCS at **1:40**.
->- All M5x7x1 washers in the video should actually be M5x10x1 washers.
-
 <iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/eipe44kf-AU?si=rgNk-yz30_0LsnHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
