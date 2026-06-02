@@ -14,7 +14,7 @@ nav_order: 3
 | MGN9H-300 Linear Guide                    | 4   |
 | MGN9H-450 Linear Guide                    | 2   |
 | M3 Roll-In Nut                            | 46  |
-| M5x8 SHCS                                 | 46  |
+| M3x8 SHCS                                 | 46  |
 
 | Printed Parts                    | Qty |
 |:---------------------------------|:-- -|
@@ -27,7 +27,10 @@ nav_order: 3
 ## Assembly Notes
 
 {: .important}
-For the best performance, it's good to prepare your linear guide rails before installation. First soak them in isopropyl alcohol for 10 minutes, then apply a lithium based grease to the slots where the ball bearings make contact.
+For the best performance, prepare the linear guide rails before installation. Wipe the rails thoroughly with an isopropyl alcohol rag or alcohol wipe to remove any residue or debris. Once dry, apply a lithium-based grease to the grooves where the ball bearings make contact.
+<br>
+<br>
+Do not leave the rails dry after cleaning! Make sure you have the grease on hand before wiping them down so the rails are not left dry, which can lead to corrosion.
 
 {: .note}
 The spring in some of the roll-in nuts may not fully engage with the extrusion, allowing the nuts to slide freely in the slots. Try pushing the ball in the nut a few times to work it in, or try a different nut. There should be quite a few extras in the kit.
