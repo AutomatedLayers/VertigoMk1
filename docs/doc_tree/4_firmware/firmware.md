@@ -280,4 +280,6 @@ sudo reboot now
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/mainsail_reboot.png)
 
+ - If you are getting an 'Unauthorized' Error, [add your ip address to the [authorization] section of your moonraker.conf](https://docs.mainsail.xyz/faq/mainsail_errors/connection-unauthorized/)
+
 ## Continue to [Checks & Calibration]({{site.url}}/{{site.baseurl}}/doc_tree/5_calibration/checks_calibration.html)

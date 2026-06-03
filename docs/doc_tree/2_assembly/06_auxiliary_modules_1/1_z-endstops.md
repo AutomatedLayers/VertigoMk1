@@ -41,6 +41,9 @@ This is the first section where cables are installed, so it's a good time to che
 
 ## Assembly Notes
 
+{: .important}
+>**0:15** These are **NOT** the cables that come in the packages with the endstop PCBs. The correct cables will be labeled and packaged with the rest of the cable bundles.
+
  - **0:24** Sandwich the Z Endstop Switch PCB between the Z Enstop Pod and Z Endstop Pod Cap, ensuring the wires route around the screw stud. A tiny dab of glue can be used to keep the pod and cap together if it's an issue during install.
  - **0:53** This step is only for aligning the Z Endstop Pod, not for adjusting the height of the Z Joint at endstop trigger.
  - **1:37** These two cable covers are separate because the 9mm belt attached to this tensioner runs close to the extrusion. The gap between these cable covers should roughly match the gap in the tensioner where the 9mm toothed idler sits.

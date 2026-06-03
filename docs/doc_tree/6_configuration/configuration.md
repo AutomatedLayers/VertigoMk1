@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Configuration
 layout: default
 nav_order: 6
@@ -16,4 +16,4 @@ The main configuration file that contains all the relevent parameters necessary 
   <pre>{% include printer.cfg %}</pre>
 </div>
 
-
+ -->

@@ -79,6 +79,7 @@ Go to the [Configuring the Toolhead Board]({{site.url}}/{{site.baseurl}}/doc_tre
  - **3:46** The flat side of the pogo connector should be on the open-ended side of the Pogo Mount, as shown in the video.
  - **4:21** Make sure the zip tie nub is under the Pogo Mount. It could interfere with the cowl if it is on the side.
  - **6:09** If you haven't already, go ahead and [configure the toolhead board]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#configuring-the-toolhead-board).
+ - **7:07** See the notes in the [PZ Probe Controller]({{site.url}}/{{site.baseurl}}/doc_tree/3_wiring/wiring.html#39-pz-probe-controller-cable-z-105-z-106-z-107) section of the wiring guide for info on the other cables attached to the PZ Probe.
  - **7:26** Continue to [Cowl]({{site.url}}/{{site.baseurl}}\doc_tree\2_assembly\12_toolhead\2_cowl.html)
 
 ## Interactive View
