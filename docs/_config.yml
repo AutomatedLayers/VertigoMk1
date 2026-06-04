@@ -6,7 +6,7 @@ url: https://AutomatedLayers.github.io
 repository_url: https://github.com/AutomatedLayers/VertigoMk1/edit/main/docs
 
 aux_links:
-  "<img src='assets/images/AL_logo_icon.svg' width='16' height='16' style='vertical-align:middle;margin-right:4px'/>&nbsp;Automated Layers":
+  "<img src='{{site.url}}/{{site.baseurl}}/assets/images/AL_logo_icon.svg' width='16' height='16' style='vertical-align:middle;margin-right:4px'/>&nbsp;Automated Layers":
     - "https://AutomatedLayers.com"
   "<i class='fa-brands fa-github'></i>&nbsp;GitHub":
     - "https://github.com/AutomatedLayers/VertigoMk1"
