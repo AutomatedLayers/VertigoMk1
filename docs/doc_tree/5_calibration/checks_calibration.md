@@ -69,7 +69,7 @@ This LED at the top of the front of the printer is connected directly to the 24V
 These are on the same circuit and get power from the 5V RGB output on the toolhead board, however they are wired to +5V and GND so they are not controllable or specified in the config. 
 There was no more room to add pins to the Cowl pogo pin connector, so it would be difficult to change them to RGB.
 
-### Enclosuree Lights
+### Enclosure Lights
 These are called 'House Lights' in the config and controllable via the "Miscellaneous" panel in the Mainsail Dashboard.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_house_lights.png)
@@ -80,3 +80,20 @@ These are called 'House Lights' in the config and controllable via the "Miscella
 white_pin: PA4
 initial_WHITE: 1.0
 ```
+
+## Endstops
+
+ - First make sure all motors are disabled, by power cycling or sending ```M84``` in the Console in Mainsail. 
+ - Move the Gantry Bar to the center of the Y axis and the Toolhead to the center of the X axis. 
+ - With the Bed Lever engaged, lift all four Z Joints several centimeters off the bottom of their travel. Make sure you can access and depress the switch on the X, Y, and four Z Endstops. 
+ - Refresh the endstop states in Mainsail > Machine Tab > Endstops Panel > Refresh Button.
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/ui_endstop_loc.png)
+
+ - The states should all be 'OPEN' in the Endstops Panel.
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/ui_endstops.png)
+
+ - One-by-one, hold each endstop switch down while clicking the Refresh button to verify that each switch triggers and corresponds to the proper label in the Endstops panel. 
+
+
