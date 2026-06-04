@@ -18,6 +18,13 @@ This printer is a DIY kit assembled from parts sourced from many suppliers acros
 {: .important }
 Some image text may appear small on this page. For a larger view, right-click the image and select "Open image in new tab".
 
+{: .note}
+[BigTreeTech Manta M8P V2 Documentation](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/BIGTREETECH%20MANTA%20M8P%20V2.0%20User%20Manual.pdf) contains information related to the printer controller (mainboard). For convenience, here's the [M8P V2 Pinout]({{site.url}}/{{site.baseurl}}/assets/images/m8pv2_pinout.webp).
+
+{: .note}
+[Mellow FLY SHT36 V3 Documentation](https://mellow.klipper.cn/en/docs/ProductDoc/ToolBoard/fly-sht36/sht36_v3/) contains information related to the toolhead board. For convenience, here's the [FLY SHT36 V3 Pinout]({{site.url}}/{{site.baseurl}}/assets/images/sht36v3_pinout.webp)
+
+
 ## Table of Contents
 
 - [Wiring](#wiring)

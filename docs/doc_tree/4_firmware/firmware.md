@@ -8,9 +8,6 @@ nav_order: 4
 The first Vertigo machines have been running Kalico which is a forked version of Klipper Firmware. That is the installation presented in this guide. You can read more about the project and its efforts to improve upon Klipper in the [Kalico Documentation](https://docs.kalico.gg/Features.html). As of April 2026, Vertigo can still run on Klipper and the [Klipper Documentation](https://www.klipper3d.org/) is a good place to start if you prefer that firmware.
 
 {: .note}
-[BigTreeTech Manta M8P V2 Documentation](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/BIGTREETECH%20MANTA%20M8P%20V2.0%20User%20Manual.pdf) contains information related to the printer controller (mainboard).
-
-{: .note}
 [Esoterical CAN BUS Guide](https://canbus.esoterical.online/) is useful for guidance with flashing firmware via katapult and CAN setup. It should not be needed unless you run into issues.
 
 ### 1. Install Raspberry Pi OS Lite

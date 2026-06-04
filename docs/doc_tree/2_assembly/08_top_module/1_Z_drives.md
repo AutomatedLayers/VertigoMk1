@@ -40,7 +40,7 @@ nav_order: 1
 
 ## Assembly Notes
 
- - **0:41** Should say "Shaft Coupler" instead of "Shaft Collar"
+ - **0:41** Should say "Shaft Coupler" instead of "Shaft Collar". Tighten one set screw against the flat face of the D-shaft first, then tighten the other set screw.
 
 ## Interactive View
 <div class="online_3d_viewer"
