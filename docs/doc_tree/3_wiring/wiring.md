@@ -536,7 +536,7 @@ Polarity matters! Make sure you are touching the correct leads to the correct po
 The PZ Probe Controller is fragile and can be damaged if Z-107 is wired incorrectly.
 
 
-## Continue to the [Firmware Guide]({{site.url}}\doc_tree\4_firmware\firmware.html)
+## Continue to the [Firmware Guide]({{site.url}}/{{site.baseurl}}\doc_tree\4_firmware\firmware.html)
 
 This concludes the electronics backpack wiring required for firmware installation. We will integrate the remaining components in later steps.
 
