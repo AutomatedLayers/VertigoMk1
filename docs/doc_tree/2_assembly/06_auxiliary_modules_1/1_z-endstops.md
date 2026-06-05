@@ -67,7 +67,7 @@ This is the first section where cables are installed, so it's a good time to che
 <!-- {: .note}
 The Z Endstop Pods will need to be installed with the mounting FHCS screws entering from the other side when installed on side A. -->
 
-#### Z Enstop Cable Location on printer
+#### Z Endstop Cable Location - Top View
 
 ```        
             Rear
