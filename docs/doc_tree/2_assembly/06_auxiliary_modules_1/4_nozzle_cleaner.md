@@ -27,7 +27,7 @@ nav_order: 5
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Nozzle%20Wipe%20%26%20Plug/Nozzle%20Wiper%20Wheel.stl" target="_blank">Nozzle Wiper Wheel</a> | 1  |
 
 ## Animated Assembly
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=GU3BMGTDCJT6UkUV&amp;start=63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/7XbHXYTSXbE?si=HuKsMIfrm1eUV8tf&amp;start=63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 

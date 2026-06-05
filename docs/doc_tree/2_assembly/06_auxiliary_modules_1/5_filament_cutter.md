@@ -26,7 +26,7 @@ nav_order: 6
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Filament%20Cutter/Filament%20Cutter%20Pin%20Holder%20-%20Accent.stl" target="_blank">Filament Cutter Pin Holder</a> | 1  |
 
 ## Animated Assembly
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=GU3BMGTDCJT6UkUV&amp;start=144" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/7XbHXYTSXbE?si=HuKsMIfrm1eUV8tf&amp;start=144" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Assembly Notes

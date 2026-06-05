@@ -20,7 +20,7 @@ nav_order: 4
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Bed%20Lever%20Striker/Bed%20Lever%20Striker%20-%20Multi.stl" target="_blank">Bed Lever Striker</a> | 1  |
 
 ## Animated Assembly
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=GU3BMGTDCJT6UkUV&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/7XbHXYTSXbE?si=HuKsMIfrm1eUV8tf&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 

@@ -26,7 +26,7 @@ nav_order: 3
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Wheel%20Ramps/Wheel%20Ramp%20Center%20-%20Accent%20-%20Q2.stl" target="_blank">Wheel Ramp Center</a> | 2  |
 
 ## Animated Assembly
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/A2cc0Bks64E?si=TUv8Vn8S5dfyfSx2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/7XbHXYTSXbE?si=HuKsMIfrm1eUV8tf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Assembly Notes
