@@ -40,7 +40,7 @@ nav_order: 1
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/00%20Tools/Front%20Foot%20Roll-In%20Nut%20Alignment%20Tool.STL" target="_blank">Front Foot Roll-In Nut Alignment Tool</a> | 1   |
 
 ## Animated Assembly
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/PrzQQnJo9ZQ?si=1SODMci8KEcbeRrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/VdCMrKXNhDQ?si=9J2D0eltRY8zbf2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 <!-- ## Steps
