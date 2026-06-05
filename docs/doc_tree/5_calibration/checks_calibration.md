@@ -111,15 +111,6 @@ initial_WHITE: 1.0
 
 The X and Y endstops for the gantry have no adjustment mechanism, so you must check that both trigger as expected, first by moving the toolhead to the right up against the X endstop, then by sliding the gantry bar back until XY Joint A triggers the Y Endstop. Use the Endstops Panel in Mainsail to verify.
 
-### Z Endstop Calibration
-
-Each Z Joint has its own M5 BHCS adjustment screw. All Z Joints need to be "as close as can reliably trigger" to the bottom of the frame. A good way to do this is to:
-1. Make sure the bed is roughly horizontal and that the bed wheels are resting on the ramp platform.
-2. Unscrew the adjustment screws so that they don't trigger the switches when the Z Joints are at the bottom of travel (leaving ~1-5mm showing on the bottom).
-3. Carefully push down the front Z Joint Bar so that the Bed Lever disengages and the Front Z Joints are touching the bottom of the frame.
-4. Push down the Rear Z Joints so that they are touching the bottom of the frame. The front of the bed shouldd tilt up slightly.
-5. Turn each adjustment screw until the corresponding endstop is "TRIGGERED" in the Endstops Panel. You can use the LED on the PCB as a guide. Give each screw an additional full turn, which equates to 0.8mm of depth. Assuming a worst case limit switch tolerance of +/- 0.1mm , this should give a gap of ~0.7-0.8mm between each Z Joint and the frame when the Endstops are triggered. **These endstops are not used for levelling the bed**. They are used to prepare the bed to be levelled by the probe and to be scraped after a print.
-
 #### Config Reference
 ```
 [stepper_x]
@@ -129,7 +120,20 @@ endstop_pin: ^toolhead:LIMIT_X
 [stepper_y]
 :
 endstop_pin: ^!PC15
+```
 
+### Z Endstop Calibration
+
+Each Z Joint has its own M5 BHCS adjustment screw. All Z Joints need to be "as close as can reliably trigger" to the bottom of the frame. A good way to do this is to:
+1. Make sure the bed is roughly horizontal and that the bed wheels are resting on the ramp platform.
+2. Unscrew the adjustment screws so that they don't trigger the switches when the Z Joints are at the bottom of travel (leaving ~1-5mm showing on the bottom).
+3. Carefully push down the front Z Joint Bar so that the Bed Lever disengages and the Front Z Joints are touching the bottom of the frame.
+4. Push down the Rear Z Joints so that they are touching the bottom of the frame. The front of the bed shouldd tilt up slightly.
+5. Turn each adjustment screw until the corresponding endstop is "TRIGGERED" in the Endstops Panel. You can use the LED on the PCB as a guide. Give each screw an additional full turn, which equates to 0.8mm of depth. Assuming a worst case limit switch tolerance of +/- 0.1mm , this should give a gap of ~0.7-0.8mm between each Z Joint and the frame when the Endstops are triggered. **These endstops are not used for levelling the bed**. They are used to prepare the bed to be levelled by the probe and to be scraped after a print.
+
+
+#### Config Reference
+```
 [stepper_z]
 :
 endstop_pin: !PF4
@@ -148,4 +152,7 @@ endstop_pin: !PF1
 ```
 
 ## Safety Switch
+
+Most printers have the ability to plow the nozzle through the build plate and cause damage if things aren't calibrated for functioning properly. Because of the negative Z travel required for scraping the bed on the Vertigo, we have a few additional safety mechanisms. The Safety Switch prevents crashes at the top of the Front Z Axes, particularly in the event that the nozzle probe does not trigger or the front steppers do not disable when scraping the bed.
+
 
