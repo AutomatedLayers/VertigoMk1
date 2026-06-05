@@ -83,7 +83,7 @@ There are two tooling balls on the rear of the bed that will fit into the kinema
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/rear_z_joints.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/rear_z_joints.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "

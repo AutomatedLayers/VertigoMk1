@@ -76,7 +76,7 @@ nav_order: 2
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/front_z_joints.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/front_z_joints.glb"
     backgroundcolor="244, 246, 250"
     camera="
     0, 0.35460301851425213, 0.5353489231611536,

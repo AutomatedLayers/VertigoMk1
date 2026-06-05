@@ -55,7 +55,7 @@ Sometimes there's a note.
  - Refresh the page to recenter the model
 
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/Cat_Martinez.fbx"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/Cat_Martinez.fbx"
     backgroundcolor="244, 246, 250"
     camera=
         "

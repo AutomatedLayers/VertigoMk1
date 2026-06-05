@@ -83,17 +83,18 @@ initial_WHITE: 1.0
 
 ## Endstops
 
- - First make sure all motors are disabled, by power cycling or sending ```M84``` in the Console in Mainsail. 
- - Move the Gantry Bar to the center of the Y axis and the Toolhead to the center of the X axis. 
- - With the Bed Lever engaged, lift all four Z Joints several centimeters off the bottom of their travel. Make sure you can access and depress the switch on the X, Y, and four Z Endstops. 
- - Refresh the endstop states in Mainsail > Machine Tab > Endstops Panel > Refresh Button.
+### Trigger Check
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/ui_endstop_loc.png)
+1. First make sure all motors are disabled, by power cycling or sending ```M84``` in the Console in Mainsail. 
+2. Move the Gantry Bar to the center of the Y axis and the Toolhead to the center of the X axis. 
+3. With the Bed Lever engaged, lift all four Z Joints several centimeters off the bottom of their travel. Make sure you can access and depress the switch on the X, Y, and four Z Endstops. 
+4. Refresh the endstop states in Mainsail > Machine Tab > Endstops Panel > Refresh Button.
+>![]({{site.url}}/{{site.baseurl}}/assets/images/ui_endstop_loc.png)
+5. The states should all be 'OPEN' in the Endstops Panel.
+>![]({{site.url}}/{{site.baseurl}}/assets/images/ui_endstops.png)
+6. One-by-one, hold each endstop switch down while clicking the Refresh button to verify that each switch triggers and corresponds to the proper label in the Endstops panel. 
+>![]({{site.url}}/{{site.baseurl}}/assets/images/ui_endstops_triggered.png)
 
- - The states should all be 'OPEN' in the Endstops Panel.
-
-![]({{site.url}}/{{site.baseurl}}/assets/images/ui_endstops.png)
-
- - One-by-one, hold each endstop switch down while clicking the Refresh button to verify that each switch triggers and corresponds to the proper label in the Endstops panel. 
+### Position Calibration
 
 

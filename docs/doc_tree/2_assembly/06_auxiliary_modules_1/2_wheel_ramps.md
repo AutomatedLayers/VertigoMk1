@@ -48,7 +48,7 @@ nav_order: 3
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/wheel_ramp.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/wheel_ramp.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "

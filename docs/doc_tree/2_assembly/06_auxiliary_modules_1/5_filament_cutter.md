@@ -50,7 +50,7 @@ Ensure the M2.5 Dowel is pushed into the pin holder all the way, and that it rot
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/filament_cutter.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/filament_cutter.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "

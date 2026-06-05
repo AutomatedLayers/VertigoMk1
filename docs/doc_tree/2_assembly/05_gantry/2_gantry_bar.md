@@ -113,7 +113,7 @@ The Gantry Bar should slide easily along the full travel of the y-axis rails. If
 ---
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/gantry_bar.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/gantry_bar.glb"
     backgroundcolor="244, 246, 250"
     camera="
     -0.16462540259653796, 0.6947175468039145, 0.3110573203211509,

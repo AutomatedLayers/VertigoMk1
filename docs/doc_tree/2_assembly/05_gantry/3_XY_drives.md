@@ -94,7 +94,7 @@ The Cam Sliders can be installed on either side. Look at them in the same orient
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/xy_drive.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/xy_drive.glb"
     backgroundcolor="244, 246, 250"
     camera="
     -0.27, 0.6, -0.37,
