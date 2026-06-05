@@ -70,7 +70,7 @@ nav_order: 4
 
 #### Scraper Bar
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/bed_scraper.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/bed_scraper.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "
@@ -86,7 +86,7 @@ nav_order: 4
 
 #### Scraper Module
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/bed_scraper_module.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/bed_scraper_module.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "

@@ -44,7 +44,7 @@ Watch to the end and see the wiring image below before installing.
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/enclosure_light.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/enclosure_light.glb"
     backgroundcolor="244, 246, 250"
     camera="
         0.015656794094657564, 0.6521615895459374, -0.0015,

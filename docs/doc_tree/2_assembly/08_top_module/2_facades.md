@@ -49,7 +49,7 @@ We don't yet have fans here, but there are places for them in the Facade Sides t
 
 #### Front Facade
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/facade_front.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/facade_front.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "
@@ -65,7 +65,7 @@ We don't yet have fans here, but there are places for them in the Facade Sides t
 
 #### Side Facade
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/facade_side.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/facade_side.glb"
     backgroundcolor="244, 246, 250"
     camera="
     -0.5, 0.708, -0.0255,
@@ -86,7 +86,7 @@ We don't yet have fans here, but there are places for them in the Facade Sides t
 
 #### Rear Plate and Cable Guide
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/rear_plate.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/rear_plate.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "

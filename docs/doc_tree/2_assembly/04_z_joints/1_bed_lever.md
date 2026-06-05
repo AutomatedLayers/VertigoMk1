@@ -98,7 +98,7 @@ The lever is designed such that the magnet and strike plate -- installed at a sl
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/bed_lever.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/bed_lever.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "

@@ -39,7 +39,7 @@ nav_order: 3
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/safety_switch.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/safety_switch.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "

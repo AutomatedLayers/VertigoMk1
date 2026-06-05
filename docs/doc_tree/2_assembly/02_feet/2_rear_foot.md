@@ -82,7 +82,7 @@ The notes regarding the Height Knob and Tensioner from the Front Foot assembly a
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/rear_foot.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/rear_foot.glb"
     backgroundcolor="244, 246, 250"
     environmentmap=
     "

@@ -44,7 +44,7 @@ Don't overtighten the shoulder screw. The "smooth idler" bearings should spin fr
 ## Interactive View
 
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/xy_idler.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/xy_idler.glb"
     backgroundcolor="244, 246, 250"
     camera="
     -0.10696708258892587, 0.5298596415005542, 0.16535934079488385,

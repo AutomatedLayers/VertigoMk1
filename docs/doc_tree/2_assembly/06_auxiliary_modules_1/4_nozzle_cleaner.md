@@ -49,7 +49,7 @@ nav_order: 5
 
 ## Interactive View
 <div class="online_3d_viewer"
-    model="{{site.url}}/{{site.baseurl}}/assets/3d/nozzle_cleaner.glb"
+    model="https://media.githubusercontent.com/media/AutomatedLayers/VertigoMk1/main/docs/assets/3d/nozzle_cleaner.glb"
     backgroundcolor="244, 246, 250"
     camera="
         -0.0782453481585381, 0.5645733425409875, 0.2693513319072984,
