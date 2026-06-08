@@ -411,7 +411,7 @@ Now that you are working safe and responsibly, lets get on with it!
 1. **Safety First:** Ensure you and others around you observing are wearing the appropriate PPE. Also have your safety equipment on hand.
 2. Set voltmeter to DC Voltage Mode, choosing the lowest limit that is >=24V. In our image, that number is 200.
 3. Connect the voltmeter's leads to the corresponding polarity terminals on the 24V lift lever terminal block: red lead to V+ and black lead to V−.
-4. Connect power cable and power ON. A LED should light up on 24V PSU. Voltmeter should now have a reading close to 24V.
+4. Connect power cable, hold on to your butts, and power ON. A LED should light up on 24V PSU. Voltmeter should now have a reading close to 24V.
 5. Adjust the potentiometer on the 24V PSU until voltmeter reads 24V.
 6. Power OFF and disconnect the power cable. Remove the voltmeter from the 24V terminal block.
 

@@ -9,8 +9,9 @@ nav_order: 5
 Before you get printing, there are a few things left to 'check and calibrate'. At this point, ideally you have completed:
  - the Assembly Guide up to -- but not including -- the Enclosure section,
  - the Wiring Guide, having linked back and forth from the Z Endstops, Toolhead, and Electronics Backpack sections respectively,
- - the Firmware Setup, with the ability now to access your printer via the browser. 
+ - the Firmware Setup, with the ability now to access your printer's Mainsail User Interface via web browser. 
 
+{: .note}
 The **Config Reference** sections below refer to the lines in printer.cfg where the relevant pins and parameters can be found.
 
 ## Fans
@@ -20,7 +21,6 @@ This fan is internal to the 24V DC PSU and should be on when internal temperatur
 
 ### Electronics Backpack Fans 
 [See important note here]({{site.url}}/{{site.baseurl}}/2_assembly/14_electronics_backpack/0_electronics_backpack.html#assembly-notes). These fans should be on when the power is on. The stock fans are not controllable, therefore they are not specified in the config. However, if you switch them out, you could control them manually via a `[generic_fan]` section or based on the M8P MCU temperature using a `[temperature_fan]` section in printer.cfg. If they are too loud or you want to control them, you can upgrade to 4-pin PC fans like these [Noctua 4020 PWM Fans](https://www.noctua.at/en/products/nf-a4x20-pwm#hero). Just pay attention to how the connectors are wired, and take a look at the [M8P V2 Pinout]({{site.url}}/{{site.baseurl}}/assets/images/m8pv2_pinout.webp).
-
 
 ### Camera Fan
 The Camera Fan should always be on. It runs on the same circuit as the logo LED, both of which are connected directly to the 24V PSU output.
@@ -153,6 +153,31 @@ endstop_pin: !PF1
 
 ## Safety Switch
 
-Most printers have the ability to plow the nozzle through the build plate and cause damage if things aren't calibrated for functioning properly. Because of the negative Z travel required for scraping the bed on the Vertigo, we have a few additional safety mechanisms. The Safety Switch prevents crashes at the top of the Front Z Axes, particularly in the event that the nozzle probe does not trigger or the front steppers do not disable when scraping the bed.
+Most printers have the ability to plow the nozzle through the build plate and cause damage if things aren't calibrated for functioning properly. Because of the negative Z travel required for scraping the bed on the Vertigo, we have a few additional safety mechanisms. The Safety Switch prevents crashes at the top of the Front Z Axes, particularly in the event that the nozzle probe does not trigger or the front steppers are not disabled when scraping the bed. This switch will put klipper into an 'Emergency Shutdown' state, from which a firmware restart is required.
+
+1. Hold the Bed Lever down and slowly move the Front J Joint Bar up until the tooling ball is above the bed contact plate.
+2. Carefully let the Bed Lever close without snapping shut. 
+3. Set the Safety Switch adjustment screw on Front Z Joint B so that it protrudes ~0-1mm.
+4. Slowly raise the Front Z Joint Bar up until the carriages -- particularly on side B -- are ~1mm above the top of the front Z axis rails. **Moving connected steppers too quickly can generate current that can damage the electronics!**
+5. Turn the Safety Switch adjustment screw until the switch triggers and the system shuts down. 
+6. Click 'Firmware Restart' in the power menu at the top right of the Mainsail Dashboard.
+7. Disengage the Bed Lever and slowly lower the Front Z Joint Bar until the tooling ball is below the bed contact plate and the Bed Lever is held disengaged by the Bed Lever Striker. **Omitting this step can break your printer!**
+
+#### Config Reference
+```
+[gcode_button bed_safety_button]
+pin: ^PC4
+
+press_gcode:
+  {action_emergency_stop("Impending Doom Averted!")}
+```
+
+## Steppers
 
 
+
+## Force Sensors
+
+In the [Force Sensors](http://localhost:4000/doc_tree/2_assembly/07_auxiliary_modules_2/1_force_sensors.html) section of the Assembly Guide, we left off with ~2 full turns on the Force Sensor adjustment screw, or about ~1mm of compression. This is a good amount of force for continuity and functionality testing, but we'll crank it up a bit now that we're getting ready to scrape parts.
+
+### Functionality 
