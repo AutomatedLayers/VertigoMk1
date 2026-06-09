@@ -50,7 +50,7 @@ nav_order: 1
 
 ## Animated Assembly
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=D-dqH7wgQwq1nfns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/C0KE_nT1YOo?si=bt00TVDFhj8J_SiP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 
@@ -60,15 +60,16 @@ nav_order: 1
  - **2:13** The PTFE will need to be cut from the long section of 3mm ID tube in the kit.
  - **2:19** You may need to hold the PTFE (gently with pliers if necessary) and screw the M3 into it if it doesn't slide on.
  - **2:40** The gap here is just to see that the PTFE stays up against the M3 washer on the left when the brass insert is threadlocked in place.
- - **2:46** Threadlocker would be a better choice.
- - **3:07** ~3-4mm should do. This is just to make some room in the printed tool in the next step.
+ - **2:46** Threadlocker or glue of your choice will work fine.
+ - **3:07** ~2-3mm should do. This is just to make some room in the printed tool in the next step.
+ - **3:44** Ensure not to move Nyloc when fastening the cap nut. 
+ - **3:50** Relax the spring, but not entirely. The T-nut should have ~2 full rotations of compression on the spring.
   
 {: .note}
 >**3:29** The principle function of this tool is to set the position of the Nyloc nut on the right, such that the fixed wwasher is 32.6mm from the same-sized washer on the other side, which also has a locating feature in the tool. The tool acts like a wrench for the Nyloc, so the nut should not rotate when the screw is turned. As the M3 is screwed into the Nyloc, the play (gap) between the Nyloc and the fixed washer is closed, eventually pushing the other washer up against its locating feature. When that happens, we're ready to move on and lock the fixed washer in place from the other side. Below is a more in-depth look at how the tool should be used.
 > <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQnrFP9683292Te3UQBI_oM1244eqARZym0LYXcoMPTrTByoLInpAos08uLyxGXo-lPPDhYonXa4W9M/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
  - **3:47** Decompress until the spring is only compressed ~1mm from full extension. The proper force will be calibrated in the Checks and Calibration section.
- - **4:07** **WIP Continuity and fit check information**
  - **4:33** Remove support material from Force Sensor Plug.
  - **5:12** Force Sensor Frame Mount should touch the rear vertical extrusion.
  - **5:15** Side B Force Sensor can be assembled now, but wait to install it until the Routing Pod section. Continue to [Y Endstop]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/07_auxiliary_modules_2/2_y-endstop.html)
@@ -80,13 +81,26 @@ nav_order: 1
 >- repeatable after install, particularly with regard to the wire routing and conducting contacts
 
 ---
-#### Magnet Polarity
+## Magnet Polarity
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/force_sensor_magnet_polarity.svg" width="100%" alt="">
 
 ---
-#### Continuity Testing
- <!-- - [WIP placeholder] Grab a multimeter and set it to 'continuity' mode -- most multimeters will beep if you touch the leads together. Place the  -->
+## Continuity Testing
+
+**Preprequisite:** 
+* Set multimeter to continuity mode
+* Multimeter continuity mode tested and working (beeps when touching leads)
+
+**Test:**
+* Insert the multimeter leads into the Wago connectors as shown.
+* With no force applied to the rocker, the multimeter should beep.
+* Apply force to the rocker. The beeping should stop, indicating the connection is broken.
+* Release the rocker. The multimeter should beep again, confirming the connection has returned.
+
+<span style="color:green">**Pass:** The multimeter beeps with no force, stops beeping when force is applied, and beeps again when the force is released.</span>
+
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/force_sensor_continuity_test.svg" width="100%" alt="">
 
 ---
 
