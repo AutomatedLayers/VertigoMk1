@@ -36,7 +36,7 @@ nav_order: 1
 
 ## Animated Assembly
 
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/cHIX0g8gQUk?si=Pxe62I-egYznx9sa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/treQRNA6tV8?si=PMviitt7CAkCzJvP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 

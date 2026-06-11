@@ -133,7 +133,11 @@ When using these documents, always perform a quick check to confirm that you are
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_070_Z-Codes_Backpack.webp){: .zoomable}
 
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_075_Main_Board.svg){: .zoomable}
+
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_080_Z-Codes_Toolhead.webp){: .zoomable}
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_085_Toolhead.svg){: .zoomable}
 
 <br>
 

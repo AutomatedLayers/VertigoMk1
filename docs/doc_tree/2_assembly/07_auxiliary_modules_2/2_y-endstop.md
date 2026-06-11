@@ -30,7 +30,7 @@ nav_order: 2
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/10%20Auxilliary%20Modules%20%26%20Cable%20Routing/Endstops%20%26%20Cable%20Routing/Cable%20Cover%2055mm%20-%20Q8.stl" target="_blank">Cable Cover 55mm</a> | 1  |
 
 ## Animated Assembly
-<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/JlUDwF4iSH4?si=q_HybWhMYmee5mYx&amp;start=316"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/C0KE_nT1YOo?si=bt00TVDFhj8J_SiP&amp;start=327"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Notes
 
