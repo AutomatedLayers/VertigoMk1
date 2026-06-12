@@ -54,7 +54,9 @@ nav_order: 10
 
 ## Assembly Notes
 
- - **3:49** **WIP** This "live" video does not exist yet, but the animation describes the process pretty well.
+**E-Chain Assembly Example**
+
+<iframe style='width:100%; height:621px;' src="https://www.youtube.com/embed/x76eqS1hyPU?si=e7mVZvqrAoURul04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- ## Interactive View
 
