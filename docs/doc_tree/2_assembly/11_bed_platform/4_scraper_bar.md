@@ -36,8 +36,8 @@ nav_order: 4
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Bar%20Wing%20A.stl" target="_blank">Scraper Bar Wing A</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Bar%20Wing%20B.stl" target="_blank">Scraper Bar Wing B</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Bar%20Wing%20Dog%20Bone%20-%20Q2.stl" target="_blank">Scraper Bar Wing Dog Bone</a> | 2 |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Bar%20Wing_Frame%20Wedge%20A%20-%20Accent.stl" target="_blank">Scraper Bar Wing Frame Wedge A</a> | 1 |
-| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Bar%20Wing_Frame%20Wedge%20B%20-%20Accent.stl" target="_blank">Scraper Bar Wing Frame Wedge B</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Bar%20Wing%20Frame%20Wedge%20A%20-%20Accent.stl" target="_blank">Scraper Bar Wing Frame Wedge A</a> | 1 |
+| <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Bar%20Wing%20Frame%20Wedge%20B%20-%20Accent.stl" target="_blank">Scraper Bar Wing Frame Wedge B</a> | 1 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Module%20Bed%20Cam%20-%20Q7.stl" target="_blank">Scraper Module Bed Cam</a> | 7 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Module%20End%20Effector%20-%20Q7.stl" target="_blank">Scraper Module End Effector</a> | 7 |
 | <a href="https://github.com/AutomatedLayers/VertigoMk1/blob/main/hardware/STL/06%20Bed%20Platform/Scraper%20Bar/Scraper%20Module%20Frame%20Mount%20-%20Q7.stl" target="_blank">Scraper Module Frame Mount</a> | 7 |
