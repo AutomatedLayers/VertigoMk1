@@ -5,7 +5,10 @@ nav_order: 4
 ---
 
 # Firmware
-The first Vertigo machines have been running Kalico which is a forked version of Klipper Firmware. That is the installation presented in this guide. You can read more about the project and its efforts to improve upon Klipper in the [Kalico Documentation](https://docs.kalico.gg/Features.html). As of April 2026, Vertigo can still run on Klipper and the [Klipper Documentation](https://www.klipper3d.org/) is a good place to start if you prefer that firmware.
+Vertigo machines run Kalico which is a forked version of Klipper Firmware. That is the installation presented in this guide. You can read more about the project and its efforts to improve upon Klipper in the [Kalico Documentation](https://docs.kalico.gg/Features.html).
+
+{: .note}
+The Kalico installation directory, firmware service, etc. still contain references to Klipper for compatibility reasons.
 
 {: .note}
 [Esoterical CAN BUS Guide](https://canbus.esoterical.online/) is useful for guidance with flashing firmware via katapult and CAN setup. It should not be needed unless you run into issues.
@@ -277,6 +280,6 @@ sudo reboot now
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/mainsail_reboot.png)
 
- - If you are getting an 'Unauthorized' Error, [add your ip address to the [authorization] section of your moonraker.conf](https://docs.mainsail.xyz/faq/mainsail_errors/connection-unauthorized/)
+ - If you are getting an 'Unauthorized' Error, [add your ip address to the [authorization] section of your moonraker.conf](https://docs.mainsail.xyz/faq/mainsail_errors/connection-unauthorized/).
 
 ## Continue to [Checks & Calibration]({{site.url}}/{{site.baseurl}}/doc_tree/5_calibration/checks_calibration.html)

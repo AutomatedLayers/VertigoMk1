@@ -15,6 +15,9 @@ Before you get printing, there are a few things left to 'check and calibrate'. F
 {: .note}
 The **Config Reference** sections below refer to the lines in printer.cfg and macros.cfg where the relevant pins and parameters can be found. Unless an instruction says to 'FIRMWARE RESTART', simply save the config file you're working on without a restart and continue. These files can be edited directly from Mainsail in the Machine tab in the Navigation Sidebar.
 
+{: .warning}
+During this setup, you will move axes *manually* -- with your hands -- while the motors are disabled. **Manually moving connected steppers too quickly can generate current that can damage the electronics!** So go slow. 🐢
+
 ## Table of Contents
 
 - [Fans](#fans)
@@ -28,6 +31,11 @@ The **Config Reference** sections below refer to the lines in printer.cfg and ma
 - [Filament Cutter Position](#filament-cutter-position)
 - [Nozzle Probe](#nozzle-probe)
 - [Force Sensors](#force-sensors)
+- [Bed Scrape Test](#bed-scrape-test)
+- [Heaters](#heaters)
+- [Resonance Compensation](#resonance-compensation)
+- [Bed Leveling (Z Tilt) Test](#bed-leveling-z-tilt-test)
+- [Bed Mesh](#bed-mesh)
 
 ## Fans
 
@@ -177,10 +185,10 @@ endstop_pin: !PF1
 ## Safety Switch
 Most printers have the ability to plow the nozzle through the build plate and cause damage if things aren't calibrated for functioning properly. Because of the negative Z travel required for scraping the bed on the Vertigo, we have a few additional safety mechanisms. The Safety Switch prevents crashes at the top of the Front Z Axes, particularly in the event that the nozzle probe does not trigger or the front steppers are not disabled when scraping the bed. This switch will put klipper into an 'Emergency Shutdown' state, from which a firmware restart is required.
 
-1. Hold the Bed Lever down and slowly move the Front J Joint Bar up until the tooling ball is above the bed contact plate.
+1. Hold the Bed Lever down and manually move the Front Z Joint Bar up until the tooling ball is above the bed contact plate.
 2. Carefully let the Bed Lever close without snapping shut. 
 3. Set the Safety Switch adjustment screw on Front Z Joint B so that it protrudes ~0-1mm.
-4. Slowly raise the Front Z Joint Bar up until the carriages -- particularly on side B -- are ~1mm above the top of the front Z axis rails. **Manually moving connected steppers too quickly can generate current that can damage the electronics!**
+4. Slowly raise the Front Z Joint Bar up until the carriages -- particularly on side B -- are ~1-2mm below the bottom of the horizontal gantry frame extrusions. 
 5. Turn the Safety Switch adjustment screw until the switch triggers and the system shuts down. 
 6. Click 'Firmware Restart' in the power menu at the top right of the Mainsail Dashboard.
 7. Disengage the Bed Lever and slowly lower the Front Z Joint Bar until the tooling ball is below the bed contact plate and carefully let the Bed Lever close without snapping shut. The Bed Lever should be resting on the Bed Lever Striker, with the tooling ball below the bed contact plate. **Omitting this step can break your printer!**
@@ -200,7 +208,6 @@ press_gcode:
 We'll use Klipper's STEPPER_BUZZ command to safely test whether the specified motor moves in the expected direction. This command will enable the stepper, rotate it both directions a small amount 10 times, then disable the stepper. If the stepper does not move in the expected manner, you must check the wiring and pinning of the connectors of the affected stepper.
 
 #### Stepper Locations - Top View
-
 ```        
             Rear
         x          y 
@@ -330,6 +337,7 @@ This test is just to make sure the stepper on the Orbiter V2 Extruder is moving 
 printer.cfg
 :
 [extruder]
+## Extruder movement
 step_pin: toolhead:EXT_STEP
 dir_pin: toolhead:EXT_DIR
 enable_pin: !toolhead:EXT_EN
@@ -413,10 +421,11 @@ If you've gotten this far, awesome! We're getting closer to our first print. You
 macros.cfg
 :
 [homing_override]
+:
 ```
 
 ## Axis Movement
-Now that the printer is homed, we'll do a quick manual 'jog' to confirm the Toolhead moves nominally in X and Y and the Bed moves nominally in Z -- all from the Toolhead Panel in the Mainsail Dashboard. Movement consists of concentric rings of step-size buttons (e.g. 100, 10, 1, 0.1 mm). For the toolhead (X/Y Axes), the rings are divided into 4 sections with N, E, S, W corresponding to +Y, +X, -Y, -X respectively. For the bed (Z Axis), the rings above the 'Disable Motors' button move the bed in the 'negative direction' up towards the nozzle -- counterintuitive perhaps, but this is from the perspective of the nozzle. Each click moves the selected axis by the chosen step size -- start small. Everything must be homed first; if an axis isn't homed, Mainsail will refuse the move.
+Now that the printer is homed, we'll do a quick manual 'jog' to confirm the Toolhead moves nominally in X and Y and the bed moves nominally in Z -- all from the Toolhead Panel in the Mainsail Dashboard. Movement consists of concentric rings of step-size buttons (e.g. 100, 10, 1, 0.1 mm). For the toolhead (X/Y Axes), the rings are divided into 4 sections with N, E, S, W corresponding to +Y, +X, -Y, -X respectively. For the bed (Z Axis), the rings above the 'Disable Motors' button move the bed in the 'negative direction' up towards the nozzle -- counterintuitive perhaps, but this is from the perspective of the nozzle. Each click moves the selected axis by the chosen step size -- start small. Everything must be homed first; if an axis isn't homed, Mainsail will refuse the move.
 
 ### Toolhead (X/Y) Jog Test
 The Toolhead moves in X and Y. After homing, the Toolhead sits at the rear-right corner (the X and Y maximums), so we'll jog *away* from there, back toward the center.
@@ -441,10 +450,10 @@ Before jogging Z, the Bed Lever must be engaged and the bed coupled to the conta
 >> - Open the Bed Lever.
 >> - Move the bed or Z Joint Front Bar so that the tooling ball is below the bed contact plate. 
 >> - Run a standard 'Home Z' command (G28 Z or 'Home Z' Button in Toolhead Panel). Z Axis jogging should now be 'unlocked'.  
-2. Click the +1 mm button (above 'Disable Motors'). The Bed should rise ~1 mm toward the nozzle.
+2. Click the +1 mm button (above 'Disable Motors'). The bed should rise ~1 mm toward the nozzle.
 > ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_z_movement.png)
-3. Click the -1 mm button (below 'Disable Motors'). The Bed should lower ~1 mm away from the nozzle.
-4. Move the Bed up and down a few millimeters to confirm smooth, quiet travel. **Don't jog below where the Bed Lever touches the striker on the frame!**
+3. Click the -1 mm button (below 'Disable Motors'). The bed should lower ~1 mm away from the nozzle.
+4. Move the bed up and down a few millimeters to confirm smooth, quiet travel. **Don't jog below where the Bed Lever touches the striker on the frame!**
 
 #### Config Reference
 ```
@@ -458,7 +467,7 @@ max_z_velocity: 30                       # mm/s
 max_z_accel: 100                         # mm/s^2
 ```
 {: .note}
-The per-axis jog limits -- how far the Toolhead and Bed are allowed to travel -- come from the `position_min` / `position_max` values in each `[stepper_*]` section shown in the Stepper Movement and Endstop Calibration sections above.
+The per-axis jog limits -- how far the toolhead and bed are allowed to travel -- come from the `position_min` / `position_max` values in each `[stepper_*]` section shown in the Stepper Movement and Endstop Calibration sections above.
 
 ## Nozzle Cleaner Position
 It's important to keep a clean nozzle for bed leveling, clean first layers, and pause/resume functionality.
@@ -616,7 +625,7 @@ During initial testing, it was found that ~10-15 lbf (~44-65 N) per side is a go
 The adjustment on both sides must be equal.
 
 {: .warning}
-Setting the Force Sensors too strong can damage your printer.
+Setting the Force Sensors too strong can prevent them from triggering when they should and possibly damage your printer.
 
 **Optional** Procedure for Scrape Force Calibration:
 1. Power OFF the printer.
@@ -644,6 +653,66 @@ Here's what to expect when this macro runs:
 > ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_scrape_bed.png)
 2. Give your Vertigo a high-five. 
 
+#### Config Reference
+```
+macros.cfg
+:
+[gcode_macro SCRAPE_BED]
+:
+```
 
+## Heaters
+The extruder and bed contain heating elements and temperature sensors that are used to control them.
+
+{: .important}
+Now is a good time to sanity check that the temperature sensors are reading something close to ambient temperature; you may want to use an external thermometer if you are unsure. These can be found in the Temperatures Panel in Mainsail.
+> ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_temps.png)
+
+### Extruder PID Tuning
+PID Control is a widely used control algorithm. It works best when calibrated for a specific target. Kalico provides the option to save different PID tuning parameters to temperature-specific profiles. 
+
+{: .note}
+Kalico also provides [Model Predictive Control](https://docs.kalico.gg/MPC.html) as an alternative to PID. This may become the default in future updates to the Vertigo config.
+
+1. First, let's check that the heater actually heats and the temperature sensor measures the change. Set a safe target of 50°C in the Temperatures Panel. Since the PID is not calibrated for this target, there will be some oscillation around the target temperature. However, if you see no change, or change is measured in the wrong sensor, **immediately power OFF** and check your wiring and heater components.
+2. Assuming the nozzle is still on the plug, jog the toolhead +100 X to move it into the air.
+3. In the Console, run  `PID_CALIBRATE`.
+
+#### Config Reference
+```
+printer.cfg
+:
+[extruder]
+:
+## Extruder temperature
+heater_pin: toolhead:EXT_HEATER
+sensor_type: ATC Semitec 104NT-4-R025H42G
+sensor_pin: toolhead:TH0
+control = pid
+pid_kp = 22.684
+pid_ki = 2.881
+pid_kd = 44.658
+pid_version = 1
+pid_target = 215.00
+pid_tolerance = 0.0200
+min_extrude_temp: 90
+min_temp: 10
+max_temp: 300
+```
+
+### Bed PID Tuning
+PID control is quite sufficient for the bed. This is the same process as the extruder.
+
+1. Again, set a safe target of 50°C in the Temperatures Panel. The aluminum bed is a much larger thermal mass, so heating it will take substantially longer. Again, if you see no change, or change is measured in the wrong sensor, **immediately power OFF** and check your wiring and heater components.
+2. 
+
+## Resonance Compensation
+Resonance compensation is a deep subject, but basically everything is a spring. The [`[input_shaper]`](https://en.wikipedia.org/wiki/Input_shaping) is a relatively sophisticated attempt to mitigate some of the cosmetic defects or "vertical fine artifacts (VFA)" in printed parts by compensating for this 'springy-ness'.  
+
+
+
+## Bed Leveling (Z Tilt) Test
+
+## Bed Mesh
 
 
