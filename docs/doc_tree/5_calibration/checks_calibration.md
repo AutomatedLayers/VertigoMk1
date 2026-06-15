@@ -35,7 +35,8 @@ During this setup, you will move axes *manually* -- with your hands -- while the
 - [Heaters](#heaters)
 - [Resonance Compensation](#resonance-compensation)
 - [Bed Leveling (Z Tilt) Test](#bed-leveling-z-tilt-test)
-- [Bed Mesh](#bed-mesh)
+- [Global Z Offset](#global-z-offset)
+- [Camera Options](#camera-options)
 
 ## Fans
 
@@ -404,7 +405,7 @@ front_engage_distance: 25                # mm to raise the FRONT pair to engage 
 rear_couple_distance: 13                 # mm to raise the REAR pair to couple the bed
 lift_speed: 25                           # mm/s for the isolated front/rear moves (raises + jogs)
 lift_accel: 100                          # mm/s^2 for the isolated front/rear moves
-max_print_z: 220                         # optional explicit kinematic Z after print-home
+max_print_z: 230                         # optional explicit kinematic Z after print-home
 ```
 
 ### Homing Sequence
@@ -453,7 +454,12 @@ Before jogging Z, the Bed Lever must be engaged and the bed coupled to the conta
 2. Click the +1 mm button (above 'Disable Motors'). The bed should rise ~1 mm toward the nozzle.
 > ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_z_movement.png)
 3. Click the -1 mm button (below 'Disable Motors'). The bed should lower ~1 mm away from the nozzle.
-4. Move the bed up and down a few millimeters to confirm smooth, quiet travel. **Don't jog below where the Bed Lever touches the striker on the frame!**
+4. Move the bed up and down a few millimeters to confirm smooth, quiet travel.
+> {: .warning}
+>> Do not jog below where the Bed Lever touches the striker on the frame. It may not reset properly.
+>
+> {: .warning}
+>> The 'negative' Z travel allowed for scraping means that it's possible to jog the bed up past the nozzle and into the gantry. For this test, do not move the bed within 20mm of the nozzle.
 
 #### Config Reference
 ```
@@ -539,6 +545,18 @@ Here is the [E3D PZ Probe Documentation](https://e3d-online.com/pages/revo-suppo
 8. Move the bed up until it's about 10mm from the nozzle. Make sure your nozzle is over the bed; if it is not, something is off and you will need to troubleshoot before probing.
 9. One of the nice things about having an extruder that is magnetically mounted to the gantry is that it should not be catastrophic if the next step fails. The extruder plate should pop off and the safety switch should eventually trigger if you don't get to shutdown in time. If the safety switch triggers before the nozzle touches the bed, you will need to adjust the parameters mentioned in the [Ready Bed Position]({{site.url}}/{{site.baseurl}}/doc_tree/5_calibration/checks_calibration.html#ready-bed-position) section above so that the bed tilts forward at the 'Ready Position' after Z Homing.
 10. Run the single probe command again: `PROBE SAMPLES=1`. Either the bed will stop, or you'll have a teeny tiny panic attack. Either way, everything is going to be ok. 
+11. Test the accuracy of the nozzle probe by running `PROBE_ACCURACY` in the Console. It will probe the bed ten times and report some statistics in the Console. The range should be less than 0.010 with a standard deviation of less than 0.005. If this is not the case:
+>- Check that the Extruder Plate is properly seated on the X Carriage kinematic mount (the three cap nuts on the Carriage Block).
+>- Check the tightness of the shaft couplers and timing pulleys on the Z Drive shafts.
+>- Check Z Belt tension.
+>- Check for downward play on the tooling ball side of the Bed Lever.
+>- Check the PZ Probe Controller preset mode.
+>
+> {: .warning}
+> Changing the PZ Probe Controller settings can be dangerous if it does not trigger when the bed makes contact with the nozzle.
+>
+> {: .note}
+> If you do experiment with PZ Probe Controller settings and find a tuning that results in better accuracy, please share your results with the community on Discord
 
 #### Config Reference
 ```
@@ -676,7 +694,13 @@ Kalico also provides [Model Predictive Control](https://docs.kalico.gg/MPC.html)
 
 1. First, let's check that the heater actually heats and the temperature sensor measures the change. Set a safe target of 50°C in the Temperatures Panel. Since the PID is not calibrated for this target, there will be some oscillation around the target temperature. However, if you see no change, or change is measured in the wrong sensor, **immediately power OFF** and check your wiring and heater components.
 2. Assuming the nozzle is still on the plug, jog the toolhead +100 X to move it into the air.
-3. In the Console, run  `PID_CALIBRATE`.
+3. Click '❄️ COOLDOWN' in the Temperatures Panel and check that the temperature starts to drop.
+4. In the Calibration Panel, click the dropdown next to 'PID TUNE HEATER TEMPS'. The default settings will save PID tuning profiles for the extruder heater based on the temperature targets specified in the config, referenced below. The only change here is to set the fan power to 100%, as this is the most likely scenario during printing. Check the notes in macros.cfg for more information on how to customize this macro for your specific filament needs. When finished, the tuning macro will 'SAVE CONFIG' which restarts the firmware. Click 'SEND' to start.
+> ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_pid_tune_dropdown.png)
+> ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_pid_extruder_dropdown.png)
+> 
+> {: .note}
+> This macro may take half an hour or more to run. Have a ☕.
 
 #### Config Reference
 ```
@@ -697,22 +721,205 @@ pid_target = 215.00
 pid_tolerance = 0.0200
 min_extrude_temp: 90
 min_temp: 10
-max_temp: 300
+max_temp: 290
+```
+```
+macros.cfg
+:
+[gcode_macro _MACRO_VARIABLES]
+:
+variable_pid_extruder_temps: [200, 220, 240, 260, 270]
+:
+[gcode_macro PID_TUNE_HEATER]
+:
 ```
 
 ### Bed PID Tuning
 PID control is quite sufficient for the bed. This is the same process as the extruder.
 
 1. Again, set a safe target of 50°C in the Temperatures Panel. The aluminum bed is a much larger thermal mass, so heating it will take substantially longer. Again, if you see no change, or change is measured in the wrong sensor, **immediately power OFF** and check your wiring and heater components.
-2. 
+2. Click '❄️ COOLDOWN' in the Temperatures Panel and check that the temperature starts to drop.
+3. In the Calibration Panel, click the dropdown next to 'PID TUNE HEATER TEMPS'. This time, type 'bed' in the HEATER field, and make sure the fan power is set to 0. These settings will save PID tuning profiles for the bed heater based on the temperature targets specified in the config, referenced below. Click 'SEND' to start, and call a friend while the macro runs.
+> ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_pid_tune_dropdown.png)
+> ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_pid_bed_dropdown.png)
+
+#### Config Reference
+```
+printer.cfg
+:
+[heater_bed]
+heater_pin: PF5                          # SSR Pin - HE1
+sensor_type: Generic 3950
+sensor_pin: PB1
+## Keep max_power within the SSR rating (Omron G3NA-210B-DC5 = 4A no heatsink):
+##   4 / (bed_watts / mains_volts) = max_power   (cap at 1.0)
+max_power: 1
+min_temp: 0
+max_temp: 125
+control: pid
+pid_kp: 58.437
+pid_ki: 2.347
+pid_kd: 363.769
+```
+```
+macros.cfg
+:
+[gcode_macro _MACRO_VARIABLES]
+:
+variable_pid_bed_temps: [55, 70, 85, 105]
+:
+[gcode_macro PID_TUNE_HEATER]
+:
+```
 
 ## Resonance Compensation
-Resonance compensation is a deep subject, but basically everything is a spring. The [`[input_shaper]`](https://en.wikipedia.org/wiki/Input_shaping) is a relatively sophisticated attempt to mitigate some of the cosmetic defects or "vertical fine artifacts (VFA)" in printed parts by compensating for this 'springy-ness'.  
+Resonance compensation is a deep subject, but basically everything is a spring. The [`[input_shaper]` module](https://en.wikipedia.org/wiki/Input_shaping) is a relatively sophisticated attempt to mitigate some of the cosmetic defects or "vertical fine artifacts (VFA)" in printed parts by compensating for this 'springy-ness'.  
 
+1. Ensure all axes are homed.
+2. In the Console, run `SHAPER_CALIBRATE`.
+3. Click 'SAVE CONFIG' at the top of the Mainsail Dashboard, or run `SAVE_CONFIG` in the console.
 
+{: .note}
+To learn more about measuring and compensating for resonance, read [Kalico Docs > Tuning](https://docs.kalico.gg/Measuring_Resonances.html).
+
+#### Config Reference
+```
+printer.cfg
+:
+[input_shaper]
+shaper_type_x = mzv
+shaper_type_y = mzv
+shaper_freq_x = 66.4
+shaper_freq_y = 47.0
+```
 
 ## Bed Leveling (Z Tilt) Test
+Due to the inherent impreceision of homing to four different Z endstops, decoupling the bed from the front Z axes and rotating the bed vertically, the ability to automatically level the bed is an essential feature of the Vertigo Mk1. During the bed leveling macro:
+- The nozzle will heat to the printing temperature.
+- The toolhead will wipe and plug the nozzle.
+- The part cooling fans will turn on to help the nozzle cool quickly to the filament vitrification temp (below its melting point) to prevent ooze.
+- The toolhead will cycle through 3 probing points (3 points define a plane), each near a kinematically constrained pivot point for the bed, sampling each point several times to measure an average Z position.
+- After each iteration, the Z axes will adjust independently to reduce the deviation in measured average Z positions.
+- Either the deviation will converge to a value below the tolerance specified in the config -- meaning the bed is level -- or it will report the failure to converge as an error in the Console.
 
-## Bed Mesh
+Click the dropdown next to 'LEVEL BED' in the Calibration Panel. To speed things up a bit, enter the lowest extruder temperature with a previously calibrated tuning profile, i.e. 200°C in the EXTRUDER_TEMP field and a value just below that, i.e. 195°C in the VITRIFICATION_TEMP field. Click 'SEND' to start.
+> ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_bed_level_dropdown.png)
+> ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_bed_level_menu.png)
 
+If the bed leveling procedure fails to converge, refer to the troubleshooting steps in the [Nozzle Probe](#nozzle-probe) section above.
 
+#### Config Reference
+```
+printer.cfg
+:
+[z_tilt]
+# Pivot points (nozzle coords) where the bed attaches to each Z stepper, in
+# stepper order: stepper_z, stepper_z1, stepper_z2, stepper_z3. The front pair
+# shares a pivot (flexible lever bar at center-front).
+z_positions:
+    125, -18
+    125, -18
+    2, 283
+    242, 283
+# Probe points for Z_TILT_ADJUST (nozzle coords; probe must be over the bed).
+points:
+    125, 5
+    5, 203
+    245, 203
+speed: 200
+horizontal_move_z: 10
+retries: 4
+retry_tolerance: 0.010
+```
+```
+macros.cfg
+:
+[gcode_macro LEVEL_BED]
+:
+```
+
+## Global Z Offset
+The goal here will be to get a baseline Z offset that should allow for some calibration prints for fine tuning. We'll be doing the old-school, tried-and-true [paper test](https://docs.kalico.gg/Bed_Level.html#the-paper-test) method. So grab your favorite piece of paper and let's go.
+
+1. If you haven't just done the Bed Leveling section, do it now.
+2. Send the nozzle to approximately the middle of the bed: `G90` then `G1 X125 Y105 F6000`.
+3. Place the pieice of paper on the bed, under the nozzle. You may remove the Cowl if necessary (or just get a bigger piece of paper).
+4. In the Console, run `PROBE_CALIBRATE`. After an initial probing move, the 'Manual Probe' tool will appear.
+5. Use the 'Manual Probe' tool to raise the bed until there is just a bit of friction when moving the piece of paper.
+> ![]({{site.url}}/{{site.baseurl}}/assets/images/ui_manual_probe.png)
+6. Click 'ACCEPT' then 'SAVE CONFIG' at the top of the Mainsail Dashboard (or run `SAVE_CONFIG` in the Console).
+
+#### Config Reference
+```
+printer.cfg
+:
+[smart_effector]
+:
+z_offset: 0
+:
+```
+
+## Camera Options
+There are essentially two options for the camera config in crowsnest.conf:
+- Image Quality: High resolution -> High Bandwidth Usage, High Latency
+> ```
+crowsnest.conf
+:
+[cam 1]
+mode: ustreamer                         # https://docs.mainsail.xyz/crowsnest/faq/backends
+# mode: camera-streamer                   # Use for low latency with smaller resolution below
+port: 8080                              # HTTP/MJPG stream/snapshot port
+device: /dev/video0                     # See log for available devices
+resolution: 2592x1944                   # <width>x<height> format
+# resolution: 640x480                     # use for low latency 'real time' video with streamer above
+max_fps: 5                              # if hardware supports it, it will be forced, otherwise ignored/coerced.
+v4l2ctl: brightness=-20,contrast=20,power_line_frequency=2     # Add v4l2-ctl parameters to set up your camera, see log for your camera capabilities.
+custom_flags: --drop-same-frames=30
+>```
+- Real-Time Video: Low resolution -> Low Bandwidth Usage, Low Latency (default)
+> ```
+crowsnest.conf
+:
+[cam 1]
+# mode: ustreamer                         # https://docs.mainsail.xyz/crowsnest/faq/backends
+mode: camera-streamer                   # Use for low latency with smaller resolution below
+port: 8080                              # HTTP/MJPG stream/snapshot port
+device: /dev/video0                     # See log for available devices
+# resolution: 2592x1944                   # <width>x<height> format
+resolution: 640x480                     # use for low latency 'real time' video with streamer above
+max_fps: 5                              # if hardware supports it, it will be forced, otherwise ignored/coerced.
+v4l2ctl: brightness=-20,contrast=20,power_line_frequency=2     # Add v4l2-ctl parameters to set up your camera, see log for your camera capabilities.
+# custom_flags: --drop-same-frames=30
+>```
+
+{: .note}
+>You can change `power_line_frequency=2` to `power_line_frequency=1` if you are on a 50Hz electrical grid.
+>
+>These are all the available v4l2ctl parameters for the Vertigo camera:
+>```
+>vertigo@vertigo-host:~ $ v4l2-ctl -d /dev/video0 --list-ctrls
+>
+>User Controls
+>
+>                     brightness 0x00980900 (int)    : min=-64 max=64 step=1 default=-5 value=-20 flags=has-min-max
+>                       contrast 0x00980901 (int)    : min=0 max=100 step=1 default=50 value=20 flags=has-min-max
+>                     saturation 0x00980902 (int)    : min=0 max=100 step=1 default=64 value=70 flags=has-min-max
+>                            hue 0x00980903 (int)    : min=-180 max=180 step=1 default=0 value=0 flags=has-min-max
+>        white_balance_automatic 0x0098090c (bool)   : default=1 value=1
+>                          gamma 0x00980910 (int)    : min=100 max=500 step=1 default=300 value=300 flags=has-min-max
+>           power_line_frequency 0x00980918 (menu)   : min=0 max=2 default=1 value=2 (60 Hz)
+>      white_balance_temperature 0x0098091a (int)    : min=2800 max=6500 step=10 default=4600 value=4600 flags=inactive, has-min-max
+>                      sharpness 0x0098091b (int)    : min=0 max=100 step=1 default=50 value=50 flags=has-min-max
+>         backlight_compensation 0x0098091c (int)    : min=0 max=2 step=1 default=0 value=0 flags=has-min-max
+>
+>Camera Controls
+>
+>                  auto_exposure 0x009a0901 (menu)   : min=0 max=3 default=3 value=3 (Aperture Priority Mode)
+>         exposure_time_absolute 0x009a0902 (int)    : min=50 max=10000 step=1 default=166 value=166 flags=inactive, has-min-max
+>     exposure_dynamic_framerate 0x009a0903 (bool)   : default=0 value=0
+>                   pan_absolute 0x009a0908 (int)    : min=-57600 max=57600 step=3600 default=0 value=0 flags=has-min-max
+>                  tilt_absolute 0x009a0909 (int)    : min=-43200 max=43200 step=3600 default=0 value=-3600 flags=has-min-max
+>                 focus_absolute 0x009a090a (int)    : min=0 max=1022 step=1 default=68 value=260 flags=has-min-max
+>     focus_automatic_continuous 0x009a090c (bool)   : default=1 value=0
+>                  zoom_absolute 0x009a090d (int)    : min=0 max=3 step=1 default=0 value=0 flags=has-min-max
+>```
