@@ -13,7 +13,7 @@ At this point, ideally you have completed:
 Before you get printing, there are a few things left to 'check and calibrate'. Follow this guide in order and don't hesitate to reach out on [Discord](https://discord.gg/qCQRbnZ6) if you run into issues.
 
 {: .note}
-The **Config Reference** sections below refer to the lines in printer.cfg and macros.cfg where the relevant pins and parameters can be found. Unless an instruction says to 'FIRMWARE RESTART', simply save the config file you're working on without a restart and continue. These files can be edited directly from Mainsail in the Machine tab in the Navigation Sidebar.
+The **Config Reference** sections below refer to the lines in configuration files where the relevant pins, parameters, modules, and macros can be found. Unless an instruction says to 'FIRMWARE RESTART', simply save the config file you're working on without a restart and continue. These files can be edited directly from Mainsail in the Machine tab in the Navigation Sidebar.
 
 {: .warning}
 During this setup, you will move axes *manually* -- with your hands -- while the motors are disabled. **Manually moving connected steppers too quickly can generate current that can damage the electronics!** So go slow. 🐢
@@ -422,7 +422,6 @@ If you've gotten this far, awesome! We're getting closer to our first print. You
 macros.cfg
 :
 [homing_override]
-:
 ```
 
 ## Axis Movement
@@ -487,7 +486,7 @@ It's important to keep a clean nozzle for bed leveling, clean first layers, and 
 
 #### Config Reference
 ```
-macros.cfg
+config_variables.cfg
 :
 [gcode_macro _macro_variables]
 :
@@ -513,7 +512,7 @@ The filament cutter is designed to be integrated with an automatic filament swap
 
 #### Config Reference
 ```
-macros.cfg
+config_variables.cfg
 :
 [gcode_macro _macro_variables]
 :
@@ -676,7 +675,6 @@ Here's what to expect when this macro runs:
 macros.cfg
 :
 [gcode_macro SCRAPE_BED]
-:
 ```
 
 ## Heaters
@@ -724,14 +722,17 @@ min_temp: 10
 max_temp: 290
 ```
 ```
-macros.cfg
+config_variables.cfg
 :
 [gcode_macro _MACRO_VARIABLES]
 :
 variable_pid_extruder_temps: [200, 220, 240, 260, 270]
 :
-[gcode_macro PID_TUNE_HEATER]
+```
+```
+macros.cfg
 :
+[gcode_macro PID_TUNE_HEATER]
 ```
 
 ### Bed PID Tuning
@@ -762,14 +763,17 @@ pid_ki: 2.347
 pid_kd: 363.769
 ```
 ```
-macros.cfg
+config_variables.cfg
 :
 [gcode_macro _MACRO_VARIABLES]
 :
 variable_pid_bed_temps: [55, 70, 85, 105]
 :
-[gcode_macro PID_TUNE_HEATER]
+```
+```
+macros.cfg
 :
+[gcode_macro PID_TUNE_HEATER]
 ```
 
 ## Resonance Compensation
@@ -835,7 +839,6 @@ retry_tolerance: 0.010
 macros.cfg
 :
 [gcode_macro LEVEL_BED]
-:
 ```
 
 ## Global Z Offset
