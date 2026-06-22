@@ -36,6 +36,12 @@ CONFIG_DIR="${PRINTER_DATA}/config"
 LOG_DIR="${PRINTER_DATA}/logs"
 DB_DIR="${PRINTER_DATA}/database"
 
+# Vertigo config repos (managed by Moonraker update_manager, symlinked into config)
+VERTIGO_MACROS_DIR="${HOME_DIR}/vertigo-macros"
+VERTIGO_DASHBOARD_DIR="${HOME_DIR}/vertigo-dashboard"
+VERTIGO_MACROS_REPO="https://github.com/AutomatedLayers/vertigo-macros.git"
+VERTIGO_DASHBOARD_REPO="https://github.com/AutomatedLayers/vertigo-dashboard.git"
+
 # ── Pre-flight checks ─────────────────────────────────────────────────────────
 [[ "$(id -u)" -eq 0 ]] && die "Do NOT run this script as root. Run as your regular user."
 command -v sudo >/dev/null || die "sudo is required but not installed."
@@ -49,6 +55,24 @@ echo ""
 
 # ── Helper: run as the target user ───────────────────────────────────────────
 run_as_user() { sudo -u "${KLIPPER_USER}" bash -c "$*"; }
+
+# ── Helper: symlink a repo's top-level contents into the config dir ──────────
+# update_manager keeps each CLONE pristine; the config dir only holds symlinks
+# pointing at the clone, so updates the manager pulls appear in config at once.
+# Moonraker serves the symlinked files read-only (editing them in the UI would
+# dirty the repo and block updates — that is intentional). Skips VCS/doc files.
+link_repo_into_config() {
+    local dir="$1" entry name
+    while IFS= read -r entry; do
+        name="$(basename "${entry}")"
+        case "${name}" in
+            .git|.gitignore|.gitattributes|README*|LICENSE*|*.md) continue ;;
+        esac
+        rm -rf "${CONFIG_DIR:?}/${name}"
+        ln -s "${entry}" "${CONFIG_DIR}/${name}"
+        info "  linked ${name} → ${entry}"
+    done < <(find "${dir}" -mindepth 1 -maxdepth 1)
+}
 
 # ── 1. Python serial dependency ───────────────────────────────────────────────
 info "Installing python3-serial…"
@@ -138,8 +162,7 @@ info "Downloading config files from AutomatedLayers GitHub repo…"
 cd "${CONFIG_DIR}"
 echo -e "crowsnest.conf"
 curl -L -o "crowsnest.conf" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/crowsnest.conf"
-echo -e "macros.cfg"
-curl -L -o "macros.cfg" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/macros.cfg"
+# macros.cfg now comes from the vertigo-macros repo (symlinked in section 15b)
 echo -e "mainsail.cfg"
 curl -L -o "mainsail.cfg" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/mainsail.cfg"
 echo -e "moonraker.conf"
@@ -152,16 +175,7 @@ echo -e "sonar.conf"
 curl -L -o "sonar.conf" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/sonar.conf"
 echo -e "timelapse.conf"
 curl -L -o "timelapse.conf" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/timelapse.conf"
-mkdir -p "${CONFIG_DIR}/.theme"
-cd .theme
-echo -e "default.json"
-curl -L -o "default.json" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/.theme/default.json"
-echo -e "favicon-32x32.png"
-curl -L -o "favicon-32x32.png" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/.theme/favicon-32x32.png"
-echo -e "sidebar-background.png"
-curl -L -o "sidebar-background.png" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/.theme/sidebar-background.png"
-echo -e "sidebar-logo.png"
-curl -L -o "sidebar-logo.png" "https://raw.githubusercontent.com/AutomatedLayers/VertigoMk1/refs/heads/main/software/Printer%20Config/.theme/sidebar-logo.png"
+# .theme/ now comes from the vertigo-dashboard repo (symlinked in section 15b)
 success "Config files downloaded."
 
 # ── 10. KLIPPER ───────────────────────────────────────────────────────────────
@@ -446,6 +460,34 @@ else
     run_as_user "git -C ${HOME_DIR}/sonar pull"
 fi
 success "Sonar cloned."
+
+# ── 15b. VERTIGO CONFIG REPOS (macros + dashboard) ──────────────────────────
+# These two repos are tracked by Moonraker's update_manager (see the
+# [update_manager vertigo-macros] / [update_manager vertigo-dashboard] blocks
+# in moonraker.conf). Clone them to ~/ and symlink their contents into the
+# config dir: macros.cfg (from vertigo-macros) and the .theme/ folder (from
+# vertigo-dashboard) live under ~/printer_data/config while their git repos
+# remain the source of truth the update manager keeps in sync.
+info "Cloning Vertigo macros repo…"
+if [[ ! -d "${VERTIGO_MACROS_DIR}" ]]; then
+    run_as_user "git clone ${VERTIGO_MACROS_REPO} ${VERTIGO_MACROS_DIR}"
+else
+    warn "vertigo-macros already exists, pulling latest…"
+    run_as_user "git -C ${VERTIGO_MACROS_DIR} pull --ff-only"
+fi
+
+info "Cloning Vertigo dashboard repo…"
+if [[ ! -d "${VERTIGO_DASHBOARD_DIR}" ]]; then
+    run_as_user "git clone ${VERTIGO_DASHBOARD_REPO} ${VERTIGO_DASHBOARD_DIR}"
+else
+    warn "vertigo-dashboard already exists, pulling latest…"
+    run_as_user "git -C ${VERTIGO_DASHBOARD_DIR} pull --ff-only"
+fi
+
+info "Linking macros + dashboard contents into ${CONFIG_DIR}…"
+link_repo_into_config "${VERTIGO_MACROS_DIR}"
+link_repo_into_config "${VERTIGO_DASHBOARD_DIR}"
+success "Vertigo macros + dashboard linked into config."
 
 # ── 16. Verify user config files are present ──────────────────────────────────
 info "Verifying expected config files…"
