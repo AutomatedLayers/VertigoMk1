@@ -79,6 +79,11 @@ Some image text may appear small on this page. For a larger view, right-click th
     - [37. Unplug Toolhead's XT30 Connector](#37-unplug-toolheads-xt30-connector)
     - [38. Checking Toolhead Power](#38-checking-toolhead-power)
     - [39. PZ Probe Controller Cable: Z-105, Z-106, Z-107](#39-pz-probe-controller-cable-z-105-z-106-z-107)
+    - [40. Install Lights, Endstops, Electronics Fans, Camera: Z-57, Z-58, Z-59, Z-68, Z-69, Z-70, Z-71, Z-72, Z-77, Z-78, Z-116](#40-install-lights-endstops-electronics-fans-camera-z-57-z-58-z-59-z-68-z-69-z-70-z-71-z-72-z-77-z-78-z-116)
+    - [41. Endstop Check](#41-endstop-check)
+    - [42. Electronics Fans Pinout Check: Z-77, Z-78](#42-electronics-fans-pinout-check-z-77-z-78)
+    - [43. Install Bed Heater, Bed Fans: Z-46, Z-47, Z-50, Z-51, Z-52](#43-install-bed-heater-bed-fans-z-46-z-47-z-50-z-51-z-52)
+    - [44. Install Stepper Motors: Z-46, Z-47, Z-50, Z-51, Z-52](#44-install-stepper-motors-z-46-z-47-z-50-z-51-z-52)
   - [Continue to the Firmware Guide](#continue-to-the-firmware-guide)
 
 
@@ -546,6 +551,54 @@ Polarity matters! Make sure you are touching the correct leads to the correct po
 {: .warning }
 The PZ Probe Controller is fragile and can be damaged if Z-107 is wired incorrectly.
 
+### 40. Install Lights, Endstops, Electronics Fans, Camera: Z-57, Z-58, Z-59, Z-68, Z-69, Z-70, Z-71, Z-72, Z-77, Z-78, Z-116
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_550_Install_Cables-15.svg){: .zoomable}
+
+### 41. Endstop Check
+
+* This step checks the Z-endstop wiring at the board connection to confirm the wiring is correct.
+* Unplug and test one endstop at a time so each connector can be easily returned to its original location after testing.
+* Paperclips can be used to make it easier to access the female pins during the check.
+
+**Preprequisite:** 
+* Power is disconnected
+* Set multimeter to continuity mode
+* Multimeter continuity mode tested and working (beeps when touching leads)
+
+**Test:**
+* Unplug endstop cable from the board connection.
+* If needed, insert paperclips into the V+ and Signal lines of the endstop cable as shown.
+* Touch multimeter leads to paperclips.
+* Plug endstop cable back into the board.
+
+<span style="color:green">**Pass:** Multimeter beeps when the switch is not pressed; no sound when the switch is pressed.</span>
+
+<span style="color:red">**Fail:** Any other behavior</span>
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_560_Z-Endstop_Check_01.svg){: .zoomable}
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_570_Z-Endstop_Check_02.svg)
+
+{: .warning }
+Incorrect endstop wiring could short power to ground, so this check is important!
+
+### 42. Electronics Fans Pinout Check: Z-77, Z-78
+
+* Check that the electronic fan pinout is wired as shown.
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_580_Electronics_Fans_Pinout_Check.svg)
+
+{: .warning }
+The electronic fan pinout on the first batch of kits was commonly reported NOK, so please check it before proceeding.
+
+### 43. Install Bed Heater, Bed Fans: Z-46, Z-47, Z-50, Z-51, Z-52
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_590_Bed_Heater_Fans.svg){: .zoomable}
+
+### 44. Install Stepper Motors: Z-46, Z-47, Z-50, Z-51, Z-52
+
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_600_Stepper_Motors.svg){: .zoomable}
 
 ## Continue to the [Firmware Guide]({{site.url}}/{{site.baseurl}}\doc_tree\4_firmware\firmware.html)
 
