@@ -35,7 +35,7 @@ Some image text may appear small on this page. For a larger view, right-click th
       - [Cable Construction Examples](#cable-construction-examples)
     - [The Wiring Diagram](#the-wiring-diagram)
       - [Finding Z-Code Termination Points Example](#finding-z-code-termination-points-example)
-  - [Z-Codes and Abbreviation Names](#z-codes-and-abbreviation-names)
+  - [Diagarams of Peripheral-Board Connections, Z-Codes, and Schematic Labels](#diagarams-of-peripheral-board-connections-z-codes-and-schematic-labels)
   - [Configuring the Toolhead Board](#configuring-the-toolhead-board)
     - [Install Jumpers and Fan Mosfet and Set Switches (for CAN Mode) on Toolhead Board](#install-jumpers-and-fan-mosfet-and-set-switches-for-can-mode-on-toolhead-board)
   - [Wiring The Electronics Backpack](#wiring-the-electronics-backpack)
@@ -132,21 +132,19 @@ When using these documents, always perform a quick check to confirm that you are
 
 <br>
 
-## Z-Codes and Abbreviation Names
+## Diagarams of Peripheral-Board Connections, Z-Codes, and Schematic Labels
 
 <br>
 
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_070_Z-Codes_Backpack.webp){: .zoomable}
+![]({{site.url}}/{{site.baseurl}}/assets/images/EP_070_Z-Codes_Backpack.png){: .zoomable}
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_075_Main_Board.svg){: .zoomable}
-
-![]({{site.url}}/{{site.baseurl}}/assets/images/EP_080_Z-Codes_Toolhead.webp){: .zoomable}
 
 ![]({{site.url}}/{{site.baseurl}}/assets/images/EP_085_Toolhead.svg){: .zoomable}
 
 <br>
 
-[Return to Z Endstop assembly]({{site.url}}/doc_tree/2_assembly/06_auxiliary_modules_1/1_z-endstops.html)
+[Return to Z Endstop assembly]({{site.url}}/{{site.baseurl}}/doc_tree/2_assembly/06_auxiliary_modules_1/1_z-endstops.html)
 
 ## Configuring the Toolhead Board
 
