@@ -35,7 +35,7 @@ Some image text may appear small on this page. For a larger view, right-click th
       - [Cable Construction Examples](#cable-construction-examples)
     - [The Wiring Diagram](#the-wiring-diagram)
       - [Finding Z-Code Termination Points Example](#finding-z-code-termination-points-example)
-  - [Diagarams of Peripheral-Board Connections, Z-Codes, and Schematic Labels](#diagarams-of-peripheral-board-connections-z-codes-and-schematic-labels)
+  - [Diagrams of Peripheral-Board Connections, Z-Codes, and Schematic Labels](#diagrams-of-peripheral-board-connections-z-codes-and-schematic-labels)
   - [Configuring the Toolhead Board](#configuring-the-toolhead-board)
     - [Install Jumpers and Fan Mosfet and Set Switches (for CAN Mode) on Toolhead Board](#install-jumpers-and-fan-mosfet-and-set-switches-for-can-mode-on-toolhead-board)
   - [Wiring The Electronics Backpack](#wiring-the-electronics-backpack)
@@ -132,7 +132,7 @@ When using these documents, always perform a quick check to confirm that you are
 
 <br>
 
-## Diagarams of Peripheral-Board Connections, Z-Codes, and Schematic Labels
+## Diagrams of Peripheral-Board Connections, Z-Codes, and Schematic Labels
 
 <br>
 
