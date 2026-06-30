@@ -10,7 +10,4 @@ nav_order: 11
 ![]({{site.url}}/{{site.baseurl}}/assets/images/bed_platform.webp)
 
 {: .note}
-It's helpful to use a granite surface again for this assembly
-
-{: .note}
 All the modules from this section are presented in one video.
