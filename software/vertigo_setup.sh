@@ -217,6 +217,26 @@ WantedBy=multi-user.target
 EOF
 success "Klipper service unit written."
 
+# ── 10b. G-code shell command extension ──────────────────────────────
+# Kalico bundles gcode_shell_command.py in klippy/extras (it loads automatically
+# whenever a [gcode_shell_command ...] section exists -- used by klipper-backup
+# and the job-queue temperature logic). The Kalico clone above therefore already
+# installs it; we just verify. If a future upstream sync ever drops it, fall back
+# to fetching a copy and tell git to ignore that copy, so the tracked Kalico clone
+# stays pristine for update_manager (an untracked .py marks the repo dirty).
+info "Checking for the gcode_shell_command extension…"
+SHELL_CMD_EXTRA="${KLIPPER_DIR}/klippy/extras/gcode_shell_command.py"
+if [[ -f "${SHELL_CMD_EXTRA}" ]]; then
+    success "gcode_shell_command already bundled in Kalico."
+else
+    warn "gcode_shell_command missing from the Kalico clone; fetching a copy…"
+    run_as_user "curl -fL -o '${SHELL_CMD_EXTRA}' 'https://raw.githubusercontent.com/AutomatedLayers/kalico/main/klippy/extras/gcode_shell_command.py'"
+    EXCLUDE_FILE="${KLIPPER_DIR}/.git/info/exclude"
+    run_as_user "grep -qxF 'klippy/extras/gcode_shell_command.py' '${EXCLUDE_FILE}' 2>/dev/null || echo 'klippy/extras/gcode_shell_command.py' >> '${EXCLUDE_FILE}'"
+    success "gcode_shell_command fetched and git-excluded."
+fi
+
+
 # ── 11. MOONRAKER ─────────────────────────────────────────────────────────────
 info "Cloning Moonraker…"
 if [[ ! -d "${MOONRAKER_DIR}" ]]; then

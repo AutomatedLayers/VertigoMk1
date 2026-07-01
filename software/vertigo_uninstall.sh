@@ -51,7 +51,7 @@ echo ""
 
 # ── 1. Stop and disable all services ─────────────────────────────────────────
 info "Stopping and disabling services…"
-for svc in crowsnest moonraker klipper; do
+for svc in set-camera-focus sonar crowsnest moonraker klipper; do
     if systemctl list-unit-files "${svc}.service" &>/dev/null; then
         sudo systemctl stop "${svc}"    2>/dev/null || true
         sudo systemctl disable "${svc}" 2>/dev/null || true
@@ -75,7 +75,7 @@ success "nginx restored to defaults."
 
 # ── 2. Remove systemd service unit files ──────────────────────────────────────
 info "Removing systemd service unit files…"
-for unit in klipper.service moonraker.service crowsnest.service; do
+for unit in set-camera-focus.service sonar.service klipper.service moonraker.service crowsnest.service; do
     if [[ -f "/etc/systemd/system/${unit}" ]]; then
         sudo rm -f "/etc/systemd/system/${unit}"
         success "Removed /etc/systemd/system/${unit}."
@@ -155,6 +155,15 @@ for grp in tty dialout video input gpio i2c spi; do
     fi
 done
 
+# ── 8b. Remove camera focus helper script ─────────────────────────
+info "Removing camera focus helper script…"
+if [[ -f "${HOME_DIR}/set_camera_focus.sh" ]]; then
+    rm -f "${HOME_DIR}/set_camera_focus.sh"
+    success "Removed ${HOME_DIR}/set_camera_focus.sh."
+else
+    warn "${HOME_DIR}/set_camera_focus.sh not found — skipping."
+fi
+
 # ── 9. Remove application directories ────────────────────────────────────────
 info "Removing application directories…"
 for dir in \
@@ -164,6 +173,10 @@ for dir in \
     "${MOONRAKER_ENV}" \
     "${CROWSNEST_DIR}" \
     "${KATAPULT_DIR}" \
+    "${HOME_DIR}/mainsail-config" \
+    "${HOME_DIR}/sonar" \
+    "${HOME_DIR}/vertigo-macros" \
+    "${HOME_DIR}/vertigo-dashboard" \
     "${PRINTER_DATA}" \
     "${MAINSAIL_DIR}"; do
     if [[ -d "${dir}" ]]; then
@@ -198,14 +211,17 @@ echo -e "${BOLD}${GREEN}============================================${RESET}"
 echo ""
 echo -e "${YELLOW}What was removed:${RESET}"
 echo -e "  • Klipper, Moonraker, Mainsail, Crowsnest, Katapult services & files"
-echo -e "  • systemd units: klipper, moonraker, crowsnest"
+echo -e "  • systemd units: klipper, moonraker, crowsnest, set-camera-focus (+ sonar if present)"
 echo -e "  • nginx Mainsail site (default site restored)"
 echo -e "  • polkit rules: moonraker.rules"
 echo -e "  • udev rules: 10-can.rules, 99-klipper.rules"
 echo -e "  • CAN network config: 25-can.network"
 echo -e "  • moonraker-admin group"
 echo -e "  • printer_data/, klipper/, klippy-env/, moonraker/,"
-echo -e "    moonraker-env/, crowsnest/, katapult/, /var/www/mainsail/"
+echo -e "    moonraker-env/, crowsnest/, katapult/, /var/www/mainsail/,"
+echo -e "    mainsail-config/, sonar/, vertigo-macros/, vertigo-dashboard/"
+echo -e "  • Camera focus helper (set_camera_focus.sh + service)"
+echo -e "  • gcode_shell_command (bundled in Kalico; removed with klipper/)"
 echo -e "  • Klipper-specific apt packages"
 echo ""
 echo -e "${YELLOW}What was NOT removed:${RESET}"
