@@ -314,7 +314,7 @@ sudo unzip -o -q /tmp/mainsail.zip -d "${MAINSAIL_DIR}"
 rm /tmp/mainsail.zip
 sudo chown -R www-data:www-data "${MAINSAIL_DIR}"
 # Symlink so Moonraker's update manager can find Mainsail at ~/mainsail
-run_as_user "ln -sf ${MAINSAIL_DIR} ${HOME_DIR}/mainsail"
+run_as_user "ln -sfn ${MAINSAIL_DIR} ${HOME_DIR}/mainsail"
 success "Mainsail ${MAINSAIL_LATEST} installed to ${MAINSAIL_DIR}."
 
 info "Configuring nginx for Mainsail…"

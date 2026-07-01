@@ -164,6 +164,18 @@ else
     warn "${HOME_DIR}/set_camera_focus.sh not found — skipping."
 fi
 
+# ── 8c. Remove Mainsail update-manager symlink (~/mainsail) ─────────────
+# This is a symlink to /var/www/mainsail. It must be removed explicitly with a
+# symlink-aware test (-L catches it even when dangling); the [[ -d ]] loop below
+# would skip it once /var/www/mainsail is gone.
+info "Removing Mainsail symlink…"
+if [[ -L "${HOME_DIR}/mainsail" || -e "${HOME_DIR}/mainsail" ]]; then
+    rm -rf "${HOME_DIR}/mainsail"
+    success "Removed ${HOME_DIR}/mainsail."
+else
+    warn "${HOME_DIR}/mainsail not found — skipping."
+fi
+
 # ── 9. Remove application directories ────────────────────────────────────────
 info "Removing application directories…"
 for dir in \
@@ -221,6 +233,7 @@ echo -e "  • printer_data/, klipper/, klippy-env/, moonraker/,"
 echo -e "    moonraker-env/, crowsnest/, katapult/, /var/www/mainsail/,"
 echo -e "    mainsail-config/, sonar/, vertigo-macros/, vertigo-dashboard/"
 echo -e "  • Camera focus helper (set_camera_focus.sh + service)"
+echo -e "  • Mainsail update-manager symlink (~/mainsail)"
 echo -e "  • gcode_shell_command (bundled in Kalico; removed with klipper/)"
 echo -e "  • Klipper-specific apt packages"
 echo ""
