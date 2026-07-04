@@ -21,7 +21,7 @@ Vertigo Mk1 is a 3D printer designed for automation. Some of its distinct featur
 
 ## The STL files and BOM are released for beta testing. We welcome suggestions through GitHub's isssue tracker. During this phase of the project, there may be some updates to the STLs and BOM, so check the [STL change history](https://github.com/AutomatedLayers/VertigoMk1/commits/main/hardware/STL) and the [BOM change history](https://github.com/AutomatedLayers/VertigoMk1/commits/main/hardware/BOM.csv)
 ____________________________________________
-# [Kickstarter Has Funded!](https://www.kickstarter.com/projects/automatedlayers/vertigo-mk1-the-evolution-of-automated-3d-printing?ref=nav_search&result=project&term=vertigo%20mk1&total_hits=1)
+# [Kits available at West3D!]([https://www.kickstarter.com/projects/automatedlayers/vertigo-mk1-the-evolution-of-automated-3d-printing?ref=nav_search&result=project&term=vertigo%20mk1&total_hits=1](https://west3d.com/products/vertigo-mk1-high-performance-continuous-3d-printer-by-automated-layers))
 
 ![](https://lh3.googleusercontent.com/pw/AP1GczNCYz84zkUnsiwig5j_qgViZ6URDBj2CK38Zkal2STMfUDMwOt3Dr1GouNFLaAknrwyleI3mqMArb1jQXWhPWGowyyg0ziUK9r3eEZ02KVc7JgveJksInnA3fn0AyCRmSBwbBEzX9RCH2RB8eqlADY=w1552-h873-s-no-gm?authuser=0)
 
