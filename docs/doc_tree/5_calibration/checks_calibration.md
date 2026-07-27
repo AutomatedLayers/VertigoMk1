@@ -482,7 +482,7 @@ It's important to keep a clean nozzle for bed leveling, clean first layers, and 
 3. Jog the X axis -10mm and check that the tip of the nozzle is not below the base of the silicone brush teeth. Readjust the Nozzle Cleaner if necessary.
 4. Jog the X axis +10mm, back to the plug.
 5. Enter the X and Y positions from the Toolhead Panel into `variable_plug_pos_x:` and `variable_plug_pos_y:` in macros.cfg.
-6. Save macros.cfg.
+6. Save config_variables.cfg.
 
 #### Config Reference
 ```
@@ -507,7 +507,7 @@ The filament cutter is designed to be integrated with an automatic filament swap
 4. Adjust the vertical position of the Nozzle Cleaner so that the dowel is aligned with the vertical center of the cutter arm slot.
 5. Enter the X and Y positions from the Toolhead Panel into `variable_cut_pos_x:` and `variable_cut_pos_y:` in macros.cfg.
 6. Test the default `variable_cut_attach_y_dist:` paramter in the Config Reference below by jogging in the negative Y direction by this amount to engage filament cutter dowel. The end of the dowel should be protruding protruding ~1-2mm out the back of the cutter arm. Edit `variable_cut_attach_y_dist:` as necessary and jog the Toolhead in +Y to disengage the Filament Cutter.
-7. Save macros.cfg and 'FIRMWARE RESTART' to apply changes.
+7. Save config_variables.cfg and 'FIRMWARE RESTART' to apply changes.
 8. When the interface is available again, click 'Home All' and test by running `CUT_FILAMENT` in the Console.
 
 #### Config Reference
