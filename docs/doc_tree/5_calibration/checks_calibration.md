@@ -481,7 +481,7 @@ It's important to keep a clean nozzle for bed leveling, clean first layers, and 
 2. Adjust the vertical position of the Nozzle Cleaner so that the nozzle presses into the plug.
 3. Jog the X axis -10mm and check that the tip of the nozzle is not below the base of the silicone brush teeth. Readjust the Nozzle Cleaner if necessary.
 4. Jog the X axis +10mm, back to the plug.
-5. Enter the X and Y positions from the Toolhead Panel into `variable_plug_pos_x:` and `variable_plug_pos_y:` in macros.cfg.
+5. Enter the X and Y positions from the Toolhead Panel into `variable_plug_pos_x:` and `variable_plug_pos_y:` in config_vriables.cfg.
 6. Save config_variables.cfg.
 
 #### Config Reference
@@ -505,7 +505,7 @@ The filament cutter is designed to be integrated with an automatic filament swap
 2. Use the Toolhead Panel to jog Y such that the Toolhead is clearly to the rear of the Filament Cutter dowel on the right side (side B) of the printer.
 3. Jog X and Y until the slot in the cutter arm is horizontally aligned and ~2mm from the end of the Filament Cutter dowel.
 4. Adjust the vertical position of the Nozzle Cleaner so that the dowel is aligned with the vertical center of the cutter arm slot.
-5. Enter the X and Y positions from the Toolhead Panel into `variable_cut_pos_x:` and `variable_cut_pos_y:` in macros.cfg.
+5. Enter the X and Y positions from the Toolhead Panel into `variable_cut_pos_x:` and `variable_cut_pos_y:` in config_variables.cfg.
 6. Test the default `variable_cut_attach_y_dist:` paramter in the Config Reference below by jogging in the negative Y direction by this amount to engage filament cutter dowel. The end of the dowel should be protruding protruding ~1-2mm out the back of the cutter arm. Edit `variable_cut_attach_y_dist:` as necessary and jog the Toolhead in +Y to disengage the Filament Cutter.
 7. Save config_variables.cfg and 'FIRMWARE RESTART' to apply changes.
 8. When the interface is available again, click 'Home All' and test by running `CUT_FILAMENT` in the Console.
@@ -532,7 +532,7 @@ Here is the [E3D PZ Probe Documentation](https://e3d-online.com/pages/revo-suppo
 
 1. With everything homed, we'll go to the first probe point specified in `[z_tilt]` to test. Run `G90` then `G1 X125 Y5 F6000` in the Console.
 2. Remove the Cowl so you can easily access the nozzle and PZ Probe Controller.
-3. Press the preset button on othe PZ Probe Controller on the side of the Toolhead until you are in **Preset 4**. The LEDs on the controller board will change as you cycle through presets. Use the images below for reference.
+3. Press the preset button on the PZ Probe Controller on the side of the Toolhead until you are in **Preset 4**. The LEDs on the controller board will change as you cycle through presets. Use the images below for reference.
 >![]({{site.url}}/{{site.baseurl}}/assets/images/pz_presets.png)
 >![]({{site.url}}/{{site.baseurl}}/assets/images/pz_probe_controller.png)
 4. Test the probe by tapping the nozzle from underneath with a hex key or the back of your fingernail. The trigger LED should light up when tapped.
@@ -544,7 +544,8 @@ Here is the [E3D PZ Probe Documentation](https://e3d-online.com/pages/revo-suppo
 8. Move the bed up until it's about 10mm from the nozzle. Make sure your nozzle is over the bed; if it is not, something is off and you will need to troubleshoot before probing.
 9. One of the nice things about having an extruder that is magnetically mounted to the gantry is that it should not be catastrophic if the next step fails. The extruder plate should pop off and the safety switch should eventually trigger if you don't get to shutdown in time. If the safety switch triggers before the nozzle touches the bed, you will need to adjust the parameters mentioned in the [Ready Bed Position]({{site.url}}/{{site.baseurl}}/doc_tree/5_calibration/checks_calibration.html#ready-bed-position) section above so that the bed tilts forward at the 'Ready Position' after Z Homing.
 10. Run the single probe command again: `PROBE SAMPLES=1`. Either the bed will stop, or you'll have a teeny tiny panic attack. Either way, everything is going to be ok. 
-11. Test the accuracy of the nozzle probe by running `PROBE_ACCURACY` in the Console. It will probe the bed ten times and report some statistics in the Console. The range should be less than 0.010 with a standard deviation of less than 0.005. If this is not the case:
+11. Move the bed down 10mm.
+12. Test the accuracy of the nozzle probe by running `PROBE_ACCURACY` in the Console. It will probe the bed ten times and report some statistics in the Console. The range should be less than 0.010 with a standard deviation of less than 0.005. If this is not the case:
 >- Check that the Extruder Plate is properly seated on the X Carriage kinematic mount (the three cap nuts on the Carriage Block).
 >- Check the tightness of the shaft couplers and timing pulleys on the Z Drive shafts.
 >- Check Z Belt tension.
