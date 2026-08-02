@@ -50,8 +50,8 @@ variable_adaptive_margin: 5
 
 ### Print End Macro - **WIP**
 
-**PRINT_END CLEAR_BED=[True/False (1/0)] BED_COOL_THRESHOLD=[Temperature below the heated bed temp to start scraping]
-**
+```PRINT_END CLEAR_BED=[True/False (1/0)] BED_COOL_THRESHOLD=[Temperature below the heated bed temp to start scraping]```
+
 **CLEAR_BED** will do the Vertigo part ejection bed scraping motion when set to **True** or **1**, and will otherwise function like any other printer at the end of a print.
 
 ## Print Calibration and Tuning
