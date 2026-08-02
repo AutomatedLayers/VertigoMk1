@@ -57,4 +57,4 @@ variable_adaptive_margin: 5
 ## Print Calibration and Tuning
 
 {: .note}
-Orca Slicer has an excellent {guide on print calibration}(https://www.orcaslicer.com/wiki/guides/calibration_guide).
+Orca Slicer has an excellent [guide on print calibration](https://www.orcaslicer.com/wiki/guides/calibration_guide).
