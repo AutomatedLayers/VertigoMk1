@@ -33,6 +33,21 @@ The prime line is moveable.
 ### Filament Start Menu - **WIP**
 The bed temp and mesh settings are overrideable, per filament.
 
+### Bed Mesh - **WIP**
+You will get a menu to optionanally perform and save a bed mesh profile the first time you use a new Bed Type and Bed Temperature. The bed mesh profile will be associated with temperatures within +/- 5 degrees. This feature is still somewhat experimental.
+
+In **config_variables.cfg** you can set a parameter to always perform an adaptive mesh rather than using saved profiles. 
+
+#### Config Reference
+```
+config_variables.cfg
+
+[gcode_macro _MACRO_VARIABLES]
+:
+variable_adaptive_mesh: False
+variable_adaptive_margin: 5 
+```
+
 ### Print End Macro - **WIP**
 
 **PRINT_END CLEAR_BED=[True/False (1/0)] BED_COOL_THRESHOLD=[Temperature below the heated bed temp to start scraping]
